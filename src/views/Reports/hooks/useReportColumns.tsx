@@ -1,8 +1,7 @@
-import { GridRenderCellParams } from '@mui/x-data-grid-pro';
+import { GridColumnHeaderParams, GridRenderCellParams } from '@mui/x-data-grid-pro';
 import { useCallback, useEffect, useState } from 'react';
 import { ReportColumnDef } from '../../../interfaces/reportTypes';
 import DataCell from '../components/ReportsDatagrid/components/DataCell';
-import TextFilter from '../components/ReportsDatagrid/components/TextFilter';
 import { SampleColumns } from '../constants';
 import ColumnHeader from '../components/ReportsDatagrid/components/ColumnHeader';
 
@@ -19,17 +18,12 @@ const useColumns = () => {
   useEffect(() => {
     function handleResize() {
       if (!parentElement) return null;
-
       const computedColumns: ReportColumnDef[] = SampleColumns.map(colDef => {
         return {
           ...colDef,
           width: getColumnWidth(colDef.gridColSpan, parentElement?.clientWidth),
-          renderHeader: function Component() {
-            return <ColumnHeader gridColDef={colDef}></ColumnHeader>;
-          },
-          renderCell: (params: GridRenderCellParams) => {
-            return <DataCell params={params}></DataCell>;
-          },
+          renderHeader: (headerParams: GridColumnHeaderParams) => <ColumnHeader params={headerParams}></ColumnHeader>,
+          renderCell: (cellParams: GridRenderCellParams) => <DataCell params={cellParams}></DataCell>,
         };
       });
       setColumnDef(computedColumns);

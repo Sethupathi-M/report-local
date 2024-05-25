@@ -1,15 +1,15 @@
 import { Box, IconButton, Typography } from '@mui/material';
-import { ReportColumnDef } from '../../../../../interfaces/reportTypes';
 import TextFilter from './TextFilter';
 import ActionButtons from './ActionButtons';
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
+import { GridColumnHeaderParams } from '@mui/x-data-grid-pro';
 
-const ColumnHeader = ({ gridColDef }: { gridColDef: ReportColumnDef }) => {
+const ColumnHeader = ({ params }: { params: GridColumnHeaderParams }) => {
   return (
     <Box width={'100%'}>
       <Box display={'flex'} justifyContent={'space-between'}>
         <Box display={'flex'} alignItems={'center'}>
-          <Typography fontSize={'10px'}>{gridColDef.headerName}</Typography>
+          <Typography fontSize={'10px'}>{params.colDef.headerName}</Typography>
           <IconButton size="small">
             <ArrowUpwardIcon sx={{ height: '12px', width: '12px' }}></ArrowUpwardIcon>
           </IconButton>
@@ -17,7 +17,7 @@ const ColumnHeader = ({ gridColDef }: { gridColDef: ReportColumnDef }) => {
         <ActionButtons></ActionButtons>
       </Box>
 
-      <TextFilter field={gridColDef.field}></TextFilter>
+      <TextFilter field={params.field}></TextFilter>
     </Box>
   );
 };

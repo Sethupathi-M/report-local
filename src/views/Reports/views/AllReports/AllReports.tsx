@@ -9,7 +9,7 @@ import MyPocGrid from '../../components/MyPocGrid';
 import TabPanelContainer from '../../components/TabPanelContainer';
 import ReportsDatagrid from '../../components/ReportsDatagrid/ReportsDatagrid';
 
-const grid = false;
+const grid = true;
 
 const AllReports = (): JSX.Element => {
   const { t } = useTranslation();
