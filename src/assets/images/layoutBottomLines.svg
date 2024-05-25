@@ -1,0 +1,38 @@
+<svg width="1440" height="295" viewBox="0 0 1440 295" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.35">
+<line x1="0.488357" y1="237.835" x2="56.9458" y2="294.293" stroke="#3C4C5B" stroke-width="2"/>
+<line x1="0.432204" y1="181.322" x2="113.403" y2="294.293" stroke="#3C4C5B" stroke-width="2"/>
+<line x1="0.609206" y1="125.013" x2="169.889" y2="294.293" stroke="#3C4C5B" stroke-width="2"/>
+<line x1="0.711745" y1="68.7789" x2="226.226" y2="294.293" stroke="#3C4C5B" stroke-width="2"/>
+<line x1="1.3658" y1="13.2269" x2="282.432" y2="294.293" stroke="#3C4C5B" stroke-width="2"/>
+<line x1="64.4884" y1="13.2269" x2="345.554" y2="294.293" stroke="#3C4C5B" stroke-width="2"/>
+<line x1="127.611" y1="13.2269" x2="408.677" y2="294.293" stroke="#3C4C5B" stroke-width="2"/>
+<line x1="190.733" y1="13.2269" x2="471.799" y2="294.293" stroke="#3C4C5B" stroke-width="2"/>
+<line x1="253.856" y1="13.2269" x2="534.922" y2="294.293" stroke="#3C4C5B" stroke-width="2"/>
+<line x1="316.979" y1="13.2269" x2="598.045" y2="294.293" stroke="#3C4C5B" stroke-width="2"/>
+<line x1="380.101" y1="13.2269" x2="661.167" y2="294.293" stroke="#3C4C5B" stroke-width="2"/>
+<line x1="443.224" y1="13.2269" x2="724.29" y2="294.293" stroke="#3C4C5B" stroke-width="2"/>
+<line x1="506.346" y1="13.2269" x2="787.412" y2="294.293" stroke="#3C4C5B" stroke-width="2"/>
+<line x1="569.469" y1="13.2269" x2="850.535" y2="294.293" stroke="#3C4C5B" stroke-width="2"/>
+<line x1="632.591" y1="13.2269" x2="913.657" y2="294.293" stroke="#3C4C5B" stroke-width="2"/>
+<line x1="695.714" y1="13.2269" x2="976.78" y2="294.293" stroke="#3C4C5B" stroke-width="2"/>
+<line x1="758.837" y1="13.2269" x2="1039.9" y2="294.293" stroke="#3C4C5B" stroke-width="2"/>
+<line x1="821.959" y1="13.2269" x2="1103.03" y2="294.293" stroke="#3C4C5B" stroke-width="2"/>
+<line x1="885.082" y1="13.2269" x2="1166.15" y2="294.293" stroke="#3C4C5B" stroke-width="2"/>
+<line x1="948.204" y1="13.2269" x2="1229.27" y2="294.293" stroke="#3C4C5B" stroke-width="2"/>
+<line x1="1011.33" y1="13.2269" x2="1292.39" y2="294.293" stroke="#3C4C5B" stroke-width="2"/>
+<line x1="1074.45" y1="13.2269" x2="1355.52" y2="294.293" stroke="#3C4C5B" stroke-width="2"/>
+<line x1="1137.57" y1="13.2269" x2="1418.64" y2="294.293" stroke="#3C4C5B" stroke-width="2"/>
+<line x1="1200.69" y1="13.2269" x2="1439.33" y2="251.858" stroke="#3C4C5B" stroke-width="2"/>
+<line x1="1263.82" y1="13.2269" x2="1442" y2="191.406" stroke="#3C4C5B" stroke-width="2"/>
+<line x1="1326.94" y1="13.2269" x2="1441.62" y2="127.905" stroke="#3C4C5B" stroke-width="2"/>
+<line x1="1390.06" y1="13.2269" x2="1440.88" y2="64.0487" stroke="#3C4C5B" stroke-width="2"/>
+<rect x="-0.21875" y="0.0780029" width="1438.84" height="294.922" fill="url(#paint0_linear)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="719.2" y1="111.113" x2="719.2" y2="441.37" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F2F4F6"/>
+<stop offset="1" stop-color="#F2F4F6" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>

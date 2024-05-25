@@ -1,0 +1,2994 @@
+{
+  "routing": {
+    "navigationBarElements": {
+      "dashboard": "儀表板",
+      "contents": "內容",
+      "teamsAndUsers": "團隊與使用者",
+      "qa": "問與答",
+      "reports": "報告",
+      "uploads": "上傳",
+      "downloads": "下載",
+      "settings": "設定",
+      "dataRooms": "資料室",
+      "vdrUsers": "VDR 使用者",
+      "templates": "範本",
+      "inviteUsers": "邀請使用者"
+    }
+  },
+  "sessionTimeout": {
+    "sessionTimeout": "工作階段逾時",
+    "modalMessagePartOne": "您閒置了近 60 分鐘。基於安全考量，我們將在 5 分鐘內將您登出。",
+    "modalMessagePartTwo": "所有未儲存的變更都將遺失。",
+    "iAmHere": "我在這裡"
+  },
+  "common": {
+    "confirmChanges": "確認變更",
+    "answer": "答案",
+    "select": "選擇",
+    "typeAndSelect": "輸入並選擇",
+    "requiredField": "此欄位為必填",
+    "wrongPassword": "密碼不正確",
+    "cancel": "取消",
+    "save": "儲存",
+    "enter": "輸入",
+    "enterPassword": "輸入密碼",
+    "passwordsDoNotMatch": "密碼必須相同",
+    "enterEmail": "輸入電子郵件",
+    "enterMobile": "輸入行動電話號碼",
+    "invalidEmailAddress": "無效的電子郵件地址",
+    "InvalidUserName": "使用者名稱無效",
+    "InvalidUserLastName": "無效的使用者姓氏",
+    "phoneNumberTooShort": "電話號碼太短",
+    "changePassword": "變更密碼",
+    "passwordExpirationWarning_oneOrZero": "您的密碼已設定為過期",
+    "passwordExpirationWarning": "您的密碼已設定為 {{count}} 天後到期",
+    "close": "關閉",
+    "back": "返回",
+    "create": "建立",
+    "uploadFile": "上傳檔案",
+    "form": "表單",
+    "togglePasswordVisibility": "切換密碼可見性",
+    "toggleConfirmPasswordVisibility": "切換確認密碼可見性",
+    "serverError": "連線至伺服器時發生錯誤",
+    "checkIsRequired": "必填",
+    "selectionIsRequired": "需要選擇",
+    "questionMark": "?",
+    "submit": "提交",
+    "view": "檢視",
+    "update": "更新",
+    "moderate": "中度",
+    "review": "審查",
+    "delete": "刪除",
+    "listEmpty": "清單為空白",
+    "details": "詳細資料",
+    "edit": "編輯",
+    "remove": "移除",
+    "downloadPdf": "下載 PDF",
+    "downloadNative": "下載",
+    "downloadContent": "下載",
+    "replace": "更換",
+    "copy": "複製",
+    "cut": "剪下",
+    "share": "分享",
+    "paste": "貼上",
+    "link": "連結",
+    "unlink": "取消連結",
+    "emptyBin": "清空藥盒",
+    "emptyMasterBin": "清空主藥盒",
+    "search": "搜尋",
+    "bidders": "投標人",
+    "sellers": "賣方",
+    "buyers": "買家",
+    "internal": "內部",
+    "external": "外部",
+    "users": "使用者",
+    "experts": "專家",
+    "makeChanges": "編輯",
+    "print": "列印",
+    "countryOfResidence": "居住國家",
+    "stepperProgress": "<strong>步驟 {{activeStep}}</strong> 之 {{allSteps}}",
+    "sendRequest": "傳送要求",
+    "required": "必填",
+    "exportIndexAsExcel": "匯出至 Excel",
+    "exportIndexAsPdf": "匯出至 PDF",
+    "operationInProgress": "作業進行中...",
+    "successEmailSentMessage": "已成功傳送電子郵件",
+    "failureEmailSentMessage": "無法傳送電子郵件 "
+  },
+  "views": {
+    "adminPanel": {
+      "templates": {
+        "templates": "範本"
+      },
+      "vdrUsers": {
+        "vdrUsers": "VDR 使用者",
+        "listOfUsers": "使用者清單",
+        "table": {
+          "header": {
+            "name": "名稱",
+            "email": "電子郵件",
+            "company": "公司名稱"
+          },
+          "details": {
+            "emailVerificationtooltip": "待處理電子郵件驗證",
+            "securityQuestion": "安全問題",
+            "securityAnswer": "安全問題答案",
+            "mobilePhoneNumber": "手機號碼",
+            "deskPhoneNumber": "其他電話號碼",
+            "countryOfResidence": "居住國家",
+            "sector": "部門",
+            "function": "功能",
+            "jobTitle": "職稱",
+            "userDataRooms": {
+              "dataRoomName": "資料室名稱",
+              "status": "狀態",
+              "teamName": "團隊名稱",
+              "role": "角色",
+              "enterDataRoom": "輸入資料室"
+            }
+          },
+          "rowActions": "使用者列動作"
+        }
+      }
+    },
+    "customerSupport": {
+      "title": "客戶服務團隊",
+      "content": "我們每週七天每天24小時為您提供服務\n透過表格、電子郵件 （{{supportEmail}}） 傳送訊息\n或致電我們： {{phone}}",
+      "button": {
+        "cancel": "取消",
+        "sendMessage": "傳送訊息"
+      },
+      "placeholder": "告訴我們發生了什麼事",
+      "errorMessage": "此欄位為必填",
+      "header": {
+        "close": "關閉"
+      },
+      "internationalNumbers": "國際號碼",
+      "messageHeader": "訊息",
+      "toasts": {
+        "failure": "無法傳送您的訊息，請稍後再試一次。",
+        "success": "您的訊息已成功傳送。"
+      }
+    },
+    "contents": {
+      "contents": "內容",
+      "contentsTree": "索引",
+      "contentsTreeEmptyState": "資料室中沒有檔案",
+      "contentsTreeNodeAriaLabel": "的功能表選項 {{itemName}}",
+      "startReviewOnOpen": "文件正在等待審核",
+      "openOrStartReviewDialog": {
+        "title": "文件正在等待審核",
+        "content": "本文件正在等待檢閱。您可以開啟它以正常讀取或開始檢閱程序。",
+        "decision": "您想怎麼做？",
+        "extraConfirm": "僅開放",
+        "confirm": "開始審查"
+      },
+      "contentList": {
+        "header": {
+          "creationDate": "新增日期",
+          "name": "名稱",
+          "numbering": "編號",
+          "rootIndex": "根索引",
+          "labels": "標籤",
+          "selectAllRows": {
+            "fetchingTooltip": "正在載入項目..."
+          }
+        },
+        "body": {
+          "moreLabels": "+{{count}}",
+          "sessionsTooltip": "您必須先發佈工作階段，才能解除鎖定新增標籤至項目",
+          "labelPopover": {
+            "createNew": "建立新",
+            "placeholder": "標籤名稱...",
+            "labels": "標籤",
+            "add": "新增",
+            "error": {
+              "labelExists": "名稱已被使用"
+            }
+          },
+          "labelDeleteModal": {
+            "content": "刪除標籤？"
+          }
+        },
+        "dragAndDropAvailableInfo": "您也可以拖放檔案以開始上傳。",
+        "sort": {
+          "buttonText": "排序",
+          "options": {
+            "numberAsc": "數字遞增",
+            "numberDesc": "數字遞減",
+            "nameAsc": "名稱遞增",
+            "nameDesc": "名稱遞減",
+            "newest": "最新",
+            "oldest": "最古老的",
+            "popularity": "熱門度"
+          }
+        }
+      },
+      "documentDetails": {
+        "header": "文件詳情",
+        "name": "名稱",
+        "dateAdded": "新增日期",
+        "uploadedBy": "上傳者",
+        "conversionStatus": "轉換狀態",
+        "conversionStatuses": {
+          "conversionCompleted": "轉換完成",
+          "none": "無",
+          "processing": "正在處理",
+          "conversionFailed": "無法轉換檔案",
+          "searchable": "可搜尋",
+          "notSearchable": "無法搜尋"
+        },
+        "statusDate": "狀態日期",
+        "convertedFileSize": "轉換的檔案大小",
+        "nativeFileSize": "原生檔案大小",
+        "nativeFileType": "原生檔案類型",
+        "pageCount": "頁面計數",
+        "irm": {
+          "labelText": "IRM（資訊版權管理）",
+          "irmOptions": {
+            "no": "否",
+            "yes": "是"
+          }
+        },
+        "statusDetails": "狀態詳細資料",
+        "statusesDetails": {
+          "passwordProtected": "檔案密碼保護。",
+          "unidentifiedIssue": "無法識別的問題。",
+          "fileCouldNotBeConverted": "無法轉換檔案。"
+        },
+        "reviewStatus": "檢閱狀態",
+        "startReview": "開始審查",
+        "finishReview": "完成審查",
+        "contactSupport": "聯絡客戶服務團隊",
+        "thumbnailPreview": "縮圖預覽",
+        "thumbnailFailed": "縮圖失敗",
+        "next": "下一個",
+        "prev": "先前",
+        "reviewing": "審查中",
+        "pending": "待處理",
+        "returnedComplete": "返回完成",
+        "returnedIncomplete": "退回未完成",
+        "selectReviewStatus": "選取檢閱狀態"
+      },
+      "bulkRename": {
+        "bulkRename": "大量重新命名",
+        "newName": "新名稱",
+        "noItemsHeaderText": "沒有可顯示的內容",
+        "noItemsSecondaryText": "請選擇不同的索引/資料夾",
+        "toastMessages": {
+          "success": "已成功重新命名項目：",
+          "importSuccess": "已成功匯入大量重新命名摘要",
+          "importInProgressMessage": "正在匯入大量重新命名摘要...",
+          "failure": "無法重新命名項目：",
+          "sessionLockFailure": "無法修改項目：{{count}}. 它們已被其他使用者鎖定。",
+          "invalidFormat": "無法匯入大量重新命名摘要。檔案必須為 XLSM 格式。",
+          "unrecognisedFileStructure": "無法匯入大量重新命名摘要。無法辨識檔案結構。",
+          "importAlreadyInProgress": "您無法使用大量重新命名，因為匯入正在進行中。請稍後再試一次。",
+          "someItemsNotAccessible": "下列儲存格中的項目不存在或您無法再存取： {{cells}}",
+          "invalidNames": "以下儲存格中指定的名稱包含非法字元： {{cells}}",
+          "genericError": "無法匯入大量重新命名摘要"
+        },
+        "exportFeed": {
+          "buttonName": "匯出",
+          "success": {
+            "title": "正在準備大量重新命名摘要",
+            "link": "顯示佇列"
+          },
+          "failure": {
+            "title": "無法匯出大量重新命名的摘要"
+          }
+        },
+        "importFeed": {
+          "buttonName": "匯入"
+        },
+        "searchPlaceholder": "搜尋項目名稱...",
+        "itemsFound": "找到的項目：",
+        "removeAll": "全部移除",
+        "ignore": "忽略",
+        "cantModifyItemNamePrompt": "您沒有編輯此項目名稱的權限。"
+      },
+      "hide": "隱藏",
+      "show": "顯示",
+      "contentsRootLogoAlt": "內容根標誌",
+      "assignForReview": "指派審查",
+      "assignAnotherUserForReview": "指派其他使用者",
+      "finishReview": "完成審查",
+      "add": "新增",
+      "folder": "資料夾",
+      "placeholder": "預留位置",
+      "shortcut": "捷徑",
+      "hyperlink": "URL 連結",
+      "upload": "上傳",
+      "collapseAll": "全部收起",
+      "expandAll": "全部展開",
+      "editProperties": "編輯屬性",
+      "reviewStartedSuccess": "已成功開始文件審查",
+      "reviewStartedFailure": "無法開始文件檢閱",
+      "backReviewToPending": "返回待審核",
+      "backToPendingSuccess": "已成功變更文件狀態",
+      "backToPendingFailure": "無法變更文件狀態",
+      "withdrawFromReview": "退出審查",
+      "withdrawSuccess": "已成功撤銷文件",
+      "withdrawFailure": "無法撤銷文件",
+      "assignForReviewForm": {
+        "selectReviewers": "選取檢閱者",
+        "setDate": "設定到期日期",
+        "selectDate": "選擇日期",
+        "addComment": "新增註解",
+        "typeComment": "類型註解",
+        "sendReview": "傳送以供檢閱",
+        "successMessage": "指派審查的文件已成功： {{count}}",
+        "failureMessage": "無法指派文件以供檢閱： {{count}}"
+      },
+      "indexExport": {
+        "toast": {
+          "error": {
+            "title": "正在準備下載套件失敗。"
+          },
+          "success": {
+            "title": "正在準備下載套件。",
+            "link": "顯示佇列"
+          }
+        }
+      },
+      "assignAnotherUserForReviewForm": {
+        "successMessage": "已成功指派使用者至文件",
+        "failureMessage": "無法將使用者指派給文件"
+      },
+      "finishReviewForm": {
+        "finishReview": "完成審查",
+        "successMessage": "已成功完成文件審查： {{count}}",
+        "failureMessage": "無法完成文件檢閱： {{count}}",
+        "commentRequired": "評論為必填",
+        "completeStatus": "選取檢閱狀態"
+      },
+      "addItemForm": {
+        "addFolder": "新增資料夾",
+        "close": "關閉",
+        "enterFolderName": "輸入資料夾名稱",
+        "remove": "移除",
+        "addNext": "新增更多",
+        "save": "儲存",
+        "cancel": "取消",
+        "folderNameEmptyErrorMessage": "資料夾名稱為必填。",
+        "folderNameContainsInvalidCharacters": "您指定的資料夾名稱包含無效字元。",
+        "folderCreateSuccess": "已成功建立資料夾： {{count}}",
+        "folderCreateFailure": "無法建立資料夾： {{count}}",
+        "addIndex": "新增索引",
+        "indexNameEmptyErrorMessage": "需要索引名稱。",
+        "indexNameContainsInvalidCharacters": "您指定的索引名稱包含無效字元。",
+        "enterIndexName": "輸入索引名稱",
+        "indexAlreadyExists": "此資料室已包含名為 的索引{{name}}。",
+        "indexCreateSuccess": "已成功建立索引。",
+        "indexCreateFailure": "無法建立索引。",
+        "addPlaceholder": "新增預留位置",
+        "placeholderNameEmptyErrorMessage": "預留位置名稱為必填。",
+        "placeholderNameEmptyErrorMessageNameContainsInvalidCharacters": "您指定的預留位置名稱包含無效字元。",
+        "enterPlaceholderName": "輸入預留位置名稱",
+        "placeholderCreateSuccess": "已成功建立預留位置： {{count}}",
+        "placeholderCreateFailure": "無法建立預留位置： {{count}}",
+        "addHyperlink": "新增 URL 連結",
+        "hyperlinkCreateSuccess": "已成功建立 URL 連結： {{count}}",
+        "hyperlinkCreateFailure": "無法建立 URL 連結： {{count}}",
+        "itemUploadSuccess": "已完成{{count}}項目上傳。",
+        "itemUploadFailure": "無法上傳項目： {{count}}",
+        "itemReplaceSuccess": "項目已成功更換",
+        "itemReplaceFailure": "無法取代項目。",
+        "itemReplaceNonexistingItem": "無法取代項目 ，因為該項目不存在或已變更。請重新整理頁面。",
+        "invalidUrl": "URL 連結無效。",
+        "hyperlinkNameEmptyErrorMessage": "URL 連結名稱為必填。",
+        "enterHyperlinkName": "輸入 URL 連結名稱",
+        "enterUrl": "輸入 URL 連結網站位址",
+        "addShortcut": "新增捷徑",
+        "enterItemName": "輸入項目名稱",
+        "enterShortcutName": "輸入捷徑名稱",
+        "searchAndSelect": "搜尋並選取",
+        "noOptions": "找不到相符項目",
+        "shortcutNameEmptyErrorMessage": "捷徑名稱為必填。",
+        "shortcutRefIsMandatory": "需要捷徑參考項目。",
+        "shortcutRefLeadsToTempFolderWarning": "捷徑會導向 Temp 資料夾，而且資料室中的所有使用者可能無法看見。",
+        "shortcutCreateSuccess": "已成功建立捷徑： {{count}}",
+        "shortcutCreateFailure": "無法建立捷徑： {{count}}",
+        "defaultEmptyItemNameMessage": "項目名稱空白",
+        "defaultItemNameContainsInvalidCharactersMessage": "項目名稱包含無效字元",
+        "defaultAddItemMessage": "新增項目",
+        "defaultEnterItemName": "輸入項目名稱",
+        "defaultItemName": "項目名稱",
+        "defaultItemCreateSuccess": "項目建立成功",
+        "defaultItemCreateFailure": "項目建立失敗",
+        "autoNumbering": {
+          "autoNumbering": "自動編號",
+          "prefix": "首碼",
+          "enterPrefix": "輸入首碼",
+          "convention": "年會",
+          "defineCustomConvention": "定義自訂慣例",
+          "none": "無",
+          "numeric": "數字",
+          "alphabetic": "字母",
+          "roman": "羅馬語",
+          "custom": "自訂",
+          "result": "結果",
+          "descriptionHeader": "您可以使用以下符號：",
+          "numberDescription": "表示一個數字",
+          "upperCaseLetterDescription": "表示大寫字母",
+          "lowerCaseLetterDescription": "表示小寫字母",
+          "upperCaseRomanNumberDescription": "表示大寫羅馬數字",
+          "lowerCaseRomanNumberDescription": "表示小寫羅馬數字",
+          "numberingConventionIncorrectErrorMessage": "您指定的編號模式不正確。請參閱說明。",
+          "customConventionEmptyErrorMessage": "自訂公約是強制性的。",
+          "customConventionPlaceholder": "輸入年會"
+        },
+        "applyHiddenPermissionLabel": "套用隱藏的權限",
+        "hint": {
+          "header": "權限繼承",
+          "message": "請注意，捷徑會繼承目標項目的權限。"
+        }
+      },
+      "editItem": {
+        "index": {
+          "success": "已成功更新索引內容。",
+          "failure": "無法更新索引內容。",
+          "name": "索引名稱"
+        },
+        "hyperlink": {
+          "success": "URL 連結的內容已成功更新。",
+          "failure": "無法更新 URL 連結內容。",
+          "name": "超連結名稱",
+          "url": "URL 連結"
+        },
+        "shortcut": {
+          "success": "已成功更新捷徑內容。",
+          "failure": "無法更新捷徑屬性。",
+          "name": "剪切名稱",
+          "itemName": "項目名稱",
+          "hint": {
+            "header": "權限繼承",
+            "message": "請注意，捷徑會繼承目標項目的權限。"
+          }
+        },
+        "item": {
+          "success": "項目重新命名成功。",
+          "failure": "無法重新命名項目。"
+        },
+        "placeholder": {
+          "name": "預留位置名稱"
+        },
+        "document": {
+          "name": "文件名稱",
+          "nameIsMandatory": "文件名稱為必填。"
+        },
+        "folder": {
+          "name": "資料夾名稱"
+        },
+        "defaultItem": {
+          "success": "項目更新成功",
+          "failure": "項目更新失敗"
+        },
+        "editItemNotFound": "無法修改項目 ，因為該項目不存在或已變更。請重新整理頁面。"
+      },
+      "predefinedFolders": {
+        "favorites": "我的最愛",
+        "tempFolder": "溫度資料夾",
+        "emailUpdates": "電子郵件更新",
+        "q&aAttachments": "問答附件",
+        "bin": "藥盒",
+        "masterBin": "主藥盒",
+        "indexContainer": "索引"
+      },
+      "uploadFiles": {
+        "hint": {
+          "header": "正在上傳空資料夾。",
+          "message": "上傳包含空白資料夾的結構時，請使用拖放功能。"
+        },
+        "uploadTo": "上傳至：",
+        "selectFilesFrom": "從中選擇",
+        "dragAndDropLine1": "將檔案放至此處",
+        "dragAndDropLine2": "檔案、歸檔、資料夾",
+        "fileExtensionIsNotSupported": "{{extension}} 不支援副檔名。",
+        "fileExtensionsAreNotSupported": "{{lastExtension}} 不支援副檔名{{extensions}}和 。",
+        "fileWithoutExtensions": "檔案沒有副檔名： {{count}}",
+        "invalidFileName": "檔案名稱包含無效字元 \\ / | * ： \" ？ < >： {{count}}",
+        "selectedItems": "選取的項目： {{count}}",
+        "removeAll": "全部移除",
+        "addMoreFilesFrom": "從 新增更多",
+        "otherSources": "其他來源",
+        "cancel": "取消",
+        "upload": "上傳",
+        "remove": "移除",
+        "seeList": "查看清單",
+        "sourceNames": {
+          "localStorageFile": "本機儲存檔案",
+          "localStorageFolder": "本機儲存資料夾",
+          "googleDrive": "Google 雲端硬碟",
+          "dropBox": "DropBox",
+          "oneDrive": "OneDrive",
+          "sharepoint": "共用點",
+          "boxCom": "Box.com"
+        },
+        "configurationSections": {
+          "options": "選項",
+          "openUploadSettings": "開啟上傳設定",
+          "applyHiddenPermission": {
+            "sectionText": "套用隱藏的權限",
+            "options": {
+              "no": "否",
+              "yes": "是"
+            },
+            "description": "所有投標者和子交易團隊（Betings）都會隱藏文件。否則將套用上層資料夾權限。"
+          },
+          "extractAllCompressedFiles": {
+            "sectionText": "擷取所有壓縮檔案",
+            "options": {
+              "no": "否",
+              "yes": "是"
+            }
+          },
+          "notify": {
+            "sectionText": "通知",
+            "options": {
+              "no": "否",
+              "asPerUserSettings": "根據使用者設定",
+              "immediatelyToUsersWithSettingsEnabled": "立即提供給已啟用設定的使用者"
+            }
+          }
+        },
+        "uploadStatusPreview": {
+          "remainingUploadItems": "正在上傳... 剩餘項目：{{count}}。",
+          "failedUploadItems": "問題：{{count}}。",
+          "showQueue": "顯示佇列"
+        },
+        "cancelUploadConfirmationDialog": {
+          "title": "捨棄上傳",
+          "content": {
+            "cancelQuestion": "您確定要捨棄上傳這些檔案嗎？",
+            "cancelConfirm": "如果您確認，上傳套件將被清除。"
+          },
+          "confirm": "繼續",
+          "cancel": "取消"
+        },
+        "lockedDestinationFolderMessage": "無法執行動作。檔案正在上傳到此資料夾。",
+        "uploadFolderStructureCreationMessage": "正在建立上傳的資料夾結構..."
+      },
+      "deleteItem": {
+        "delete": "刪除",
+        "deleteConfirmationDialog": {
+          "title": "確認刪除",
+          "content": {
+            "delete": "您確定要刪除（多個）選取的項目嗎？",
+            "deleteFromBin": "您確定要從藥盒中刪除所選藥物嗎（們）？",
+            "deleteFromMasterBin": "您確定要永久刪除（多個）所選項目嗎？"
+          }
+        },
+        "deleteItemSuccess": {
+          "delete": "已成功刪除項目： {{count}}",
+          "deleteFromMasterBin": "已成功刪除項目： {{count}}"
+        },
+        "deleteItemFailure": {
+          "delete": "無法刪除項目： {{count}}",
+          "deleteFromMasterBin": "無法刪除項目： {{count}}"
+        },
+        "deleteItemNotFound": "{{count}} 項目 （s） 無法刪除。項目不存在或已變更。請重新整理頁面。"
+      },
+      "emptyItem": {
+        "emptyItemConfirmationDialog": {
+          "title": "確認刪除",
+          "content": {
+            "bin": "您確定要清空藥盒嗎？",
+            "masterBin": "您確定要清空主藥盒嗎？"
+          }
+        },
+        "emptyItemSuccess": {
+          "bin": "藥盒已成功清空",
+          "masterBin": "已成功清空主藥盒"
+        },
+        "emptyItemFailure": {
+          "bin": "無法清空藥盒",
+          "masterBin": "無法清空主藥盒"
+        }
+      },
+      "favorites": {
+        "add": "新增至我的最愛",
+        "remove": "從我的最愛中移除",
+        "addSuccess": "已新增至我的最愛項目的項目： {{count}}",
+        "addFailure": "無法將項目新增至我的最愛： {{count}}",
+        "removeSuccess": "從最愛中移除的項目： {{count}}",
+        "removeFailure": "無法從我的最愛移除項目： {{count}}"
+      },
+      "copyItem": {
+        "success": "已成功貼上項目： {{count}}",
+        "failure": "無法貼上項目： {{count}}",
+        "itemNotFound": "無法貼上項目 ，因為該項目不存在或已變更。請重新整理頁面。",
+        "targetNotValid": "您無法將項目貼到任何複製的項目。",
+        "targetCannotBeTempFolder": "{{count}} 無法貼上捷徑（s）。您無法將捷徑貼上到溫度資料夾。"
+      },
+      "moveItem": {
+        "success": "已移動的項目： {{count}}",
+        "failure": "無法移動項目： {{count}}",
+        "itemNotFound": "{{count}} 個項目無法移動，因為這些項目不存在或已變更。請重新整理頁面。",
+        "targetNotValid": "您無法將項目貼到任何剪下的項目。",
+        "moveToInvalidTarget": "您無法將項目移動到要移動的項目。",
+        "moveToHiddenFolderConfirmationDialog": {
+          "title": "一個或多個項目將隱藏在新位置",
+          "content": "您確定要繼續嗎？",
+          "confirm": "是",
+          "cancel": "否"
+        }
+      },
+      "shortcuts": {
+        "brokenShortcutConfirmationDialog": {
+          "title": "無效的捷徑",
+          "content": "連結至此捷徑的檔案已刪除。無法再存取。\n您想做什麼？"
+        },
+        "deleteShortcut": "刪除捷徑"
+      },
+      "uploadQueue": {
+        "status": {
+          "failed": "不成功",
+          "success": "成功",
+          "cancelled": "已取消",
+          "partiallyFinished": "部分完成"
+        },
+        "drawerTitle": "上傳佇列",
+        "button": {
+          "close": "關閉",
+          "minimise": "最小化",
+          "cancel": "取消",
+          "cancelAll": "全部取消"
+        },
+        "emptyQueueMessageHeader": "佇列中沒有項目",
+        "emptyQueueMessageContent": "所有上傳都已完成",
+        "closeDrawerConfirmationDialog": {
+          "title": "關閉上傳佇列",
+          "content": "您確定要關閉上傳佇列嗎？ 所有關於上傳失敗的資訊都將遺失。",
+          "confirm": "繼續",
+          "cancel": "取消"
+        },
+        "cancelUploadConfirmationDialog": {
+          "title": "取消上傳",
+          "content": "您確定要取消上傳這些檔案嗎？\n\n這些檔案將連同所有相關資料一起從資料室中移除。",
+          "confirm": "取消上傳",
+          "cancel": "丟棄"
+        },
+        "cancelAllUploadConfirmationDialog": {
+          "title": "取消上傳",
+          "content": "您確定要取消上傳這些檔案嗎？\n\n這些檔案將連同所有相關資料一起從資料室中移除。",
+          "confirm": "取消上傳",
+          "cancel": "丟棄"
+        }
+      },
+      "share": {
+        "drawerTitle": "分享",
+        "button": {
+          "close": "關閉",
+          "cancel": "取消",
+          "share": "分享"
+        },
+        "documentLabel": "文件",
+        "emailAddresses": "新增電子郵件地址",
+        "addComment": "新增註解",
+        "validationMessage": "輸入格式：name@example.com ",
+        "typeComment": "輸入備註",
+        "success": "已成功共用文件",
+        "failure": "文件共用失敗。請再試一次。",
+        "failureNotification": "未知的文件類型。"
+      },
+      "markItem": {
+        "asViewed": {
+          "buttonText": "標示為已檢視",
+          "success": "已成功標示為已檢視的項目： {{count}}",
+          "failure": "無法將項目標記為已檢視： {{count}}"
+        },
+        "asUnviewed": {
+          "buttonText": "標示為未檢視",
+          "success": "已成功標示為未檢視的項目： {{count}}",
+          "failure": "無法將項目標示為未檢視： {{count}}"
+        }
+      },
+      "reprocess": {
+        "buttonText": "重新處理",
+        "success": "項目重新處理成功",
+        "failure": "無法重新處理項目",
+        "itemNotFound": "項目不存在或已變更，因此無法重新處理。請重新整理頁面。",
+        "processingDialog": {
+          "title": "文件不可用",
+          "content": "無法執行此動作，正在處理檔案。",
+          "confirm": "知道了"
+        }
+      },
+      "replaceCorrected": {
+        "buttonText": "更換已更正",
+        "itemReplaceCorrectedSuccess": "項目已成功更換",
+        "itemReplaceCorrectedFailure": "無法取代項目",
+        "itemReplaceCorrectedNonexistingItem": "無法取代項目 ，因為該項目不存在或已變更。請重新整理頁面。",
+        "processingDialog": {
+          "title": "文件不可用",
+          "content": "無法執行此動作，正在處理檔案。",
+          "confirm": "關閉"
+        }
+      },
+      "bulkDownload": {
+        "openBulkDownloadDialog": {
+          "title": "大量下載已停用",
+          "content": "此資料室目前未啟用大量下載。\n\n 請一次下載一個檔案。\n\n 如果您認為應該啟用此功能，請聯絡我們的<0>客戶服務團隊</0>尋求協助。",
+          "confirm": "關閉"
+        }
+      },
+      "openPdfViewer": {
+        "openCorruptedDialog": {
+          "title": "文件損毀",
+          "content": "此文件已損毀，無法顯示在 PDF 檢視器中。\n\n請聯絡我們的客戶服務團隊以獲得進一步協助。",
+          "confirm": "關閉"
+        },
+        "openPasswordProtectedDialog": {
+          "title": "密碼保護的文件",
+          "content": "文件受密碼保護。無法在 PDF 檢視器中顯示。\n\n請聯絡我們的客戶服務團隊以獲得進一步協助。",
+          "confirm": "關閉"
+        },
+        "openBeingProcessedDialog": {
+          "title": "正在處理文件",
+          "content": "文件正在處理中。\n\n如果您有相關的存取權限，請稍候，或從右鍵功能表中選擇下載原生。或者，請聯絡我們的客戶服務團隊以獲得進一步協助。",
+          "confirm": "關閉"
+        },
+        "openConversionFailedDialog": {
+          "title": "檔案未轉換",
+          "content": "本文件無法轉換為 PDF，且無法線上檢視。\n\n如果您有相關的存取權限，請稍候，或從右鍵功能表中選擇下載原生。或者，請聯絡我們的客戶服務團隊以獲得進一步協助。",
+          "confirm": "關閉"
+        },
+        "openNotAvilableOnlineDialog": {
+          "title": "文件無法線上取得",
+          "content": "此文件無法線上檢視。\n\n如果您有相關的存取權限，請從右鍵功能表中選擇 Download Native。或者，請聯絡我們的客戶服務團隊以獲得進一步協助。",
+          "confirm": "知道了"
+        }
+      },
+      "contentDownload": {
+        "title": "選擇要下載的文件",
+        "buttons": {
+          "prepareDownload": "準備下載",
+          "expandAll": "全部展開",
+          "collapseAll": "全部摺疊"
+        },
+        "toast": {
+          "error": {
+            "title": "正在準備下載套件失敗。"
+          },
+          "success": {
+            "title": "正在準備下載套件。",
+            "link": "顯示佇列"
+          },
+          "warning": {
+            "title": "路徑名稱長度超過 {{count}} 個字元可能會縮短。"
+          }
+        },
+        "totalSize": "請求的檔案大小為 （s）{{totalSize}}。",
+        "warning": "長度超過 {{count}} 個字元的路徑名稱將會縮短。",
+        "downloadRestrictions": "此項目有下載限制，無法包含在大量下載中。"
+      },
+      "downloadSelected": {
+        "button": "已選擇下載"
+      },
+      "permissionManagement": {
+        "title": "權限",
+        "emptyGrid": {
+          "header": "資料室中沒有索引或團隊",
+          "message": "請上傳檔案或建立 Teams 以管理權限。"
+        },
+        "nothingToShow": {
+          "header": "沒有可顯示的內容",
+          "message": "變更您的搜尋查詢。"
+        },
+        "header": {
+          "teamName": "{{teamName}} 團隊",
+          "reorderColumns": "拖曳欄以變更順序"
+        },
+        "permissionLevels": {
+          "Hidden": "隱藏的",
+          "FenceView": "圍籬景觀",
+          "View": "檢視",
+          "Print": "列印",
+          "Download": "下載",
+          "Manage": "管理"
+        },
+        "folderOnly": "僅限資料夾",
+        "folderAndItems": "資料夾及其項目",
+        "inherited": "（繼承）",
+        "permissionLocked": {
+          "owner": "修改時，會封鎖其他使用者執行內容和權限的操作。",
+          "other": "您無法修改權限。它們被鎖定 {{ userInfo }}",
+          "anotherUser": "其他使用者",
+          "upload": "您無法修改權限。它們被鎖定，因為有些使用者正在上傳檔案到資料室。請稍後再試一次。",
+          "session": "您無法修改權限。它們因開啟的工作階段而被鎖定。發佈或還原變更，或聯絡 Deal Admin、Content Manager 或 Sterling Admin，以完成所有工作階段。"
+        },
+        "unlock": "解除鎖定",
+        "takeOver": "接管",
+        "contentsLockedByPermissions": "您無法修改索引。它們已被其他使用者 鎖定{{ userInfo }}。",
+        "exportFeed": {
+          "buttonName": "匯出摘要",
+          "errorMessage": "無法匯出權限摘要",
+          "unsavedChangesDialog": {
+            "title": "匯出摘要",
+            "message": "由於未儲存的變更，\n無法匯出權限摘要。\n\n請先儲存或取消變更。",
+            "confirmButton": "關閉"
+          },
+          "permissionLockedMessage": {
+            "owner": "由於您的權限摘要變更擱置中，權限目前已鎖定。\n匯入變更後，將再次提供權限。",
+            "otherUser": "{{emailAddress}} 由於權限摘要變更擱置中，權限目前被 鎖定。"
+          }
+        },
+        "takeOverDialog": {
+          "title": "接管權限編輯",
+          "message": "您確定要接管未儲存的權限變更嗎？\n\n您將可以繼續編輯，其他使用者將無法進行變更。",
+          "confirmButton": "接管",
+          "cancelButton": "取消"
+        },
+        "unlockDialog": {
+          "title": "解除鎖定權限編輯",
+          "message": "您確定要解除鎖定權限嗎？\n\n如果您確認，其他使用者所做的所有變更都將遺失。",
+          "confirmButton": "解鎖",
+          "cancelButton": "取消"
+        },
+        "importFeed": {
+          "buttonName": "匯入摘要",
+          "importInProgressMessage": "正在匯入權限摘要...",
+          "importSuccess": "已成功匯入權限摘要",
+          "errorMessage": {
+            "invalidFormat": "無法匯入權限摘要。檔案必須為 XLSM 格式。",
+            "invalidFile": "無法匯入權限摘要。請選擇最近下載的檔案。",
+            "genericError": "無法匯入權限摘要。",
+            "importInProgress": "您目前無法執行此操作。正在匯入權限摘要。請稍候直到結束。"
+          }
+        },
+        "filtering": {
+          "hint": {
+            "message": "複製權限適用於整個內容樹狀目錄"
+          },
+          "placeholder": "搜尋項目名稱..."
+        },
+        "viewing": {
+          "viewAsTeam": "以團隊方式檢視： {{team}}",
+          "viewAs": "檢視為"
+        },
+        "copyPermissions": {
+          "button": {
+            "copy": "複製權限",
+            "paste": "貼上{{teamName}}團隊的權限",
+            "applyToVisibleTeams": "套用至可見{{teamType}}團隊"
+          },
+          "errorMessage": "無法複製權限至團隊： {{count}}"
+        },
+        "button": {
+          "publish": "全部發佈",
+          "cancel": "取消",
+          "saveAsDraft": "儲存為草稿",
+          "revertSelected": "還原選取的項目"
+        },
+        "unsavedChangesDialog": {
+          "title": "您有未儲存的變更",
+          "content": "您即將離開此頁面並保留未儲存的變更。繼續操作後，所有變更都將遺失。\n\n您也可以停留在頁面上，或將變更儲存為草稿。另存為草稿將保持權限鎖定，並需要其他使用者接管才能編輯。\n\n您希望如何進行？",
+          "discard": "捨棄變更",
+          "stayOnPage": "停留在頁面上",
+          "saveAsDraft": "儲存為草稿"
+        },
+        "revertPermissions": {
+          "counter": "所選項目： {{count}}",
+          "noItemsSelectedWarningMessage": "未選取要還原的項目。",
+          "errorMessage": "無法還原變更。"
+        },
+        "saveAsDraft": {
+          "noPermissionChangesWarning": "沒有要儲存的變更。"
+        },
+        "publish": {
+          "dialog": {
+            "confirmButton": "發佈變更",
+            "cancelButton": "停留在頁面上",
+            "title": "發佈權限",
+            "message": "您即將發佈內容和所有 Teams 中所有項目的權限變更。\n\n您確定要繼續嗎？"
+          },
+          "noPermissionsChangesPublishWarning": "發佈沒有變更。"
+        }
+      },
+      "extractArchive": {
+        "buttonText": "解壓縮",
+        "success": "已成功擷取封存： {{count}}",
+        "failure": "無法擷取歸檔： {{count}}",
+        "failureDueToPasswordProtection": "由於密碼保護，無法擷取歸檔： {{count}}",
+        "itemsNotExtracted": "'由於檔案副檔名不受支援，無法擷取項目： {{count}}",
+        "buttonTextApplyHiddenPermission": "使用隱藏的權限解壓縮",
+        "inProgress": "正在擷取歸檔...",
+        "notFound": "無法擷取歸檔，因為檔案不存在或已變更。請重新整理頁面。"
+      },
+      "addQuestion": {
+        "buttonText": "新增問題"
+      },
+      "showQuestions": {
+        "buttonText": "顯示問題"
+      },
+      "filtering": {
+        "applyFilters": "套用篩選器",
+        "cancel": "取消",
+        "clearFilters": "清除篩選器",
+        "filter": "篩選器",
+        "results": "{{count}} 結果",
+        "filters": {
+          "addedDate": {
+            "label": "已新增",
+            "options": {
+              "anytime": "隨時",
+              "lastVisit": "自上次就診以來",
+              "last24h": "過去 24 小時內",
+              "dateRange": "在特定日期範圍內"
+            },
+            "addedDateFromPlaceholder": "從",
+            "addedDateToPlaceholder": "至",
+            "validation": {
+              "datesEmptyError": "至少必須提供其中一個日期。",
+              "startAfterEndDateError": "開始日期不能晚於結束日期。"
+            }
+          },
+          "itemsCategory": {
+            "label": "僅顯示",
+            "options": {
+              "all": "全部",
+              "assignedForReview": "指派給我",
+              "favorites": "我的最愛",
+              "printable": "可列印",
+              "nativeFiles": "原生檔案",
+              "viewedByUser": "由我檢視",
+              "notViewedByUser": "未被我檢視",
+              "specificItemTypes": "特定項目類型"
+            }
+          },
+          "fileExtensions": {
+            "label": "原生檔案類型",
+            "placeholder": "選擇檔案類型",
+            "options": {
+              "Archives": "檔案",
+              "CAD": "CAD 檔案",
+              "Documents": "文件",
+              "Images": "影像",
+              "Others": "其他",
+              "Presentations": "簡報",
+              "Spreadsheets": "試算表",
+              "Videos": "影片"
+            }
+          },
+          "specificItemTypes": {
+            "placeholder": "選擇項目類型",
+            "options": {
+              "document": "文件",
+              "folder": "資料夾/索引",
+              "placeholder": "預留位置",
+              "shortcut": "捷徑",
+              "hyperlink": "URL 連結"
+            }
+          },
+          "labels": {
+            "label": "標籤",
+            "placeholder": "選擇標籤",
+            "allLabelsOptionLabel": "所有標籤"
+          },
+          "teams": {
+            "label": "篩選團隊",
+            "placeholder": "選擇 Teams",
+            "allTeamsOptionLabel": "所有團隊",
+            "allBiddersOptionLabel": "所有{{ externalName }}團隊",
+            "allSubsOptionLabel": "所有{{ internalName }}團隊",
+            "sellersTeams": "{{ internalName }} 團隊",
+            "biddersTeams": "{{ externalName }} 團隊"
+          },
+          "notViewedBy": {
+            "label": "未檢視者",
+            "placeholder": "選擇"
+          },
+          "viewedBy": {
+            "label": "檢視者",
+            "placeholder": "選擇"
+          }
+        }
+      },
+      "search": {
+        "backButtonLabel": "返回",
+        "changeLocationLabel": "在內容樹狀圖上選擇其他資料夾以變更搜尋位置。",
+        "resultsLabel": "導致",
+        "types": {
+          "documentContent": "文件 內容",
+          "indexNumber": "索引編號",
+          "itemName": "項目名稱"
+        }
+      },
+      "emailUpdates": {
+        "email": "電子郵件 ID： {{email}}",
+        "emailId": "上傳_{{referenceId}}@{{domain}}",
+        "copyEmail": "將電子郵件複製到剪貼簿。使用此電子郵件傳送檔案。"
+      },
+      "session": {
+        "itemLockedByAnotherUser": "您無法修改此項目。已由其他使用者 鎖定{{ userInfo }}。",
+        "itemLockedInSession": "目前有一個開啟的工作階段，無法完成動作。請檢閱工作階段以繼續。"
+      },
+      "lockedItemTooltip": {
+        "lockedByMe": "該項目被鎖定供您編輯。",
+        "lockedByOtherUser": "該項目被鎖定，供其他使用者編輯。",
+        "lockedByOtherUserWithEmail": "項目 被鎖定，以供 編輯{{ userInfo }}。"
+      }
+    },
+    "dashboard": {
+      "dashboard": "儀表板",
+      "hello": "您好",
+      "dealManager": "交易經理",
+      "checkDetails": "支票明細",
+      "dealManagerEmail": "電子郵件地址",
+      "dealManagerMobile": "行動電話號碼",
+      "noDataToDisplay": "沒有資料可顯示",
+      "somethingWentWrong": "發生錯誤",
+      "dataRoomDocumentStatistics": {
+        "title": "資料室文件統計資料",
+        "contentsOverview": "內容概述",
+        "documentsInTotal": "總文件數",
+        "dataRoomDocumentSize": "尺寸",
+        "documentsInBin": "藥盒中的文件",
+        "documentsPendingConversion": "待轉換文件",
+        "processing": "正在處理",
+        "failed": "失敗",
+        "onlinePages": " 線上頁面",
+        "notConvertedFileSize": "未轉換的檔案大小"
+      },
+      "dataRoomChangesOverview": {
+        "title": "資料室變更概述",
+        "newDocuments": {
+          "title": "新文件"
+        },
+        "questionsAwaitingAnswers": {
+          "title": "等待回答的新問題"
+        },
+        "newAnswers": "新答案"
+      },
+      "footer": {
+        "customerServices": "客戶服務團隊 （24/7）",
+        "email": "電子郵件",
+        "internationalNumbers": "國際號碼",
+        "contactSupport": "支援聯絡表格",
+        "links": "連結",
+        "giveFeedback": "提供回饋",
+        "bookTraining": "預訂訓練"
+      },
+      "dropdownTimeFilter": {
+        "sortOptions": {
+          "sinceLastVisit": "自上次就診以來",
+          "last24Hours": "過去 24 小時",
+          "last7Days": "過去 7 天"
+        }
+      },
+      "warningOpenSessionFirst": "您有開放的工作階段 ",
+      "warningOpenSessionSecond": "別忘了發佈變更。"
+    },
+    "teamsAndUsers": {
+      "title": "團隊與使用者",
+      "tabs": {
+        "internal": {
+          "mainTeamName": "主要優惠團隊",
+          "subTeamNameSingular": "子團隊",
+          "subTeamNamePlural": "子團隊",
+          "defaultTeamName": "子團隊 {{count}}"
+        },
+        "bidders": {
+          "teamNameSingular": "{{teamName}} 團隊",
+          "teamNamePlural": "{{teamName}} 團隊",
+          "defaultTeamName": "投標人團隊 {{count}}"
+        }
+      },
+      "userStatuses": {
+        "invited": "邀請已傳送",
+        "active": "作用中",
+        "deleted": "已刪除",
+        "invitationExpired": "邀請已過期",
+        "inactive": "已停用",
+        "invitationDrafted": "邀請草擬",
+        "invitationSent": "邀請已傳送",
+        "invitationRequestedByUser": "已請求的邀請"
+      },
+      "table": {
+        "header": {
+          "checkboxLabel": "與團隊使用者檢查所有列 {{teamName}}",
+          "name": "名稱",
+          "status": "狀態",
+          "email": "電子郵件",
+          "userRoles": "角色"
+        },
+        "roles": {
+          "UserMgrExt": "使用者管理員",
+          "QAndAModeratorExt": "問與答主持人",
+          "QAndAViewOnlyExt": "僅限問答檢視",
+          "QAndAParticipantExt": "問與答專家",
+          "DealAdminInt": "交易管理",
+          "UserMgrInt": "使用者管理員",
+          "QAndAModeratorInt": "問與答主持人",
+          "QAndAViewOnlyInt": "僅限問答檢視",
+          "QAndAReviewInt": "問與答 審查者",
+          "QAndAExpertInt": "問與答專家",
+          "QAndAApproverInt": "問與答核准人",
+          "ContentMgrInt": "內容管理員",
+          "ContributorInt": "貢獻者",
+          "ReportMgrInt": "報告管理員",
+          "UserMgrSub": "使用者管理員",
+          "ContentMgrSub": "內容管理員",
+          "QAndAModeratorSub": "問與答主持人",
+          "QAndAViewOnlySub": "僅限問答檢視",
+          "QAndAReviewSub": "問與答 審查者",
+          "QAndAExpertSub": "問與答專家"
+        },
+        "row": {
+          "checkboxLabel": "與使用者檢查一行 {{userName}}",
+          "actions": {
+            "actions": "行動",
+            "label": "使用者動作",
+            "sendInvites": "傳送邀請",
+            "editDetails": "編輯詳細資料",
+            "changeTeam": "變更團隊",
+            "resetPassword": "重設密碼",
+            "setTemporaryPassword": "設定臨時密碼",
+            "activateUser": "啟用",
+            "deactivateUser": "停用",
+            "removeFromRoom": "刪除使用者",
+            "deleteGDPR": "刪除 GDPR"
+          }
+        },
+        "details": {
+          "function": "功能",
+          "mobilePhoneNumber": "行動電話號碼",
+          "deskPhoneNumber": "備用電話號碼",
+          "companyName": "公司名稱",
+          "unregisterUser": "[\"未註冊的使用者\"]",
+          "emailVerificationtooltip": "待處理電子郵件驗證"
+        },
+        "actions": {
+          "selectSingleRow": "選取單列",
+          "rowsPerPage": "每頁列數：",
+          "of": "第 頁，共 頁",
+          "next": "下一個",
+          "previous": "上一個"
+        }
+      },
+      "buttons": {
+        "addTeam": "新增團隊",
+        "inviteFirstUsers": "邀請使用者加入團隊",
+        "inviteUsers": "邀請使用者",
+        "invite": "邀請",
+        "clearAll": "全部清除",
+        "moreTiers": "更多等級",
+        "deleteTeam": "刪除團隊",
+        "settings": "設定",
+        "teamDeactivated": "[\"團隊已停用\"]",
+        "assignRoles": "指派角色"
+      },
+      "drawer": {
+        "inviteUserTitle": "邀請使用者",
+        "createTeamTitle": "新增團隊",
+        "subtitle": "{{teamType}} 團隊\"{{teamName}}\"",
+        "teamName": "團隊名稱",
+        "inputPlaceholder": "在以下欄位中輸入或貼上電子郵件清單。",
+        "inviteByText": "依文字",
+        "copyPasteEmails": "輸入或複製並貼上電子郵件地址",
+        "inviteByDropFile": "將您的檔案放至此處",
+        "documentTypes": "上傳 Excel 或 CSV 檔案",
+        "howToFormatFile": "瞭解如何格式化您的檔案",
+        "uploadFileTooltip": {
+          "hint1": "在試算表中將欄 \"A\" 標示為\"電子郵件地址\"",
+          "hint2": "將電子郵件貼至欄 \"A\"",
+          "hint3": "將您的檔案匯出為 Excel 或 CSV 格式"
+        },
+        "messages": {
+          "checkTriangleForTooltip": "標記的使用者將不會收到邀請。若要檢視詳細資料，請將滑鼠游標移到電子郵件旁邊的三角形圖示上。",
+          "invalidEmailFormat": "不正確的電子郵件表單，請使用 x@y.z 或 x@y.z.z。",
+          "subTeamNameAlreadyExists": "團隊名稱已存在。建立不同的名稱。",
+          "userAlreadyInTeam": "無法傳送邀請。已邀請使用者加入此團隊。",
+          "provideUniqueTeamName": "名稱已存在。輸入唯一的團隊名稱。",
+          "userAlreadyInDataRoom": "使用者是另一個團隊的成員。無法傳送邀請。"
+        }
+      },
+      "settingsDrawer": {
+        "title": "設定",
+        "tabs": {
+          "teamSettings": {
+            "title": "團隊設定",
+            "teamStatus": "團隊狀態",
+            "notifications": "通知",
+            "status": {
+              "active": "作用中",
+              "inactive": "非作用中"
+            },
+            "notificationInfo": "當團隊狀態變更為作用中時傳送電子郵件通知"
+          },
+          "security": {
+            "title": "安全性"
+          }
+        }
+      },
+      "UserDetailsDrawer": {
+        "title": "編輯使用者詳細資料",
+        "subTitle": "{{userName}} \"{{teamName}}\" {{teamType}}",
+        "AccountData": {
+          "title": "帳戶資料"
+        },
+        "successMessage": "已成功儲存變更。",
+        "errorMessage": "未儲存任何變更。請再試一次。",
+        "emailAlreadyExists": "無法使用此電子郵件。請使用不同的電子郵件地址。"
+      },
+      "ChangeTeamDrawer": {
+        "title": "變更團隊",
+        "subTitleSingular": "{{userCount}} 已選取 個使用者。 \"{{teamName}}\" {{teamType}} ",
+        "subTitlePlural": "{{userCount}} 已選取 個使用者。 \"{{teamName}}\" {{teamType}} ",
+        "Body": {
+          "title": "選擇您想要將選定使用者移動到的團隊"
+        },
+        "successMessagePlural": "{{numberOfMovedUsers}} 使用者已移至不同的團隊。",
+        "errorMessagePlural": "無法移動使用者：{{NumberofMovedUsers}}。",
+        "successMessageSingular": "使用者已移至不同的團隊。",
+        "errorMessageSingular": "無法移動使用者。"
+      },
+      "temporaryPasswordDrawer": {
+        "title": "設定臨時密碼",
+        "temporaryPasswordInfo": "臨時密碼為：",
+        "reloadButton": "重新載入",
+        "passwordHint": "密碼對一次性登入有效，且必須由使用者變更。",
+        "doneButton": "完成",
+        "resetPasswordError": "無法變更密碼。請再試一次。"
+      },
+      "AssignRolesDrawer": {
+        "title": "指派角色",
+        "tabs": {
+          "mainDealTeam": {
+            "title": "主要優惠團隊"
+          },
+          "subTeams": {
+            "title": "子團隊"
+          },
+          "bidderTeams": {
+            "bidders": "投標者團隊",
+            "externals": "外部團隊",
+            "experts": "專家團隊",
+            "buyers": "買家團隊"
+          }
+        },
+        "roles": {
+          "UserMgrExt": "使用者經理",
+          "QAndAModeratorExt": "會議主持人",
+          "QAndAViewOnlyExt": "僅檢視",
+          "QAndAParticipantExt": "專家",
+          "DealAdminInt": "交易管理",
+          "UserMgrInt": "使用者經理",
+          "QAndAModeratorInt": "會議主持人",
+          "QAndAViewOnlyInt": "僅檢視",
+          "QAndAReviewInt": "審查者",
+          "QAndAExpertInt": "專家",
+          "QAndAApproverInt": "核准人",
+          "ContentMgrInt": "內容經理",
+          "ContributorInt": "貢獻者",
+          "ReportMgrInt": "報告經理",
+          "UserMgrSub": "使用者經理",
+          "ContentMgrSub": "內容經理",
+          "QAndAModeratorSub": "會議主持人",
+          "QAndAViewOnlySub": "僅檢視",
+          "QAndAReviewSub": "審查者",
+          "QAndAExpertSub": "專家"
+        },
+        "roleTypes": {
+          "Admin": "管理員角色",
+          "QAndA": "問與答角色"
+        },
+        "noTeamsText": "尚無團隊可顯示",
+        "emptyStateDescription": "建立新團隊並邀請使用者。",
+        "successMessage": "已成功指派使用者角色。",
+        "errorMessage": "無法指派使用者角色。"
+      },
+      "messages": {
+        "invitationsSent": "已成功傳送邀請： {{count}}",
+        "invitationsSent_other": "已成功傳送邀請： {{count}}",
+        "teamCreateSuccess": "已成功建立團隊。",
+        "teamUpdateSuccess": "團隊更新成功。",
+        "teamTabUpdateSuccess": "變更已儲存於：設定。",
+        "teamTabSecurityUpdateSuccess": "變更已儲存於：安全性。",
+        "teamTabUpdateFail": "未儲存的變更：設定。",
+        "teamTabSecurityUpdateFail": "未儲存的變更：安全性。",
+        "fileExtensionIsNotSupported": "{{extension}} 不支援副檔名。",
+        "fileWrongFormat": "無法辨識檔案內容。請再次驗證檔案。",
+        "oneFileOnly": "檔案一次只能上傳 1 個。",
+        "emailsNotRecognized": "無法辨識的電子郵件地址： {{count}}",
+        "noEmailRecognized": "無法辨識電子郵件地址。",
+        "teamDraftedSuccessPlurar": "使用者 已新增至團隊 {{teamName}}。尚未通知使用者。",
+        "teamDraftedSuccessSingular": "使用者 已新增至團隊 {{teamName}}。尚未通知使用者。",
+        "draftErrorSingular": "使用者尚未新增至團隊： {{teamName}}",
+        "draftErrorPlural": "使用者尚未新增至團隊： {{teamName}}",
+        "sendInvitesSuccessMessage": "已成功傳送邀請： {{numberOfUsers}}",
+        "sendInvitesFailureMessage": "無法傳送邀請： {{numberOfUsers}}",
+        "sendInvitesErrorMessage": "發生錯誤。請再試一次。",
+        "sendInvitesRequestsSuccessMessage": "邀請請求已傳送給交易管理員： {{numberOfUsers}}",
+        "sendInvitesRequestsFailureMessage": "無法傳送邀請請求： {{numberOfUsers}}",
+        "emptyTeam": "此團隊中沒有使用者"
+      },
+      "modal": {
+        "title": "移除團隊",
+        "content": {
+          "first": "您即將移除 ",
+          "second": "{{teamType}} 團隊“{{teamName}}”。",
+          "third": "透過移除此團隊，您將移除所有使用者。",
+          "fourth": "此動作無法復原。",
+          "fifth": "您希望如何進行？"
+        },
+        "cancel": "取消",
+        "delete": "繼續",
+        "successMessage": "\"{{teamType}}\" 團隊 \"{{teamName}}\" 已成功刪除",
+        "errorMessage": "無法刪除 \"{{teamType}}\" 團隊 \"{{teamName}}\""
+      },
+      "temporaryPasswordModal": {
+        "title": "設定臨時密碼",
+        "content": {
+          "first": "您確定要",
+          "second": "為選取的使用者設定臨時密碼？",
+          "third": "目前的密碼將不再有效，新密碼僅供一次性使用。",
+          "fourth": "初次登入後，此使用者將需要設定新密碼。",
+          "fifth": "此動作無法復原。"
+        },
+        "setTemporaryPassword": "設定臨時密碼",
+        "errorMessage": "無法設定臨時密碼。"
+      },
+      "resetAnotherUserPasswordModal": {
+        "title": "重設密碼",
+        "content": {
+          "first": "您確定要重設所選使用者的密碼嗎？",
+          "second": "選定的使用者將收到一封電子郵件，其中包含有關如何重設密碼的連結。",
+          "third": "在建立新密碼之前，使用者將無法存取其帳戶。"
+        },
+        "successMessage": "已為使用者重設密碼： {{numberOfUsers}}",
+        "failureMessage": "無法重設密碼： {{numberOfUsers}}",
+        "resetPassword": "重設密碼",
+        "errorMessage": "無法重設密碼。"
+      },
+      "removeFromRoomModal": {
+        "title": "從資料室移除使用者",
+        "content": {
+          "first": "您確定要從資料室移除這些使用者嗎？",
+          "second": "日後可重新傳送邀請。"
+        },
+        "deleteUser": "移除",
+        "successMessage": "已成功移除使用者： {{numberOfExcludedUsers}}",
+        "errorMessage": "無法移除使用者： {{numberOfExcludedUsers}}"
+      },
+      "activateUser": {
+        "title": "啟用使用者",
+        "content": {
+          "first": "是否要傳送電子郵件給使用者以啟用其帳戶？"
+        },
+        "button": {
+          "dontSendAnEmail": "不通知",
+          "sendAnEmail": "通知"
+        },
+        "successMessage": "已啟用使用者： {{numberOfActivatedUsers}}",
+        "errorMessage": "無法啟用使用者： {{numberOfActivatedUsers}}"
+      },
+      "deactivateUsers": {
+        "processedUsersMessage": "使用者已成功停用： {{numberOfDeactivatedUsers}}",
+        "unprocessedUsersMessage": "無法停用使用者： {{numberOfDeactivatedUsers}}",
+        "errorMessage": "請再試一次。"
+      },
+      "deleteGdprModal": {
+        "title": "根據 GDPR 刪除使用者",
+        "content": {
+          "first": "您確定要移除使用者嗎",
+          "second": "{{userEmail}}",
+          "third": "他們將無法再存取其 Sterling 帳戶，且 ",
+          "fourth": "您將無法復原此動作。"
+        },
+        "deleteUser": "刪除",
+        "successMessage": "GDPR 刪除請求已發送給 Sterling 的支援。請耐心等候 48 小時，以便完成此動作。",
+        "errorMessage": "請再試一次。"
+      }
+    },
+    "qa": {
+      "qa": "問與答",
+      "qaSettings": "問與答設定",
+      "qaLimits": "問與答限制",
+      "backToDefaultQnA": "返回預設 Q&A",
+      "questionsAndAnswers": "問與答",
+      "addQuestion": "新增問題",
+      "addAnswer": "新增答案",
+      "editQuestion": "編輯問題",
+      "editAnswer": "編輯答案",
+      "addFollowUpQuestion": "新增後續問題",
+      "editRejectedQuestion": "編輯已拒絕的問題",
+      "editRejectedFollowUpQuestion": "編輯已拒絕的後續問題",
+      "editRejectedAnswer": "編輯拒絕答案",
+      "rejectionComment": "拒絕備註",
+      "questionDetails": "問題詳細資料",
+      "answerDetails": "答案詳情",
+      "yourAnswer": "答案",
+      "yourFollowUpQuestion": "後續問題",
+      "cancel": "取消",
+      "saveDraft": "儲存草稿",
+      "submit": "提交",
+      "submitForApproval": "提交以供核准",
+      "submitAndApprove": "核准並提交",
+      "viewFollowUpQuestion": "檢視後續問題",
+      "moderatorActions": "會議主持人動作",
+      "sendCommentForAssigment": "傳送指派的註解",
+      "approve": "核准",
+      "reject": "拒絕",
+      "viewQuestion": "檢視問題",
+      "moderateQuestion": "一般問題",
+      "moderateAnswer": "中等回答",
+      "approveAnswer": "核准答案",
+      "sendToApprover": "傳送給核准人",
+      "sendToReviewer": "傳送給檢閱者",
+      "viewAnswer": "檢視答案",
+      "reviewAnswer": "檢閱答案",
+      "rejectQuestion": "拒絕問題",
+      "rejectAnswer": "拒絕答案",
+      "saveChanges": "儲存變更",
+      "changeCategoryAndAssign": "變更類別與指派",
+      "commentTextIsMandatory": "評論為必填。",
+      "answerQuestion": "回答問題",
+      "suggest": "建議",
+      "suggestCategory": "建議類別",
+      "suggestAnswerCategory": "建議答案類別",
+      "stateACommentForSuggestion": "為建議陳述意見",
+      "selectReviewer": "選取檢閱者",
+      "assign": "指派",
+      "assignReviewer": "指派審核者",
+      "assignAnswerReviewerTo": "指派答案審查員至",
+      "assignReviewerCommentTitle": "為您的決定發送評論",
+      "allCategoryReviewers": "所有類別審查員 - {{category}}",
+      "stateComment": "狀態註解",
+      "save": "儲存",
+      "generalQuestion": "一般問題",
+      "pleaseSelectAtLeastOneOption": "請至少選擇一個選項",
+      "allCategoryExperts": "所有類別專家 - {{categoryName}}",
+      "answer": "答案",
+      "followUp": "追蹤",
+      "askYourQuestion": "提問",
+      "downloadAnswerLogs": "下載答案記錄",
+      "comment": "評論",
+      "makeYourAnswer": "建立答案",
+      "category": "類別",
+      "answerCategory": "答案類別",
+      "assignAnswerTo": "將答案指派給",
+      "users": "使用者",
+      "dealAdmins": "交易管理員",
+      "priority": "優先順序",
+      "priorityLevel": {
+        "low": "低",
+        "medium": "中號",
+        "high": "高"
+      },
+      "saveDraftDialog": {
+        "content": "附件將不會儲存在您的草稿中。\n請在準備提交時新增附件。\n\n您確定要儲存不含附件的草稿嗎？",
+        "saveDraft": "儲存草稿",
+        "stayOnPage": "取消",
+        "saveAndDiscard": "儲存並捨棄"
+      },
+      "cancelUploadDialog": {
+        "title": "您有未儲存的變更",
+        "content": "您即將離開此頁面而不儲存。您的項目將返回草稿狀態。\n\n是否確定要捨棄未上傳的檔案？",
+        "discard": "捨棄變更",
+        "stayOnPage": "停留在頁面上"
+      },
+      "teamSettings": "團隊設定",
+      "notifications": "通知",
+      "attachedItems": {
+        "attachedItems": "附加項目",
+        "uploadFile": "上傳檔案",
+        "clickOrDropFilesHere": "按一下此處或將檔案放至此處",
+        "theyWillBeAttachedToYourQuestion": "它們將附在您的問題上",
+        "removeFile": "移除檔案",
+        "unlinkItem": "取消連結項目",
+        "linkFiles": "連結檔案",
+        "useLinkingIcon": "在內容樹狀圖上使用連結圖示",
+        "uploadIcon": "上傳圖示"
+      },
+      "iUnderstand": "我瞭解",
+      "uploadedFileIsTooBig": "上傳的檔案太大",
+      "assignmentSuccessfully": "已成功指派問題。",
+      "assignmentFailed": "無法指派問題。",
+      "stateRejectionComment": "陳述拒絕的評論",
+      "yourComment": "您的意見",
+      "commentIsRequired": "評論為必填。",
+      "suggestCategoryEmptyMessage": "答案類別為必填。",
+      "selectAnswerReviewerEmptyMessage": "請至少選擇一個選項。",
+      "attachments": "附件",
+      "itemNotAvailable": "項目不可用",
+      "QA_question_text_empty": "問題文字為必填。",
+      "QA_question_create_success": "已成功建立問題。",
+      "QA_question_create_failure": "無法建立問題。",
+      "QA_question_delete_success": "已成功刪除問題。",
+      "QA_question_delete_failure": "無法刪除問題。",
+      "QA_answer_text_empty": "答案文字為必填。",
+      "QA_answer_create_success": "已成功建立答案。",
+      "QA_answer_create_failure": "無法建立答案。",
+      "QA_question_edit_success": "已成功編輯問題。",
+      "QA_question_edit_failure": "無法編輯問題。",
+      "QA_answer_edit_success": "已成功編輯答案。",
+      "QA_answer_edit_failure": "無法編輯答案。",
+      "QA_answer_delete_success": "已成功刪除答案。",
+      "QA_answer_delete_failure": "無法刪除答案。",
+      "QA_attachment_too_big": "您的檔案太大，我們無法儲存。\n\n請上傳高達 1GB 的檔案。",
+      "QA_draft_qn_answ_fuq_create_success": "已成功建立草稿。",
+      "QA_draft_qn_answ_fuq_create_failure": "無法建立草稿。",
+      "QA_suggest_category_external_success": "已成功傳送建議。",
+      "QA_suggest_category_external_failure": "傳送建議失敗。",
+      "QA_sending_to_approver_success": "成功傳送給核准人。",
+      "QA_sending_to_approver_failure": "傳送給核准人失敗。",
+      "QA_assignment_to_reviewer_success": "成功指定給審查員（們）。",
+      "QA_assignment_to_reviewer_failure": "指派給檢閱者（們） 失敗。",
+      "QA_sending_reviewer_comment_success": "已新增審查意見。",
+      "QA_sending_reviewer_comment_failure": "評論失敗。",
+      "QA_category_settings_save_success": "變更已儲存於：類別。",
+      "QA_category_settings_save_failure": "請再試一次。未儲存的變更：類別。",
+      "QA_attachments_settings_save_success": "變更已儲存於：附件。",
+      "QA_attachments_settings_save_failure": "請再試一次。未儲存的變更：附件。",
+      "QA_notifications_settings_save_success": "變更已儲存於：通知。",
+      "QA_notifications_settings_save_failure": "請再試一次。未儲存的變更：通知。",
+      "QA_limits_save_success": "儲存問與答限制成功。",
+      "QA_limits_save_failure": "儲存 Q&A 限制失敗。",
+      "QA_bulk_approve_success": "核准項目：{{count}}。",
+      "QA_bulk_approve_error": "核准項目失敗。",
+      "QA_qn_visibility_set_success": "已成功設定執行緒的可見性（多個）。",
+      "QA_qn_visibility_set_failure": "設定執行緒可見性 （Thread） 失敗。",
+      "limitAlertAdd": "已達到問題限制。\n您可以將問題儲存為草稿。\n\n請聯絡您的 Deal Manager 或<0>客戶服務團隊</0>瞭解問題限制。",
+      "limitAlertModerate": "已達到問題限制。\n\n請聯絡您的 Deal Manager 或<0>客戶服務團隊</0>瞭解問題限制。",
+      "table": {
+        "title": "問題清單"
+      },
+      "details": {
+        "id": "ID",
+        "author": "作者",
+        "creationDate": "建立日期",
+        "statusUpdateDate": "狀態更新日期",
+        "status": "狀態",
+        "items": "＋{{count}} 個項目",
+        "items_one": "＋{{count}} 項目",
+        "attributes": "屬性"
+      },
+      "deleteModal": {
+        "questionTitle": "移除問題",
+        "answerTitle": "移除答案",
+        "questionContentMainText": "您確定要移除此問題嗎：",
+        "answerContentMainText": "您確定要移除此答案嗎：",
+        "contentSecondaryText": "此動作將永久刪除此元素。",
+        "removeQuestion": "繼續",
+        "removeAnswer": "繼續"
+      },
+      "questionPrefix": "Q",
+      "answerPrefix": "A",
+      "requestMessages": {
+        "QA_question_submit_success": "已成功提交問題。",
+        "QA_question_submit_failure": "無法提交問題。",
+        "QA_answer_submit_success": "答案已成功提交。",
+        "QA_answer_submit_failure": "無法提交答案。",
+        "QA_qn_answ_fuqn_approve_success": "項目核准成功。",
+        "QA_qn_answ_fuqn_approve_failure": "無法核准項目。",
+        "QA_qn_answ_fuqn_reject_success": "項目已成功拒絕。",
+        "QA_qn_answ_fuqn_reject_failure": "無法拒絕項目。"
+      },
+      "statuses": {
+        "draft": "草稿",
+        "awaitinganswer": "等待答案",
+        "answersubmitted": "答案已提交",
+        "questionanswered": "已回答問題",
+        "awaitingapprovalexternal": "等待核准",
+        "awaitingapprovalinternal": "等待核准",
+        "awaitingapprovalanswer": "等待核准",
+        "awaitingfinalapproval": "等待最終核准",
+        "rejected": "已拒絕",
+        "rejectedinternal": "已拒絕",
+        "rejectedanswer": "已拒絕"
+      },
+      "filters": {
+        "title": "問答篩選器",
+        "internalTitle": "內部問答篩選器",
+        "externalTitle": "外部問答篩選器",
+        "itemStatus": "項目狀態",
+        "statusUpdated": "狀態已更新",
+        "sinceLastVisit": "自上次就診以來",
+        "allStatuses": "所有狀態",
+        "chooseStatus": "選擇狀態",
+        "chooseCategory": "選擇類別",
+        "questionCategory": "問題類別",
+        "assignee": "受指派者",
+        "allQuestionCategories": "所有問題類別",
+        "chooseAtLeastOneStatus": "請至少選擇一個狀態。",
+        "anyone": "任何人",
+        "chooseAtLeastOneCategory": "請至少選擇一個類別。",
+        "questionCreatedBy": "問題建立者",
+        "selectTeams": "選擇團隊",
+        "anyTeam": "任何團隊",
+        "myTeam": "我的團隊",
+        "chooseAtLeastOneTeam": "請至少選擇一個團隊。",
+        "answerCategory": "答案類別",
+        "allAnswerCategories": "所有答案類別",
+        "additionalStatuses": {
+          "rejectedQnswer": "已拒絕的問題",
+          "rejectedAnswer": "拒絕答案",
+          "awaitingApprovalQuestion": "正在等待核准問題",
+          "awaitingApprovalAnswer": "等待核准答案"
+        },
+        "clearFilters": "清除篩選器",
+        "apply": "套用",
+        "filter": "篩選器",
+        "cancel": "取消"
+      },
+      "categoryTab": {
+        "categoryName": "類別名稱",
+        "createNewCategory": "建立新類別",
+        "questionModerators": "問題主持人",
+        "questionModerator": "問題主持人",
+        "categoryExperts": "類別專家",
+        "categoryExpert": "類別專家",
+        "answerModerators": "答案主持人",
+        "answerModerator": "答案主持人",
+        "answerReviewers": "答案審查員",
+        "answerReviewer": "答案審查員",
+        "turnOnAutoApprove": "開啟自動核准",
+        "removeCategory": "移除類別",
+        "newCategory": "新類別",
+        "emptyCategoryNameErrorMessage": "此欄位為必填",
+        "uniqueCategoryNameErrorMessage": "類別名稱已存在。請建立不同的名稱。",
+        "generalCategory": "一般",
+        "categoryRemoval": "移除類別",
+        "warningModalPrimaryText": "您確定要移除此類別嗎",
+        "warningModalSecondaryText": "當您儲存變更時，此類別的所有問答都將指派給 <strong>{{generalCategoryName}}</strong>。",
+        "selectAtLeastOne": "至少選擇一個 "
+      },
+      "attachmentsTab": {
+        "attachments": "附件",
+        "teamsAllowedToAttachFiles": "允許附加檔案的團隊",
+        "selectTeams": "選擇團隊",
+        "allTeams": "所有團隊",
+        "billingNote": "帳單備註：附加至 Q&A 項目的文件為託管資料。",
+        "externalTeams": "外部團隊",
+        "subInternalTeams": "子內部團隊",
+        "mainDealTeam": "主要優惠團隊"
+      },
+      "limitsDrawer": {
+        "setQnaLimits": "設定問與答限制",
+        "warning": "在通過設定限制之後，外部團隊將無法新增問題。",
+        "qnaLimit": "問與答限制",
+        "numberOfQuestions": "問題數量",
+        "externalTeam": "外部團隊",
+        "noOfQuestions": "問題數",
+        "limitsTypes": {
+          "None": "無",
+          "TotalNumberOfQuestions": "問題總數",
+          "Priority": "優先順序",
+          "Category": "類別",
+          "CategoryAndPriority": "類別與優先順序"
+        },
+        "emptyState": {
+          "noQnaLimitsSet": "未設定問與答限制",
+          "message": "如果您想設定 Q&A 的限制，請從上面的下拉選單中選擇限制類型。"
+        }
+      },
+      "visibilityDrawer": {
+        "setBulkVisibility": "設定大量可見性",
+        "revokeBulkVisibility": "撤銷大量可見性",
+        "setButton": "設定",
+        "revokeButton": "撤銷",
+        "cancelButton": "取消",
+        "setVisibility": "設定可見性",
+        "warningTitle": "大量可見性",
+        "discardChangesButton": "捨棄變更",
+        "allTeams": "所有團隊",
+        "revokeVisibility": "撤銷可見性",
+        "setDescription": "設定可見性將允許其他團隊查看其他團隊的執行緒",
+        "revokeDescription": "撤銷可見性將停用所選團隊在所選執行緒中的檢視。作者團隊的可見性不會被撤銷。",
+        "revokeVisibilityForThoseTeams": "撤銷這些團隊的可見性",
+        "setVisibilityForThoseTeams": "為這些團隊設定可見性",
+        "setVisibilitySuccess": "已成功設定執行緒的可見性（多個）。",
+        "setVisibilityError": "設定執行緒可見性 （Thread） 失敗。",
+        "revokeVisibilitySuccess": "已成功撤銷 （多個） 執行緒的可見性。",
+        "revokeVisibilityError": "撤銷執行緒的可見性（多個）失敗。",
+        "infoBox": "外部團隊可能需要額外權限。\n<0>檢查 Q&A 報告以檢視權限。</0>",
+        "warningContent": "可見度只能在已核准的問題上變更。動作將省略其他狀態。\n\n 只有{{processedItemsCount}}{{selectedRootItemsCount}}選取的執行緒會被重新處理，是否仍要設定？"
+      },
+      "export": {
+        "buttonText": "匯出摘要",
+        "success": "已成功匯出 Q&A Feed。",
+        "error": "無法匯出 Q&A Feed。"
+      },
+      "import": {
+        "buttonText": "匯入摘要",
+        "errorMessage": {
+          "invalidData": "您的檔案出現一些問題，請查看儲存格（s）： {{cells}}",
+          "invalidFormat": "無法匯入 Q&A Feed。檔案必須為 XLSX 格式。",
+          "invalidFile": "我們無法辨識此 Excel 檔案。請嘗試重新上傳。",
+          "questionLimitReached": "僅新增 個{{questionLimit}}問題。如果您想要新增更多，請使用其餘問題建立新的 Excel 檔案。",
+          "genericError": "無法匯入 Q&A Feed。"
+        },
+        "checkFileModal": {
+          "title": "支票檔案",
+          "content": "請確保您匯入之前從 Sterling VDR 匯出的相同檔案。\n\n不接受並匯入自備檔案。",
+          "confirmButtonText": "確認"
+        },
+        "successInternal": "已成功匯入 Q&A Feed。已成功建立答案 （ Answer）。",
+        "successExternal": "已成功匯入 Q&A Feed。已成功建立問題（問題）。",
+        "questionLimitReached": "我們創建了 {{createdQuestions}} 個（多個）問題{{totalNumberOfQuestions}}，已達到問題限制。<br>請與您的 Deal Manager 或<0>客戶服務團隊</0>聯絡以瞭解問題限制。"
+      },
+      "threadVisibility": {
+        "authorTeam": "作者團隊 - {{teamName}}",
+        "additionalPermissions": "外部團隊可能需要額外權限",
+        "checkQnA": "檢查 Q&A 報告以檢視權限",
+        "selectTeams": "選擇團隊",
+        "allTeams": "所有團隊",
+        "visibility": "可見性"
+      }
+    },
+    "reports": {
+      "reports": "報告"
+    },
+    "uploads": {
+      "uploads": "上傳"
+    },
+    "downloads": {
+      "downloads": "下載",
+      "table": {
+        "header": {
+          "date": "建立日期",
+          "parent": "上層資料夾",
+          "name": "名稱",
+          "fileSize": "檔案大小",
+          "status": "狀態",
+          "files": "檔案"
+        },
+        "content": {
+          "fileCount": "{{completed}} 第 頁，共 {{requested}}頁"
+        },
+        "status": {
+          "error": "不成功，請再試一次",
+          "preparing": "正在準備",
+          "preparingExcel": "正在準備 Excel",
+          "preparingFailed": "準備失敗",
+          "preparingPdf": "正在準備 PDF",
+          "readyForDownload": "準備下載",
+          "downloadCompleted": "下載完成"
+        },
+        "download": "下載"
+      },
+      "emptyQueue": {
+        "title": "沒有項目可顯示",
+        "description": "若要執行大量下載，請使用 <0>內容頁面 中的資料夾下載動作</0>。"
+      }
+    },
+    "dataRoomSettings": {
+      "settings": "設定",
+      "dataRoomSettings": "資料室設定",
+      "generalSettings": "一般設定",
+      "componentsSettings": "元件設定",
+      "allFeatures": "所有功能",
+      "recommendedFeatures": "建議功能",
+      "recommendedFeaturesSubTitle": "對您的資料室使用體驗有重大影響的功能",
+      "optionalFeatures": "可選功能",
+      "optionalFeaturesSubTitle": "可選功能，但會影響您在資料室的舒適度",
+      "optionalSecurityFeatures": "安全性",
+      "optionalOtherFeatures": "其他功能",
+      "contentManagement": "內容管理",
+      "RequestUsersInvitation": "要求使用者的邀請",
+      "BulkDownload": "大量下載",
+      "ExcelViewer": "Excel 檢視器",
+      "Disclaimer": "免責聲明",
+      "viewers": "觀看者",
+      "contents": "內容",
+      "silverTier": "銀卡等級",
+      "goldTier": "金卡等級",
+      "platinumTier": "白金卡等級",
+      "versioning": "版本設定",
+      "workWithDocuments": "處理文件",
+      "qa": "問與答",
+      "security": "安全性",
+      "workflow": "工作流程",
+      "otherFeatures": "其他功能",
+      "extraCharge": "額外費用",
+      "followingFeaturesAvailable": "下列功能需額外付費",
+      "Translation": "線上翻譯",
+      "BulkRedaction": "編輯",
+      "CadViewer": "CAD 檢視器",
+      "moreFunctionalitiesNeeded": "需要更多功能？",
+      "checkSubscriptionPlans": "檢查訂閱方案",
+      "CustomWatermarks": "浮水印",
+      "SimpleQnA": "簡單問與答",
+      "advanced": "進階",
+      "extended": "延伸",
+      "ExternalSideQnA": "外部問答集",
+      "VersionHistory": "版本歷程記錄",
+      "MobileAccess": "行動存取",
+      "Redaction": "編輯",
+      "Ocr": "OCR",
+      "PdfConversion": "PDF 轉換",
+      "DocumentLinkSharing": "透過電子郵件分享文件",
+      "VersionComparison": "版本比較",
+      "VersionControl": "版本控制",
+      "Sessions": "工作階段",
+      "MsOfficeEditor": "Excel 檢視器",
+      "advancedQA": "進階問與答",
+      "extendedQA": "延伸問與答",
+      "DealSideQnA": "交易方問與答",
+      "IndexAutoNumbering": "自動編號",
+      "CustomisedReports": "報告",
+      "EmailInDocuments": "文件中的電子郵件",
+      "EmailTab": "電子郵件標籤",
+      "SingleSignOnIntegration": "單一登入",
+      "Irm": "增強的 MS Office 保護",
+      "Drm": "強化的 PDF 防護",
+      "AccessRestrictionByIpAddress": "IP 限制",
+      "DocumentReviewWorkflow": "文件審查工作流程",
+      "CopyingContentFromExternalDrives": "第三方資料匯入",
+      "ContentMigrationBetweenRooms": "客房內容副本",
+      "CustomTermsOfAccess": "免責聲明",
+      "mySubscription": "我的訂閱",
+      "setExternalQA": {
+        "title": "如果您變更外部 Q&A 中的流程",
+        "description": "目前為止建立的外部 Q&A 中的所有資料<boldText>都將遺失</boldText>，包括",
+        "roles": "使用者問答角色",
+        "categories": "問與答類別",
+        "assignments": "問與答作業",
+        "limits": "問與答限制",
+        "attachments": "外部使用者將停用 Q&A 附件",
+        "qaBackupMsg": "如果您想備份到目前為止建立的 Q&A，請從",
+        "qaBackupMsgLinkText": "問與答報告"
+      },
+      "setTranslation": {
+        "title": "已啟用翻譯",
+        "extraCharge": "導致<boldText>額外費用</boldText>計費"
+      },
+      "majorChangesModal": {
+        "title": "審查變更",
+        "subtitle": "您看到此訊息是因為您至少進行了以下變更之一，這將對資料室造成重大後果",
+        "awareOfChangesCheckbox": "我知道這個行動的結果"
+      },
+      "configuration": {
+        "saveFailed": "變更失敗。",
+        "saveSuccess": "變更已儲存。",
+        "saveFailure": {
+          "cannotDisableSessionsErrorMessage": "無法停用工作階段。先發佈或還原擱置的工作階段變更。"
+        }
+      },
+      "disclaimers": {
+        "add": "新增免責聲明",
+        "disclaimer": "免責聲明",
+        "disclaimers": "免責聲明",
+        "enterName": "輸入免責聲明名稱",
+        "nameRequired": "此欄位不能為空",
+        "contentRequired": "此欄位不能為空",
+        "disclaimersList": "免責聲明清單",
+        "disclaimersListMakeChanges": "管理免責聲明",
+        "disclaimersAssignment": "免責聲明分配",
+        "disclaimersAssignmentCancelButton": "取消",
+        "disclaimersAssignmentSaveButton": "儲存",
+        "disclaimersAssignmentMakeChangesButton": "編輯",
+        "name": "名稱",
+        "createdBy": "建立者",
+        "deletedUser": "已刪除的使用者",
+        "creationDate": "建立日期",
+        "globalDisclaimer": "全球免責聲明",
+        "sterlingTechnology": "純銀科技股份有限公司",
+        "disclaimerText": "免責聲明文字",
+        "defaultDisclaimer": "預設免責聲明",
+        "internal": "內部",
+        "bidder": "投標者",
+        "dealSide": "交易方",
+        "teamType": "團隊類型",
+        "frequency": "頻率",
+        "agree": "同意",
+        "decline": "拒絕",
+        "addingSucceeded": "已新增免責聲明。",
+        "updateSucceeded": "免責聲明已更新。",
+        "addingFailed": "無法儲存免責聲明。請再試一次或聯絡支援人員。",
+        "updateFailed": "無法更新免責聲明。請再試一次或聯絡支援人員。",
+        "assignmentFrequency": {
+          "EveryTime": "總是",
+          "OnlyOnce": "一次",
+          "Never": "從不"
+        },
+        "teamTypes": {
+          "MainDealTeam": "主要優惠團隊",
+          "SubTeam": "子團隊",
+          "BidderTeam": "投標者團隊"
+        }
+      },
+      "dataroomCustomizations": {
+        "dataroomCustomisation": "資料室自訂",
+        "subtitle": "根據您的需求調整軟體顏色。",
+        "info": "調整時，請考慮顏色對比度，使文字層可見。",
+        "primaryColor": "主要顏色",
+        "label": "標籤",
+        "leftSideNavigation": "左側導覽",
+        "resetForm": "重設為預設值",
+        "inputLabel": "顏色 （#hex）",
+        "sucessMessage": "變更已儲存。",
+        "failMessage": "變更失敗。"
+      },
+      "messages": {
+        "successfullySaved": "已成功儲存變更。",
+        "couldNotSave": "無法儲存變更。"
+      },
+      "watermark": {
+        "watermark": "浮水印",
+        "watermarks": "浮水印",
+        "watermarkSettings": "浮水印設定",
+        "subTitle": "配置將向所有啟用該功能的團隊顯示的浮水印設定",
+        "displayText": "顯示文字",
+        "selectionNote": "至少需要選擇一項。",
+        "watermarkSetings": {
+          "isProjectNameEnabled": "專案名稱",
+          "isIndexNumberEnabled": "索引編號",
+          "isCompanyEnabled": "公司",
+          "isFullNameEnabled": "全名",
+          "isEmailAddressEnabled": "電子郵件地址",
+          "isIpAddressEnabled": "IP 位址",
+          "isDateTimeEnabled": "日期/時間",
+          "customText": "自訂文字",
+          "isAutoScaleEnabled": "啟用自動調整"
+        },
+        "appearance": "外觀",
+        "selectColor": "選擇顏色：",
+        "opacity": "不透明度：",
+        "fontSize": "字型大小：",
+        "previewWatermark": "預覽浮水印",
+        "customTextValue": "機密 - 不得分發",
+        "enableWatermark": "啟用浮水印",
+        "preview": "預覽",
+        "previewHint": "紙張部分設定為 A4。使用不同的紙張格式將產生不同的 watrmark 位置。請再次檢查所有文件和檔案。",
+        "confirmationDialog": {
+          "unsavedChangesTitle": "您有未儲存的變更",
+          "content": "您確定要捨棄變更嗎？\n\n所有變更都將遺失。",
+          "discard": "捨棄變更",
+          "cancel": "繼續編輯"
+        }
+      },
+      "rmsSettings": {
+        "rmsSettings": "文件保護"
+      }
+    },
+    "signUp": {
+      "accountDetails": "帳戶詳細資料",
+      "consents": "同意",
+      "language": "語言",
+      "occupationAndCompany": "職業與公司",
+      "registerNewUserAccount": "註冊新使用者帳戶",
+      "personTitle": "標題",
+      "mr": "先生",
+      "ms": "女士",
+      "select": "選擇",
+      "firstName": "名字",
+      "enterFirstName": "輸入名字",
+      "lastName": "姓氏",
+      "enterLastName": "輸入姓氏",
+      "countryOfResidence": "居住國家",
+      "typeAndSelect": "輸入並選擇",
+      "emailAddressLabel": "電子郵件地址",
+      "enterEmail": "輸入電子郵件",
+      "mobilePhoneNumber": "手機號碼",
+      "deskPhoneNumber": "其他電話號碼",
+      "enterPhoneNumber": "輸入電話號碼",
+      "enterDeskPhoneNumber": "輸入其他電話號碼",
+      "companyName": "公司名稱",
+      "enterCompanyName": "輸入公司名稱",
+      "sector": "部門",
+      "function": "功能",
+      "jobTitle": "職稱",
+      "emailAlreadyExists": "此電子郵件地址已存在。請嘗試其他電子郵件或登入以繼續。",
+      "setPassword": "設定密碼",
+      "enterPassword": "輸入密碼",
+      "confirmPassword": "確認密碼",
+      "passwordShouldConsist": "密碼應符合以下要求：",
+      "passwordIsTooSimilar": "密碼與之前 5 個密碼太相似",
+      "securityQuestion": "安全問題",
+      "securityAnswer": "安全問題答案",
+      "enterAnswer": "輸入答案",
+      "consent": {
+        "first": {
+          "partOne": "註冊帳戶即表示我同意",
+          "partTwo": "服務條款",
+          "partThree": "和",
+          "partFour": "隱私權政策，包括 Cookie 使用。",
+          "partFive": "我瞭解，提供服務所需的所有使用者資料均由 Sterling 託管，我可以存取我的資料，我有權透過聯絡 Sterling 管理員來變更和刪除資料。"
+        },
+        "second": "我希望收到有關行銷內容和相關更新的電子郵件。",
+        "requiredError": "您必須同意我們的服務條款和隱私權政策，才能建立 Sterling 帳戶。"
+      },
+      "TermsOfServiceLink": "",
+      "PrivacyPolicyLink": "https://www.sterlingvdr.com/vdr-privacy-policy",
+      "button": {
+        "cancel": "取消",
+        "back": "返回",
+        "next": "下一個",
+        "register": "註冊"
+      }
+    },
+    "signUpConfirmation": {
+      "accountSuccessfullyRegistered": "帳戶已註冊",
+      "youHaveCreatedNewAccount": "Sterling VDR 帳戶已成功建立。",
+      "nowYouCanLogin": "請檢查您的收件匣，並按照電子郵件中的指示驗證您的帳戶。",
+      "goToLogin": "首頁"
+    },
+    "emailConfirmation": {
+      "emailSuccessfullyConfirmed": "帳戶已驗證",
+      "partOne": "已收到您帳戶的驗證。",
+      "partTwo": "您現在可以存取 Sterling 虛擬資料室。"
+    },
+    "emailNotConfirmed": {
+      "emailNotConfirmedTitle": "電子郵件未驗證",
+      "partOne": "您的電子郵件驗證尚未收到。",
+      "partTwo": "請檢查您的收件匣並驗證您的帳戶。如果您尚未收到收件匣中的任何內容，請檢查所有資料夾/收件匣，包括您的垃圾郵件。"
+    },
+    "invitations": {
+      "invitationExpired": "邀請已過期",
+      "invitationExpiredBody": "此資料室的邀請已過期。",
+      "invitationExpiredHomePage": "您的新邀請申請將發送至交易團隊。",
+      "roomUnavailable": "資料室不可用",
+      "roomUnavailableBody": "此資料室已不存在",
+      "askForInvitation": "要求新邀請",
+      "homePage": "首頁",
+      "askedForInvitation": "請求已傳送",
+      "askedForInvitationBodyFirst": "請允許交易管理員考慮您的邀請。",
+      "askedForInvitationBodySecond": "新的邀請將傳送至您的收件匣。"
+    },
+    "dataRooms": {
+      "dataRooms": "資料室",
+      "dataRoomTile": "資料室動態磚{{currentDataRoomTileIndex}}{{dataRoomTilesCount}}： {{name}}",
+      "dataRoomLogo": "資料室標誌",
+      "dataRoomName": "資料室名稱： {{name}}",
+      "dataRoomId": "資料室 ID： {{id}}",
+      "dataRoomStatus": "資料室狀態： {{status}}",
+      "dataRoomInformations": "關於資料室的資訊",
+      "dataRoomActions": "{{dataRoomName}} 資料室動作",
+      "dataRoomsViewOptions": "資料室檢視選項",
+      "dataRoomsSortOptions": "資料室排序選項",
+      "createNewDataRoom": "建立新資料室",
+      "changeToListView": "變更為清單檢視",
+      "changeToTileView": "變更為動態磚檢視",
+      "projectDashboard": "專案儀表板",
+      "listOfRooms": "房間清單 （{{roomsCount}}）",
+      "results": "{{count}} 結果",
+      "results_one": "{{count}} 結果",
+      "listOfRoomsFilterResult": "客房清單 | $t（views.dataRooms.results， {\"count\": {{count}} }）",
+      "pleaseSelectAtLeastOneOption": "請至少選擇一個選項",
+      "newDataRoom": "新資料室",
+      "tier": "層級",
+      "documents": "文件",
+      "pages": "線上頁面",
+      "users": "使用者",
+      "dataSize": "資料大小",
+      "creationDate": "建立日期",
+      "lastLogin": "上次登入",
+      "company": "公司",
+      "actions": "行動",
+      "selected": "已選取",
+      "viewOptions": "檢視選項：",
+      "sortBy": "排序依據：",
+      "filter": "篩選器",
+      "searchFor": "搜尋...",
+      "filterHeaderTitle": "套用資料室的篩選器",
+      "filtersCountBadge": "篩選計數證卡",
+      "pinDataRoom": "針腳{{dataRoomName}}資料室",
+      "unpinDataRoom": "取消釘選{{dataRoomName}}資料室",
+      "yourTime": "您的時間",
+      "noAccess": {
+        "mainText": "您無法存取任何資料室",
+        "subText": "如果您認為這是個錯誤，請聯絡 Deal Side 或",
+        "customerService": "客戶服務團隊"
+      },
+      "emptyState": {
+        "leftSection": {
+          "headerText": "您好{{keycloakUserFirstName}}，\n歡迎使用 Sterling 虛擬資料室！",
+          "middleText": "我們很高興您能選擇我們的服務。我們的服務提供國際交易支援，並透過虛擬資料室分享文件。謝謝您能夠：",
+          "bottomText": "以及更多...",
+          "optionListItemsTexts": ["上傳和組織內容", "建立內部和外部團隊", "管理問答環節", "使用翻譯支援瀏覽文件"]
+        },
+        "rightSection": {
+          "middleText": "您可以建立第一個專案，以高品質且安全的方式管理任何交易！",
+          "newDataRoom": "新資料室",
+          "twoBusinessmenShakingHands": "兩位商人握手"
+        }
+      },
+      "consent": {
+        "consentTextStart": "註冊帳戶即表示我同意",
+        "termsOfService": "服務條款",
+        "and": "和",
+        "privacyPolicy": "隱私權政策，包括 Cookie 使用。",
+        "consentTextEnd": "我瞭解，提供服務所需的所有使用者資料均由 Sterling 託管，我可以存取我的資料，我有權透過與 Sterling 管理員聯絡來變更和刪除資料。*"
+      },
+      "tile": {
+        "upgradeTier": "升級等級",
+        "requestArchive": "請求存檔",
+        "settings": "設定"
+      },
+      "list": {
+        "details": "詳細資料",
+        "tier": "層級",
+        "listOfRooms": "客房清單",
+        "dataRoomName": "資料室名稱",
+        "creationDate": "建立日期",
+        "status": "狀態",
+        "id": "ID",
+        "onlinePages": "線上頁面",
+        "documents": "文件",
+        "users": "使用者",
+        "dataSize": "資料大小",
+        "upgradeTier": "升級等級",
+        "requestArchive": "請求存檔",
+        "settings": "設定",
+        "lastLogin": "上次登入",
+        "logo": "標誌",
+        "company": "公司",
+        "highProfileAccount": "高設定檔帳戶",
+        "accountType": "帳戶類型"
+      },
+      "sortOptions": {
+        "recentlyCreated": "最近建立",
+        "creationDateOldest": "最早建立日期",
+        "lastLoginTime": "上次登入時間",
+        "onlinePagesAscending": "線上頁面遞增",
+        "onlinePagesDescending": "線上頁面遞減"
+      },
+      "DR_limit_pins": "您已達到{{limit}}資料室的釘選限制。",
+      "DR_pin_create_success": "已成功釘選資料室。",
+      "DR_pin_create_failure": "無法固定資料室。",
+      "DR_create_success": "已成功建立資料室。",
+      "DR_status_user_has_no_access": "您目前無法存取此資料室。"
+    },
+    "dataRoomCreation": {
+      "subscriptionPlan": "訂閱計畫",
+      "createNewDataRoom": "建立新資料室",
+      "dataRoomDetails": "資料室詳細資料",
+      "uploadedImage": "上傳的標誌",
+      "defaultLogo": "預設標誌",
+      "selectFeatures": "選取功能",
+      "selectedPlan": "選取的計畫",
+      "changePlan": "變更計畫",
+      "backToEdit": "返回編輯",
+      "dataRoomName": "資料室名稱",
+      "enterDataRoomName": "輸入資料室名稱",
+      "companyNameForDisclaimers": "免責聲明的公司名稱",
+      "enterCompanyName": "輸入公司名稱",
+      "dealType": "交易類型",
+      "selectDealType": "選擇交易類型",
+      "dealManagerEmail": "Deal Manager 電子郵件",
+      "enterEmailAddress": "輸入電子郵件地址",
+      "timeZone": "時區",
+      "selectTimeZone": "選擇時區",
+      "serverLocation": "伺服器位置",
+      "logotype": "標誌類型",
+      "companyNameForDisclimers": "免責聲明的公司名稱",
+      "serverLocationRegionalUk": "英國",
+      "serverLocationRegionalEu": "歐盟",
+      "uploadLogo": "上傳標誌",
+      "dropFileHere": "將檔案放至此處",
+      "allowedFileTypes": "最小 150x35px，JPG，PNG，最大檔案大小 {{size, number}} MB",
+      "suggestedDataRoomName": "建議的資料室名稱",
+      "useThisName": "使用此名稱",
+      "requiredField": "此欄位為必填",
+      "dataRoomNameUnavailable": "此名稱目前正由其他資料室使用中。",
+      "tooLongDataRoomName": "此名稱過長。",
+      "fileTooLarge": "檔案大於 {{size, number}} MB",
+      "fileInvalidType": "檔案類型必須為 {{accepted, string}}",
+      "consent": "同意",
+      "highProfileAccount": {
+        "text": "高設定檔帳戶？",
+        "options": {
+          "no": "否",
+          "yes": "是"
+        }
+      },
+      "consentRequiredError": "您必須同意我們的服務條款和隱私權政策，才能建立資料室。",
+      "button": {
+        "create": "建立",
+        "back": "返回",
+        "next": "下一個",
+        "cancel": "取消"
+      },
+      "dealManagerEmailError": "您無法將英鎊管理員指定為交易經理。",
+      "componentsSelection": "可在稍後的階段選擇元件。"
+    },
+    "errorView": {
+      "somethingWentWrong": "發生錯誤",
+      "unexpectedError": "意外錯誤",
+      "unexpectedErrorOccured": "我們正盡最大努力找到解決方案。請重新整理頁面或聯絡我們的客戶服務團隊尋求協助。",
+      "tryAgainOrContactAdministrator": "感謝您的耐心等候。",
+      "reportAnIssue": "聯絡客戶服務團隊",
+      "goToHomePage": "首頁",
+      "goToPreviousPage": "返回"
+    },
+    "accessRestrictedView": {
+      "accessRestricted": "存取受限",
+      "accessRestrictedNoPermission": "您沒有此頁面所需的權限。",
+      "accessRestrictedContact": "請聯絡我們的客戶服務團隊。"
+    },
+    "sessionTimeout": {
+      "title": "工作階段逾時",
+      "bodyPartOne": "您未活動超過 60 分鐘",
+      "bodyPartTwo": "基於安全考量，我們已將您登出，請前往首頁或再次登入",
+      "loginAgain": "再次登入"
+    },
+    "icons": {
+      "chevronTrippleUp": "人字紋絆倒",
+      "archiveArrowDown": "向下封存箭頭",
+      "cogOutline": "Cog 大綱"
+    },
+    "userSettings": {
+      "title": "使用者設定",
+      "tabs": {
+        "accountData": {
+          "title": "個人資訊",
+          "firstName": "名字",
+          "lastName": "姓氏",
+          "countryOfResidence": "居住國家",
+          "companyName": "公司名稱",
+          "sector": "部門",
+          "function": "功能",
+          "jobTitle": "職稱",
+          "accountDataCancelButton": "取消",
+          "accountDataSaveButton": "儲存",
+          "accountDataMakeChangesButton": "編輯"
+        },
+        "security": {
+          "title": "安全資訊",
+          "tip": "請輸入您的帳號密碼以安全地輸入此區段。",
+          "password": "密碼",
+          "contactNumbers": "聯絡電話",
+          "contactNumbersSuccessMessage": "已儲存新的聯絡號碼。",
+          "email": "電子郵件",
+          "enterEmail": "電子郵件地址",
+          "emailAlreadyExists": "您輸入的電子郵件地址已存在。請登入以繼續。",
+          "mobile": "行動裝置",
+          "enterMobile": "手機號碼",
+          "setNewPassword": "設定新密碼",
+          "confirmNewPassword": "確認新密碼",
+          "securityQuestion": "安全問題",
+          "securityAnswer": "安全問題答案",
+          "tooltipOneFieldPerEdit": "您無法同時編輯兩個區段",
+          "emailCancelButton": "取消",
+          "emailSaveButton": "儲存",
+          "emailMakeChangesButton": "編輯",
+          "mobileCancelButton": "取消",
+          "mobileSaveButton": "儲存",
+          "mobileMakeChangesButton": "編輯",
+          "passwordCancelButton": "取消",
+          "passwordSaveButton": "儲存",
+          "changePasswordButton": "編輯",
+          "securityQuestionCancelButton": "取消",
+          "securityQuestionSaveButton": "儲存",
+          "securityQuestionMakeChangesButton": "編輯",
+          "deleteAccount": "刪除",
+          "deletingAccount": "刪除我的帳戶",
+          "deleteGdprModal": {
+            "title": "刪除帳戶",
+            "content": {
+              "first": "您確定要永久刪除您的帳戶嗎？",
+              "second": "如果您刪除帳戶，您將無法再存取 Sterling VDR 中的任何資料室，且此動作無法復原。"
+            },
+            "delete": "刪除",
+            "successMessage": "GDPR 刪除請求已發送給客戶服務團隊。請耐心等候 48 小時完成此操作。",
+            "errorMessage": "請再試一次。"
+          },
+          "otpVerificationModal": {
+            "title": "OTP 驗證",
+            "content": "輸入傳送至電話號碼的 6 位數驗證碼 <boldText>{{phoneNumber}}</boldText>",
+            "submit": "提交",
+            "inputLabel": "驗證碼",
+            "errorMessage": "輸入的代碼無效",
+            "customerServiceLink": "客戶服務團隊",
+            "placeholder": "輸入驗證碼",
+            "resendCode": "重新傳送代碼",
+            "codeRequiredMessage": "請輸入驗證碼。",
+            "codeInvalid": "輸入的代碼無效。",
+            "codeSent": "代碼已傳送",
+            "tooltip": "您可以在 30 秒內要求新代碼。代碼將在 10 分鐘後過期。"
+          }
+        },
+        "notifications": {
+          "title": "通知",
+          "EmailSettings": {
+            "title": "電子郵件設定",
+            "qAndANotification": {
+              "label": "傳送問與答電子郵件通知",
+              "value": {
+                "positive": "立即",
+                "negative": "從不"
+              }
+            },
+            "emailNotification": {
+              "label": "傳送內容電子郵件通知",
+              "value": {
+                "positive": "每日總結一次",
+                "negative": "從不"
+              }
+            }
+          }
+        },
+        "preferences": {
+          "title": "喜好設定",
+          "language": {
+            "title": "語言設定",
+            "label": "語言"
+          },
+          "languageCancelButton": "取消",
+          "languageSaveButton": "儲存",
+          "languageMakeChangesButton": "編輯"
+        }
+      },
+      "button": {
+        "back": "返回",
+        "cancel": "取消",
+        "edit": "編輯",
+        "changePassword": "變更密碼",
+        "saveNewPassword": "儲存"
+      }
+    },
+    "inviteUsers": {
+      "header": "要求使用者邀請",
+      "selectMethodHeader": "使用者邀請 - 選取方法",
+      "enterUsersEmailsHeader": "使用者邀請 - 輸入使用者電子郵件*",
+      "stepText": "步驟",
+      "ofTwoText": "第 頁，共 2 頁"
+    },
+    "pdfViewer": {
+      "corruptedPrintDialog": {
+        "title": "無法列印檔案",
+        "content": "檔案已損毀，無法列印。\n\n請聯絡我們的客戶服務團隊以獲得進一步協助。",
+        "confirm": "關閉視窗"
+      },
+      "corruptedOpenDialog": {
+        "title": "無法開啟檔案",
+        "content": "檔案已損毀，無法在 PDF 檢視器中開啟。\n\n請聯絡我們的客戶服務團隊以獲得進一步協助。",
+        "confirm": "關閉視窗"
+      },
+      "protectedOpenDialog": {
+        "title": "受保護的文件",
+        "confirm": "知道了",
+        "content": "此文件受到保護，有些滑鼠和鍵盤選項受到限制。\n\n如果您想對該文件執行動作，請使用 VDR 應用程式內容樹狀圖中的文件動作功能表。"
+      },
+      "clipboardText": "受保護的文件本文件受到保護，有些滑鼠和鍵盤選項受到限制。如果您想對該文件執行動作，請使用 VDR 應用程式內容樹狀圖中的文件動作功能表。"
+    },
+    "videoViewer": {
+      "corruptedOpenDialog": {
+        "title": "檔案開啟失敗",
+        "content": "此視訊檔案已損毀。如果您有存取權限，可以下載檔案。或者，請聯絡 Sterling 客戶服務部以獲得進一步協助。",
+        "confirm": "關閉視窗"
+      },
+      "notSupported": "您的瀏覽器不支援視訊標籤。"
+    },
+    "sessionManagerView": {
+      "title": "工作階段管理員",
+      "description": "您需要發佈工作階段，才能讓資料室內的所有使用者看到變更。",
+      "button": {
+        "publishChanges": "發佈變更",
+        "undoChanges": "復原變更",
+        "cancel": "取消"
+      },
+      "emptyStateMessage": "沒有要發佈的內容",
+      "emptyStateDescription": "您未來在內容中的操作將列於此處。",
+      "actionsList": {
+        "selectedCount": "已選擇 {{selectedCount}}/ {{totalCount}}",
+        "headers": {
+          "itemName": "項目名稱",
+          "action": "行動",
+          "details": "詳細資料",
+          "actionDate": "行動日期"
+        },
+        "actions": {
+          "inserted": "已插入",
+          "moved": "已移動",
+          "updated": "已更新",
+          "deleted": "已刪除",
+          "replaced": "已更換"
+        },
+        "details": {
+          "inserted": "至 {{toDisplayName}}",
+          "moved": "從 {{fromDisplayName}}至 {{toDisplayName}}",
+          "updated": "在 {{inDisplayName}}",
+          "deleted": "從 {{fromDisplayName}}至 {{toDisplayName}}",
+          "replaced": "在 {{inDisplayName}}"
+        },
+        "permissionChanges": {
+          "externalTeams": "{{ externalName }} 團隊：",
+          "subInternalTeams": "{{ internalName }} 團隊：",
+          "header": "此動作會針對下列項目隱藏項目：",
+          "failed": "此動作會讓部分團隊隱藏該項目",
+          "loading": "正在載入無法存取此項目的團隊..."
+        }
+      },
+      "toasts": {
+        "publishActionSuccess": "已成功發佈動作： {{count}}",
+        "publishActionFailure": "無法發佈動作： {{count}}",
+        "revertActionSuccess": "動作已成功還原： {{count}}",
+        "revertActionFailure": "無法還原動作： {{count}}",
+        "actionNotFound": "{{count}} （多個）動作無法處理。動作不存在，或已由其他使用者發佈或還原。",
+        "publishDependenciesDetected": "{{count}} 也選取了由於其相依性而必須發佈的動作。請檢閱這些內容，然後再次發佈。",
+        "revertDependenciesDetected": "{{count}} 也選取了由於其相依性而必須還原的動作。請檢視它們並再次還原。"
+      },
+      "status": {
+        "reverting": "正在還原正在進行的工作階段變更...",
+        "publishing": "正在發佈工作階段變更..."
+      },
+      "viewActiveSessions": "檢視使用中的工作階段",
+      "search": {
+        "placeholder": "搜尋項目名稱...",
+        "matchingResults": "配對結果： {{count}}"
+      }
+    }
+  },
+  "components": {
+    "breadcrumb": {
+      "home": "首頁",
+      "back": "麵包屑背面按鈕"
+    },
+    "selectableContextMenu": {
+      "contextMenuButton": "開啟內容功能表"
+    },
+    "dataTablePagination": {
+      "moreThan": "超過 {{to}}",
+      "fromToOf": "{{from}}第 頁{{to}}，共 頁 {{count}}",
+      "first": "先",
+      "last": "最後",
+      "next": "下一個",
+      "previous": "上一個",
+      "goToPage": "前往{{type}}頁面",
+      "rowsPerPage": "每頁列數："
+    },
+    "dataTable": {
+      "rowActions": "資料表列動作",
+      "selected": "已選取",
+      "selectSingleRow": "選取單列",
+      "selectAllRows": "選取所有列",
+      "enterDetailsAction": "輸入詳細資料動作",
+      "pageAction": "頁面動作",
+      "expandRow": "展開列",
+      "details": "詳細資料"
+    },
+    "header": {
+      "companyName": "純銀",
+      "userSettings": "使用者設定",
+      "contactSupport": "客戶服務團隊",
+      "adminPanel": "管理員面板",
+      "logout": "登出",
+      "notifications": "通知",
+      "sessions": "工作階段",
+      "settings": "設定",
+      "dataRoomActions": "資料室動作",
+      "home": "首頁",
+      "recentDataRooms": "最近的資料室",
+      "recentDataRoomName": "最近的資料室 {{dataRoomName}}",
+      "noRecentDataRooms": "沒有最近的資料室"
+    },
+    "tier": {
+      "tier": "層級",
+      "upTo": "高達",
+      "users": "使用者",
+      "gb": "GB",
+      "forYourData": "您的資料"
+    },
+    "sidebar": {
+      "close": "關閉",
+      "cancel": "取消",
+      "applyFilters": "套用篩選器",
+      "clearFilters": "清除篩選器"
+    },
+    "allResults": {
+      "allResults": "結果結束"
+    },
+    "noResults": {
+      "noResults": "無結果",
+      "changeCriteria": "請變更您的篩選/搜尋條件。"
+    },
+    "noQuestions": {
+      "noQuestions": "目前沒有問題",
+      "noQuestionsInfo": "請稍後再回來查看是否詢問了新問題"
+    },
+    "status": {
+      "active": "作用中",
+      "underPreparation": "準備中",
+      "terminationPeriod": "終止期",
+      "temporaryRestriction": "臨時限制"
+    },
+    "searchbar": {
+      "clear": "清除",
+      "searchFor": "搜尋...",
+      "requiredCharacters": "必填字元：{{length}}。"
+    },
+    "searchinput": {
+      "clear": "清除"
+    },
+    "autocompleteSearchbar": {
+      "noMatch": "無相符建議",
+      "disclaimersCompanyName": "公司",
+      "name": "資料室",
+      "id": "ID",
+      "undefined": "",
+      "publicReference": "ID"
+    },
+    "statusChanger": {
+      "selectStatus": "選擇狀態",
+      "requestFor": "申請",
+      "updatedBy": "最後更新{{date}}者 {{user}}",
+      "customAccess": "設定自訂存取",
+      "buttons": {
+        "buttonSetStatus": "設定狀態",
+        "buttonRequestFor": "請求"
+      },
+      "accessTypes": {
+        "FullAccess": "完整存取",
+        "NoAccess": "無法存取"
+      },
+      "label": "存取 {{teamName}}",
+      "toasts": {
+        "requestSentSuccesfully": "您的要求已傳送。",
+        "requestSentFailure": "您的請求尚未發送。",
+        "statusChangedSuccessfully": "資料室狀態已變更。",
+        "statusChangedFailure": "資料室狀態尚未變更。"
+      }
+    },
+    "statusDescription": {
+      "active": "此狀態將允許投標者團隊進入資料室。\n\n選擇此狀態後，將出現檢查清單，以瞭解您是否以適當方式準備資料室。\n\n使用 Sterling VDR 享受絕佳體驗。",
+      "underPreparation": "新資料室的失聰狀態，目標是要設定所有必要的設定和文件，讓資料室上線。\n\n它將限制所有投標團隊使用者存取 DataRoom。\n\n主交易團隊和子交易團隊持續存取，仍可進行變更。",
+      "temporaryRestriction": "根據右邊的設定，限制某些團隊類型存取資料室。\n\n完整存取權限沒有所選團隊類型的結果。\n\n無法存取會隱藏集線器上的資料室。",
+      "terminationPeriod": "此狀態僅應 Sterling 管理員要求可用。\n\n要求將導致關閉所有團隊類型的資料室。\n\n30 天後，資料室及其所有內容將被刪除。"
+    },
+    "toaster": {
+      "closeMessage": "關閉訊息",
+      "toast": "吐司"
+    },
+    "confirmationDialog": {
+      "unsavedChangesTitle": "您有未儲存的變更",
+      "content": "您即將離開此頁面而不儲存，\n所有變更都將遺失。\n\n是否確定要丟棄？",
+      "discard": "捨棄變更",
+      "stayOnPage": "停留在頁面上"
+    },
+    "confirmationCancelDialog": {
+      "unsavedChangesTitle": "您有未儲存的變更",
+      "content": "您確定要捨棄這些變更嗎？\n\n所有變更都將遺失。",
+      "discard": "捨棄變更",
+      "stayOnPage": "繼續編輯"
+    },
+    "activationChecklist": {
+      "activationChecklistHeader": "請先確認下列項目，再將資料室的狀態變更為作用中：",
+      "shakingHands": "握手",
+      "yourProjectStatus": "專案狀態將變更為作用中。",
+      "invitationsForBiddersUsers": "如果未設定自訂設定，競標者將自動收到邀請。",
+      "activateRoom": "啟用房間",
+      "indexStructureIsReady": "索引結構已就緒，初始文件已上傳*",
+      "mainDealTeamIsCreated": "建立主要交易團隊，邀請所有使用者*",
+      "biddersTeamsAreCreated": "已建立投標者團隊並新增所有使用者*",
+      "disclaimerIsAppropriate": "必要時，免責聲明適用於交易類型和確切的團隊*",
+      "grantedPermission": "使用者已適當授予權限*",
+      "recyleBinIsntEmptyText": "資源回收桶不是空的，而且在託管即時資料之後。您可能需要另外付費。請從以下選項中選擇一項*",
+      "deleteAllFiles": "刪除資源回收筒中的所有檔案",
+      "keepAllFiles": "保留資源回收筒中的所有檔案",
+      "activeSessionValidationMessage": "您無法啟用房間，因為 DR 中有作用中的工作階段。"
+    },
+    "chooseActionButton": {
+      "chooseAction": "選擇動作",
+      "actions": "行動"
+    }
+  },
+  "userInvitations": {
+    "buttons": {
+      "saveDraft": "儲存草稿"
+    }
+  },
+  "countryCodes": {
+    "AF": "阿富汗",
+    "AL": "阿爾巴尼亞",
+    "DZ": "阿爾及利亞",
+    "AS": "美屬薩摩亞",
+    "AD": "安道爾",
+    "AO": "安哥拉",
+    "AI": "安圭拉",
+    "AQ": "南極洲",
+    "AG": "安提瓜和巴布達",
+    "AR": "阿根廷",
+    "AM": "亞美尼亞",
+    "AW": "阿魯巴",
+    "AU": "澳洲",
+    "AT": "奧地利",
+    "AZ": "亞塞拜然",
+    "BS": "巴哈馬",
+    "BH": "巴林",
+    "BD": "孟加拉",
+    "BB": "巴貝多",
+    "BY": "白俄羅斯",
+    "BE": "比利時",
+    "BZ": "貝里斯",
+    "BJ": "貝南",
+    "BM": "百慕達",
+    "BT": "不丹",
+    "BO": "玻利維亞",
+    "BA": "波士尼亞與赫塞哥維納",
+    "BW": "波札那",
+    "BV": "布韋特島",
+    "BR": "巴西",
+    "IO": "英屬印度洋領土",
+    "VG": "英屬維京群島",
+    "BN": "汶萊達魯薩蘭",
+    "BG": "保加利亞",
+    "BF": "布吉納法索",
+    "BI": "蒲隆地",
+    "KH": "柬埔寨",
+    "CM": "喀麥隆",
+    "CA": "加拿大",
+    "CV": "韋德角（卡波韋德）",
+    "KY": "開曼群島",
+    "CF": "中非共和國",
+    "TD": "查德",
+    "CL": "智利",
+    "CN": "中國",
+    "CX": "聖誕島",
+    "CC": "可可斯（基林）群島",
+    "CO": "哥倫比亞",
+    "KM": "科摩羅",
+    "CG": "剛果",
+    "CD": "剛果民主共和國",
+    "CK": "庫克群島",
+    "CR": "哥斯大黎加",
+    "CI": "象牙海岸（象牙海岸）",
+    "HR": "克羅埃西亞",
+    "CU": "古巴",
+    "CW": "庫拉索",
+    "CY": "賽普勒斯",
+    "CZ": "捷克共和國（捷克）",
+    "DK": "丹麥",
+    "DJ": "吉布地",
+    "DM": "多米尼克",
+    "DO": "多明尼加共和國",
+    "TP": "東帝汶（東帝汶）",
+    "EC": "厄瓜多爾",
+    "EG": "埃及",
+    "SV": "薩爾瓦多",
+    "GQ": "赤道幾內亞",
+    "ER": "埃里特拉",
+    "EE": "愛沙尼亞",
+    "ET": "衣索比亞",
+    "FK": "福克蘭群島（馬爾維納群島）",
+    "FO": "法羅群島",
+    "FJ": "斐濟",
+    "FI": "芬蘭",
+    "FR": "法國",
+    "GF": "法屬圭亞那",
+    "PF": "法屬玻里尼西亞",
+    "TF": "法國南部領土",
+    "GA": "加彭",
+    "GM": "甘比亞",
+    "GE": "喬治亞",
+    "DE": "德國",
+    "GH": "迦納",
+    "GI": "直布羅陀",
+    "GR": "希臘",
+    "GL": "格陵蘭",
+    "GD": "格瑞那達",
+    "GP": "瓜德洛普",
+    "GU": "關島",
+    "GT": "瓜地馬拉",
+    "GG": "根西島",
+    "GN": "幾內亞",
+    "GW": "幾內亞比索",
+    "GY": "蓋亞那",
+    "HT": "海地",
+    "HM": "赫德島和麥當勞群島",
+    "HN": "宏都拉斯",
+    "HK": "香港",
+    "HU": "匈牙利",
+    "IS": "冰島",
+    "IN": "印度",
+    "ID": "印尼",
+    "IR": "伊朗",
+    "IQ": "伊拉克",
+    "IE": "愛爾蘭",
+    "IM": "曼島",
+    "IL": "以色列",
+    "IT": "義大利",
+    "JM": "牙買加",
+    "JP": "日本",
+    "JE": "車衣",
+    "JO": "約旦",
+    "KZ": "哈薩克",
+    "KE": "肯亞",
+    "KI": "吉里巴蒂",
+    "KP": "朝鮮（朝鮮民主主義人民共和國）",
+    "KR": "韓國（韓國）",
+    "XK": "科索沃",
+    "KW": "科威特",
+    "KG": "吉爾吉斯",
+    "LA": "寮國民主共和國 （寮國）",
+    "LV": "拉脫維亞",
+    "LB": "黎巴嫩",
+    "LS": "賴索托",
+    "LR": "賴比瑞亞",
+    "LY": "利比亞（利比亞州）",
+    "LI": "列支敦斯登",
+    "LT": "立陶宛",
+    "LU": "盧森堡",
+    "MO": "澳門（澳門）",
+    "MG": "馬達加斯加",
+    "MW": "馬拉維",
+    "MY": "馬來西亞",
+    "MV": "馬爾地夫人",
+    "ML": "馬利",
+    "MT": "馬爾他",
+    "MH": "馬歇爾群島",
+    "MQ": "馬丁尼克",
+    "MR": "毛利塔尼亞",
+    "MU": "模里西斯",
+    "YT": "馬約特",
+    "MX": "墨西哥",
+    "FM": "密克羅尼西亞聯邦",
+    "MD": "摩爾多瓦",
+    "MC": "摩納哥",
+    "MN": "蒙古",
+    "ME": "蒙特內哥羅",
+    "MS": "蒙特塞拉特",
+    "MA": "摩洛哥",
+    "MZ": "莫三比克",
+    "MM": "緬甸",
+    "NA": "納米比亞",
+    "NR": "諾魯",
+    "NP": "尼泊爾",
+    "NL": "荷蘭",
+    "AN": "荷屬安地列斯",
+    "NC": "新喀里多尼亞",
+    "NZ": "紐西蘭",
+    "NI": "尼加拉瓜",
+    "NE": "尼日",
+    "NG": "奈及利亞",
+    "NU": "尼爾",
+    "NF": "諾福克島",
+    "MK": "北馬其頓",
+    "MP": "北馬里亞納群島",
+    "NO": "挪威",
+    "OM": "阿曼",
+    "PK": "巴基斯坦",
+    "PW": "帛琉",
+    "PS": "巴勒斯坦",
+    "PA": "巴拿馬",
+    "PG": "巴布亞新幾內亞",
+    "PY": "巴拉圭",
+    "PE": "秘魯",
+    "PH": "菲律賓",
+    "PN": "皮特凱恩群島",
+    "PL": "波蘭",
+    "PT": "葡萄牙",
+    "PR": "波多黎各",
+    "QA": "卡達",
+    "RE": "聚會",
+    "RO": "羅馬尼亞",
+    "RU": "俄羅斯（俄羅斯聯邦）",
+    "RW": "盧安達",
+    "BL": "聖巴瑟米",
+    "SH": "聖海倫那、緯度、特里斯坦達君哈",
+    "KN": "聖基茨和尼維斯",
+    "LC": "聖露西亞",
+    "MF": "聖馬丁",
+    "PM": "聖皮埃爾和密克隆",
+    "VC": "聖文森及格瑞那丁",
+    "WS": "薩摩亞",
+    "SM": "聖馬利諾",
+    "ST": "聖多美和普林西比",
+    "SA": "沙烏地阿拉伯",
+    "SN": "塞內加爾",
+    "RS": "塞爾維亞",
+    "SC": "塞席爾",
+    "SL": "獅子山",
+    "SG": "新加坡",
+    "SX": "聖馬丁島",
+    "SK": "斯洛伐克（斯洛伐克共和國）",
+    "SI": "斯洛維尼亞",
+    "SB": "索羅門群島",
+    "SO": "索馬利亞",
+    "ZA": "南非",
+    "GS": "南喬治亞和南桑威奇群島",
+    "SS": "南蘇丹",
+    "ES": "西班牙",
+    "LK": "斯里蘭卡",
+    "SD": "蘇丹",
+    "SR": "蘇利南",
+    "SJ": "斯瓦爾巴德和楊梅恩群島",
+    "SZ": "史瓦濟蘭 （Eswatini）",
+    "SE": "瑞典",
+    "CH": "瑞士",
+    "SY": "敘利亞（敘利亞阿拉伯共和國）",
+    "TW": "台灣 （ROC）",
+    "TJ": "塔吉克",
+    "TZ": "坦尚尼亞",
+    "TH": "泰國",
+    "TG": "托哥",
+    "TK": "托克勞",
+    "TO": "湯加",
+    "TT": "千里達及托巴哥",
+    "TN": "突尼西亞",
+    "TR": "土耳其",
+    "TM": "土庫曼",
+    "TC": "特克斯和凱科斯群島",
+    "TV": "圖瓦魯",
+    "VI": "美屬維京群島",
+    "UG": "烏干達",
+    "UA": "烏克蘭",
+    "AE": "阿拉伯聯合大公國",
+    "GB": "英國",
+    "US": "美國",
+    "UM": "美國屬外群島",
+    "UY": "烏拉圭",
+    "UZ": "烏茲別克",
+    "VU": "萬那杜",
+    "VA": "梵蒂岡（神聖之景）",
+    "VE": "委內瑞拉",
+    "VN": "越南",
+    "WF": "瓦利斯群島和富圖那群島",
+    "EH": "西撒哈拉",
+    "YE": "葉門",
+    "ZM": "尚比亞",
+    "ZW": "辛巴威"
+  },
+  "securityQuestions": {
+    "WhatIsTheCityWereYouBorn": "您出生在哪個城市？",
+    "WhatIsTheNameOfYourFavoritePet": "您最喜歡的寵物叫什麼名字？",
+    "WhatIsYourMothersMaidenName": "您母親的婚前姓氏是什麼？",
+    "WhatHighSchoolDidYouAttend": "您上哪所高中？",
+    "WhatIsTheNameOfYourFirstSchool": "您的第一所學校叫什麼名字？",
+    "WhatWasTheMakeOfYourFirstCar": "您的第一輛車是什麼廠牌？",
+    "WhatWasYourFavoriteFoodAsAChild": "您小時候最喜歡的食物是什麼？",
+    "WhereDidYouMeetYourSpouse": "您在哪裡認識您的配偶？",
+    "WhatIsYourFavoriteBook": "您最喜歡的書籍是什麼？",
+    "WhatIsTheNameOfTheRoadYouGrewUpOn": "您長大的道路叫什麼名字？",
+    "WhatIsYourFavoritePlaceToVacation": "您最喜歡的度假地點在哪裡？",
+    "WhatIsYourFavoriteActorMusicanOrArtist": "您最喜歡的演員、音樂家或歌手是誰？",
+    "WhatIsYourFavoriteMovie": "您最喜歡的電影是什麼？",
+    "WhatIsYourFavoriteColor": "您最喜歡的顏色是什麼？"
+  },
+  "sectors": {
+    "AerospaceAndDefence": "航太與國防",
+    "Agricultural": "農業",
+    "Automotive": "汽車",
+    "BusinessServices": "商業服務",
+    "EnergyAndRenewables": "能源與可再生能源",
+    "FinancialServices": "金融服務",
+    "FinancialSponsors": "財務發起人",
+    "FoodAndDrink": "食物和飲料",
+    "GovernmentAndPublicSector": "政府與公共部門",
+    "Healthcare": "醫療保健",
+    "Industrial": "工業",
+    "Infrastructure": "基礎設施",
+    "Insurance": "保險",
+    "LegalServices": "法律服務",
+    "Leisure": "休閒",
+    "Manufacturing": "製造",
+    "Media": "媒體",
+    "MetalsAndMining": "金屬與礦業",
+    "OilAndGas": "石油與天然氣",
+    "Other": "其他",
+    "PrivateEquity": "私募股權",
+    "RealEstate": "房地產",
+    "Retail": "零售",
+    "Technology": "技術",
+    "Telecommunications": "電信",
+    "Transport": "運輸"
+  },
+  "functions": {
+    "FinancialAdvisor": "財務顧問",
+    "LegalAdvisor": "法律顧問",
+    "PrivateEquity": "私募股權",
+    "Corporate": "企業",
+    "TransactionalServices": "交易服務",
+    "RealEstate": "房地產",
+    "Other": "其他"
+  },
+  "jobTitles": {
+    "ManagingDirector": "常務董事",
+    "Director": "總監",
+    "ExecutiveDirector": "執行董事",
+    "VicePresident": "副總裁",
+    "AssociateDirector": "副總監",
+    "Manager": "經理",
+    "Associate": "員工",
+    "Analyst": "分析師",
+    "Executive": "高階主管",
+    "Partner": "合作夥伴",
+    "ManagingAssociate": "管理助理",
+    "Trainee": "受訓人員",
+    "Paralegal": "律師助理",
+    "LegalDirector": "法務總監",
+    "OfCounsel": "法律顧問",
+    "OperationsPartner": "營運合作夥伴",
+    "OperationsManager": "營運經理",
+    "InvestmentDirector": "投資總監",
+    "InvestmentManager": "投資經理",
+    "Principal": "主要",
+    "CEO": "執行長",
+    "CFO": "財務長",
+    "MAndADirector": "併購總監",
+    "MAndAManager": "併購經理",
+    "GeneralCounsel": "總法律顧問",
+    "Strategy": "策略",
+    "LegalCounsel": "法律顧問",
+    "Other": "其他"
+  },
+  "passwordPolicyTypes": {
+    "singular": {
+      "length": "最少 1 個字元",
+      "upperCase": "大寫字母",
+      "lowerCase": "小寫字母",
+      "digits": "號碼",
+      "specialChars": "特殊字元"
+    },
+    "plural": {
+      "length": "最少 {{value}} 個字元",
+      "upperCase": "{{value}} 大寫字母",
+      "lowerCase": "{{value}} 小寫字母",
+      "digits": "{{value}} 號碼",
+      "specialChars": "{{value}} 特殊字元"
+    }
+  },
+  "dealTypes": {
+    "subcategory": {
+      "buySideMa": "購買方併購",
+      "sellSideMa": "銷售方併購",
+      "postMergerIntegration": "合併後整合",
+      "teaserImDistribution": "預告即時通訊分配",
+      "fundraising": "募款",
+      "secondaries": "借調",
+      "fundReportingInvestorRelations": "基金報告/投資者關係",
+      "portfolioManagement": "投資組合管理",
+      "assetSaleIpo": "資產銷售/IPO",
+      "npls": "NPL",
+      "securitization": "證券化",
+      "syndicatedLoan": "聯合貸款",
+      "restructuring": "重組",
+      "privatePlacements": "私人安置",
+      "ipoRightsIssues": "IPO 與權利問題",
+      "roadshows": "路演",
+      "assetManagement": "資產管理",
+      "assetSales": "資產銷售",
+      "pharmaceuticalsLicensing": "藥品授權",
+      "jointVentures": "合資企業",
+      "auditorReviewCompliance": "稽核員審查與合規",
+      "antitrustClassActionLawsuits": "反壟斷集體訴訟",
+      "other": "其他"
+    },
+    "category": {
+      "ma": "併購",
+      "privateEquity": "私募股權",
+      "debts": "債務",
+      "equity": "股票",
+      "realEstate": "房地產",
+      "pharma": "製藥",
+      "tendering": "招標",
+      "courtProceedings": "訴訟",
+      "otherDealType": "其他交易類型"
+    }
+  },
+  "errorCodes": {
+    "passwordIsTooSimilar": "密碼與前 5 個密碼太相似。"
+  },
+  "timeZones": {
+    "greenwichMeanTime": "格林威治標準時間",
+    "hongKongTime": "香港時間",
+    "indianStandardTime": "印度標準時間",
+    "singaporeStdTime": "新加坡標準時間",
+    "southAfricanStandardTime": "南非標準時間",
+    "arabStandardTimeKuwaitRiyadh": "阿拉伯標準時間（科威特、利雅德）",
+    "arabianStandardTimeAbuDhabiMuscat)": "阿拉伯標準時間 （阿布達比、馬斯喀特）",
+    "gulfStandardTime": "海灣標準時間",
+    "moscowTime": "莫斯科時間",
+    "australianWesternStandardTime": "澳洲西部標準時間",
+    "chinaStandardTime": "中國標準時間",
+    "malaysiaTime": "馬來西亞時間",
+    "japanStandardTime": "日本標準時間",
+    "atlanticStandardTime": "大西洋標準時間",
+    "australianCentralStandardTime": "澳洲中部標準時間",
+    "australianEasternStandardTime": "澳洲東部標準時間",
+    "brasilia": "巴西",
+    "easternStandardTime": "東部標準時間",
+    "centralStandardTime": "中部標準時間",
+    "mountainStandardTime": "山地標準時間",
+    "pacificStandardTime": "太平洋標準時間",
+    "alaskaStandardTime": "阿拉斯加標準時間",
+    "centralEuropeanTime": "歐洲中部時間",
+    "easternEuropeanTime": "東歐時間",
+    "westernIndonesianTime": "西印尼時間",
+    "easternAfricaTimeNairobi": "東非時間（奈洛比）",
+    "israelStandardTimeJerusalem": "以色列標準時間（耶路撒冷）"
+  }
+}

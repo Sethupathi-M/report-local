@@ -1,0 +1,2999 @@
+{
+  "routing": {
+    "navigationBarElements": {
+      "dashboard": "Panel de control",
+      "contents": "Contenido",
+      "teamsAndUsers": "Equipos y usuarios",
+      "qa": "Preguntas y respuestas",
+      "reports": "Informes",
+      "uploads": "Cargas",
+      "downloads": "Descargas",
+      "settings": "Configuración",
+      "dataRooms": "Salas de datos",
+      "vdrUsers": "Usuarios de VDR",
+      "templates": "Plantillas",
+      "inviteUsers": "Invitar usuarios"
+    }
+  },
+  "sessionTimeout": {
+    "sessionTimeout": "Tiempo de espera de sesión agotado",
+    "modalMessagePartOne": "Usted permanece inactivo durante casi 60 minutos. Cerraremos su sesión en 5 minutos por motivos de seguridad.",
+    "modalMessagePartTwo": "Se perderán todos los cambios no guardados.",
+    "iAmHere": "Estoy aquí"
+  },
+  "common": {
+    "confirmChanges": "Confirmar cambios",
+    "answer": "Respuesta",
+    "select": "Seleccionar",
+    "typeAndSelect": "Escriba y seleccione",
+    "requiredField": "Este campo es obligatorio",
+    "wrongPassword": "La contraseña es incorrecta",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "enter": "Ingresar",
+    "enterPassword": "Ingresar contraseña",
+    "passwordsDoNotMatch": "Las contraseñas deben ser las mismas",
+    "enterEmail": "Ingresar correo electrónico",
+    "enterMobile": "Ingrese el número de teléfono móvil",
+    "invalidEmailAddress": "Dirección de correo electrónico no válida",
+    "InvalidUserName": "Nombre de usuario no válido",
+    "InvalidUserLastName": "Apellido de usuario no válido",
+    "phoneNumberTooShort": "El número de teléfono es demasiado corto",
+    "changePassword": "Cambiar contraseña",
+    "passwordExpirationWarning_oneOrZero": "Su contraseña está configurada para caducar",
+    "passwordExpirationWarning": "Su contraseña está configurada para vencer en {{count}} días",
+    "close": "Cerrar",
+    "back": "Parte posterior",
+    "create": "Crear",
+    "uploadFile": "Cargar archivo",
+    "form": "Formulario",
+    "togglePasswordVisibility": "Alternar visibilidad de contraseña",
+    "toggleConfirmPasswordVisibility": "Alternar la visibilidad de confirmación de contraseña",
+    "serverError": "Se produjo un error al conectarse al servidor",
+    "checkIsRequired": "Obligatorio",
+    "selectionIsRequired": "Se requiere selección",
+    "questionMark": "?",
+    "submit": "Enviar",
+    "view": "Ver",
+    "update": "Actualizar",
+    "moderate": "Moderado",
+    "review": "Revisar",
+    "delete": "Eliminar",
+    "listEmpty": "La lista está vacía",
+    "details": "Detalles",
+    "edit": "Editar",
+    "remove": "Eliminar",
+    "downloadPdf": "Descargar PDF",
+    "downloadNative": "Descargar",
+    "downloadContent": "Descargar",
+    "replace": "Reemplazar",
+    "copy": "Copiar",
+    "cut": "Corte",
+    "share": "Compartir",
+    "paste": "Pegar",
+    "link": "Enlace",
+    "unlink": "Desvincular",
+    "emptyBin": "Recipiente vacío",
+    "emptyMasterBin": "Recipiente maestro vacío",
+    "search": "Buscar",
+    "bidders": "Licitantes",
+    "sellers": "Vendedores",
+    "buyers": "Compradores",
+    "internal": "Interno",
+    "external": "Externo",
+    "users": "Usuarios",
+    "experts": "Expertos",
+    "makeChanges": "Editar",
+    "print": "Imprimir",
+    "countryOfResidence": "País de residencia",
+    "stepperProgress": "<strong>Paso {{activeStep}}</strong> de {{allSteps}}",
+    "sendRequest": "Enviar solicitud",
+    "required": "Obligatorio",
+    "exportIndexAsExcel": "Exportar a Excel",
+    "exportIndexAsPdf": "Exportar a PDF",
+    "operationInProgress": "Operación en curso...",
+    "successEmailSentMessage": "Correo electrónico enviado correctamente",
+    "failureEmailSentMessage": "No se puede enviar el correo electrónico "
+  },
+  "views": {
+    "adminPanel": {
+      "templates": {
+        "templates": "Plantillas"
+      },
+      "vdrUsers": {
+        "vdrUsers": "Usuarios de VDR",
+        "listOfUsers": "Lista de usuarios",
+        "table": {
+          "header": {
+            "name": "Nombre",
+            "email": "Correo electrónico",
+            "company": "Nombre de la compañía"
+          },
+          "details": {
+            "emailVerificationtooltip": "Verificación de correo electrónico pendiente",
+            "securityQuestion": "Pregunta de seguridad",
+            "securityAnswer": "Respuesta de seguridad",
+            "mobilePhoneNumber": "Número de teléfono móvil",
+            "deskPhoneNumber": "Número de teléfono alternativo",
+            "countryOfResidence": "País de residencia",
+            "sector": "Sector",
+            "function": "Función",
+            "jobTitle": "Cargo",
+            "userDataRooms": {
+              "dataRoomName": "Nombre de la sala de datos",
+              "status": "Estado",
+              "teamName": "Nombre del equipo",
+              "role": "Función",
+              "enterDataRoom": "Ingresar sala de datos"
+            }
+          },
+          "rowActions": "Acciones de fila de usuarios"
+        }
+      }
+    },
+    "customerSupport": {
+      "title": "Equipo de Servicio al Cliente",
+      "content": "Estamos disponibles para usted las 24 horas del día, los 7 días de la semana\nEnviar mensaje a través del formulario, correo electrónico ({{supportEmail}})\no llámenos: {{phone}}",
+      "button": {
+        "cancel": "Cancelar",
+        "sendMessage": "Enviar mensaje"
+      },
+      "placeholder": "Díganos qué sucedió",
+      "errorMessage": "Este campo es obligatorio",
+      "header": {
+        "close": "Cerrar"
+      },
+      "internationalNumbers": "Números internacionales",
+      "messageHeader": "Mensaje",
+      "toasts": {
+        "failure": "No se pudo enviar su mensaje, inténtelo de nuevo más tarde.",
+        "success": "Su mensaje se ha enviado correctamente."
+      }
+    },
+    "contents": {
+      "contents": "Contenido",
+      "contentsTree": "Índice",
+      "contentsTreeEmptyState": "No hay archivos en la sala de datos",
+      "contentsTreeNodeAriaLabel": "Opciones de menú para {{itemName}}",
+      "startReviewOnOpen": "El documento está esperando revisión",
+      "openOrStartReviewDialog": {
+        "title": "El documento está esperando revisión",
+        "content": "Este documento está esperando su revisión. Puede abrirlo para leerlo normalmente o comenzar a revisar el proceso.",
+        "decision": "¿Qué le gustaría hacer?",
+        "extraConfirm": "Solo abierto",
+        "confirm": "Iniciar revisión"
+      },
+      "contentList": {
+        "header": {
+          "creationDate": "Fecha agregada",
+          "name": "Nombre",
+          "numbering": "N.o",
+          "rootIndex": "Índice raíz",
+          "labels": "Etiquetas",
+          "selectAllRows": {
+            "fetchingTooltip": "Cargando artículos..."
+          }
+        },
+        "body": {
+          "moreLabels": "+{{count}}",
+          "sessionsTooltip": "Primero debe publicar una sesión para desbloquear la adición de etiquetas al elemento",
+          "labelPopover": {
+            "createNew": "Crear nuevo",
+            "placeholder": "Nombre de etiqueta...",
+            "labels": "Etiquetas",
+            "add": "Agregar",
+            "error": {
+              "labelExists": "Nombre ya tomado"
+            }
+          },
+          "labelDeleteModal": {
+            "content": "¿Eliminar etiqueta?"
+          }
+        },
+        "dragAndDropAvailableInfo": "También puede arrastrar y soltar archivos para comenzar a cargar.",
+        "sort": {
+          "buttonText": "Ordenar",
+          "options": {
+            "numberAsc": "Número ascendente",
+            "numberDesc": "Número descendente",
+            "nameAsc": "Nombre ascendente",
+            "nameDesc": "Nombre descendente",
+            "newest": "Más reciente",
+            "oldest": "Más antiguo",
+            "popularity": "Popularidad"
+          }
+        }
+      },
+      "documentDetails": {
+        "header": "Detalles del documento",
+        "name": "Nombre",
+        "dateAdded": "Fecha agregada",
+        "uploadedBy": "Cargado por",
+        "conversionStatus": "Estado de conversión",
+        "conversionStatuses": {
+          "conversionCompleted": "Conversión completada",
+          "none": "Ninguno",
+          "processing": "Procesamiento",
+          "conversionFailed": "No se puede convertir el archivo",
+          "searchable": "Buscable",
+          "notSearchable": "No se puede buscar"
+        },
+        "statusDate": "Fecha de estado",
+        "convertedFileSize": "Tamaño del archivo convertido",
+        "nativeFileSize": "Tamaño del archivo nativo",
+        "nativeFileType": "Tipo de archivo nativo",
+        "pageCount": "Recuento de páginas",
+        "irm": {
+          "labelText": "Gestión de derechos de información (Information Rights Management, IRM)",
+          "irmOptions": {
+            "no": "No",
+            "yes": "Sí"
+          }
+        },
+        "statusDetails": "Detalles del estado",
+        "statusesDetails": {
+          "passwordProtected": "Archivo protegido con contraseña.",
+          "unidentifiedIssue": "Problema no identificado.",
+          "fileCouldNotBeConverted": "No se pudo convertir el archivo."
+        },
+        "reviewStatus": "Revisar estado",
+        "startReview": "Iniciar revisión",
+        "finishReview": "Finalizar revisión",
+        "contactSupport": "Comuníquese con el equipo de Servicio al Cliente",
+        "thumbnailPreview": "Vista previa de la miniatura",
+        "thumbnailFailed": "Falló la miniatura",
+        "next": "Siguiente",
+        "prev": "Anterior",
+        "reviewing": "Revisión",
+        "pending": "Pendiente",
+        "returnedComplete": "Devuelto completo",
+        "returnedIncomplete": "Devuelto incompleto",
+        "selectReviewStatus": "Seleccionar estado de revisión"
+      },
+      "bulkRename": {
+        "bulkRename": "Cambio de nombre masivo",
+        "newName": "Nuevo nombre",
+        "noItemsHeaderText": "Nada que mostrar",
+        "noItemsSecondaryText": "Seleccione un índice/carpeta diferente",
+        "toastMessages": {
+          "success": "Los elementos se cambiaron correctamente:",
+          "importSuccess": "Renombrar fuente masiva importada correctamente",
+          "importInProgressMessage": "Importando fuente de cambio de nombre masivo en curso...",
+          "failure": "No se pueden cambiar los nombres de los elementos:",
+          "sessionLockFailure": "No se pueden modificar los elementos: {{count}}. Están bloqueados por otro usuario.",
+          "invalidFormat": "No se puede importar la fuente de cambio de nombre masivo. El archivo debe estar en formato XLSM.",
+          "unrecognisedFileStructure": "No se puede importar la fuente de cambio de nombre masivo. No se pudo reconocer la estructura del archivo.",
+          "importAlreadyInProgress": "No puede usar el cambio de nombre masivo porque la importación está en curso. Inténtelo de nuevo más tarde.",
+          "someItemsNotAccessible": "Los elementos de las siguientes celdas ya no existen o ya no son accesibles para usted: {{cells}}",
+          "invalidNames": "Los nombres proporcionados en las siguientes celdas contienen caracteres ilegales: {{cells}}",
+          "genericError": "No se puede importar la fuente de cambio de nombre masivo"
+        },
+        "exportFeed": {
+          "buttonName": "Exportar",
+          "success": {
+            "title": "Preparación de la alimentación masiva de cambio de nombre",
+            "link": "Mostrar cola"
+          },
+          "failure": {
+            "title": "No se puede exportar la alimentación para el cambio de nombre masivo"
+          }
+        },
+        "importFeed": {
+          "buttonName": "Importar"
+        },
+        "searchPlaceholder": "Buscar nombre de artículo...",
+        "itemsFound": "Artículos encontrados:",
+        "removeAll": "Eliminar todo",
+        "ignore": "Ignorar",
+        "cantModifyItemNamePrompt": "No tiene permisos para editar el nombre de este elemento."
+      },
+      "hide": "Ocultar",
+      "show": "Mostrar",
+      "contentsRootLogoAlt": "Logotipo raíz de contenido",
+      "assignForReview": "Asignar para revisión",
+      "assignAnotherUserForReview": "Asignar otro usuario",
+      "finishReview": "Finalizar revisión",
+      "add": "Agregar",
+      "folder": "Carpeta",
+      "placeholder": "Marcador de posición",
+      "shortcut": "Acceso directo",
+      "hyperlink": "Enlace URL",
+      "upload": "Cargar",
+      "collapseAll": "Contraer todo",
+      "expandAll": "Expandir todo",
+      "editProperties": "Editar propiedades",
+      "reviewStartedSuccess": "La revisión del documento se inició correctamente",
+      "reviewStartedFailure": "No se puede iniciar la revisión del documento",
+      "backReviewToPending": "Volver a Revisión pendiente",
+      "backToPendingSuccess": "El estado del documento se cambió correctamente",
+      "backToPendingFailure": "No se puede cambiar el estado del documento",
+      "withdrawFromReview": "Retirarse de la revisión",
+      "withdrawSuccess": "Documento retirado correctamente",
+      "withdrawFailure": "No se puede retirar el documento",
+      "assignForReviewForm": {
+        "selectReviewers": "Seleccionar revisores",
+        "setDate": "Establecer fecha de vencimiento",
+        "selectDate": "Seleccionar fecha",
+        "addComment": "Agregar comentario",
+        "typeComment": "Escriba el comentario",
+        "sendReview": "Enviar para revisión",
+        "successMessage": "Documentos asignados para revisión correctamente: {{count}}",
+        "failureMessage": "No se pueden asignar documentos para revisión: {{count}}"
+      },
+      "indexExport": {
+        "toast": {
+          "error": {
+            "title": "Error al preparar el paquete de descarga."
+          },
+          "success": {
+            "title": "Preparación del paquete de descarga.",
+            "link": "Mostrar cola"
+          }
+        }
+      },
+      "assignAnotherUserForReviewForm": {
+        "successMessage": "Usuarios asignados al documento correctamente",
+        "failureMessage": "No se pueden asignar usuarios al documento"
+      },
+      "finishReviewForm": {
+        "finishReview": "Finalizar revisión",
+        "successMessage": "Revisiones de documentos finalizadas correctamente: {{count}}",
+        "failureMessage": "No se pueden finalizar las revisiones de documentos: {{count}}",
+        "commentRequired": "El comentario es obligatorio",
+        "completeStatus": "Seleccionar estado de revisión"
+      },
+      "addItemForm": {
+        "addFolder": "Agregar carpeta",
+        "close": "Cerrar",
+        "enterFolderName": "Ingrese el nombre de la carpeta",
+        "remove": "Eliminar",
+        "addNext": "Agregar más",
+        "save": "Guardar",
+        "cancel": "Cancelar",
+        "folderNameEmptyErrorMessage": "Se requiere el nombre de la carpeta.",
+        "folderNameContainsInvalidCharacters": "El nombre de la carpeta que especificó contiene caracteres no válidos.",
+        "folderCreateSuccess": "Carpetas creadas correctamente: {{count}}",
+        "folderCreateFailure": "No se pueden crear carpetas: {{count}}",
+        "addIndex": "Agregar índice",
+        "indexNameEmptyErrorMessage": "Se requiere el nombre del índice.",
+        "indexNameContainsInvalidCharacters": "El nombre del índice que especificó contiene caracteres no válidos.",
+        "enterIndexName": "Ingrese el nombre del índice",
+        "indexAlreadyExists": "Esta sala de datos ya contiene un índice denominado {{name}}.",
+        "indexCreateSuccess": "El índice se creó correctamente.",
+        "indexCreateFailure": "No se puede crear el índice.",
+        "addPlaceholder": "Agregar marcador de posición",
+        "placeholderNameEmptyErrorMessage": "Se requiere el nombre del marcador de posición.",
+        "placeholderNameEmptyErrorMessageNameContainsInvalidCharacters": "El nombre del marcador de posición que especificó contiene caracteres no válidos.",
+        "enterPlaceholderName": "Ingrese el nombre del marcador de posición",
+        "placeholderCreateSuccess": "Marcadores de posición creados correctamente: {{count}}",
+        "placeholderCreateFailure": "No se pueden crear marcadores de posición: {{count}}",
+        "addHyperlink": "Agregar enlace URL",
+        "hyperlinkCreateSuccess": "Enlaces URL creados correctamente: {{count}}",
+        "hyperlinkCreateFailure": "No se pueden crear enlaces URL: {{count}}",
+        "itemUploadSuccess": "Carga completada para {{count}} los artículos.",
+        "itemUploadFailure": "No se pueden cargar los elementos: {{count}}",
+        "itemReplaceSuccess": "Artículo reemplazado correctamente",
+        "itemReplaceFailure": "No se puede reemplazar el artículo.",
+        "itemReplaceNonexistingItem": "No se puede reemplazar el elemento porque no existe o se ha cambiado. Actualice la página.",
+        "invalidUrl": "El enlace URL no es válido.",
+        "hyperlinkNameEmptyErrorMessage": "El nombre del enlace URL es obligatorio.",
+        "enterHyperlinkName": "Ingrese el nombre del enlace URL",
+        "enterUrl": "Ingrese la dirección del sitio web del enlace URL",
+        "addShortcut": "Agregar acceso directo",
+        "enterItemName": "Ingrese el nombre del artículo",
+        "enterShortcutName": "Ingresar nombre de acceso directo",
+        "searchAndSelect": "Buscar y seleccionar",
+        "noOptions": "No se encontró ninguna coincidencia",
+        "shortcutNameEmptyErrorMessage": "Se requiere el nombre de acceso directo.",
+        "shortcutRefIsMandatory": "Se requiere un elemento de referencia de acceso directo.",
+        "shortcutRefLeadsToTempFolderWarning": "El acceso directo conduce a la carpeta Temp y es posible que no sea visible para todos los usuarios en la sala de datos.",
+        "shortcutCreateSuccess": "Atajos creados correctamente: {{count}}",
+        "shortcutCreateFailure": "No se puede crear el acceso directo: {{count}}",
+        "defaultEmptyItemNameMessage": "El nombre del artículo está vacío",
+        "defaultItemNameContainsInvalidCharactersMessage": "El nombre del artículo contiene caracteres no válidos",
+        "defaultAddItemMessage": "Agregar artículo",
+        "defaultEnterItemName": "Ingrese el nombre del artículo",
+        "defaultItemName": "Nombre del artículo",
+        "defaultItemCreateSuccess": "La creación del artículo se realizó correctamente",
+        "defaultItemCreateFailure": "Falló la creación del artículo",
+        "autoNumbering": {
+          "autoNumbering": "Numeración automática",
+          "prefix": "Prefijo",
+          "enterPrefix": "Ingresar prefijo",
+          "convention": "Convención",
+          "defineCustomConvention": "Definir Convención Personalizada",
+          "none": "Ninguno",
+          "numeric": "Numérico",
+          "alphabetic": "Alfabético",
+          "roman": "Romano",
+          "custom": "Personalizado",
+          "result": "Resultado",
+          "descriptionHeader": "Puede usar los siguientes símbolos:",
+          "numberDescription": "significa un número",
+          "upperCaseLetterDescription": "significa una letra mayúscula",
+          "lowerCaseLetterDescription": "significa una letra minúscula",
+          "upperCaseRomanNumberDescription": "significa un número romano en mayúscula",
+          "lowerCaseRomanNumberDescription": "significa un número romano en minúscula",
+          "numberingConventionIncorrectErrorMessage": "El patrón de numeración que especificó es incorrecto. Consulte las instrucciones.",
+          "customConventionEmptyErrorMessage": "La Convención Personalizada es obligatoria.",
+          "customConventionPlaceholder": "Ingresar Convención"
+        },
+        "applyHiddenPermissionLabel": "Aplicar permiso oculto",
+        "hint": {
+          "header": "Herencia de permisos",
+          "message": "Tenga en cuenta que el acceso directo heredará el permiso del elemento de destino."
+        }
+      },
+      "editItem": {
+        "index": {
+          "success": "Las propiedades del índice se actualizaron correctamente.",
+          "failure": "No se pueden actualizar las propiedades del índice.",
+          "name": "Nombre del índice"
+        },
+        "hyperlink": {
+          "success": "Las propiedades de URL Link se actualizaron correctamente.",
+          "failure": "No se pueden actualizar las propiedades del enlace URL.",
+          "name": "Nombre del hipervínculo",
+          "url": "Enlace URL"
+        },
+        "shortcut": {
+          "success": "Las propiedades de acceso directo se actualizaron correctamente.",
+          "failure": "No se pueden actualizar las propiedades de acceso directo.",
+          "name": "Nombre del ahorcado",
+          "itemName": "Nombre del artículo",
+          "hint": {
+            "header": "Herencia de permisos",
+            "message": "Tenga en cuenta que el acceso directo heredará el permiso del elemento de destino."
+          }
+        },
+        "item": {
+          "success": "El artículo se cambió de nombre correctamente.",
+          "failure": "No se puede cambiar el nombre del elemento."
+        },
+        "placeholder": {
+          "name": "Nombre del marcador de posición"
+        },
+        "document": {
+          "name": "Nombre del documento",
+          "nameIsMandatory": "Se requiere el nombre del documento."
+        },
+        "folder": {
+          "name": "Nombre de carpeta"
+        },
+        "defaultItem": {
+          "success": "La actualización del artículo se realizó correctamente",
+          "failure": "Falló la actualización del artículo"
+        },
+        "editItemNotFound": "No se puede modificar el elemento porque no existe o se ha cambiado. Actualice la página."
+      },
+      "predefinedFolders": {
+        "favorites": "Favoritos",
+        "tempFolder": "Carpeta temporal",
+        "emailUpdates": "Actualizaciones por correo electrónico",
+        "q&aAttachments": "Adjuntos de preguntas y respuestas",
+        "bin": "Papelera",
+        "masterBin": "Papelera maestra",
+        "indexContainer": "Índices"
+      },
+      "uploadFiles": {
+        "hint": {
+          "header": "Cargando carpetas vacías.",
+          "message": "Al cargar una estructura con carpetas vacías, utilice la función de arrastrar y soltar."
+        },
+        "uploadTo": "Cargar en:",
+        "selectFilesFrom": "Seleccionar de",
+        "dragAndDropLine1": "Suelte los archivos aquí",
+        "dragAndDropLine2": "Archivos, archivos, carpetas",
+        "fileExtensionIsNotSupported": "La extensión del archivo no {{extension}} es compatible.",
+        "fileExtensionsAreNotSupported": "Extensiones de archivo {{extensions}} y no {{lastExtension}} son compatibles.",
+        "fileWithoutExtensions": "Los archivos no tienen extensión: {{count}}",
+        "invalidFileName": "Los nombres de archivo contienen caracteres no válidos \\ / | * : \" ? < >: {{count}}",
+        "selectedItems": "Elementos seleccionados: {{count}}",
+        "removeAll": "Eliminar todo",
+        "addMoreFilesFrom": "Agregar más de",
+        "otherSources": "Otras fuentes",
+        "cancel": "Cancelar",
+        "upload": "Cargar",
+        "remove": "Eliminar",
+        "seeList": "Ver lista",
+        "sourceNames": {
+          "localStorageFile": "Archivos de almacenamiento local",
+          "localStorageFolder": "Carpetas de almacenamiento local",
+          "googleDrive": "Google Drive",
+          "dropBox": "Buzón",
+          "oneDrive": "OneDrive",
+          "sharepoint": "Sharepoint",
+          "boxCom": "Box.com"
+        },
+        "configurationSections": {
+          "options": "Opciones",
+          "openUploadSettings": "Abrir configuración de carga",
+          "applyHiddenPermission": {
+            "sectionText": "Aplicar permiso oculto",
+            "options": {
+              "no": "No",
+              "yes": "Sí"
+            },
+            "description": "El/los documento(s) se ocultarán a todos los licitantes y equipos de subacuerdos. De lo contrario, se aplicará el permiso de la carpeta principal."
+          },
+          "extractAllCompressedFiles": {
+            "sectionText": "Extraer todos los archivos comprimidos",
+            "options": {
+              "no": "No",
+              "yes": "Sí"
+            }
+          },
+          "notify": {
+            "sectionText": "Notificar",
+            "options": {
+              "no": "No",
+              "asPerUserSettings": "Según la configuración del usuario",
+              "immediatelyToUsersWithSettingsEnabled": "Inmediatamente a usuarios con la configuración habilitada"
+            }
+          }
+        },
+        "uploadStatusPreview": {
+          "remainingUploadItems": "Cargando... Artículos restantes: {{count}}.",
+          "failedUploadItems": "Problemas: {{count}}.",
+          "showQueue": "Mostrar cola"
+        },
+        "cancelUploadConfirmationDialog": {
+          "title": "Descartar carga",
+          "content": {
+            "cancelQuestion": "¿Está seguro de que desea descartar la carga de estos archivos?",
+            "cancelConfirm": "Si lo confirma, se borrará el paquete de carga."
+          },
+          "confirm": "Continuar",
+          "cancel": "Cancelar"
+        },
+        "lockedDestinationFolderMessage": "No se puede realizar la acción. Los archivos se están cargando en esta carpeta.",
+        "uploadFolderStructureCreationMessage": "Creando estructura de carpetas para cargar..."
+      },
+      "deleteItem": {
+        "delete": "Eliminar",
+        "deleteConfirmationDialog": {
+          "title": "Confirmar eliminación",
+          "content": {
+            "delete": "¿Está seguro de que desea eliminar el/los elemento(s) seleccionados?",
+            "deleteFromBin": "¿Está seguro de que desea eliminar el/los artículo(s) seleccionados de la Papelera?",
+            "deleteFromMasterBin": "¿Está seguro de que desea eliminar permanentemente el/los elemento(s) seleccionados?"
+          }
+        },
+        "deleteItemSuccess": {
+          "delete": "Elementos eliminados correctamente: {{count}}",
+          "deleteFromMasterBin": "Elementos eliminados correctamente: {{count}}"
+        },
+        "deleteItemFailure": {
+          "delete": "No se pueden eliminar los elementos: {{count}}",
+          "deleteFromMasterBin": "No se pueden eliminar los elementos: {{count}}"
+        },
+        "deleteItemNotFound": "{{count}} elemento(s) no se pudo eliminar. Los elementos no existen o se han cambiado. Actualice la página."
+      },
+      "emptyItem": {
+        "emptyItemConfirmationDialog": {
+          "title": "Confirmar eliminación",
+          "content": {
+            "bin": "¿Está seguro de que desea vaciar el contenedor?",
+            "masterBin": "¿Está seguro de que desea vaciar el contenedor maestro?"
+          }
+        },
+        "emptyItemSuccess": {
+          "bin": "La papelera se vació correctamente",
+          "masterBin": "El contenedor maestro se vació correctamente"
+        },
+        "emptyItemFailure": {
+          "bin": "No se puede vaciar el contenedor",
+          "masterBin": "No se puede vaciar el contenedor maestro"
+        }
+      },
+      "favorites": {
+        "add": "Agregar a favoritos",
+        "remove": "Eliminar de los favoritos",
+        "addSuccess": "Artículos agregados a Favoritos: {{count}}",
+        "addFailure": "No se pueden agregar artículos a los favoritos: {{count}}",
+        "removeSuccess": "Artículos eliminados de los favoritos: {{count}}",
+        "removeFailure": "No se pueden eliminar los artículos de Favoritos: {{count}}"
+      },
+      "copyItem": {
+        "success": "Artículos pegados correctamente: {{count}}",
+        "failure": "No se pueden pegar los elementos: {{count}}",
+        "itemNotFound": "No se pueden pegar los elementos porque no existen o se han cambiado.  Actualice la página.",
+        "targetNotValid": "No puede pegar elementos en ninguno de los copiados.",
+        "targetCannotBeTempFolder": "{{count}} No se pudo pegar el/los atajo(s). No puede pegar atajos a la carpeta temporal."
+      },
+      "moveItem": {
+        "success": "Elementos movidos: {{count}}",
+        "failure": "No se pueden mover los elementos: {{count}}",
+        "itemNotFound": "{{count}} los elementos no se pudieron mover porque los elementos no existen o se han cambiado. Actualice la página.",
+        "targetNotValid": "No puede pegar elementos en ninguno de los elementos cortados.",
+        "moveToInvalidTarget": "No puede mover elementos a los elementos que se están moviendo.",
+        "moveToHiddenFolderConfirmationDialog": {
+          "title": "Uno o más artículos se ocultarán en la nueva ubicación",
+          "content": "¿Está seguro de que desea continuar?",
+          "confirm": "Sí",
+          "cancel": "No"
+        }
+      },
+      "shortcuts": {
+        "brokenShortcutConfirmationDialog": {
+          "title": "Acceso directo no válido",
+          "content": "Se eliminó el archivo vinculado a este acceso directo. Ya no es accesible.\n¿Qué quiere hacer?"
+        },
+        "deleteShortcut": "Eliminar acceso directo"
+      },
+      "uploadQueue": {
+        "status": {
+          "failed": "No exitoso",
+          "success": "Éxito",
+          "cancelled": "Cancelado",
+          "partiallyFinished": "Parcialmente terminado"
+        },
+        "drawerTitle": "Cargar cola",
+        "button": {
+          "close": "Cerrar",
+          "minimise": "Minimizar",
+          "cancel": "Cancelar",
+          "cancelAll": "Cancelar todo"
+        },
+        "emptyQueueMessageHeader": "No hay elementos en la cola",
+        "emptyQueueMessageContent": "todas las cargas han finalizado",
+        "closeDrawerConfirmationDialog": {
+          "title": "Cerrar cola de carga",
+          "content": "¿Está seguro de que desea cerrar la cola de carga? Se perderá toda la información relacionada con las fallas de carga.",
+          "confirm": "Continuar",
+          "cancel": "Cancelar"
+        },
+        "cancelUploadConfirmationDialog": {
+          "title": "Cancelar carga",
+          "content": "¿Está seguro de que desea cancelar la carga de estos archivos?\n\nEstos archivos se eliminarán de la sala de datos junto con todos los datos asociados.",
+          "confirm": "Cancelar carga",
+          "cancel": "Descartar"
+        },
+        "cancelAllUploadConfirmationDialog": {
+          "title": "Cancelar carga",
+          "content": "¿Está seguro de que desea cancelar la carga de estos archivos?\n\nEstos archivos se eliminarán de la sala de datos junto con todos los datos asociados.",
+          "confirm": "Cancelar carga",
+          "cancel": "Descartar"
+        }
+      },
+      "share": {
+        "drawerTitle": "Compartir",
+        "button": {
+          "close": "Cerrar",
+          "cancel": "Cancelar",
+          "share": "Compartir"
+        },
+        "documentLabel": "Documento",
+        "emailAddresses": "Agregar direcciones de correo electrónico",
+        "addComment": "Agregar comentario",
+        "validationMessage": "Ingrese en el formato: name@example.com ",
+        "typeComment": "Escriba el comentario",
+        "success": "Documento compartido correctamente",
+        "failure": "No se pudo compartir el documento. Inténtelo de nuevo.",
+        "failureNotification": "Tipo de documento desconocido."
+      },
+      "markItem": {
+        "asViewed": {
+          "buttonText": "Marcar como visto",
+          "success": "Elementos marcados como vistos correctamente: {{count}}",
+          "failure": "No se pueden marcar los elementos como vistos: {{count}}"
+        },
+        "asUnviewed": {
+          "buttonText": "Marcar como no visto",
+          "success": "Elementos marcados como no vistos correctamente: {{count}}",
+          "failure": "No se pueden marcar los elementos como no vistos: {{count}}"
+        }
+      },
+      "reprocess": {
+        "buttonText": "Reprocesar",
+        "success": "El reprocesamiento del artículo se realizó correctamente",
+        "failure": "No se puede reprocesar el artículo",
+        "itemNotFound": "El artículo no se pudo reprocesar porque no existe o se ha cambiado. Actualice la página.",
+        "processingDialog": {
+          "title": "El documento no está disponible",
+          "content": "No puede realizar esta acción, el archivo se está procesando.",
+          "confirm": "Lo tengo"
+        }
+      },
+      "replaceCorrected": {
+        "buttonText": "Reemplazar corregido",
+        "itemReplaceCorrectedSuccess": "Artículo reemplazado correctamente",
+        "itemReplaceCorrectedFailure": "No se puede reemplazar el artículo",
+        "itemReplaceCorrectedNonexistingItem": "No se puede reemplazar el elemento porque no existe o se ha cambiado. Actualice la página.",
+        "processingDialog": {
+          "title": "Documento no disponible",
+          "content": "No puede realizar esta acción, el archivo se está procesando.",
+          "confirm": "Cerrar"
+        }
+      },
+      "bulkDownload": {
+        "openBulkDownloadDialog": {
+          "title": "Descarga masiva desactivada",
+          "content": "La descarga masiva no está habilitada actualmente para este proyecto. Los archivos se pueden descargar uno a la vez.\n\nSi cree que esto debe habilitarse, comuníquese con nuestro <0>Equipo de Servicio al Cliente</0> para obtener ayuda.",
+          "confirm": "Cerrar"
+        }
+      },
+      "openPdfViewer": {
+        "openCorruptedDialog": {
+          "title": "Documento corrupto",
+          "content": "Este documento está dañado y no se puede mostrar en el visor de PDF.\n\nComuníquese con nuestro Equipo de Servicio al Cliente para obtener más ayuda.",
+          "confirm": "Cerrar"
+        },
+        "openPasswordProtectedDialog": {
+          "title": "Documento protegido con contraseña",
+          "content": "El documento está protegido con contraseña. No se puede mostrar en el visor de PDF.\n\nComuníquese con nuestro Equipo de Servicio al Cliente para obtener más ayuda.",
+          "confirm": "Cerrar"
+        },
+        "openBeingProcessedDialog": {
+          "title": "El documento se está procesando",
+          "content": "El documento se está procesando.\n\nSi tiene el permiso de acceso correspondiente, espere o elija Descargar nativo en el menú del botón derecho del mouse. Como alternativa, comuníquese con nuestro Equipo de Servicio al Cliente para obtener más ayuda.",
+          "confirm": "Cerrar"
+        },
+        "openConversionFailedDialog": {
+          "title": "Archivo no convertido",
+          "content": "Este documento no se pudo convertir a PDF y no está disponible para la vista en línea.\n\nSi tiene el permiso de acceso correspondiente, espere o elija Descargar nativo en el menú del botón derecho del mouse. Como alternativa, comuníquese con nuestro Equipo de Servicio al Cliente para obtener más ayuda.",
+          "confirm": "Cerrar"
+        },
+        "openNotAvilableOnlineDialog": {
+          "title": "Documento no disponible en línea",
+          "content": "Este documento no está disponible para su visualización en línea.\n\nSi tiene el permiso de acceso relevante, seleccione Descargar nativo en el menú del botón derecho del mouse. Como alternativa, comuníquese con nuestro Equipo de Servicio al Cliente para obtener más ayuda.",
+          "confirm": "Lo tengo"
+        }
+      },
+      "contentDownload": {
+        "title": "Seleccione los documentos que desea descargar",
+        "buttons": {
+          "prepareDownload": "Preparar descarga",
+          "expandAll": "Expandir todo",
+          "collapseAll": "Contraer todo"
+        },
+        "toast": {
+          "error": {
+            "title": "Error al preparar el paquete de descarga."
+          },
+          "success": {
+            "title": "Preparación del paquete de descarga.",
+            "link": "Mostrar cola"
+          },
+          "warning": {
+            "title": "Los nombres de rutas de más de {{count}} caracteres pueden acortarse."
+          }
+        },
+        "totalSize": "El tamaño de archivo(s) solicitado es {{totalSize}}.",
+        "warning": "Se acortarán los nombres de las rutas que tengan más de {{count}} caracteres.",
+        "downloadRestrictions": "Este artículo tiene restricciones de descarga y no se puede incluir en la descarga masiva."
+      },
+      "downloadSelected": {
+        "button": "Descargar seleccionado"
+      },
+      "permissionManagement": {
+        "title": "Permisos",
+        "emptyGrid": {
+          "header": "No hay índices ni equipos en la sala de datos",
+          "message": "Cargue archivos o cree equipos para administrar permisos."
+        },
+        "nothingToShow": {
+          "header": "Nada que mostrar",
+          "message": "Cambie su consulta de búsqueda."
+        },
+        "header": {
+          "teamName": "{{teamName}} Equipo",
+          "reorderColumns": "Arrastre la columna para cambiar el orden"
+        },
+        "permissionLevels": {
+          "Hidden": "Oculto",
+          "FenceView": "Vista de cerca",
+          "View": "Ver",
+          "Print": "Imprimir",
+          "Download": "Descargar",
+          "Manage": "Administrar"
+        },
+        "folderOnly": "Solo carpeta",
+        "folderAndItems": "Carpeta y sus elementos",
+        "inherited": "(heredado)",
+        "permissionLocked": {
+          "owner": "Mientras modifica, bloquea a otros usuarios de las operaciones en Contenidos y Permisos.",
+          "other": "No puede modificar permisos. Están bloqueados por {{ userInfo }}",
+          "anotherUser": "otro usuario",
+          "upload": "No puede modificar permisos. Están bloqueados porque algunos usuarios están cargando archivos en la sala de datos. Inténtelo de nuevo más tarde.",
+          "session": "No puede modificar permisos. Están bloqueados debido a sesiones abiertas. Complete todas las sesiones publicando o revirtiendo cambios o comuníquese con el administrador de acuerdos, el administrador de contenido o el administrador de Sterling."
+        },
+        "unlock": "Desbloquear",
+        "takeOver": "Asumir el control",
+        "contentsLockedByPermissions": "No puede modificar los índices. Están bloqueados por otro usuario {{ userInfo }}.",
+        "exportFeed": {
+          "buttonName": "Exportar alimentación",
+          "errorMessage": "No se puede exportar la fuente de permiso",
+          "unsavedChangesDialog": {
+            "title": "Exportar alimentación",
+            "message": "Debido a cambios no guardados,\npermiso no se puede exportar.\n\nGuarde o cancele los cambios primero.",
+            "confirmButton": "Cerrar"
+          },
+          "permissionLockedMessage": {
+            "owner": "Los permisos están actualmente bloqueados debido a los cambios pendientes en la fuente de permisos.\nUna vez que importe los cambios, los permisos estarán disponibles nuevamente.",
+            "otherUser": "Los permisos están actualmente bloqueados por {{emailAddress}} debido a cambios pendientes en la fuente de permisos."
+          }
+        },
+        "takeOverDialog": {
+          "title": "Edición de permisos de toma de control",
+          "message": "¿Está seguro de que desea tomar el control de los cambios de permiso no guardados?\n\nPodrá continuar editando y otro usuario perderá la capacidad de realizar cambios.",
+          "confirmButton": "Asumir el control",
+          "cancelButton": "Cancelar"
+        },
+        "unlockDialog": {
+          "title": "Desbloquear edición de permisos",
+          "message": "¿Está seguro de que desea desbloquear permisos?\n\nSi lo confirma, se perderán todos los cambios realizados por otro usuario.",
+          "confirmButton": "Desbloquear",
+          "cancelButton": "Cancelar"
+        },
+        "importFeed": {
+          "buttonName": "Importar fuente",
+          "importInProgressMessage": "Importando fuente de permiso en curso...",
+          "importSuccess": "Fuente de permiso importada correctamente",
+          "errorMessage": {
+            "invalidFormat": "No se puede importar la fuente de permiso. El archivo debe estar en formato XLSM.",
+            "invalidFile": "No se puede importar la fuente de permiso. Seleccione el archivo descargado más recientemente.",
+            "genericError": "No se puede importar la fuente de permiso.",
+            "importInProgress": "No puede realizar esta operación en este momento. Se está importando la fuente de permiso. Espere hasta que finalice."
+          }
+        },
+        "filtering": {
+          "hint": {
+            "message": "Copiar permisos se aplica a todo el árbol de contenido"
+          },
+          "placeholder": "Buscar nombre de artículo..."
+        },
+        "viewing": {
+          "viewAsTeam": "Ver como equipo: {{team}}",
+          "viewAs": "Ver como"
+        },
+        "copyPermissions": {
+          "button": {
+            "copy": "Copiar permisos",
+            "paste": "Pegar permisos del {{teamName}} equipo",
+            "applyToVisibleTeams": "Aplicar a {{teamType}} equipos visibles"
+          },
+          "errorMessage": "No se pueden copiar los permisos a los equipos: {{count}}"
+        },
+        "button": {
+          "publish": "Publicar todo",
+          "cancel": "Cancelar",
+          "saveAsDraft": "Guardar como borrador",
+          "revertSelected": "Revertir selección"
+        },
+        "unsavedChangesDialog": {
+          "title": "Tiene cambios no guardados",
+          "content": "Está a punto de salir de esta página con cambios no guardados. Al continuar, se perderán todos los cambios.\n\nTambién puede permanecer en la página o guardar los cambios como borrador. Guardar como borrador mantendrá los permisos bloqueados y requerirá que otro usuario tome el control para editarlos.\n\n¿Cómo le gustaría continuar?",
+          "discard": "Descartar cambios",
+          "stayOnPage": "Permanecer en la página",
+          "saveAsDraft": "Guardar como borrador"
+        },
+        "revertPermissions": {
+          "counter": "Elementos seleccionados: {{count}}",
+          "noItemsSelectedWarningMessage": "No se ha seleccionado ningún elemento para revertir.",
+          "errorMessage": "No se pueden revertir los cambios."
+        },
+        "saveAsDraft": {
+          "noPermissionChangesWarning": "No hay cambios para guardar."
+        },
+        "publish": {
+          "dialog": {
+            "confirmButton": "Publicar cambios",
+            "cancelButton": "Permanecer en la página",
+            "title": "Permisos de publicación",
+            "message": "Está a punto de publicar cambios de permiso para todos los elementos en el Contenido y todos los Equipos.\n\n¿Está seguro de que desea continuar?"
+          },
+          "noPermissionsChangesPublishWarning": "No hay cambios para publicar."
+        }
+      },
+      "extractArchive": {
+        "buttonText": "Descomprimir",
+        "success": "Archivos extraídos correctamente: {{count}}",
+        "failure": "No se pueden extraer los archivos: {{count}}",
+        "failureDueToPasswordProtection": "No se pueden extraer los archivos debido a la protección con contraseña: {{count}}",
+        "itemsNotExtracted": "'Artículos no extraídos debido a extensiones de archivo no compatibles: {{count}}",
+        "buttonTextApplyHiddenPermission": "Descomprimir con permisos ocultos",
+        "inProgress": "Extracción de archivos en curso...",
+        "notFound": "No se pueden extraer los archivos porque no existen o se han cambiado. Actualice la página."
+      },
+      "addQuestion": {
+        "buttonText": "Agregar pregunta"
+      },
+      "showQuestions": {
+        "buttonText": "Mostrar preguntas"
+      },
+      "filtering": {
+        "applyFilters": "Aplicar filtros",
+        "cancel": "Cancelar",
+        "clearFilters": "Borrar filtros",
+        "filter": "Filtro",
+        "results": "{{count}} Resultados",
+        "filters": {
+          "addedDate": {
+            "label": "Se agregó",
+            "options": {
+              "anytime": "En cualquier momento",
+              "lastVisit": "Desde la última visita",
+              "last24h": "En las últimas 24 horas",
+              "dateRange": "En rango de fechas específico"
+            },
+            "addedDateFromPlaceholder": "Desde",
+            "addedDateToPlaceholder": "Para",
+            "validation": {
+              "datesEmptyError": "Se debe proporcionar al menos una de las fechas.",
+              "startAfterEndDateError": "La fecha de inicio no puede ser posterior a la fecha de fin."
+            }
+          },
+          "itemsCategory": {
+            "label": "Mostrar solamente",
+            "options": {
+              "all": "Todos",
+              "assignedForReview": "Asignado a mí",
+              "favorites": "Favoritos",
+              "printable": "Impresible",
+              "nativeFiles": "Archivos nativos",
+              "viewedByUser": "Visto por mí",
+              "notViewedByUser": "No visto por mí",
+              "specificItemTypes": "Tipos de artículos específicos"
+            }
+          },
+          "fileExtensions": {
+            "label": "Tipos de archivos nativos",
+            "placeholder": "Elegir tipo de archivo",
+            "options": {
+              "Archives": "Archivos",
+              "CAD": "Archivos CAD",
+              "Documents": "Documentos",
+              "Images": "Imágenes",
+              "Others": "Otros",
+              "Presentations": "Presentaciones",
+              "Spreadsheets": "Hojas de cálculo",
+              "Videos": "Videos"
+            }
+          },
+          "specificItemTypes": {
+            "placeholder": "Elegir tipos de artículos",
+            "options": {
+              "document": "Documento",
+              "folder": "Carpeta/Índice",
+              "placeholder": "Marcador de posición",
+              "shortcut": "Acceso directo",
+              "hyperlink": "Enlace URL"
+            }
+          },
+          "labels": {
+            "label": "Etiquetas",
+            "placeholder": "Seleccionar etiquetas",
+            "allLabelsOptionLabel": "Todas las etiquetas"
+          },
+          "teams": {
+            "label": "Filtrar equipos",
+            "placeholder": "Seleccionar equipos",
+            "allTeamsOptionLabel": "Todos los equipos",
+            "allBiddersOptionLabel": "Todos los {{ externalName }} equipos",
+            "allSubsOptionLabel": "Todos los {{ internalName }} equipos",
+            "sellersTeams": "{{ internalName }} Equipos",
+            "biddersTeams": "{{ externalName }} Equipos"
+          },
+          "notViewedBy": {
+            "label": "No visto por",
+            "placeholder": "Elegir"
+          },
+          "viewedBy": {
+            "label": "Visto por",
+            "placeholder": "Elegir"
+          }
+        }
+      },
+      "search": {
+        "backButtonLabel": "Parte posterior",
+        "changeLocationLabel": "Cambie la ubicación de búsqueda seleccionando otra carpeta en el árbol de contenidos.",
+        "resultsLabel": "da como resultado",
+        "types": {
+          "documentContent": "Documento Contenido",
+          "indexNumber": "Número de índice",
+          "itemName": "Nombre del artículo"
+        }
+      },
+      "emailUpdates": {
+        "email": "ID de correo electrónico: {{email}}",
+        "emailId": "cargar_{{referenceId}}@{{domain}}",
+        "copyEmail": "Copie el correo electrónico en el portapapeles. Utilice este correo electrónico para enviar archivos."
+      },
+      "session": {
+        "itemLockedByAnotherUser": "No puede modificar este elemento. Está bloqueado por otro usuario {{ userInfo }}.",
+        "itemLockedInSession": "Actualmente hay una sesión abierta que impide que se complete la acción. Revise la sesión para continuar."
+      },
+      "lockedItemTooltip": {
+        "lockedByMe": "El elemento está bloqueado para que usted lo edite.",
+        "lockedByOtherUser": "El elemento está bloqueado para que otro usuario lo edite.",
+        "lockedByOtherUserWithEmail": "El elemento está bloqueado para edición por {{ userInfo }}."
+      }
+    },
+    "dashboard": {
+      "dashboard": "Panel de control",
+      "hello": "Hola",
+      "dealManager": "Gerente de acuerdos",
+      "checkDetails": "Detalles del cheque",
+      "dealManagerEmail": "Dirección de correo electrónico",
+      "dealManagerMobile": "Número de teléfono móvil",
+      "noDataToDisplay": "No hay datos para mostrar",
+      "somethingWentWrong": "Algo estuvo mal",
+      "dataRoomDocumentStatistics": {
+        "title": "Estadísticas de documentos de la sala de datos",
+        "contentsOverview": "Descripción general del contenido",
+        "documentsInTotal": "Documentos en total",
+        "dataRoomDocumentSize": "Tamaño",
+        "documentsInBin": "Documentos en el contenedor",
+        "documentsPendingConversion": "Documentos pendientes de conversión",
+        "processing": "Procesamiento",
+        "failed": "Falló",
+        "onlinePages": " Páginas en línea",
+        "notConvertedFileSize": "Tamaño de archivos no convertidos"
+      },
+      "dataRoomChangesOverview": {
+        "title": "Descripción general de los cambios en la sala de datos",
+        "newDocuments": {
+          "title": "Documentos nuevos"
+        },
+        "questionsAwaitingAnswers": {
+          "title": "Nuevas preguntas a la espera de respuesta"
+        },
+        "newAnswers": "Nuevas respuestas"
+      },
+      "footer": {
+        "customerServices": "Equipo de Servicio al Cliente (las 24 horas del día, los 7 días de la semana)",
+        "email": "Correo electrónico",
+        "internationalNumbers": "Números internacionales",
+        "contactSupport": "Formulario de contacto de soporte",
+        "links": "Enlaces",
+        "giveFeedback": "Dar retroalimentación",
+        "bookTraining": "Capacitación sobre libros"
+      },
+      "dropdownTimeFilter": {
+        "sortOptions": {
+          "sinceLastVisit": "Desde la última visita",
+          "last24Hours": "Últimas 24 horas",
+          "last7Days": "Últimos 7 días"
+        }
+      },
+      "warningOpenSessionFirst": "Tiene una sesión abierta, ",
+      "warningOpenSessionSecond": "no olvide publicar los cambios."
+    },
+    "teamsAndUsers": {
+      "title": "Equipos y usuarios",
+      "tabs": {
+        "internal": {
+          "mainTeamName": "Equipo de negociación principal",
+          "subTeamNameSingular": "Subequipo",
+          "subTeamNamePlural": "Subequipos",
+          "defaultTeamName": "Subequipo {{count}}"
+        },
+        "bidders": {
+          "teamNameSingular": "{{teamName}} Equipo",
+          "teamNamePlural": "{{teamName}} Equipos",
+          "defaultTeamName": "Equipo del Licitador {{count}}"
+        }
+      },
+      "userStatuses": {
+        "invited": "Invitación enviada",
+        "active": "Activo",
+        "deleted": "Eliminado",
+        "invitationExpired": "Invitación vencida",
+        "inactive": "Desactivado",
+        "invitationDrafted": "Invitación redactada",
+        "invitationSent": "Invitación enviada",
+        "invitationRequestedByUser": "Invitación solicitada"
+      },
+      "table": {
+        "header": {
+          "checkboxLabel": "Verificar todas las filas con los usuarios para el equipo {{teamName}}",
+          "name": "Nombre",
+          "status": "Estado",
+          "email": "Correo electrónico",
+          "userRoles": "Función"
+        },
+        "roles": {
+          "UserMgrExt": "Administrador de usuarios",
+          "QAndAModeratorExt": "Moderador de preguntas y respuestas",
+          "QAndAViewOnlyExt": "Vista de preguntas y respuestas únicamente",
+          "QAndAParticipantExt": "Experto en preguntas y respuestas",
+          "DealAdminInt": "Administrador de acuerdos",
+          "UserMgrInt": "Administrador de usuarios",
+          "QAndAModeratorInt": "Moderador de preguntas y respuestas",
+          "QAndAViewOnlyInt": "Vista de preguntas y respuestas únicamente",
+          "QAndAReviewInt": "Revisor de preguntas y respuestas",
+          "QAndAExpertInt": "Experto en preguntas y respuestas",
+          "QAndAApproverInt": "Aprobador de preguntas y respuestas",
+          "ContentMgrInt": "Administrador de contenido",
+          "ContributorInt": "Colaborador",
+          "ReportMgrInt": "Gerente de informes",
+          "UserMgrSub": "Administrador de usuarios",
+          "ContentMgrSub": "Administrador de contenido",
+          "QAndAModeratorSub": "Moderador de preguntas y respuestas",
+          "QAndAViewOnlySub": "Vista de preguntas y respuestas únicamente",
+          "QAndAReviewSub": "Revisor de preguntas y respuestas",
+          "QAndAExpertSub": "Experto en preguntas y respuestas"
+        },
+        "row": {
+          "checkboxLabel": "Verificar una fila con el usuario {{userName}}",
+          "actions": {
+            "actions": "Acciones",
+            "label": "Acciones del usuario",
+            "sendInvites": "Enviar invitaciones",
+            "editDetails": "Editar detalles",
+            "changeTeam": "Cambiar equipo",
+            "resetPassword": "Restablecer contraseña",
+            "setTemporaryPassword": "Establecer contraseña temporal",
+            "activateUser": "Activar",
+            "deactivateUser": "Desactivar",
+            "removeFromRoom": "Eliminar usuario",
+            "deleteGDPR": "Eliminar GDPR"
+          }
+        },
+        "details": {
+          "function": "Función",
+          "mobilePhoneNumber": "Número de teléfono móvil",
+          "deskPhoneNumber": "Número de teléfono alternativo",
+          "companyName": "Nombre de la compañía",
+          "unregisterUser": "[\"Usuario no registrado\"]",
+          "emailVerificationtooltip": "Verificación de correo electrónico pendiente"
+        },
+        "actions": {
+          "selectSingleRow": "Seleccionar fila única",
+          "rowsPerPage": "Filas por página:",
+          "of": "de",
+          "next": "siguiente",
+          "previous": "anterior"
+        }
+      },
+      "buttons": {
+        "addTeam": "Agregar equipo",
+        "inviteFirstUsers": "Invitar usuarios al equipo",
+        "inviteUsers": "Invitar usuarios",
+        "invite": "Invitar",
+        "clearAll": "Borrar todo",
+        "moreTiers": "Más niveles",
+        "deleteTeam": "Eliminar equipo",
+        "settings": "Configuración",
+        "teamDeactivated": "[\"Equipo desactivado\"]",
+        "assignRoles": "Asignar roles"
+      },
+      "drawer": {
+        "inviteUserTitle": "Invitar usuarios",
+        "createTeamTitle": "Agregar equipo",
+        "subtitle": "{{teamType}} equipo \"{{teamName}}\"",
+        "teamName": "Nombre del equipo",
+        "inputPlaceholder": "Escriba o pegue la lista de correo electrónico en el campo a continuación.",
+        "inviteByText": "Por texto",
+        "copyPasteEmails": "Escriba o copie y pegue direcciones de correo electrónico",
+        "inviteByDropFile": "Suelte su archivo aquí",
+        "documentTypes": "Cargar archivos Excel o CSV",
+        "howToFormatFile": "Vea cómo formatear su archivo",
+        "uploadFileTooltip": {
+          "hint1": "Etiquete la columna \"A\" como \"Dirección de correo electrónico\" en su hoja de cálculo",
+          "hint2": "Pegue los correos electrónicos en la columna \"A\"",
+          "hint3": "Exporte su archivo como formato Excel o CSV"
+        },
+        "messages": {
+          "checkTriangleForTooltip": "Los usuarios marcados no recibirán invitaciones. Para ver los detalles, pase el cursor sobre el icono de triángulo junto al correo electrónico.",
+          "invalidEmailFormat": "Formulario de correo electrónico incorrecto, utilice x@y.z o x@y.z.z.",
+          "subTeamNameAlreadyExists": "El nombre del equipo ya existe. Cree un nombre diferente.",
+          "userAlreadyInTeam": "La invitación no se puede enviar. El usuario ya ha sido invitado a este equipo.",
+          "provideUniqueTeamName": "El nombre ya existe. Ingrese un nombre de equipo único.",
+          "userAlreadyInDataRoom": "El usuario es miembro de otro equipo. No se puede enviar una invitación."
+        }
+      },
+      "settingsDrawer": {
+        "title": "Configuración",
+        "tabs": {
+          "teamSettings": {
+            "title": "Configuración del equipo",
+            "teamStatus": "Estado del equipo",
+            "notifications": "Notificaciones",
+            "status": {
+              "active": "Activo",
+              "inactive": "Inactivo"
+            },
+            "notificationInfo": "Enviar notificación por correo electrónico cuando el estado del equipo cambie a activo"
+          },
+          "security": {
+            "title": "Seguridad"
+          }
+        }
+      },
+      "UserDetailsDrawer": {
+        "title": "Editar detalles de usuario",
+        "subTitle": "{{userName}} \"{{teamName}}\" {{teamType}}",
+        "AccountData": {
+          "title": "Datos de la cuenta"
+        },
+        "successMessage": "Los cambios se guardaron correctamente.",
+        "errorMessage": "No se han guardado cambios. Inténtelo de nuevo.",
+        "emailAlreadyExists": "Este correo electrónico no se puede utilizar. Utilice una dirección de correo electrónico diferente."
+      },
+      "ChangeTeamDrawer": {
+        "title": "Cambiar equipo",
+        "subTitleSingular": "{{userCount}} usuario seleccionado. \"{{teamName}}\" {{teamType}}",
+        "subTitlePlural": "{{userCount}} usuarios seleccionados. \"{{teamName}}\" {{teamType}}",
+        "Body": {
+          "title": "Elija el equipo al que desea mover los usuarios seleccionados"
+        },
+        "successMessagePlural": "{{numberOfMovedUsers}} usuarios se han trasladado a un equipo diferente.",
+        "errorMessagePlural": "No se pueden mover usuarios: {{NumberofMovedUsers}}.",
+        "successMessageSingular": "El usuario se trasladó a un equipo diferente.",
+        "errorMessageSingular": "No se puede mover el usuario."
+      },
+      "temporaryPasswordDrawer": {
+        "title": "Establecer contraseña temporal",
+        "temporaryPasswordInfo": "La contraseña temporal es:",
+        "reloadButton": "Recargar",
+        "passwordHint": "La contraseña es válida para un inicio de sesión único y el usuario debe cambiarla.",
+        "doneButton": "Hecho",
+        "resetPasswordError": "No se puede cambiar la contraseña. Inténtelo de nuevo."
+      },
+      "AssignRolesDrawer": {
+        "title": "Asignación de funciones",
+        "tabs": {
+          "mainDealTeam": {
+            "title": "Equipo de negociación principal"
+          },
+          "subTeams": {
+            "title": "Subequipos"
+          },
+          "bidderTeams": {
+            "bidders": "Equipos de licitantes",
+            "externals": "Equipos externos",
+            "experts": "Equipos expertos",
+            "buyers": "Equipos de compradores"
+          }
+        },
+        "roles": {
+          "UserMgrExt": "Gerente de usuario",
+          "QAndAModeratorExt": "Moderador",
+          "QAndAViewOnlyExt": "Ver solamente",
+          "QAndAParticipantExt": "Experto",
+          "DealAdminInt": "Administrador de acuerdos",
+          "UserMgrInt": "Gerente de usuario",
+          "QAndAModeratorInt": "Moderador",
+          "QAndAViewOnlyInt": "Ver solamente",
+          "QAndAReviewInt": "Revisor",
+          "QAndAExpertInt": "Experto",
+          "QAndAApproverInt": "Aprobador",
+          "ContentMgrInt": "Gerente de contenido",
+          "ContributorInt": "Colaborador",
+          "ReportMgrInt": "Gerente de informes",
+          "UserMgrSub": "Gerente de usuario",
+          "ContentMgrSub": "Gerente de contenido",
+          "QAndAModeratorSub": "Moderador",
+          "QAndAViewOnlySub": "Ver solamente",
+          "QAndAReviewSub": "Revisor",
+          "QAndAExpertSub": "Experto"
+        },
+        "roleTypes": {
+          "Admin": "Función de administrador",
+          "QAndA": "Función de preguntas y respuestas"
+        },
+        "noTeamsText": "Aún no hay equipos para mostrar",
+        "emptyStateDescription": "Cree un nuevo equipo e invite a los usuarios.",
+        "successMessage": "Roles de usuario asignados correctamente.",
+        "errorMessage": "No se pueden asignar roles de usuario."
+      },
+      "messages": {
+        "invitationsSent": "Invitación enviada correctamente: {{count}}",
+        "invitationsSent_other": "Invitaciones enviadas correctamente: {{count}}",
+        "teamCreateSuccess": "El equipo se creó correctamente.",
+        "teamUpdateSuccess": "El equipo se actualizó correctamente.",
+        "teamTabUpdateSuccess": "Cambios guardados en: Configuración.",
+        "teamTabSecurityUpdateSuccess": "Cambios guardados en: Seguridad.",
+        "teamTabUpdateFail": "Cambios no guardados en: Configuración.",
+        "teamTabSecurityUpdateFail": "Cambios no guardados en: Seguridad.",
+        "fileExtensionIsNotSupported": "La extensión del archivo no {{extension}} es compatible.",
+        "fileWrongFormat": "No se pudo reconocer el contenido del archivo. Verifique el archivo nuevamente.",
+        "oneFileOnly": "Los archivos solo se pueden cargar de a 1 por vez.",
+        "emailsNotRecognized": "Direcciones de correo electrónico no reconocidas: {{count}}",
+        "noEmailRecognized": "No se reconoce la dirección de correo electrónico.",
+        "teamDraftedSuccessPlurar": "Se han agregado usuarios al equipo {{teamName}}. No se ha notificado a los usuarios.",
+        "teamDraftedSuccessSingular": "Se agregó el usuario al equipo {{teamName}}. No se ha notificado al usuario.",
+        "draftErrorSingular": "El usuario no se ha agregado al equipo: {{teamName}}",
+        "draftErrorPlural": "Los usuarios no se han agregado al equipo: {{teamName}}",
+        "sendInvitesSuccessMessage": "Invitaciones enviadas correctamente: {{numberOfUsers}}",
+        "sendInvitesFailureMessage": "No se pueden enviar invitaciones: {{numberOfUsers}}",
+        "sendInvitesErrorMessage": "Algo salió mal. Inténtelo de nuevo.",
+        "sendInvitesRequestsSuccessMessage": "Solicitud de invitación enviada a administradores de acuerdos: {{numberOfUsers}}",
+        "sendInvitesRequestsFailureMessage": "No se puede enviar la solicitud de invitación: {{numberOfUsers}}",
+        "emptyTeam": "No hay usuarios en este equipo"
+      },
+      "modal": {
+        "title": "Eliminar equipo",
+        "content": {
+          "first": "Está a punto de eliminar ",
+          "second": "{{teamType}} equipo \"{{teamName}}\" de esta sala de datos.",
+          "third": "Al eliminar este equipo, está eliminando todos los usuarios.",
+          "fourth": "Esta acción no se puede deshacer.",
+          "fifth": "¿Cómo le gustaría continuar?"
+        },
+        "cancel": "Cancelar",
+        "delete": "Continuar",
+        "successMessage": "\"{{teamType}}\" equipo \"{{teamName}}\" eliminado correctamente",
+        "errorMessage": "No se puede eliminar el equipo \"{{teamType}}\" \"{{teamName}}\""
+      },
+      "temporaryPasswordModal": {
+        "title": "Establecer contraseña temporal",
+        "content": {
+          "first": "¿Está seguro de que desea",
+          "second": "establecer contraseña temporal para el usuario seleccionado?",
+          "third": "La contraseña actual ya no será válida y la nueva contraseña se usará una sola vez.",
+          "fourth": "Este usuario deberá configurar una nueva contraseña después del inicio de sesión inicial.",
+          "fifth": "Esta acción no se puede deshacer."
+        },
+        "setTemporaryPassword": "Establecer contraseña temporal",
+        "errorMessage": "No se puede establecer la contraseña temporal."
+      },
+      "resetAnotherUserPasswordModal": {
+        "title": "Restablecer contraseña",
+        "content": {
+          "first": "¿Está seguro de que desea restablecer la contraseña para los usuarios seleccionados?",
+          "second": "Los usuarios seleccionados recibirán un correo electrónico con un enlace sobre cómo pueden restablecer sus contraseñas.",
+          "third": "Los usuarios no tendrán acceso a su cuenta hasta que se haya creado una nueva contraseña."
+        },
+        "successMessage": "Las contraseñas se han restablecido para los usuarios: {{numberOfUsers}}",
+        "failureMessage": "No se puede restablecer la contraseña: {{numberOfUsers}}",
+        "resetPassword": "Restablecer contraseña",
+        "errorMessage": "No se puede restablecer la contraseña."
+      },
+      "removeFromRoomModal": {
+        "title": "Eliminar usuarios de la sala de datos",
+        "content": {
+          "first": "¿Está seguro de que desea eliminar estos usuarios de la sala de datos?",
+          "second": "Las invitaciones pueden reenviarse en el futuro."
+        },
+        "deleteUser": "Eliminar",
+        "successMessage": "Usuarios eliminados correctamente: {{numberOfExcludedUsers}}",
+        "errorMessage": "No se pueden eliminar usuarios: {{numberOfExcludedUsers}}"
+      },
+      "activateUser": {
+        "title": "Activar usuarios",
+        "content": {
+          "first": "¿Desea enviar un correo electrónico al usuario sobre la activación de su cuenta?"
+        },
+        "button": {
+          "dontSendAnEmail": "No notificar",
+          "sendAnEmail": "Notificar"
+        },
+        "successMessage": "Usuarios activado exitosamente: {{numberOfActivatedUsers}}",
+        "errorMessage": "No se pueden activar usuarios: {{numberOfActivatedUsers}}"
+      },
+      "deactivateUsers": {
+        "processedUsersMessage": "Usuarios desactivados correctamente: {{numberOfDeactivatedUsers}}",
+        "unprocessedUsersMessage": "No se pueden desactivar los usuarios: {{numberOfDeactivatedUsers}}",
+        "errorMessage": "Inténtelo de nuevo."
+      },
+      "deleteGdprModal": {
+        "title": "Eliminar usuario de acuerdo con el RGPD",
+        "content": {
+          "first": "¿Está seguro de que desea eliminar el usuario",
+          "second": "{{userEmail}}",
+          "third": "Ya no tendrán acceso a su cuenta Sterling y ",
+          "fourth": "no podrá deshacer esta acción."
+        },
+        "deleteUser": "Eliminar",
+        "successMessage": "La solicitud de eliminación del RGPD se ha enviado al soporte de Sterling.  Espere 48 horas para que se complete esta acción.",
+        "errorMessage": "Inténtelo de nuevo."
+      }
+    },
+    "qa": {
+      "qa": "Preguntas y respuestas",
+      "qaSettings": "Configuración de preguntas y respuestas",
+      "qaLimits": "Límites de preguntas y respuestas",
+      "backToDefaultQnA": "Volver a las preguntas y respuestas predeterminadas",
+      "questionsAndAnswers": "Preguntas y respuestas",
+      "addQuestion": "Agregar pregunta",
+      "addAnswer": "Agregar respuesta",
+      "editQuestion": "Editar pregunta",
+      "editAnswer": "Editar respuesta",
+      "addFollowUpQuestion": "Agregar pregunta de seguimiento",
+      "editRejectedQuestion": "Editar pregunta rechazada",
+      "editRejectedFollowUpQuestion": "Editar pregunta de seguimiento rechazada",
+      "editRejectedAnswer": "Editar respuesta rechazada",
+      "rejectionComment": "Comentario de rechazo",
+      "questionDetails": "Detalles de la pregunta",
+      "answerDetails": "Detalles de la respuesta",
+      "yourAnswer": "Respuesta",
+      "yourFollowUpQuestion": "Pregunta de seguimiento",
+      "cancel": "Cancelar",
+      "saveDraft": "Guardar borrador",
+      "submit": "Enviar",
+      "submitForApproval": "Enviar para aprobación",
+      "submitAndApprove": "Aprobar y enviar",
+      "viewFollowUpQuestion": "Ver pregunta de seguimiento",
+      "moderatorActions": "Acciones del moderador",
+      "sendCommentForAssigment": "Enviar comentario para asignación",
+      "approve": "Aprobar",
+      "reject": "Rechazar",
+      "viewQuestion": "Ver pregunta",
+      "moderateQuestion": "Pregunta moderada",
+      "moderateAnswer": "Respuesta moderada",
+      "approveAnswer": "Aprobar respuesta",
+      "sendToApprover": "Enviar al aprobador",
+      "sendToReviewer": "Enviar al revisor",
+      "viewAnswer": "Ver respuesta",
+      "reviewAnswer": "Revisar respuesta",
+      "rejectQuestion": "Rechazar pregunta",
+      "rejectAnswer": "Rechazar respuesta",
+      "saveChanges": "Guardar cambios",
+      "changeCategoryAndAssign": "Cambiar categoría y asignar",
+      "commentTextIsMandatory": "Se requiere un comentario.",
+      "answerQuestion": "Responder pregunta",
+      "suggest": "Sugerir",
+      "suggestCategory": "Sugerir categoría",
+      "suggestAnswerCategory": "Sugerir categoría de respuesta",
+      "stateACommentForSuggestion": "Mencione un comentario de sugerencia",
+      "selectReviewer": "Seleccionar revisor",
+      "assign": "Asignar",
+      "assignReviewer": "Asignar revisor",
+      "assignAnswerReviewerTo": "Asignar revisor de respuestas a",
+      "assignReviewerCommentTitle": "Envíe un comentario para su decisión",
+      "allCategoryReviewers": "Todos los revisores de categorías - {{category}}",
+      "stateComment": "Comentario del estado",
+      "save": "Guardar",
+      "generalQuestion": "Pregunta general",
+      "pleaseSelectAtLeastOneOption": "Seleccione al menos una opción",
+      "allCategoryExperts": "Todos los expertos en categorías - {{categoryName}}",
+      "answer": "Respuesta",
+      "followUp": "Seguimiento",
+      "askYourQuestion": "Hacer pregunta",
+      "downloadAnswerLogs": "Descargar registros de respuestas",
+      "comment": "Comentario",
+      "makeYourAnswer": "Crear una respuesta",
+      "category": "Categoría",
+      "answerCategory": "Categoría de respuesta",
+      "assignAnswerTo": "Asignar respuesta a",
+      "users": "Usuarios",
+      "dealAdmins": "Administradores de acuerdos",
+      "priority": "Prioridad",
+      "priorityLevel": {
+        "low": "Bajo",
+        "medium": "Medio",
+        "high": "Alto"
+      },
+      "saveDraftDialog": {
+        "content": "Los archivos adjuntos no se guardarán en sus borradores.\nAgregue archivos adjuntos cuando esté listo para enviar.\n\n¿Está seguro de que desea guardar el borrador sin adjuntos?",
+        "saveDraft": "Guardar borrador",
+        "stayOnPage": "Cancelar",
+        "saveAndDiscard": "Guardar y descartar"
+      },
+      "cancelUploadDialog": {
+        "title": "Tiene cambios no guardados",
+        "content": "Está a punto de salir de esta página sin guardar. Su artículo volverá al estado Borrador.\n\n¿Está seguro de que desea descartar los archivos no cargados?",
+        "discard": "Descartar cambios",
+        "stayOnPage": "Permanecer en la página"
+      },
+      "teamSettings": "Configuración del equipo",
+      "notifications": "Notificaciones",
+      "attachedItems": {
+        "attachedItems": "Artículos adjuntos",
+        "uploadFile": "Cargar archivo",
+        "clickOrDropFilesHere": "Haga clic o suelte los archivos aquí",
+        "theyWillBeAttachedToYourQuestion": "Se adjuntarán a su pregunta",
+        "removeFile": "Eliminar archivo",
+        "unlinkItem": "Desvincular elemento",
+        "linkFiles": "Enlace de archivos",
+        "useLinkingIcon": "Usar ícono de vinculación en el árbol de contenido",
+        "uploadIcon": "Ícono de carga"
+      },
+      "iUnderstand": "Entiendo",
+      "uploadedFileIsTooBig": "El archivo cargado es demasiado grande",
+      "assignmentSuccessfully": "Pregunta asignada correctamente.",
+      "assignmentFailed": "No se pudo asignar la pregunta.",
+      "stateRejectionComment": "Mencione un comentario de rechazo",
+      "yourComment": "Su comentario",
+      "commentIsRequired": "Se requiere un comentario.",
+      "suggestCategoryEmptyMessage": "La categoría de respuesta es obligatoria.",
+      "selectAnswerReviewerEmptyMessage": "Seleccione al menos una opción.",
+      "attachments": "Adjuntos",
+      "itemNotAvailable": "Artículo no disponible",
+      "QA_question_text_empty": "El texto de la pregunta es obligatorio.",
+      "QA_question_create_success": "Pregunta creada correctamente.",
+      "QA_question_create_failure": "No se puede crear la pregunta.",
+      "QA_question_delete_success": "La pregunta se eliminó correctamente.",
+      "QA_question_delete_failure": "No se puede eliminar la pregunta.",
+      "QA_answer_text_empty": "Se requiere texto de respuesta.",
+      "QA_answer_create_success": "Respuesta creada correctamente.",
+      "QA_answer_create_failure": "No se puede crear la respuesta.",
+      "QA_question_edit_success": "La pregunta se editó correctamente.",
+      "QA_question_edit_failure": "No se puede editar la pregunta.",
+      "QA_answer_edit_success": "Respuesta editada correctamente.",
+      "QA_answer_edit_failure": "No se puede editar la respuesta.",
+      "QA_answer_delete_success": "La respuesta se eliminó correctamente.",
+      "QA_answer_delete_failure": "No se puede eliminar la respuesta.",
+      "QA_attachment_too_big": "Su archivo es demasiado grande y no podemos guardarlo.\n\nCargue un archivo de hasta 1GB",
+      "QA_draft_qn_answ_fuq_create_success": "Borrador creado correctamente.",
+      "QA_draft_qn_answ_fuq_create_failure": "No se puede crear el borrador.",
+      "QA_suggest_category_external_success": "Sugerencia enviada correctamente.",
+      "QA_suggest_category_external_failure": "No se pudo enviar la sugerencia.",
+      "QA_sending_to_approver_success": "Envío exitoso al aprobador.",
+      "QA_sending_to_approver_failure": "Error al enviar al aprobador.",
+      "QA_assignment_to_reviewer_success": "Asignación exitosa a revisor(es).",
+      "QA_assignment_to_reviewer_failure": "Falló la asignación al/a los revisor(es).",
+      "QA_sending_reviewer_comment_success": "Se agregó un comentario de revisión.",
+      "QA_sending_reviewer_comment_failure": "Error al revisar el comentario.",
+      "QA_category_settings_save_success": "Los cambios se guardaron en: Categoría.",
+      "QA_category_settings_save_failure": "Inténtelo de nuevo. Cambios no guardados: Categoría.",
+      "QA_attachments_settings_save_success": "Los cambios se guardaron en: Adjuntos.",
+      "QA_attachments_settings_save_failure": "Inténtelo de nuevo. Cambios no guardados: Adjuntos.",
+      "QA_notifications_settings_save_success": "Los cambios se guardaron en: Notificaciones.",
+      "QA_notifications_settings_save_failure": "Inténtelo de nuevo. Cambios no guardados: Notificaciones.",
+      "QA_limits_save_success": "Guardar los límites de las preguntas y respuestas con éxito.",
+      "QA_limits_save_failure": "Error al guardar los límites de preguntas y respuestas.",
+      "QA_bulk_approve_success": "Artículos aprobados: {{count}}.",
+      "QA_bulk_approve_error": "Error al aprobar los elementos.",
+      "QA_qn_visibility_set_success": "Visibilidad de subproceso(s) configurada correctamente.",
+      "QA_qn_visibility_set_failure": "Error al configurar la visibilidad de subproceso(s).",
+      "limitAlertAdd": "Se ha alcanzado el límite de preguntas.\nPuede guardar la pregunta como borrador.\n\nComuníquese con su gerente de negocios o con el equipo</0> de Servicio <0>al Cliente para conocer el límite de preguntas.",
+      "limitAlertModerate": "Se ha alcanzado el límite de preguntas.\n\nComuníquese con su gerente de negocios o con el equipo</0> de Servicio <0>al Cliente para conocer el límite de preguntas.",
+      "table": {
+        "title": "Lista de preguntas"
+      },
+      "details": {
+        "id": "ID",
+        "author": "Autor",
+        "creationDate": "Fecha de creación",
+        "statusUpdateDate": "Fecha de actualización del estado",
+        "status": "Estado",
+        "items": "+{{count}} artículos",
+        "items_one": "+{{count}} artículo",
+        "attributes": "Atributos"
+      },
+      "deleteModal": {
+        "questionTitle": "Eliminar pregunta",
+        "answerTitle": "Eliminar respuesta",
+        "questionContentMainText": "¿Está seguro de que desea eliminar esta pregunta? ",
+        "answerContentMainText": "¿Está seguro de que desea eliminar esta respuesta? ",
+        "contentSecondaryText": "Esta acción eliminará permanentemente este elemento.",
+        "removeQuestion": "Continuar",
+        "removeAnswer": "Continuar"
+      },
+      "questionPrefix": "P",
+      "answerPrefix": "A",
+      "requestMessages": {
+        "QA_question_submit_success": "Pregunta enviada correctamente.",
+        "QA_question_submit_failure": "No se puede enviar la pregunta.",
+        "QA_answer_submit_success": "Respuesta enviada correctamente.",
+        "QA_answer_submit_failure": "No se puede enviar la respuesta.",
+        "QA_qn_answ_fuqn_approve_success": "Artículo aprobado correctamente.",
+        "QA_qn_answ_fuqn_approve_failure": "No se puede aprobar el elemento.",
+        "QA_qn_answ_fuqn_reject_success": "El artículo se rechazó correctamente.",
+        "QA_qn_answ_fuqn_reject_failure": "No se puede rechazar el artículo."
+      },
+      "statuses": {
+        "draft": "Borrador",
+        "awaitinganswer": "Esperando respuesta",
+        "answersubmitted": "Respuesta enviada",
+        "questionanswered": "Pregunta respondida",
+        "awaitingapprovalexternal": "Esperando aprobación",
+        "awaitingapprovalinternal": "Esperando aprobación",
+        "awaitingapprovalanswer": "Esperando aprobación",
+        "awaitingfinalapproval": "Esperando aprobación final",
+        "rejected": "Rechazado",
+        "rejectedinternal": "Rechazado",
+        "rejectedanswer": "Rechazado"
+      },
+      "filters": {
+        "title": "Filtros de preguntas y respuestas",
+        "internalTitle": "Filtros internos de preguntas y respuestas",
+        "externalTitle": "Filtros externos de preguntas y respuestas",
+        "itemStatus": "Estado del artículo",
+        "statusUpdated": "Estado actualizado",
+        "sinceLastVisit": "Desde la última visita",
+        "allStatuses": "Todos los estados",
+        "chooseStatus": "Elegir estado",
+        "chooseCategory": "Elegir categoría",
+        "questionCategory": "Categoría de pregunta",
+        "assignee": "Persona asignada",
+        "allQuestionCategories": "Todas las categorías de preguntas",
+        "chooseAtLeastOneStatus": "Elija al menos un estado.",
+        "anyone": "Cualquier persona",
+        "chooseAtLeastOneCategory": "Elija al menos una categoría.",
+        "questionCreatedBy": "Pregunta creada por",
+        "selectTeams": "Seleccionar equipos",
+        "anyTeam": "Cualquier equipo",
+        "myTeam": "Mi equipo",
+        "chooseAtLeastOneTeam": "Elija al menos un equipo.",
+        "answerCategory": "Categoría de respuesta",
+        "allAnswerCategories": "Todas las categorías de respuestas",
+        "additionalStatuses": {
+          "rejectedQnswer": "Pregunta rechazada",
+          "rejectedAnswer": "Respuesta rechazada",
+          "awaitingApprovalQuestion": "Esperando pregunta de aprobación",
+          "awaitingApprovalAnswer": "Esperando respuesta de aprobación"
+        },
+        "clearFilters": "Borrar filtros",
+        "apply": "Aplicar",
+        "filter": "Filtro",
+        "cancel": "Cancelar"
+      },
+      "categoryTab": {
+        "categoryName": "Nombre de categoría",
+        "createNewCategory": "Crear nueva categoría",
+        "questionModerators": "Moderadores de preguntas",
+        "questionModerator": "Moderador de preguntas",
+        "categoryExperts": "Expertos en categorías",
+        "categoryExpert": "Experto en categoría",
+        "answerModerators": "Moderadores de respuesta",
+        "answerModerator": "Moderador de respuesta",
+        "answerReviewers": "Revisores de respuestas",
+        "answerReviewer": "Revisor de respuestas",
+        "turnOnAutoApprove": "Activar aprobación automática",
+        "removeCategory": "Eliminar categoría",
+        "newCategory": "Nueva categoría",
+        "emptyCategoryNameErrorMessage": "Este campo es obligatorio",
+        "uniqueCategoryNameErrorMessage": "El nombre de la categoría ya existe. Cree un nombre diferente.",
+        "generalCategory": "General",
+        "categoryRemoval": "Eliminar categoría",
+        "warningModalPrimaryText": "¿Está seguro de que desea eliminar esta categoría?",
+        "warningModalSecondaryText": "Cuando guarde los cambios, todas las preguntas y respuestas de esta categoría se asignarán a <strong>{{generalCategoryName}}</strong>.",
+        "selectAtLeastOne": "Seleccione al menos uno "
+      },
+      "attachmentsTab": {
+        "attachments": "Adjuntos",
+        "teamsAllowedToAttachFiles": "Equipos permitidos para adjuntar archivos",
+        "selectTeams": "Seleccionar equipos",
+        "allTeams": "Todos los equipos",
+        "billingNote": "Nota de facturación: Los documentos adjuntos a los elementos de preguntas y respuestas son datos alojados.",
+        "externalTeams": "Equipos externos",
+        "subInternalTeams": "Equipos subinternos",
+        "mainDealTeam": "Equipo de negociación principal"
+      },
+      "limitsDrawer": {
+        "setQnaLimits": "Establecer límites de preguntas y respuestas",
+        "warning": "Los equipos externos no podrán agregar preguntas después de aprobar los límites establecidos.",
+        "qnaLimit": "Límite de preguntas y respuestas",
+        "numberOfQuestions": "Cantidad de preguntas",
+        "externalTeam": "Equipo externo",
+        "noOfQuestions": "Cant. de preguntas",
+        "limitsTypes": {
+          "None": "Ninguno",
+          "TotalNumberOfQuestions": "Cantidad total de preguntas",
+          "Priority": "Prioridad",
+          "Category": "Categoría",
+          "CategoryAndPriority": "Categoría y prioridad"
+        },
+        "emptyState": {
+          "noQnaLimitsSet": "Sin límites de preguntas y respuestas establecidos",
+          "message": "Si desea establecer límites para preguntas y respuestas, seleccione el tipo de límite del menú desplegable anterior."
+        }
+      },
+      "visibilityDrawer": {
+        "setBulkVisibility": "Configuración de la visibilidad masiva",
+        "revokeBulkVisibility": "Revocación de visibilidad masiva",
+        "setButton": "Establecer",
+        "revokeButton": "Revocar",
+        "cancelButton": "Cancelar",
+        "setVisibility": "Establecer visibilidad",
+        "warningTitle": "Visibilidad masiva",
+        "discardChangesButton": "Descartar cambios",
+        "allTeams": "Todos los equipos",
+        "revokeVisibility": "Revocar visibilidad",
+        "setDescription": "Establecer la visibilidad permitirá a otros equipos ver los hilos de otros equipos",
+        "revokeDescription": "Revocar visibilidad deshabilitará la vista en los hilos seleccionados para los equipos seleccionados. No se revocará la visibilidad para el equipo del autor.",
+        "revokeVisibilityForThoseTeams": "Revocar la visibilidad para esos equipos",
+        "setVisibilityForThoseTeams": "Establecer visibilidad para esos equipos",
+        "setVisibilitySuccess": "Visibilidad de subproceso(s) configurada correctamente.",
+        "setVisibilityError": "Error al configurar la visibilidad de subproceso(s).",
+        "revokeVisibilitySuccess": "Revocar visibilidad de subproceso(s) configurada correctamente.",
+        "revokeVisibilityError": "Error al revocar la visibilidad de subproceso(s).",
+        "infoBox": "Los equipos externos pueden requerir permisos adicionales.\n<0>Consulte el informe de preguntas y respuestas para revisar los permisos.</0>",
+        "warningContent": "La visibilidad solo se puede cambiar en preguntas aprobadas. Otros estados se omitirán de la acción.\n\n Solo {{processedItemsCount}} se reprocesarán los hilos {{selectedRootItemsCount}} seleccionados, ¿aún desea configurarlos?"
+      },
+      "export": {
+        "buttonText": "Exportar fuente",
+        "success": "Fuente de preguntas y respuestas exportada correctamente.",
+        "error": "No se puede exportar la fuente de preguntas y respuestas."
+      },
+      "import": {
+        "buttonText": "Importar fuente",
+        "errorMessage": {
+          "invalidData": "Tenemos algún problema(s) con su archivo, eche un vistazo a la(s) celda(s): {{cells}}",
+          "invalidFormat": "No se puede importar la fuente de preguntas y respuestas. El archivo debe estar en formato XLSX.",
+          "invalidFile": "No reconocemos este archivo Excel. Intente cargar de nuevo.",
+          "questionLimitReached": "Solo se han agregado {{questionLimit}} preguntas. Si desea agregar más, cree un nuevo archivo de Excel con las preguntas restantes.",
+          "genericError": "No se puede importar la fuente de preguntas y respuestas."
+        },
+        "checkFileModal": {
+          "title": "Archivo de cheques",
+          "content": "Asegúrese de importar el mismo archivo que exportó de Sterling VDR anteriormente.\n\nEl archivo autoelaborado no se aceptará ni importará.",
+          "confirmButtonText": "Confirmar"
+        },
+        "successInternal": "Fuente de preguntas y respuestas importada correctamente. Respuesta(s) creadas correctamente.",
+        "successExternal": "Fuente de preguntas y respuestas importada correctamente. Pregunta(s) creadas correctamente.",
+        "questionLimitReached": "Creamos {{createdQuestions}} pregunta(s) fuera de {{totalNumberOfQuestions}} y se ha alcanzado el límite de la pregunta.<br>Comuníquese con su gerente de negocios o con el equipo</0> de Servicio <0>al Cliente para conocer el límite de preguntas."
+      },
+      "threadVisibility": {
+        "authorTeam": "Equipo de autores - {{teamName}}",
+        "additionalPermissions": "Los equipos externos pueden requerir permisos adicionales",
+        "checkQnA": "Verifique el informe de preguntas y respuestas para revisar los permisos",
+        "selectTeams": "Seleccionar equipos",
+        "allTeams": "Todos los equipos",
+        "visibility": "Visibilidad"
+      }
+    },
+    "reports": {
+      "reports": "Informes"
+    },
+    "uploads": {
+      "uploads": "Cargas"
+    },
+    "downloads": {
+      "downloads": "Descargas",
+      "table": {
+        "header": {
+          "date": "Fecha de creación",
+          "parent": "Carpeta principal",
+          "name": "Nombre",
+          "fileSize": "Tamaño del archivo",
+          "status": "Estado",
+          "files": "Archivos"
+        },
+        "content": {
+          "fileCount": "{{completed}} de {{requested}}"
+        },
+        "status": {
+          "error": "No exitoso, inténtelo de nuevo",
+          "preparing": "Preparación",
+          "preparingExcel": "Preparación de Excel",
+          "preparingFailed": "Error al preparar",
+          "preparingPdf": "Preparación del PDF",
+          "readyForDownload": "Listo para descargar",
+          "downloadCompleted": "Descarga completada"
+        },
+        "download": "Descargar"
+      },
+      "emptyQueue": {
+        "title": "No hay artículos para mostrar",
+        "description": "Para realizar descargas masivas, utilice la acción de descarga de carpetas en la página <0>Contenidos </0>."
+      }
+    },
+    "dataRoomSettings": {
+      "settings": "Configuración",
+      "dataRoomSettings": "Configuración de la sala de datos",
+      "generalSettings": "Configuración general",
+      "componentsSettings": "Configuración de componentes",
+      "allFeatures": "Todas las características",
+      "recommendedFeatures": "Características recomendadas",
+      "recommendedFeaturesSubTitle": "Características que tienen un impacto significativo en su experiencia con Data Room",
+      "optionalFeatures": "Características opcionales",
+      "optionalFeaturesSubTitle": "Características que son opcionales pero que afectan su comodidad con Data Room",
+      "optionalSecurityFeatures": "Seguridad",
+      "optionalOtherFeatures": "Otras características",
+      "contentManagement": "Gestión de contenido",
+      "RequestUsersInvitation": "Solicitar invitación del usuario",
+      "BulkDownload": "Descarga masiva",
+      "ExcelViewer": "Visor de Excel",
+      "Disclaimer": "Descargo de responsabilidad",
+      "viewers": "Visualizadores",
+      "contents": "Contenido",
+      "silverTier": "Nivel Silver",
+      "goldTier": "Nivel Gold",
+      "platinumTier": "Nivel Platinum",
+      "versioning": "Versiones",
+      "workWithDocuments": "Trabajar con documentos",
+      "qa": "Preguntas y respuestas",
+      "security": "Seguridad",
+      "workflow": "Flujo de trabajo",
+      "otherFeatures": "Otras características",
+      "extraCharge": "Cargo adicional",
+      "followingFeaturesAvailable": "Las siguientes características están disponibles por un cargo adicional",
+      "Translation": "Traducción en línea",
+      "BulkRedaction": "Redacción",
+      "CadViewer": "Visor CAD",
+      "moreFunctionalitiesNeeded": "¿Se necesitan más funcionalidades?",
+      "checkSubscriptionPlans": "Verificar planes de suscripción",
+      "CustomWatermarks": "Marca de agua",
+      "SimpleQnA": "Preguntas y respuestas simples",
+      "advanced": "Avanzado",
+      "extended": "Extendido",
+      "ExternalSideQnA": "Preguntas y respuestas externas",
+      "VersionHistory": "Historial de versiones",
+      "MobileAccess": "Acceso móvil",
+      "Redaction": "Redacción",
+      "Ocr": "OCR",
+      "PdfConversion": "Conversión de PDF",
+      "DocumentLinkSharing": "Compartir documentos por correo electrónico",
+      "VersionComparison": "Comparación de versiones",
+      "VersionControl": "Control de versiones",
+      "Sessions": "Sesiones",
+      "MsOfficeEditor": "Visor de Excel",
+      "advancedQA": "Preguntas y respuestas avanzadas",
+      "extendedQA": "Preguntas y respuestas extendidas",
+      "DealSideQnA": "Preguntas y respuestas sobre el lado del acuerdo",
+      "IndexAutoNumbering": "Numeración automática",
+      "CustomisedReports": "Informes",
+      "EmailInDocuments": "Correo electrónico en documentos",
+      "EmailTab": "Ficha Correo electrónico",
+      "SingleSignOnIntegration": "Inicio de sesión único",
+      "Irm": "Protección mejorada de MS Office",
+      "Drm": "Protección mejorada de PDF",
+      "AccessRestrictionByIpAddress": "Restricciones de IP",
+      "DocumentReviewWorkflow": "Flujo de trabajo de revisión de documentos",
+      "CopyingContentFromExternalDrives": "Importación de datos de terceros",
+      "ContentMigrationBetweenRooms": "Copia del contenido de la sala",
+      "CustomTermsOfAccess": "Descargo de responsabilidad",
+      "mySubscription": "Mi suscripción",
+      "setExternalQA": {
+        "title": "Si cambia el flujo en Preguntas y respuestas externas",
+        "description": "Todos los datos dentro de las preguntas y respuestas externas creados hasta el momento se <boldText></boldText> perderán, incluidos",
+        "roles": "Funciones de preguntas y respuestas del usuario",
+        "categories": "Categorías de preguntas y respuestas",
+        "assignments": "Asignaciones de preguntas y respuestas",
+        "limits": "Límites de preguntas y respuestas",
+        "attachments": "Los archivos adjuntos de preguntas y respuestas se deshabilitarán para usuarios externos",
+        "qaBackupMsg": "Si desea hacer una copia de seguridad de las preguntas y respuestas creadas hasta ahora, descárguela de la",
+        "qaBackupMsgLinkText": "Informe de preguntas y respuestas"
+      },
+      "setTranslation": {
+        "title": "Traducción habilitada",
+        "extraCharge": "Da como resultado una facturación de cargos <boldText></boldText> adicionales"
+      },
+      "majorChangesModal": {
+        "title": "Revisar cambios",
+        "subtitle": "Verá este mensaje porque realizó al menos uno de los siguientes cambios que provocarán consecuencias importantes para la sala de datos",
+        "awareOfChangesCheckbox": "Conozco los resultados de esta acción"
+      },
+      "configuration": {
+        "saveFailed": "Fallaron los cambios.",
+        "saveSuccess": "Cambios guardados.",
+        "saveFailure": {
+          "cannotDisableSessionsErrorMessage": "Las sesiones no se pueden deshabilitar. Publique o revierta primero los cambios de sesión pendientes."
+        }
+      },
+      "disclaimers": {
+        "add": "Agregar descargo de responsabilidad",
+        "disclaimer": "Descargo de responsabilidad",
+        "disclaimers": "Descargos de responsabilidad",
+        "enterName": "Ingrese el nombre del descargo de responsabilidad",
+        "nameRequired": "Este campo no puede estar vacío",
+        "contentRequired": "Este campo no puede estar vacío",
+        "disclaimersList": "Lista de descargos de responsabilidad",
+        "disclaimersListMakeChanges": "Administrar descargos de responsabilidad",
+        "disclaimersAssignment": "Asignación de exenciones de responsabilidad",
+        "disclaimersAssignmentCancelButton": "Cancelar",
+        "disclaimersAssignmentSaveButton": "Guardar",
+        "disclaimersAssignmentMakeChangesButton": "Editar",
+        "name": "Nombre",
+        "createdBy": "Creado por",
+        "deletedUser": "Usuario eliminado",
+        "creationDate": "Fecha de creación",
+        "globalDisclaimer": "Descargo de responsabilidad global",
+        "sterlingTechnology": "Sterling Technology LTD.",
+        "disclaimerText": "Texto de descargo de responsabilidad",
+        "defaultDisclaimer": "Descargo de responsabilidad predeterminado",
+        "internal": "Interno",
+        "bidder": "Licitador",
+        "dealSide": "Lado del acuerdo",
+        "teamType": "Tipo de equipo",
+        "frequency": "Frecuencia",
+        "agree": "De acuerdo",
+        "decline": "Rechazo",
+        "addingSucceeded": "Se han agregado los nuevos descargos de responsabilidad.",
+        "updateSucceeded": "Se actualizaron los descargos de responsabilidad.",
+        "addingFailed": "No se pueden guardar los descargos de responsabilidad. Inténtelo de nuevo o comuníquese con el soporte técnico.",
+        "updateFailed": "No se pueden actualizar los descargos de responsabilidad. Inténtelo de nuevo o comuníquese con el soporte técnico.",
+        "assignmentFrequency": {
+          "EveryTime": "Siempre",
+          "OnlyOnce": "Una vez",
+          "Never": "Nunca"
+        },
+        "teamTypes": {
+          "MainDealTeam": "Equipo de negociación principal",
+          "SubTeam": "Subequipo",
+          "BidderTeam": "Equipo del Licitador"
+        }
+      },
+      "dataroomCustomizations": {
+        "dataroomCustomisation": "Personalización de la sala de datos",
+        "subtitle": "Ajuste los colores del software según sus necesidades.",
+        "info": "Al ajustar, considere el contraste de color para que la capa de texto sea visible.",
+        "primaryColor": "Color primario",
+        "label": "Etiqueta",
+        "leftSideNavigation": "Navegación del lado izquierdo",
+        "resetForm": "Restablecer a predeterminado",
+        "inputLabel": "Color (#hex)",
+        "sucessMessage": "Cambios guardados.",
+        "failMessage": "Fallaron los cambios."
+      },
+      "messages": {
+        "successfullySaved": "Los cambios se guardaron correctamente.",
+        "couldNotSave": "No se pueden guardar los cambios."
+      },
+      "watermark": {
+        "watermark": "Marca de agua",
+        "watermarks": "Marcas de agua",
+        "watermarkSettings": "Configuración de la marca de agua",
+        "subTitle": "Configurar los ajustes de marca de agua que se mostrarán a todos los equipos con la función habilitada",
+        "displayText": "Mostrar texto",
+        "selectionNote": "Se requiere al menos una selección.",
+        "watermarkSetings": {
+          "isProjectNameEnabled": "Nombre del proyecto",
+          "isIndexNumberEnabled": "Número de índice",
+          "isCompanyEnabled": "Compañía",
+          "isFullNameEnabled": "Nombre completo",
+          "isEmailAddressEnabled": "Dirección de correo electrónico",
+          "isIpAddressEnabled": "Dirección IP",
+          "isDateTimeEnabled": "Fecha/hora",
+          "customText": "Texto personalizado",
+          "isAutoScaleEnabled": "Habilitar escala automática"
+        },
+        "appearance": "Aspecto",
+        "selectColor": "Seleccionar color:",
+        "opacity": "Opacidad:",
+        "fontSize": "Tamaño de fuente:",
+        "previewWatermark": "Vista previa de la marca de agua",
+        "customTextValue": "Confidencial - No apto para distribución",
+        "enableWatermark": "Habilitar marca de agua",
+        "preview": "Vista previa",
+        "previewHint": "El revestimiento de papel está configurado en A4. Se obtendrán diferentes posiciones de marca de referencia al usar diferentes formatos de papel. Vuelva a verificar todos los documentos y archivos.",
+        "confirmationDialog": {
+          "unsavedChangesTitle": "Tiene cambios no guardados",
+          "content": "¿Está seguro de que desea descartar los cambios?\n\nSe perderán todos los cambios.",
+          "discard": "Descartar cambios",
+          "cancel": "Seguir editando"
+        }
+      },
+      "rmsSettings": {
+        "rmsSettings": "Protección de documentos"
+      }
+    },
+    "signUp": {
+      "accountDetails": "Detalles de la cuenta",
+      "consents": "Consentimiento",
+      "language": "Idioma",
+      "occupationAndCompany": "Ocupación y empresa",
+      "registerNewUserAccount": "Registrar una nueva cuenta de usuario",
+      "personTitle": "Título",
+      "mr": "Sr.",
+      "ms": "Sra.",
+      "select": "Seleccionar",
+      "firstName": "Nombre",
+      "enterFirstName": "Ingrese el nombre",
+      "lastName": "Apellido",
+      "enterLastName": "Ingrese el apellido",
+      "countryOfResidence": "País de residencia",
+      "typeAndSelect": "Escriba y seleccione",
+      "emailAddressLabel": "Dirección de correo electrónico",
+      "enterEmail": "Ingresar correo electrónico",
+      "mobilePhoneNumber": "Número de teléfono móvil",
+      "deskPhoneNumber": "Número de teléfono alternativo",
+      "enterPhoneNumber": "Ingrese el número de teléfono",
+      "enterDeskPhoneNumber": "Ingrese un número de teléfono alternativo",
+      "companyName": "Nombre de la compañía",
+      "enterCompanyName": "Ingrese el nombre de la compañía",
+      "sector": "Sector",
+      "function": "Función",
+      "jobTitle": "Cargo",
+      "emailAlreadyExists": "Esta dirección de correo electrónico ya existe. Intente con otro correo electrónico o inicio de sesión para continuar.",
+      "setPassword": "Establecer contraseña",
+      "enterPassword": "Ingresar contraseña",
+      "confirmPassword": "Confirmar contraseña",
+      "passwordShouldConsist": "La contraseña debe cumplir con los siguientes requisitos:",
+      "passwordIsTooSimilar": "La contraseña es demasiado similar a las 5 contraseñas anteriores",
+      "securityQuestion": "Pregunta de seguridad",
+      "securityAnswer": "Respuesta de seguridad",
+      "enterAnswer": "Ingresar respuesta",
+      "consent": {
+        "first": {
+          "partOne": "Al registrar una cuenta, acepto el",
+          "partTwo": "Condiciones del servicio",
+          "partThree": "y",
+          "partFour": "Política de privacidad, incluido el uso de cookies.",
+          "partFive": "Comprendo que todos los datos de usuario necesarios para proporcionar el servicio son alojados por Sterling y que puedo tener acceso a mis datos; tengo derecho a cambiar y eliminar datos al comunicarme con el administrador de Sterling."
+        },
+        "second": "Me gustaría recibir correos electrónicos relacionados con contenido de marketing y actualizaciones relevantes.",
+        "requiredError": "Debe aceptar nuestros Términos de servicio y Política de privacidad para crear una cuenta Sterling."
+      },
+      "TermsOfServiceLink": "",
+      "PrivacyPolicyLink": "https://www.sterlingvdr.com/vdr-privacy-policy",
+      "button": {
+        "cancel": "Cancelar",
+        "back": "Espalda",
+        "next": "Siguiente",
+        "register": "Registrarse"
+      }
+    },
+    "signUpConfirmation": {
+      "accountSuccessfullyRegistered": "Cuenta registrada",
+      "youHaveCreatedNewAccount": "La cuenta Sterling VDR se ha creado correctamente.",
+      "nowYouCanLogin": "Revise su bandeja de entrada y verifique su cuenta siguiendo las instrucciones del correo electrónico.",
+      "goToLogin": "Página de inicio"
+    },
+    "emailConfirmation": {
+      "emailSuccessfullyConfirmed": "Cuenta verificada",
+      "partOne": "Se ha recibido la verificación de su cuenta.",
+      "partTwo": "Ahora puede acceder a las salas de datos virtuales de Sterling."
+    },
+    "emailNotConfirmed": {
+      "emailNotConfirmedTitle": "Correo electrónico no verificado",
+      "partOne": "Aún no se ha recibido la verificación de su correo electrónico.",
+      "partTwo": "Revise su bandeja de entrada y verifique su cuenta. Si no ha recibido nada en su bandeja de entrada, revise todas las carpetas/bandejas de entrada, incluido su correo basura."
+    },
+    "invitations": {
+      "invitationExpired": "Invitación vencida",
+      "invitationExpiredBody": "La invitación a esta sala de datos ha caducado.",
+      "invitationExpiredHomePage": "Su solicitud de una nueva invitación se enviará al equipo de negociación.",
+      "roomUnavailable": "Sala de datos no disponible",
+      "roomUnavailableBody": "Esta sala de datos ya no existe",
+      "askForInvitation": "Solicitar nueva invitación",
+      "homePage": "Página de inicio",
+      "askedForInvitation": "Solicitud enviada",
+      "askedForInvitationBodyFirst": "Permita que el administrador del acuerdo considere su invitación.",
+      "askedForInvitationBodySecond": "Se enviará una nueva invitación a su bandeja de entrada."
+    },
+    "dataRooms": {
+      "dataRooms": "Salas de datos",
+      "dataRoomTile": "Mosaico de sala {{currentDataRoomTileIndex}} de datos de{{dataRoomTilesCount}}: {{name}}",
+      "dataRoomLogo": "Logotipo de la sala de datos",
+      "dataRoomName": "Nombre de la sala de datos: {{name}}",
+      "dataRoomId": "Id. de la sala de datos: {{id}}",
+      "dataRoomStatus": "Estado de la sala de datos: {{status}}",
+      "dataRoomInformations": "Información sobre la sala de datos",
+      "dataRoomActions": "{{dataRoomName}} acciones de la sala de datos",
+      "dataRoomsViewOptions": "Opciones de vista de salas de datos",
+      "dataRoomsSortOptions": "Opciones de clasificación de salas de datos",
+      "createNewDataRoom": "Crear una nueva sala de datos",
+      "changeToListView": "Cambiar a vista de lista",
+      "changeToTileView": "Cambiar a vista de mosaico",
+      "projectDashboard": "Panel de control del proyecto",
+      "listOfRooms": "Lista de habitaciones ({{roomsCount}})",
+      "results": "{{count}} resultados",
+      "results_one": "{{count}} resultado",
+      "listOfRoomsFilterResult": "Lista de habitaciones | $t(views.dataRooms.results, {\"count\": {{count}} })",
+      "pleaseSelectAtLeastOneOption": "Seleccione al menos una opción",
+      "newDataRoom": "Nueva sala de datos",
+      "tier": "Nivel",
+      "documents": "Documentos",
+      "pages": "Páginas en línea",
+      "users": "Usuarios",
+      "dataSize": "Tamaño de los datos",
+      "creationDate": "Fecha de creación",
+      "lastLogin": "Último inicio de sesión",
+      "company": "Compañía",
+      "actions": "Acciones",
+      "selected": "Seleccionado",
+      "viewOptions": "Ver opciones:",
+      "sortBy": "Ordenar por:",
+      "filter": "Filtro",
+      "searchFor": "Buscar...",
+      "filterHeaderTitle": "Aplicar filtros para salas de datos",
+      "filtersCountBadge": "Insignia de recuento de filtros",
+      "pinDataRoom": "Sala de {{dataRoomName}} datos de PIN",
+      "unpinDataRoom": "Desanclar sala de {{dataRoomName}} datos",
+      "yourTime": "Su tiempo",
+      "noAccess": {
+        "mainText": "No tiene acceso a ninguna sala de datos",
+        "subText": "Si cree que es un error, comuníquese con Deal Side o",
+        "customerService": "Equipo de Servicio al Cliente"
+      },
+      "emptyState": {
+        "leftSection": {
+          "headerText": "Hola {{keycloakUserFirstName}}, \n¡Bienvenido a Sterling Virtual Data Room!",
+          "middleText": "Nos complace que elija nuestro servicio. Nuestro servicio ofrece soporte para transacciones internacionales y para compartir documentos a través de salas de datos virtuales. Gracias a eso, usted puede:",
+          "bottomText": "y mucho más...",
+          "optionListItemsTexts": [
+            "Cargar y organizar contenido",
+            "Crear equipos internos y externos",
+            "Gestionar sesiones de preguntas y respuestas",
+            "Explorar documentos con soporte de traducción"
+          ]
+        },
+        "rightSection": {
+          "middleText": "¡Puede crear su primer proyecto para gestionar cualquier acuerdo con una manera segura y de alta calidad!",
+          "newDataRoom": "Nueva sala de datos",
+          "twoBusinessmenShakingHands": "Dos empresarios dándose la mano"
+        }
+      },
+      "consent": {
+        "consentTextStart": "Al registrar una cuenta, acepto el",
+        "termsOfService": "Condiciones del servicio",
+        "and": "y",
+        "privacyPolicy": "Política de privacidad, incluido el uso de cookies.",
+        "consentTextEnd": "Comprendo que todos los datos de usuario necesarios para proporcionar el servicio son alojados por Sterling y que puedo tener acceso a mis datos, tengo derecho a cambiar y eliminar datos al comunicarme con el administrador de Sterling.*"
+      },
+      "tile": {
+        "upgradeTier": "Nivel de actualización",
+        "requestArchive": "Solicitar archivo",
+        "settings": "Configuración"
+      },
+      "list": {
+        "details": "Detalles",
+        "tier": "Nivel",
+        "listOfRooms": "Lista de habitaciones",
+        "dataRoomName": "Nombre de la sala de datos",
+        "creationDate": "Fecha de creación",
+        "status": "Estado",
+        "id": "ID",
+        "onlinePages": "Páginas en línea",
+        "documents": "Documentos",
+        "users": "Usuarios",
+        "dataSize": "Tamaño de los datos",
+        "upgradeTier": "Nivel de actualización",
+        "requestArchive": "Solicitar archivo",
+        "settings": "Configuración",
+        "lastLogin": "Último inicio de sesión",
+        "logo": "Logotipo",
+        "company": "Compañía",
+        "highProfileAccount": "Cuenta de perfil alto",
+        "accountType": "Tipo de cuenta"
+      },
+      "sortOptions": {
+        "recentlyCreated": "Creado recientemente",
+        "creationDateOldest": "Fecha de creación más antigua",
+        "lastLoginTime": "Última hora de inicio de sesión",
+        "onlinePagesAscending": "Páginas en línea ascendentes",
+        "onlinePagesDescending": "Páginas en línea descendentes"
+      },
+      "DR_limit_pins": "Alcanzó el límite de fijación de las salas de {{limit}} datos.",
+      "DR_pin_create_success": "La sala de datos se ancló correctamente.",
+      "DR_pin_create_failure": "No se puede anclar la sala de datos.",
+      "DR_create_success": "La sala de datos se creó correctamente.",
+      "DR_status_user_has_no_access": "Por el momento, no tiene acceso a esta sala de datos."
+    },
+    "dataRoomCreation": {
+      "subscriptionPlan": "Plan de suscripción",
+      "createNewDataRoom": "Crear una nueva sala de datos",
+      "dataRoomDetails": "Detalles de la sala de datos",
+      "uploadedImage": "Logotipo cargado",
+      "defaultLogo": "Logotipo predeterminado",
+      "selectFeatures": "Seleccionar características",
+      "selectedPlan": "Plan seleccionado",
+      "changePlan": "Cambiar plan",
+      "backToEdit": "Volver a Editar",
+      "dataRoomName": "Nombre de la sala de datos",
+      "enterDataRoomName": "Ingrese el nombre de la sala de datos",
+      "companyNameForDisclaimers": "Nombre de la compañía para las exenciones de responsabilidad",
+      "enterCompanyName": "Ingrese el nombre de la compañía",
+      "dealType": "Tipo de acuerdo",
+      "selectDealType": "Seleccionar tipo de oferta",
+      "dealManagerEmail": "Correo electrónico del gerente del acuerdo",
+      "enterEmailAddress": "Ingresar dirección de correo electrónico",
+      "timeZone": "Zona horaria",
+      "selectTimeZone": "Seleccionar zona horaria",
+      "serverLocation": "Ubicación del servidor",
+      "logotype": "Logotipo",
+      "companyNameForDisclimers": "Nombre de la compañía para las exenciones de responsabilidad",
+      "serverLocationRegionalUk": "Reino Unido",
+      "serverLocationRegionalEu": "UE",
+      "uploadLogo": "Cargar logotipo",
+      "dropFileHere": "Suelte el archivo aquí",
+      "allowedFileTypes": "mín. 150 x 35 px, JPG, PNG, tamaño máx. de archivo {{size, number}} MB",
+      "suggestedDataRoomName": "Nombre sugerido de la sala de datos",
+      "useThisName": "Usar este nombre",
+      "requiredField": "Este campo es obligatorio",
+      "dataRoomNameUnavailable": "Este nombre está siendo utilizado actualmente por otra sala de datos.",
+      "tooLongDataRoomName": "Este nombre es demasiado largo.",
+      "fileTooLarge": "El archivo es mayor que {{size, number}} MB",
+      "fileInvalidType": "El tipo de archivo debe ser {{accepted, string}}",
+      "consent": "Consentimiento",
+      "highProfileAccount": {
+        "text": "¿Cuenta de alto perfil?",
+        "options": {
+          "no": "No",
+          "yes": "Sí"
+        }
+      },
+      "consentRequiredError": "Debe aceptar nuestros Términos de servicio y Política de privacidad para crear una Sala de datos.",
+      "button": {
+        "create": "Crear",
+        "back": "Parte posterior",
+        "next": "Siguiente",
+        "cancel": "Cancelar"
+      },
+      "dealManagerEmailError": "No puede asignar el administrador de Sterling como gerente de transacciones.",
+      "componentsSelection": "Los componentes se pueden seleccionar en una etapa posterior."
+    },
+    "errorView": {
+      "somethingWentWrong": "Se produjo un error",
+      "unexpectedError": "Error inesperado",
+      "unexpectedErrorOccured": "Estamos haciendo todo lo posible para encontrar una solución. Actualice la página o comuníquese con nuestro equipo de Servicio al Cliente para obtener ayuda.",
+      "tryAgainOrContactAdministrator": "Gracias por su paciencia.",
+      "reportAnIssue": "Comuníquese con el equipo de servicio al cliente",
+      "goToHomePage": "Página de inicio",
+      "goToPreviousPage": "Parte posterior"
+    },
+    "accessRestrictedView": {
+      "accessRestricted": "Acceso restringido",
+      "accessRestrictedNoPermission": "No tiene permisos requeridos para esta página.",
+      "accessRestrictedContact": "Comuníquese con nuestro equipo de Servicio al Cliente."
+    },
+    "sessionTimeout": {
+      "title": "Tiempo de espera de sesión agotado",
+      "bodyPartOne": "Estuvo inactivo durante más de 60 minutos",
+      "bodyPartTwo": "Cerramos su sesión por motivos de seguridad, vaya a la página de inicio o vuelva a iniciar sesión",
+      "loginAgain": "Vuelva a iniciar sesión"
+    },
+    "icons": {
+      "chevronTrippleUp": "Chevron Tripple Up",
+      "archiveArrowDown": "Flecha de archivo hacia abajo",
+      "cogOutline": "Descripción de la cod."
+    },
+    "userSettings": {
+      "title": "Configuración del usuario",
+      "tabs": {
+        "accountData": {
+          "title": "Información personal",
+          "firstName": "Nombre",
+          "lastName": "Apellido",
+          "countryOfResidence": "País de residencia",
+          "companyName": "Nombre de la compañía",
+          "sector": "Sector",
+          "function": "Función",
+          "jobTitle": "Cargo",
+          "accountDataCancelButton": "Cancelar",
+          "accountDataSaveButton": "Guardar",
+          "accountDataMakeChangesButton": "Editar"
+        },
+        "security": {
+          "title": "Información de seguridad",
+          "tip": "Ingrese la contraseña de su cuenta para ingresar esta sección de manera segura.",
+          "password": "Contraseña",
+          "contactNumbers": "Números de contacto",
+          "contactNumbersSuccessMessage": "Nuevos números de contacto guardados.",
+          "email": "Correo electrónico",
+          "enterEmail": "Dirección de correo electrónico",
+          "emailAlreadyExists": "La dirección de correo electrónico que ingresó ya existe. Inicie sesión para continuar.",
+          "mobile": "Móvil",
+          "enterMobile": "Número de teléfono móvil",
+          "setNewPassword": "Establecer nueva contraseña",
+          "confirmNewPassword": "Confirmar nueva contraseña",
+          "securityQuestion": "Pregunta de seguridad",
+          "securityAnswer": "Respuesta de seguridad",
+          "tooltipOneFieldPerEdit": "No puede editar dos secciones al mismo tiempo",
+          "emailCancelButton": "Cancelar",
+          "emailSaveButton": "Guardar",
+          "emailMakeChangesButton": "Editar",
+          "mobileCancelButton": "Cancelar",
+          "mobileSaveButton": "Guardar",
+          "mobileMakeChangesButton": "Editar",
+          "passwordCancelButton": "Cancelar",
+          "passwordSaveButton": "Guardar",
+          "changePasswordButton": "Editar",
+          "securityQuestionCancelButton": "Cancelar",
+          "securityQuestionSaveButton": "Guardar",
+          "securityQuestionMakeChangesButton": "Editar",
+          "deleteAccount": "Eliminar",
+          "deletingAccount": "Eliminar mi cuenta",
+          "deleteGdprModal": {
+            "title": "Eliminar cuenta",
+            "content": {
+              "first": "¿Está seguro de que desea eliminar permanentemente su cuenta?",
+              "second": "Si elimina su cuenta, ya no podrá acceder a ninguna Sala de datos en Sterling VDR y esta acción no se puede deshacer."
+            },
+            "delete": "Eliminar",
+            "successMessage": "La solicitud de eliminación del GDPR se ha enviado al equipo de Servicio al Cliente. Espere 48 horas para que se complete esta acción.",
+            "errorMessage": "Inténtelo de nuevo."
+          },
+          "otpVerificationModal": {
+            "title": "Verificación de OTP",
+            "content": "Ingrese el código de verificación de 6 dígitos enviado al número de teléfono <boldText>{{phoneNumber}}</boldText>",
+            "submit": "Enviar",
+            "inputLabel": "Código de verificación",
+            "errorMessage": "El código ingresado no es válido",
+            "customerServiceLink": "Equipo de Servicio al Cliente",
+            "placeholder": "Ingresar código de verificación",
+            "resendCode": "Reenviar código",
+            "codeRequiredMessage": "Ingrese el código de verificación.",
+            "codeInvalid": "El código ingresado no es válido.",
+            "codeSent": "Código enviado",
+            "tooltip": "Puede solicitar un nuevo código en 30 segundos. El código caducará en 10 minutos."
+          }
+        },
+        "notifications": {
+          "title": "Notificaciones",
+          "EmailSettings": {
+            "title": "Configuración de correo electrónico",
+            "qAndANotification": {
+              "label": "Enviar notificaciones por correo electrónico de preguntas y respuestas",
+              "value": {
+                "positive": "Al instante",
+                "negative": "Nunca"
+              }
+            },
+            "emailNotification": {
+              "label": "Enviar notificaciones de contenido por correo electrónico",
+              "value": {
+                "positive": "Resumen una vez al día",
+                "negative": "Nunca"
+              }
+            }
+          }
+        },
+        "preferences": {
+          "title": "Preferencias",
+          "language": {
+            "title": "Configuración de idioma",
+            "label": "Idioma"
+          },
+          "languageCancelButton": "Cancelar",
+          "languageSaveButton": "Guardar",
+          "languageMakeChangesButton": "Editar"
+        }
+      },
+      "button": {
+        "back": "Parte posterior",
+        "cancel": "Cancelar",
+        "edit": "Editar",
+        "changePassword": "Cambiar contraseña",
+        "saveNewPassword": "Guardar"
+      }
+    },
+    "inviteUsers": {
+      "header": "Solicitar invitaciones de usuario",
+      "selectMethodHeader": "Invitaciones de usuario - Seleccionar método",
+      "enterUsersEmailsHeader": "Invitaciones de usuarios - Ingresar correos electrónicos de usuarios*",
+      "stepText": "Paso",
+      "ofTwoText": "de 2"
+    },
+    "pdfViewer": {
+      "corruptedPrintDialog": {
+        "title": "No se puede imprimir el archivo",
+        "content": "El archivo está dañado y no se puede imprimir.\n\nComuníquese con nuestro Equipo de Servicio al Cliente para obtener más ayuda.",
+        "confirm": "Cerrar ventana"
+      },
+      "corruptedOpenDialog": {
+        "title": "No se puede abrir el archivo",
+        "content": "El archivo está dañado y no se puede abrir en el visor de PDF.\n\nComuníquese con nuestro Equipo de Servicio al Cliente para obtener más ayuda.",
+        "confirm": "Cerrar ventana"
+      },
+      "protectedOpenDialog": {
+        "title": "Documento protegido",
+        "confirm": "Lo tengo",
+        "content": "Este documento está protegido, algunas opciones de mouse y teclado están restringidas.\n\nSi desea realizar acciones en ese documento, utilice el menú de acciones del documento en el árbol de contenido de la aplicación VDR."
+      },
+      "clipboardText": "DOCUMENTO PROTEGIDO Este documento está protegido, algunas opciones de mouse y teclado están restringidas. Si desea realizar acciones en ese documento, utilice el menú de acciones del documento en el árbol de contenido de la aplicación VDR."
+    },
+    "videoViewer": {
+      "corruptedOpenDialog": {
+        "title": "Error al abrir el archivo",
+        "content": "Este archivo de video está dañado. Si tiene acceso, puede descargar el archivo. Como alternativa, comuníquese con el Servicio de atención al cliente de Sterling para obtener más ayuda.",
+        "confirm": "Cerrar ventana"
+      },
+      "notSupported": "Su navegador no admite la etiqueta de video."
+    },
+    "sessionManagerView": {
+      "title": "Administrador de sesiones",
+      "description": "Debe publicar la sesión para que todos los usuarios puedan ver los cambios dentro de la sala de datos.",
+      "button": {
+        "publishChanges": "Publicar cambios",
+        "undoChanges": "Deshacer cambios",
+        "cancel": "Cancelar"
+      },
+      "emptyStateMessage": "Nada para publicar",
+      "emptyStateDescription": "Sus acciones futuras en Contenidos se enumerarán aquí.",
+      "actionsList": {
+        "selectedCount": "Seleccionado {{selectedCount}} de {{totalCount}}",
+        "headers": {
+          "itemName": "Nombre del artículo",
+          "action": "Acción",
+          "details": "Detalles",
+          "actionDate": "Fecha de acción"
+        },
+        "actions": {
+          "inserted": "Insertado",
+          "moved": "Se movió",
+          "updated": "Actualizado",
+          "deleted": "Eliminado",
+          "replaced": "Reemplazado"
+        },
+        "details": {
+          "inserted": "a {{toDisplayName}}",
+          "moved": "de {{fromDisplayName}} a {{toDisplayName}}",
+          "updated": "en {{inDisplayName}}",
+          "deleted": "de {{fromDisplayName}} a {{toDisplayName}}",
+          "replaced": "en {{inDisplayName}}"
+        },
+        "permissionChanges": {
+          "externalTeams": "{{ externalName }} Equipos:",
+          "subInternalTeams": "{{ internalName }} Equipos:",
+          "header": "Esta acción oculta el elemento para:",
+          "failed": "Esta acción hace que el elemento esté oculto para algunos equipos",
+          "loading": "Cargando equipos que pierden el acceso a este artículo..."
+        }
+      },
+      "toasts": {
+        "publishActionSuccess": "Acciones publicadas correctamente: {{count}}",
+        "publishActionFailure": "No se pueden publicar las acciones: {{count}}",
+        "revertActionSuccess": "Acciones revertidas correctamente: {{count}}",
+        "revertActionFailure": "No se pueden revertir las acciones: {{count}}",
+        "actionNotFound": "{{count}} acción(es) no se pudieron procesar. Las acciones no existen o han sido publicadas o revertidas por otro usuario.",
+        "publishDependenciesDetected": "{{count}} las acciones que deben publicarse debido a sus dependencias también se seleccionaron. Revíselos y vuelva a publicarlos.",
+        "revertDependenciesDetected": "{{count}} también se seleccionaron acciones que deben revertirse debido a sus dependencias. Revíselos y vuelva a invertirlos."
+      },
+      "status": {
+        "reverting": "Revertiendo cambios de sesión en curso...",
+        "publishing": "Publicando cambios de sesión en curso..."
+      },
+      "viewActiveSessions": "Ver sesiones activas",
+      "search": {
+        "placeholder": "Buscar nombre de artículo...",
+        "matchingResults": "Resultados coincidentes: {{count}}"
+      }
+    }
+  },
+  "components": {
+    "breadcrumb": {
+      "home": "Inicio",
+      "back": "Botón Atrás de la miga de pan"
+    },
+    "selectableContextMenu": {
+      "contextMenuButton": "Abrir menú contextual"
+    },
+    "dataTablePagination": {
+      "moreThan": "más de {{to}}",
+      "fromToOf": "{{from}}-{{to}} de {{count}}",
+      "first": "primero",
+      "last": "último",
+      "next": "siguiente",
+      "previous": "anterior",
+      "goToPage": "Ir a la {{type}} página",
+      "rowsPerPage": "Filas por página:"
+    },
+    "dataTable": {
+      "rowActions": "Acciones de fila de tabla de datos",
+      "selected": "Seleccionado",
+      "selectSingleRow": "Seleccionar fila única",
+      "selectAllRows": "Seleccionar todas las filas",
+      "enterDetailsAction": "Ingresar acción de detalles",
+      "pageAction": "Acción de página",
+      "expandRow": "Expandir fila",
+      "details": "Detalles"
+    },
+    "header": {
+      "companyName": "Sterling",
+      "userSettings": "Configuración del usuario",
+      "contactSupport": "Equipo de Servicio al Cliente",
+      "adminPanel": "Panel de administración",
+      "logout": "Cerrar sesión",
+      "notifications": "Notificaciones",
+      "sessions": "Sesiones",
+      "settings": "Configuración",
+      "dataRoomActions": "Acciones de la sala de datos",
+      "home": "Inicio",
+      "recentDataRooms": "Salas de datos recientes",
+      "recentDataRoomName": "Sala de datos reciente {{dataRoomName}}",
+      "noRecentDataRooms": "No hay salas de datos recientes"
+    },
+    "tier": {
+      "tier": "Nivel",
+      "upTo": "Hasta",
+      "users": "usuarios",
+      "gb": "GB",
+      "forYourData": "para sus datos"
+    },
+    "sidebar": {
+      "close": "Cerrar",
+      "cancel": "Cancelar",
+      "applyFilters": "Aplicar filtros",
+      "clearFilters": "Borrar filtros"
+    },
+    "allResults": {
+      "allResults": "Fin de los resultados"
+    },
+    "noResults": {
+      "noResults": "Sin resultados",
+      "changeCriteria": "Cambie sus criterios de filtro/búsqueda."
+    },
+    "noQuestions": {
+      "noQuestions": "No hay preguntas por ahora",
+      "noQuestionsInfo": "Vuelva más tarde para verificar si se hicieron nuevas preguntas"
+    },
+    "status": {
+      "active": "Activo",
+      "underPreparation": "En preparación",
+      "terminationPeriod": "Período de finalización",
+      "temporaryRestriction": "Restricción temporal"
+    },
+    "searchbar": {
+      "clear": "Borrar",
+      "searchFor": "Buscar...",
+      "requiredCharacters": "Caracteres obligatorios: {{length}}."
+    },
+    "searchinput": {
+      "clear": "Borrar"
+    },
+    "autocompleteSearchbar": {
+      "noMatch": "Sin sugerencias de coincidencia",
+      "disclaimersCompanyName": "Compañía",
+      "name": "Sala de datos",
+      "id": "Id.",
+      "undefined": "",
+      "publicReference": "Id."
+    },
+    "statusChanger": {
+      "selectStatus": "Seleccionar estado",
+      "requestFor": "Solicitud de",
+      "updatedBy": "Última actualización {{date}} por {{user}}",
+      "customAccess": "Establecer acceso personalizado",
+      "buttons": {
+        "buttonSetStatus": "Establecer estado",
+        "buttonRequestFor": "Solicitud de"
+      },
+      "accessTypes": {
+        "FullAccess": "Acceso completo",
+        "NoAccess": "Sin acceso"
+      },
+      "label": "Acceso a {{teamName}}",
+      "toasts": {
+        "requestSentSuccesfully": "Su solicitud ha sido enviada.",
+        "requestSentFailure": "Su solicitud no ha sido enviada.",
+        "statusChangedSuccessfully": "Se ha cambiado el estado de la sala de datos.",
+        "statusChangedFailure": "No se ha cambiado el estado de la sala de datos."
+      }
+    },
+    "statusDescription": {
+      "active": "Este estado permitirá que los equipos del licitador ingresen a la sala de datos.\n\nDespués de seleccionar este estado, habrá una lista de verificación para ver si prepara su sala de datos de manera adecuada.\n\nDisfrute de una excelente experiencia con Sterling VDR.",
+      "underPreparation": "Estado de sordo para la nueva sala de datos, su objetivo es establecer todos los ajustes y documentos necesarios para que la sala se ponga en marcha.\n\nRestringirá el acceso a DataRoom de todos los usuarios del equipo de oferentes.\n\nEl equipo de negociación principal y el equipo de subacuerdo mantienen el acceso y aún pueden hacer cambios.",
+      "temporaryRestriction": "Restringir el acceso de ciertos tipos de equipos a la sala de datos de acuerdo con su configuración a la derecha.\n\nEl acceso completo no tiene resultados para el tipo de equipo seleccionado.\n\nNingún acceso oculta la sala de datos en el concentrador.",
+      "terminationPeriod": "Este estado está disponible solo a solicitud del administrador de Sterling.\n\nLa solicitud dará como resultado el cierre de la sala de datos para todos los tipos de equipo.\n\nDespués de 30 días, se eliminará la sala de datos con todo su contenido."
+    },
+    "toaster": {
+      "closeMessage": "Cerrar mensaje",
+      "toast": "Tostada"
+    },
+    "confirmationDialog": {
+      "unsavedChangesTitle": "Tiene cambios no guardados",
+      "content": "Está a punto de salir de esta página sin guardar,\ntodos los cambios se perderán.\n\n¿Está seguro de que los descartará?",
+      "discard": "Descartar cambios",
+      "stayOnPage": "Permanecer en la página"
+    },
+    "confirmationCancelDialog": {
+      "unsavedChangesTitle": "Tiene cambios no guardados",
+      "content": "¿Está seguro de que desea descartar estos cambios?\n\nSe perderán todos los cambios.",
+      "discard": "Descartar cambios",
+      "stayOnPage": "Seguir editando"
+    },
+    "activationChecklist": {
+      "activationChecklistHeader": "Confirme los siguientes elementos antes de cambiar el estado de la sala de datos a Activo:",
+      "shakingHands": "Sacudir las manos",
+      "yourProjectStatus": "El estado del proyecto se cambiará a Activo.",
+      "invitationsForBiddersUsers": "Los licitadores recibirán automáticamente invitaciones si no se establecieron ajustes personalizados.",
+      "activateRoom": "Activar habitación",
+      "indexStructureIsReady": "La estructura del índice está lista y se cargaron los documentos iniciales*",
+      "mainDealTeamIsCreated": "Se crea el equipo de negociación principal y se invita a todos los usuarios*",
+      "biddersTeamsAreCreated": "Se crean equipos de licitadores y se agregan todos los usuarios*",
+      "disclaimerIsAppropriate": "La exención de responsabilidad es adecuada para el tipo de acuerdo y los equipos exactos si es necesario*",
+      "grantedPermission": "Los usuarios han otorgado permisos correctamente*",
+      "recyleBinIsntEmptyText": "La papelera de reciclaje no está vacía y después de que se alojan los datos de lanzamiento. Es posible que se le cobre por ello. Seleccione una de las siguientes opciones*",
+      "deleteAllFiles": "Eliminar todos los archivos de la papelera de reciclaje",
+      "keepAllFiles": "Mantener todos los archivos de la papelera de reciclaje",
+      "activeSessionValidationMessage": "No puede activar la sala ya que hay una sesión activa dentro de DR."
+    },
+    "chooseActionButton": {
+      "chooseAction": "Elegir acción",
+      "actions": "acciones"
+    }
+  },
+  "userInvitations": {
+    "buttons": {
+      "saveDraft": "Guardar borrador"
+    }
+  },
+  "countryCodes": {
+    "AF": "Afganistán",
+    "AL": "Albania",
+    "DZ": "Argelia",
+    "AS": "Samoa Americana",
+    "AD": "Andorra",
+    "AO": "Angola",
+    "AI": "Anguila",
+    "AQ": "Antártida",
+    "AG": "Antigua y Barbuda",
+    "AR": "Argentina",
+    "AM": "Armenia",
+    "AW": "Aruba",
+    "AU": "Australia",
+    "AT": "Austria",
+    "AZ": "Azerbaiyán",
+    "BS": "Bahamas",
+    "BH": "Baréin",
+    "BD": "Bangladesh",
+    "BB": "Barbados",
+    "BY": "Bielorrusia",
+    "BE": "Bélgica",
+    "BZ": "Belice",
+    "BJ": "Benín",
+    "BM": "Bermudas",
+    "BT": "Bután",
+    "BO": "Bolivia",
+    "BA": "Bosnia y Herzegovina",
+    "BW": "Botsuana",
+    "BV": "Isla Bouvet",
+    "BR": "Brasil",
+    "IO": "Territorio del Océano Índico Británico",
+    "VG": "Islas Vírgenes Británicas",
+    "BN": "Brunei Darussalam",
+    "BG": "Bulgaria",
+    "BF": "Faso de Burkina",
+    "BI": "Burundi",
+    "KH": "Camboya",
+    "CM": "Camerún",
+    "CA": "Canadá",
+    "CV": "Cabo Verde (Cabo Verde)",
+    "KY": "Islas Caimán",
+    "CF": "República Centroafricana",
+    "TD": "Chad",
+    "CL": "Chile",
+    "CN": "China",
+    "CX": "Isla de Navidad",
+    "CC": "Islas Cocos (Keeling)",
+    "CO": "Colombia",
+    "KM": "Comoros",
+    "CG": "Congo",
+    "CD": "Congo, República Democrática del",
+    "CK": "Islas Cook",
+    "CR": "Costa Rica",
+    "CI": "Costa de Marfil (Costa de Marfil)",
+    "HR": "Croacia",
+    "CU": "Cuba",
+    "CW": "Curazao",
+    "CY": "Chipre",
+    "CZ": "República Checa (Czequia)",
+    "DK": "Dinamarca",
+    "DJ": "Djibouti",
+    "DM": "Dominica",
+    "DO": "República Dominicana",
+    "TP": "Timor Este (Timor-Leste)",
+    "EC": "Ecuador",
+    "EG": "Egipto",
+    "SV": "El Salvador",
+    "GQ": "Guinea Ecuatorial",
+    "ER": "Eritrea",
+    "EE": "Estonia",
+    "ET": "Etiopía",
+    "FK": "Islas Malvinas (Islas Malvinas)",
+    "FO": "Islas Feroe",
+    "FJ": "Fiyi",
+    "FI": "Finlandia",
+    "FR": "Francia",
+    "GF": "Guayana Francesa",
+    "PF": "Polinesia francesa",
+    "TF": "Territorios del sur francés",
+    "GA": "Gabón",
+    "GM": "Gambia",
+    "GE": "Georgia",
+    "DE": "Alemania",
+    "GH": "Ghana",
+    "GI": "Gibraltar",
+    "GR": "Grecia",
+    "GL": "Groenlandia",
+    "GD": "Granada",
+    "GP": "Guadalupe",
+    "GU": "Guam",
+    "GT": "Guatemala",
+    "GG": "Guernsey",
+    "GN": "Guinea",
+    "GW": "Guinea-Bissau",
+    "GY": "Guyana",
+    "HT": "Haití",
+    "HM": "Islas Heard y McDonald",
+    "HN": "Honduras",
+    "HK": "Hong Kong",
+    "HU": "Hungría",
+    "IS": "Islandia",
+    "IN": "India",
+    "ID": "Indonesia",
+    "IR": "Irán",
+    "IQ": "Irak",
+    "IE": "Irlanda",
+    "IM": "Isla de Man",
+    "IL": "Israel",
+    "IT": "Italia",
+    "JM": "Jamaica",
+    "JP": "Japón",
+    "JE": "Jersey",
+    "JO": "Jordania",
+    "KZ": "Kazajistán",
+    "KE": "Kenia",
+    "KI": "Kiribati",
+    "KP": "Corea del Norte (República Popular Democrática de Corea)",
+    "KR": "Corea del Sur (República de Corea)",
+    "XK": "Kosovo",
+    "KW": "Kuwait",
+    "KG": "Kirguistán",
+    "LA": "República Democrática Popular Lao (Laos)",
+    "LV": "Letonia",
+    "LB": "Líbano",
+    "LS": "Lesoto",
+    "LR": "Liberia",
+    "LY": "Libia (Estado de Libia)",
+    "LI": "Liechtenstein",
+    "LT": "Lituania",
+    "LU": "Luxemburgo",
+    "MO": "Macau (Macao)",
+    "MG": "Madagascar",
+    "MW": "Malawi",
+    "MY": "Malasia",
+    "MV": "Maldivas",
+    "ML": "Mali",
+    "MT": "Malta",
+    "MH": "Islas Marshall",
+    "MQ": "Martinica",
+    "MR": "Mauritania",
+    "MU": "Mauricio",
+    "YT": "Mayotte",
+    "MX": "México",
+    "FM": "Micronesia, Estados Federados de",
+    "MD": "Moldavia",
+    "MC": "Mónaco",
+    "MN": "Mongolia",
+    "ME": "Montenegro",
+    "MS": "Montserrat",
+    "MA": "Marruecos",
+    "MZ": "Mozambique",
+    "MM": "Myanmar",
+    "NA": "Namibia",
+    "NR": "Nauru",
+    "NP": "Nepal",
+    "NL": "Países Bajos",
+    "AN": "Antillas neerlandesas",
+    "NC": "Nueva Caledonia",
+    "NZ": "Nueva Zelanda",
+    "NI": "Nicaragua",
+    "NE": "Níger",
+    "NG": "Nigeria",
+    "NU": "Niue",
+    "NF": "Isla Norfolk",
+    "MK": "Macedonia del Norte",
+    "MP": "Islas Marianas del Norte",
+    "NO": "Noruega",
+    "OM": "Omán",
+    "PK": "Pakistán",
+    "PW": "Palaos",
+    "PS": "Palestina, estado de",
+    "PA": "Panamá",
+    "PG": "Papúa Nueva Guinea",
+    "PY": "Paraguay",
+    "PE": "Perú",
+    "PH": "Filipinas",
+    "PN": "Islas Pitcairn",
+    "PL": "Polonia",
+    "PT": "Portugal",
+    "PR": "Puerto Rico",
+    "QA": "Qatar",
+    "RE": "Reunión",
+    "RO": "Rumania",
+    "RU": "Rusia (Federación Rusa)",
+    "RW": "Ruanda",
+    "BL": "Santa Bartelemia",
+    "SH": "Santa Helena, Ascensión, Tristán da Cunha",
+    "KN": "San Cristóbal y Nieves",
+    "LC": "Santa Lucía",
+    "MF": "San Martín",
+    "PM": "Saint Pierre y Miquelon",
+    "VC": "San Vicente y las Granadinas",
+    "WS": "Samoa",
+    "SM": "San Marino",
+    "ST": "Sao Tome y Principe",
+    "SA": "Arabia Saudita",
+    "SN": "Senegal",
+    "RS": "Serbia",
+    "SC": "Seychelles",
+    "SL": "Sierra Leona",
+    "SG": "Singapur",
+    "SX": "Maarten sintetizado",
+    "SK": "Eslovaquia (República Eslovaca)",
+    "SI": "Eslovenia",
+    "SB": "Islas Salomón",
+    "SO": "Somalia",
+    "ZA": "Sudáfrica",
+    "GS": "Islas Georgia del Sur y Sándwich del Sur",
+    "SS": "Sudán del Sur",
+    "ES": "España",
+    "LK": "Sri Lanka",
+    "SD": "Sudán",
+    "SR": "Surinam",
+    "SJ": "Islas Svalbard y Jan Mayen",
+    "SZ": "Suazilandia (Eswatini)",
+    "SE": "Suecia",
+    "CH": "Suiza",
+    "SY": "Siria (República Árabe Siria)",
+    "TW": "Taiwán (ROC)",
+    "TJ": "Tayikistán",
+    "TZ": "Tanzania, República Unido de",
+    "TH": "Tailandia",
+    "TG": "Togo",
+    "TK": "Tokelau",
+    "TO": "Tonga",
+    "TT": "Trinidad y Tobago",
+    "TN": "Túnez",
+    "TR": "Turquía",
+    "TM": "Turkmenistán",
+    "TC": "Islas Turcas y Caicos",
+    "TV": "Tuvalu",
+    "VI": "Islas Vírgenes de EE. UU.",
+    "UG": "Uganda",
+    "UA": "Ucrania",
+    "AE": "Emiratos Árabes Unidos",
+    "GB": "Reino Unido",
+    "US": "Estados Unidos",
+    "UM": "Islas periféricas menores de los Estados Unidos",
+    "UY": "Uruguay",
+    "UZ": "Uzbekistán",
+    "VU": "Vanuatu",
+    "VA": "Estado de la ciudad del Vaticano (la Santa Sede)",
+    "VE": "Venezuela",
+    "VN": "Vietnam",
+    "WF": "Wallis y Futuna",
+    "EH": "Sahara Occidental",
+    "YE": "Yemen",
+    "ZM": "Zambia",
+    "ZW": "Zimbabue"
+  },
+  "securityQuestions": {
+    "WhatIsTheCityWereYouBorn": "¿En qué ciudad nació?",
+    "WhatIsTheNameOfYourFavoritePet": "¿Cuál es el nombre de su mascota favorita?",
+    "WhatIsYourMothersMaidenName": "¿Cuál es el apellido de soltera de su madre?",
+    "WhatHighSchoolDidYouAttend": "¿A qué escuela secundaria asistió?",
+    "WhatIsTheNameOfYourFirstSchool": "¿Cuál es el nombre de su primera escuela?",
+    "WhatWasTheMakeOfYourFirstCar": "¿Cuál fue la marca de su primer automóvil?",
+    "WhatWasYourFavoriteFoodAsAChild": "¿Cuál era su comida favorita cuando era niño?",
+    "WhereDidYouMeetYourSpouse": "¿Dónde conoció a su cónyuge?",
+    "WhatIsYourFavoriteBook": "¿Cuál es tu libro favorito?",
+    "WhatIsTheNameOfTheRoadYouGrewUpOn": "¿Cuál es el nombre de la carretera en la que creció?",
+    "WhatIsYourFavoritePlaceToVacation": "¿Cuál es su lugar favorito para vacacionar?",
+    "WhatIsYourFavoriteActorMusicanOrArtist": "¿Quién es su actor, músico o artista favorito?",
+    "WhatIsYourFavoriteMovie": "¿Cuál es su película favorita?",
+    "WhatIsYourFavoriteColor": "¿Cuál es su color favorito?"
+  },
+  "sectors": {
+    "AerospaceAndDefence": "Aeroespacial y defensa",
+    "Agricultural": "Agrícola",
+    "Automotive": "Automotriz",
+    "BusinessServices": "Servicios comerciales",
+    "EnergyAndRenewables": "Energía y recursos renovables",
+    "FinancialServices": "Servicios financieros",
+    "FinancialSponsors": "Patrocinadores financieros",
+    "FoodAndDrink": "Alimentos y bebidas",
+    "GovernmentAndPublicSector": "Gobierno y sector público",
+    "Healthcare": "Atención médica",
+    "Industrial": "Industrial",
+    "Infrastructure": "Infraestructura",
+    "Insurance": "Seguro",
+    "LegalServices": "Servicios legales",
+    "Leisure": "Ocio",
+    "Manufacturing": "Fabricación",
+    "Media": "Medios de comunicación",
+    "MetalsAndMining": "Metales y minería",
+    "OilAndGas": "Petróleo y gas",
+    "Other": "Otro",
+    "PrivateEquity": "Capital privado",
+    "RealEstate": "Bienes raíces",
+    "Retail": "Minorista",
+    "Technology": "Tecnología",
+    "Telecommunications": "Telecomunicaciones",
+    "Transport": "Transporte"
+  },
+  "functions": {
+    "FinancialAdvisor": "Asesor financiero",
+    "LegalAdvisor": "Asesor legal",
+    "PrivateEquity": "Capital privado",
+    "Corporate": "Corporativo",
+    "TransactionalServices": "Servicios transaccionales",
+    "RealEstate": "Bienes raíces",
+    "Other": "Otro"
+  },
+  "jobTitles": {
+    "ManagingDirector": "Director general",
+    "Director": "Director",
+    "ExecutiveDirector": "Director Ejecutivo",
+    "VicePresident": "Vicepresidente",
+    "AssociateDirector": "Director asociado",
+    "Manager": "Gerente",
+    "Associate": "Asociado",
+    "Analyst": "Analista",
+    "Executive": "Ejecutivo",
+    "Partner": "Socio",
+    "ManagingAssociate": "Asociado gerente",
+    "Trainee": "Aprendiz",
+    "Paralegal": "Asistente legal",
+    "LegalDirector": "Director legal",
+    "OfCounsel": "De abogado",
+    "OperationsPartner": "Socio de operaciones",
+    "OperationsManager": "Gerente de operaciones",
+    "InvestmentDirector": "Director de Inversiones",
+    "InvestmentManager": "Gerente de Inversiones",
+    "Principal": "Principal",
+    "CEO": "Director ejecutivo",
+    "CFO": "CFO",
+    "MAndADirector": "Director de fusiones y adquisiciones",
+    "MAndAManager": "Gerente de fusiones y adquisiciones",
+    "GeneralCounsel": "Asesor general",
+    "Strategy": "Estrategia",
+    "LegalCounsel": "Asesor legal",
+    "Other": "Otro"
+  },
+  "passwordPolicyTypes": {
+    "singular": {
+      "length": "mín. 1 carácter",
+      "upperCase": "Letra mayúscula",
+      "lowerCase": "Letra minúscula",
+      "digits": "Número",
+      "specialChars": "Carácter especial"
+    },
+    "plural": {
+      "length": "{{value}} carácter mín.",
+      "upperCase": "{{value}} Letras mayúsculas",
+      "lowerCase": "{{value}} Letras minúsculas",
+      "digits": "{{value}} Números",
+      "specialChars": "{{value}} Caracteres especiales"
+    }
+  },
+  "dealTypes": {
+    "subcategory": {
+      "buySideMa": "Comprar fusiones y adquisiciones laterales",
+      "sellSideMa": "M&A del lado de venta",
+      "postMergerIntegration": "Integración posterior a la fusión",
+      "teaserImDistribution": "Distribución IM de Teaser",
+      "fundraising": "Recaudación de fondos",
+      "secondaries": "Subsecundarios",
+      "fundReportingInvestorRelations": "Informes de fondos/relaciones con los inversores",
+      "portfolioManagement": "Gestión de cartera",
+      "assetSaleIpo": "Venta de activos/IPO",
+      "npls": "NPL",
+      "securitization": "Securitización",
+      "syndicatedLoan": "Préstamo sindicado",
+      "restructuring": "Reestructuración",
+      "privatePlacements": "Ubicaciones privadas",
+      "ipoRightsIssues": "Problemas de IPO y derechos",
+      "roadshows": "Exhibiciones de carreteras",
+      "assetManagement": "Gestión de activos",
+      "assetSales": "Ventas de activos",
+      "pharmaceuticalsLicensing": "Licencias de productos farmacéuticos",
+      "jointVentures": "Empresas conjuntas",
+      "auditorReviewCompliance": "Revisión y cumplimiento del auditor",
+      "antitrustClassActionLawsuits": "Demandas colectivas antimonopolio",
+      "other": "Otro"
+    },
+    "category": {
+      "ma": "M&A",
+      "privateEquity": "Capital privado",
+      "debts": "Deudas",
+      "equity": "Renta variable",
+      "realEstate": "Bienes raíces",
+      "pharma": "Farmacéutica",
+      "tendering": "Licitación",
+      "courtProceedings": "Litigios",
+      "otherDealType": "Otro tipo de acuerdo"
+    }
+  },
+  "errorCodes": {
+    "passwordIsTooSimilar": "La contraseña es demasiado similar a las 5 contraseñas anteriores."
+  },
+  "timeZones": {
+    "greenwichMeanTime": "Tiempo medio de Greenwich",
+    "hongKongTime": "Hora de Hong Kong",
+    "indianStandardTime": "Hora estándar de la India",
+    "singaporeStdTime": "Tiempo estándar de Singapur",
+    "southAfricanStandardTime": "Hora estándar de Sudáfrica",
+    "arabStandardTimeKuwaitRiyadh": "Hora estándar árabe (Kuwait, Riad)",
+    "arabianStandardTimeAbuDhabiMuscat)": "Hora estándar de Arabia (Abu Dabi, Muscat)",
+    "gulfStandardTime": "Tiempo estándar del Golfo",
+    "moscowTime": "Hora de Moscú",
+    "australianWesternStandardTime": "Hora estándar occidental de Australia",
+    "chinaStandardTime": "Hora estándar de China",
+    "malaysiaTime": "Hora de Malasia",
+    "japanStandardTime": "Hora estándar de Japón",
+    "atlanticStandardTime": "Hora estándar del Atlántico",
+    "australianCentralStandardTime": "Hora estándar central australiana",
+    "australianEasternStandardTime": "Hora estándar del este de Australia",
+    "brasilia": "Brasilia",
+    "easternStandardTime": "Hora estándar del este",
+    "centralStandardTime": "Hora estándar central",
+    "mountainStandardTime": "Hora estándar de la montaña",
+    "pacificStandardTime": "Hora estándar del Pacífico",
+    "alaskaStandardTime": "Hora estándar de Alaska",
+    "centralEuropeanTime": "Hora de Europa Central",
+    "easternEuropeanTime": "Hora de Europa Oriental",
+    "westernIndonesianTime": "Hora occidental de Indonesia",
+    "easternAfricaTimeNairobi": "Hora del este de África (Nairobi)",
+    "israelStandardTimeJerusalem": "Hora estándar de Israel (Jerusalén)"
+  }
+}

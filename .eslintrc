@@ -1,0 +1,86 @@
+{
+  "env": {
+    "browser": true,
+    "jest": true,
+    "es6": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "react", "react-hooks", "jsx-a11y", "sonarjs"],
+  "extends": [
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react/recommended",
+    "plugin:jsx-a11y/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:sonarjs/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking"
+  ],
+  "parserOptions": {
+    "project": ["tsconfig.json"],
+    "ecmaVersion": 2020,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "react/react-in-jsx-scope": "off",
+    "no-console": ["warn", { "allow": ["warn", "error", "info"] }],
+    "no-shadow": "off",
+    "@typescript-eslint/no-shadow": "warn",
+    "@typescript-eslint/no-non-null-assertion": 0,
+    "@typescript-eslint/no-empty-function": 0,
+    "react/prop-types": 0,
+    "react/destructuring-assignment": ["warn", "always"],
+    "react-hooks/exhaustive-deps": "warn",
+    "max-len": ["warn", { "code": 120 }],
+    "newline-before-return": "warn",
+    "react-hooks/rules-of-hooks": "error",
+    "quotes": ["warn", "single"],
+    "camelcase": [
+      "error",
+      {
+        "allow": [
+          "client_id",
+          "access_token",
+          "refresh_token",
+          "grant_type",
+          "client_secret",
+          "given_name",
+          "family_name",
+          "country_code",
+          "company_name",
+          "job_title",
+          "mobile_phone",
+          "country_of_residence",
+          "security_question",
+          "security_answer",
+          "email_verified"
+        ]
+      }
+    ],
+    "no-multi-spaces": ["warn", { "ignoreEOLComments": false }],
+    "eol-last": ["warn", "always"],
+    "no-multiple-empty-lines": [
+      "warn",
+      {
+        "max": 1,
+        "maxEOF": 0
+      }
+    ]
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "ignorePatterns": [
+    "webpack.*.js",
+    "file.mock.js",
+    "server.js",
+    "svgr.mock.js",
+    "mockServer.*",
+    "jest.*.js",
+    "css.mock.js"
+  ]
+}

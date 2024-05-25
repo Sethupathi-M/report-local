@@ -1,0 +1,2999 @@
+{
+  "routing": {
+    "navigationBarElements": {
+      "dashboard": "仪表板",
+      "contents": "内容",
+      "teamsAndUsers": "团队和用户",
+      "qa": "问答",
+      "reports": "报告",
+      "uploads": "上传",
+      "downloads": "下载",
+      "settings": "设置",
+      "dataRooms": "数据室",
+      "vdrUsers": "VDR 用户",
+      "templates": "模板",
+      "inviteUsers": "邀请用户"
+    }
+  },
+  "sessionTimeout": {
+    "sessionTimeout": "会话超时",
+    "modalMessagePartOne": "您处于非活动状态将近 60 分钟。出于安全考虑，我们将在 5 分钟内将您注销。",
+    "modalMessagePartTwo": "所有未保存的更改都将丢失。",
+    "iAmHere": "我在这里"
+  },
+  "common": {
+    "confirmChanges": "确认更改",
+    "answer": "答案",
+    "select": "选择",
+    "typeAndSelect": "输入并选择",
+    "requiredField": "此字段为必填字段",
+    "wrongPassword": "密码不正确",
+    "cancel": "取消",
+    "save": "保存",
+    "enter": "输入",
+    "enterPassword": "输入密码",
+    "passwordsDoNotMatch": "密码必须相同",
+    "enterEmail": "输入电子邮件",
+    "enterMobile": "输入手机号码",
+    "invalidEmailAddress": "电子邮件地址无效",
+    "InvalidUserName": "用户名无效",
+    "InvalidUserLastName": "用户姓氏无效",
+    "phoneNumberTooShort": "电话号码太短",
+    "changePassword": "更改密码",
+    "passwordExpirationWarning_oneOrZero": "您的密码已设置为过期",
+    "passwordExpirationWarning": "您的密码设置为 {{count}} 天后过期",
+    "close": "关闭",
+    "back": "背面",
+    "create": "创建",
+    "uploadFile": "上传文件",
+    "form": "表格",
+    "togglePasswordVisibility": "切换密码可见性",
+    "toggleConfirmPasswordVisibility": "切换确认密码可见性",
+    "serverError": "连接到服务器时出错",
+    "checkIsRequired": "必填",
+    "selectionIsRequired": "需要选择",
+    "questionMark": "?",
+    "submit": "提交",
+    "view": "查看",
+    "update": "更新",
+    "moderate": "中度",
+    "review": "审核",
+    "delete": "删除",
+    "listEmpty": "列表为空",
+    "details": "详情",
+    "edit": "编辑",
+    "remove": "删除",
+    "downloadPdf": "下载 PDF",
+    "downloadNative": "下载",
+    "downloadContent": "下载",
+    "replace": "更换",
+    "copy": "复制",
+    "cut": "切割",
+    "share": "分享",
+    "paste": "粘贴",
+    "link": "链接",
+    "unlink": "取消链接",
+    "emptyBin": "空药箱",
+    "emptyMasterBin": "清空主药箱",
+    "search": "搜索",
+    "bidders": "投标人",
+    "sellers": "卖方",
+    "buyers": "买家",
+    "internal": "内部",
+    "external": "外部",
+    "users": "用户",
+    "experts": "专家",
+    "makeChanges": "编辑",
+    "print": "打印",
+    "countryOfResidence": "居住国家/地区",
+    "stepperProgress": "<strong>第 步{{activeStep}}</strong>，共 步 {{allSteps}}",
+    "sendRequest": "发送请求",
+    "required": "必填",
+    "exportIndexAsExcel": "导出到 Excel",
+    "exportIndexAsPdf": "导出到 PDF",
+    "operationInProgress": "正在操作...",
+    "successEmailSentMessage": "电子邮件已成功发送",
+    "failureEmailSentMessage": "无法发送电子邮件 "
+  },
+  "views": {
+    "adminPanel": {
+      "templates": {
+        "templates": "模板"
+      },
+      "vdrUsers": {
+        "vdrUsers": "VDR 用户",
+        "listOfUsers": "用户列表",
+        "table": {
+          "header": {
+            "name": "名称",
+            "email": "电子邮件",
+            "company": "公司名称"
+          },
+          "details": {
+            "emailVerificationtooltip": "待处理的电子邮件验证",
+            "securityQuestion": "安全问题",
+            "securityAnswer": "安全答案",
+            "mobilePhoneNumber": "手机号码",
+            "deskPhoneNumber": "备用电话号码",
+            "countryOfResidence": "居住国家/地区",
+            "sector": "行业",
+            "function": "功能",
+            "jobTitle": "职务",
+            "userDataRooms": {
+              "dataRoomName": "数据室名称",
+              "status": "状态",
+              "teamName": "团队名称",
+              "role": "角色",
+              "enterDataRoom": "输入数据室"
+            }
+          },
+          "rowActions": "用户行操作"
+        }
+      }
+    },
+    "customerSupport": {
+      "title": "客户服务团队",
+      "content": "我们全天候为您服务\n通过表格发送电子邮件 （{{supportEmail}}）\n或致电我们： {{phone}}",
+      "button": {
+        "cancel": "取消",
+        "sendMessage": "发送消息"
+      },
+      "placeholder": "告诉我们发生了什么",
+      "errorMessage": "此字段为必填字段",
+      "header": {
+        "close": "关闭"
+      },
+      "internationalNumbers": "国际号码",
+      "messageHeader": "消息",
+      "toasts": {
+        "failure": "无法发送您的消息，请稍后重试。",
+        "success": "您的消息已成功发送。"
+      }
+    },
+    "contents": {
+      "contents": "内容",
+      "contentsTree": "指数",
+      "contentsTreeEmptyState": "数据室中没有文件",
+      "contentsTreeNodeAriaLabel": "的菜单选项 {{itemName}}",
+      "startReviewOnOpen": "文档正在等待审核",
+      "openOrStartReviewDialog": {
+        "title": "文档正在等待审核",
+        "content": "本文档正在等待审核。您可以打开它以正常阅读或开始审查流程。",
+        "decision": "您想做什么？",
+        "extraConfirm": "仅打开",
+        "confirm": "开始审核"
+      },
+      "contentList": {
+        "header": {
+          "creationDate": "添加日期",
+          "name": "名称",
+          "numbering": "编号",
+          "rootIndex": "根索引",
+          "labels": "标签",
+          "selectAllRows": {
+            "fetchingTooltip": "正在加载项目..."
+          }
+        },
+        "body": {
+          "moreLabels": "+{{count}}",
+          "sessionsTooltip": "您必须首先发布会话才能解锁向项目添加标签",
+          "labelPopover": {
+            "createNew": "创建新",
+            "placeholder": "标签名称...",
+            "labels": "标签",
+            "add": "添加",
+            "error": {
+              "labelExists": "名称已使用"
+            }
+          },
+          "labelDeleteModal": {
+            "content": "删除标签？"
+          }
+        },
+        "dragAndDropAvailableInfo": "您也可以拖放文件以开始上传。",
+        "sort": {
+          "buttonText": "排序",
+          "options": {
+            "numberAsc": "数字升序",
+            "numberDesc": "数字降序",
+            "nameAsc": "姓名升序",
+            "nameDesc": "名称降序",
+            "newest": "最新",
+            "oldest": "最旧的",
+            "popularity": "受欢迎程度"
+          }
+        }
+      },
+      "documentDetails": {
+        "header": "文档详细信息",
+        "name": "名称",
+        "dateAdded": "添加日期",
+        "uploadedBy": "上传人",
+        "conversionStatus": "转换状态",
+        "conversionStatuses": {
+          "conversionCompleted": "转换已完成",
+          "none": "无",
+          "processing": "处理",
+          "conversionFailed": "无法转换文件",
+          "searchable": "可搜索",
+          "notSearchable": "不可搜索"
+        },
+        "statusDate": "状态日期",
+        "convertedFileSize": "转换的文件大小",
+        "nativeFileSize": "本机文件大小",
+        "nativeFileType": "本机文件类型",
+        "pageCount": "页数",
+        "irm": {
+          "labelText": "IRM（信息权管理）",
+          "irmOptions": {
+            "no": "否",
+            "yes": "是"
+          }
+        },
+        "statusDetails": "状态详情",
+        "statusesDetails": {
+          "passwordProtected": "文件密码受保护。",
+          "unidentifiedIssue": "未识别的问题。",
+          "fileCouldNotBeConverted": "无法转换文件。"
+        },
+        "reviewStatus": "审核状态",
+        "startReview": "开始审核",
+        "finishReview": "完成审核",
+        "contactSupport": "联系客户服务团队",
+        "thumbnailPreview": "缩略图预览",
+        "thumbnailFailed": "缩略图失败",
+        "next": "下一个",
+        "prev": "上一个",
+        "reviewing": "审核",
+        "pending": "待定",
+        "returnedComplete": "返回完成",
+        "returnedIncomplete": "返回不完整",
+        "selectReviewStatus": "选择审核状态"
+      },
+      "bulkRename": {
+        "bulkRename": "批量重命名",
+        "newName": "新名称",
+        "noItemsHeaderText": "无可显示的内容",
+        "noItemsSecondaryText": "请选择不同的索引/文件夹",
+        "toastMessages": {
+          "success": "已成功重命名项目：",
+          "importSuccess": "批量重命名馈送导入成功",
+          "importInProgressMessage": "正在导入批量重命名馈送...",
+          "failure": "无法重命名项目：",
+          "sessionLockFailure": "无法修改项目：{{count}}。 它们被其他用户锁定。",
+          "invalidFormat": "无法导入批量重命名源。文件必须为 XLSM 格式。",
+          "unrecognisedFileStructure": "无法导入批量重命名源。无法识别文件结构。",
+          "importAlreadyInProgress": "您无法使用批量重命名，因为导入正在进行中。请稍后重试。",
+          "someItemsNotAccessible": "以下单元格中的项目不存在或不再可供您访问： {{cells}}",
+          "invalidNames": "以下单元格中给出的名称包含非法字符： {{cells}}",
+          "genericError": "无法导入批量重命名源"
+        },
+        "exportFeed": {
+          "buttonName": "导出",
+          "success": {
+            "title": "准备批量重命名馈送",
+            "link": "显示队列"
+          },
+          "failure": {
+            "title": "无法导出批量重命名的源"
+          }
+        },
+        "importFeed": {
+          "buttonName": "导入"
+        },
+        "searchPlaceholder": "搜索项目名称...",
+        "itemsFound": "找到的项目：",
+        "removeAll": "全部删除",
+        "ignore": "忽略",
+        "cantModifyItemNamePrompt": "您无权编辑此项目的名称。"
+      },
+      "hide": "隐藏",
+      "show": "显示",
+      "contentsRootLogoAlt": "目录根徽标",
+      "assignForReview": "分配以供审核",
+      "assignAnotherUserForReview": "分配其他用户",
+      "finishReview": "完成审核",
+      "add": "添加",
+      "folder": "文件夹",
+      "placeholder": "占位符",
+      "shortcut": "快捷方式",
+      "hyperlink": "URL 链接",
+      "upload": "上传",
+      "collapseAll": "折叠所有",
+      "expandAll": "全部展开",
+      "editProperties": "编辑属性",
+      "reviewStartedSuccess": "文档审核已成功开始",
+      "reviewStartedFailure": "无法开始文档审核",
+      "backReviewToPending": "返回待审核",
+      "backToPendingSuccess": "文档状态已成功更改",
+      "backToPendingFailure": "无法更改文档状态",
+      "withdrawFromReview": "退出审核",
+      "withdrawSuccess": "文档已成功撤回",
+      "withdrawFailure": "无法撤回文档",
+      "assignForReviewForm": {
+        "selectReviewers": "选择审核人",
+        "setDate": "设置到期日期",
+        "selectDate": "选择日期",
+        "addComment": "添加评论",
+        "typeComment": "类型注释",
+        "sendReview": "发送以供审核",
+        "successMessage": "已成功分配审核的文档： {{count}}",
+        "failureMessage": "无法分配要审核的文档： {{count}}"
+      },
+      "indexExport": {
+        "toast": {
+          "error": {
+            "title": "正在准备下载包失败。"
+          },
+          "success": {
+            "title": "正在准备下载包。",
+            "link": "显示队列"
+          }
+        }
+      },
+      "assignAnotherUserForReviewForm": {
+        "successMessage": "已成功分配至文档的用户",
+        "failureMessage": "无法将用户分配至文档"
+      },
+      "finishReviewForm": {
+        "finishReview": "完成审核",
+        "successMessage": "文档审核成功完成： {{count}}",
+        "failureMessage": "无法完成文档审核： {{count}}",
+        "commentRequired": "评论为必填项",
+        "completeStatus": "选择审核状态"
+      },
+      "addItemForm": {
+        "addFolder": "添加文件夹",
+        "close": "关闭",
+        "enterFolderName": "输入文件夹名称",
+        "remove": "删除",
+        "addNext": "添加更多",
+        "save": "保存",
+        "cancel": "取消",
+        "folderNameEmptyErrorMessage": "文件夹名称为必填项。",
+        "folderNameContainsInvalidCharacters": "您指定的文件夹名称包含无效字符。",
+        "folderCreateSuccess": "文件夹已成功创建： {{count}}",
+        "folderCreateFailure": "无法创建文件夹： {{count}}",
+        "addIndex": "添加索引",
+        "indexNameEmptyErrorMessage": "索引名称为必填项。",
+        "indexNameContainsInvalidCharacters": "您指定的索引名称包含无效字符。",
+        "enterIndexName": "输入索引名称",
+        "indexAlreadyExists": "此数据室已包含名为 的索引{{name}}。",
+        "indexCreateSuccess": "已成功创建索引。",
+        "indexCreateFailure": "无法创建索引。",
+        "addPlaceholder": "添加占位符",
+        "placeholderNameEmptyErrorMessage": "占位符名称为必填项。",
+        "placeholderNameEmptyErrorMessageNameContainsInvalidCharacters": "您指定的占位符名称包含无效字符。",
+        "enterPlaceholderName": "输入占位符名称",
+        "placeholderCreateSuccess": "已成功创建占位符： {{count}}",
+        "placeholderCreateFailure": "无法创建占位符： {{count}}",
+        "addHyperlink": "添加 URL 链接",
+        "hyperlinkCreateSuccess": "已成功创建 URL 链接： {{count}}",
+        "hyperlinkCreateFailure": "无法创建 URL 链接： {{count}}",
+        "itemUploadSuccess": "{{count}} 项目上传已完成。",
+        "itemUploadFailure": "无法上传项目： {{count}}",
+        "itemReplaceSuccess": "已成功替换项目",
+        "itemReplaceFailure": "无法替换项目。",
+        "itemReplaceNonexistingItem": "无法替换项目，因为它不存在或已更改。请刷新页面。",
+        "invalidUrl": "URL 链接无效。",
+        "hyperlinkNameEmptyErrorMessage": "URL 链接名称为必填项。",
+        "enterHyperlinkName": "输入 URL 链接名称",
+        "enterUrl": "输入 URL 链接网站地址",
+        "addShortcut": "添加快捷方式",
+        "enterItemName": "输入项目名称",
+        "enterShortcutName": "输入快捷方式名称",
+        "searchAndSelect": "搜索并选择",
+        "noOptions": "未找到匹配项",
+        "shortcutNameEmptyErrorMessage": "快捷方式名称为必填项。",
+        "shortcutRefIsMandatory": "快捷方式参考项为必填项。",
+        "shortcutRefLeadsToTempFolderWarning": "快捷方式指向 Temp 文件夹，数据室中的所有用户可能不可见。",
+        "shortcutCreateSuccess": "已成功创建快捷方式： {{count}}",
+        "shortcutCreateFailure": "无法创建快捷方式： {{count}}",
+        "defaultEmptyItemNameMessage": "项目名称为空",
+        "defaultItemNameContainsInvalidCharactersMessage": "项目名称包含无效字符",
+        "defaultAddItemMessage": "添加项目",
+        "defaultEnterItemName": "输入项目名称",
+        "defaultItemName": "项目名称",
+        "defaultItemCreateSuccess": "项目创建成功",
+        "defaultItemCreateFailure": "项目创建失败",
+        "autoNumbering": {
+          "autoNumbering": "自动编号",
+          "prefix": "前缀",
+          "enterPrefix": "输入前缀",
+          "convention": "会议",
+          "defineCustomConvention": "定义自定义惯例",
+          "none": "无",
+          "numeric": "数字",
+          "alphabetic": "字母",
+          "roman": "罗马",
+          "custom": "自定义",
+          "result": "结果",
+          "descriptionHeader": "您可以使用以下符号：",
+          "numberDescription": "表示数字",
+          "upperCaseLetterDescription": "表示大写字母",
+          "lowerCaseLetterDescription": "表示小写字母",
+          "upperCaseRomanNumberDescription": "表示大写罗马数字",
+          "lowerCaseRomanNumberDescription": "表示小写罗马数字",
+          "numberingConventionIncorrectErrorMessage": "您指定的编号模式不正确。参见说明。",
+          "customConventionEmptyErrorMessage": "定制公约是强制性的。",
+          "customConventionPlaceholder": "进入会议"
+        },
+        "applyHiddenPermissionLabel": "应用隐藏权限",
+        "hint": {
+          "header": "权限继承",
+          "message": "请注意，快捷方式将从目标项目继承权限。"
+        }
+      },
+      "editItem": {
+        "index": {
+          "success": "索引属性更新成功。",
+          "failure": "无法更新索引属性。",
+          "name": "索引名称"
+        },
+        "hyperlink": {
+          "success": "URL 链接的属性已成功更新。",
+          "failure": "无法更新 URL 链接属性。",
+          "name": "超链接名称",
+          "url": "URL 链接"
+        },
+        "shortcut": {
+          "success": "已成功更新快捷方式属性。",
+          "failure": "无法更新快捷方式属性。",
+          "name": "Shorcut 名称",
+          "itemName": "项目名称",
+          "hint": {
+            "header": "权限继承",
+            "message": "请注意，快捷方式将从目标项目继承权限。"
+          }
+        },
+        "item": {
+          "success": "项目已成功重命名。",
+          "failure": "无法重命名项目。"
+        },
+        "placeholder": {
+          "name": "占位符名称"
+        },
+        "document": {
+          "name": "文档名称",
+          "nameIsMandatory": "文档名称为必填项。"
+        },
+        "folder": {
+          "name": "文件夹名称"
+        },
+        "defaultItem": {
+          "success": "项目更新成功",
+          "failure": "项目更新失败"
+        },
+        "editItemNotFound": "无法修改项目，因为它不存在或已更改。请刷新页面。"
+      },
+      "predefinedFolders": {
+        "favorites": "收藏夹",
+        "tempFolder": "临时文件夹",
+        "emailUpdates": "电子邮件更新",
+        "q&aAttachments": "问答附件",
+        "bin": "药箱",
+        "masterBin": "主药箱",
+        "indexContainer": "指数"
+      },
+      "uploadFiles": {
+        "hint": {
+          "header": "正在上传空文件夹。",
+          "message": "上传文件夹为空的结构时，请使用拖放功能。"
+        },
+        "uploadTo": "上传至：",
+        "selectFilesFrom": "从",
+        "dragAndDropLine1": "将文件拖放到此处",
+        "dragAndDropLine2": "文件、档案、文件夹",
+        "fileExtensionIsNotSupported": "{{extension}} 不支持文件扩展名。",
+        "fileExtensionsAreNotSupported": "{{lastExtension}} 不支持文件扩展名 {{extensions}}和 。",
+        "fileWithoutExtensions": "文件没有扩展名： {{count}}",
+        "invalidFileName": "文件名包含无效字符 \\ / | * ： \" ？ < >： {{count}}",
+        "selectedItems": "所选项目： {{count}}",
+        "removeAll": "全部删除",
+        "addMoreFilesFrom": "添加更多来自",
+        "otherSources": "其他来源",
+        "cancel": "取消",
+        "upload": "上传",
+        "remove": "删除",
+        "seeList": "参见列表",
+        "sourceNames": {
+          "localStorageFile": "本地存储文件",
+          "localStorageFolder": "本地存储文件夹",
+          "googleDrive": "Google Drive",
+          "dropBox": "DropBox",
+          "oneDrive": "OneDrive",
+          "sharepoint": "Sharepoint",
+          "boxCom": "Box.com"
+        },
+        "configurationSections": {
+          "options": "选项",
+          "openUploadSettings": "打开上传设置",
+          "applyHiddenPermission": {
+            "sectionText": "应用隐藏权限",
+            "options": {
+              "no": "否",
+              "yes": "是"
+            },
+            "description": "文件将隐藏给所有投标人和子交易团队（S）。否则将应用父文件夹权限。"
+          },
+          "extractAllCompressedFiles": {
+            "sectionText": "提取所有压缩文件",
+            "options": {
+              "no": "否",
+              "yes": "是"
+            }
+          },
+          "notify": {
+            "sectionText": "通知",
+            "options": {
+              "no": "否",
+              "asPerUserSettings": "根据用户设置",
+              "immediatelyToUsersWithSettingsEnabled": "立即向启用了设置的用户发送"
+            }
+          }
+        },
+        "uploadStatusPreview": {
+          "remainingUploadItems": "正在上传... 剩余项目：{{count}}。",
+          "failedUploadItems": "问题：{{count}}。",
+          "showQueue": "显示队列"
+        },
+        "cancelUploadConfirmationDialog": {
+          "title": "放弃上传",
+          "content": {
+            "cancelQuestion": "是否确定要放弃上传这些文件？",
+            "cancelConfirm": "如果您确认，上传包将被清除。"
+          },
+          "confirm": "继续",
+          "cancel": "取消"
+        },
+        "lockedDestinationFolderMessage": "无法执行操作。文件正在上传到此文件夹。",
+        "uploadFolderStructureCreationMessage": "正在创建要上传的文件夹结构..."
+      },
+      "deleteItem": {
+        "delete": "删除",
+        "deleteConfirmationDialog": {
+          "title": "确认删除",
+          "content": {
+            "delete": "您确定要删除所选项目（一个或多个）吗？",
+            "deleteFromBin": "是否确定要从药箱中删除所选项目（多个）？",
+            "deleteFromMasterBin": "您确定要永久删除所选项目（一个或多个）吗？"
+          }
+        },
+        "deleteItemSuccess": {
+          "delete": "已成功删除项目： {{count}}",
+          "deleteFromMasterBin": "已成功删除项目： {{count}}"
+        },
+        "deleteItemFailure": {
+          "delete": "无法删除项目： {{count}}",
+          "deleteFromMasterBin": "无法删除项目： {{count}}"
+        },
+        "deleteItemNotFound": "{{count}} 无法删除项目（多个）。项目不存在或已更改。请刷新页面。"
+      },
+      "emptyItem": {
+        "emptyItemConfirmationDialog": {
+          "title": "确认删除",
+          "content": {
+            "bin": "是否确定要清空药箱？",
+            "masterBin": "是否确定要清空主药箱？"
+          }
+        },
+        "emptyItemSuccess": {
+          "bin": "药箱已成功清空",
+          "masterBin": "主药箱已成功清空"
+        },
+        "emptyItemFailure": {
+          "bin": "无法清空药箱",
+          "masterBin": "无法清空主药箱"
+        }
+      },
+      "favorites": {
+        "add": "添加到收藏夹",
+        "remove": "从收藏夹中删除",
+        "addSuccess": "添加到收藏夹的项目： {{count}}",
+        "addFailure": "无法将项目添加到收藏夹： {{count}}",
+        "removeSuccess": "从收藏夹中移除的项目： {{count}}",
+        "removeFailure": "无法从收藏夹中删除项目： {{count}}"
+      },
+      "copyItem": {
+        "success": "已成功粘贴项目： {{count}}",
+        "failure": "无法粘贴项目： {{count}}",
+        "itemNotFound": "无法粘贴项目，因为它不存在或已更改。请刷新页面。",
+        "targetNotValid": "您不能将项目粘贴到任何复制的项目。",
+        "targetCannotBeTempFolder": "{{count}} Shortcut（s） 无法粘贴。您不能将快捷方式粘贴到临时文件夹。"
+      },
+      "moveItem": {
+        "success": "已移动项目： {{count}}",
+        "failure": "无法移动项目： {{count}}",
+        "itemNotFound": "{{count}} 无法移动项目，因为项目不存在或已更改。请刷新页面。",
+        "targetNotValid": "您不能将项目粘贴到任何剪切的项。",
+        "moveToInvalidTarget": "您不能将项目移动到要移动的项目。",
+        "moveToHiddenFolderConfirmationDialog": {
+          "title": "一个或多个项目将隐藏在新位置",
+          "content": "您确定要继续吗？",
+          "confirm": "是",
+          "cancel": "否"
+        }
+      },
+      "shortcuts": {
+        "brokenShortcutConfirmationDialog": {
+          "title": "无效快捷方式",
+          "content": "链接到此快捷方式的文件已被删除。它不再是可访问的。\n你想做什么？"
+        },
+        "deleteShortcut": "删除快捷方式"
+      },
+      "uploadQueue": {
+        "status": {
+          "failed": "不成功",
+          "success": "成功",
+          "cancelled": "已取消",
+          "partiallyFinished": "部分完成"
+        },
+        "drawerTitle": "上传队列",
+        "button": {
+          "close": "关闭",
+          "minimise": "最小化",
+          "cancel": "取消",
+          "cancelAll": "全部取消"
+        },
+        "emptyQueueMessageHeader": "队列中没有项目",
+        "emptyQueueMessageContent": "所有上传已完成",
+        "closeDrawerConfirmationDialog": {
+          "title": "关闭上传队列",
+          "content": "是否确定要关闭上传队列？ 所有关于上传失败的信息都将丢失。",
+          "confirm": "继续",
+          "cancel": "取消"
+        },
+        "cancelUploadConfirmationDialog": {
+          "title": "取消上传",
+          "content": "您确定要取消上传这些文件吗？\n\n这些文件将与所有相关数据一起从数据室中删除。",
+          "confirm": "取消上传",
+          "cancel": "丢弃"
+        },
+        "cancelAllUploadConfirmationDialog": {
+          "title": "取消上传",
+          "content": "您确定要取消上传这些文件吗？\n\n这些文件将与所有相关数据一起从数据室中删除。",
+          "confirm": "取消上传",
+          "cancel": "丢弃"
+        }
+      },
+      "share": {
+        "drawerTitle": "分享",
+        "button": {
+          "close": "关闭",
+          "cancel": "取消",
+          "share": "分享"
+        },
+        "documentLabel": "文档",
+        "emailAddresses": "添加电子邮件地址",
+        "addComment": "添加评论",
+        "validationMessage": "输入格式：name@example.com ",
+        "typeComment": "键入注释",
+        "success": "文档已成功共享",
+        "failure": "文档共享失败。请重试。",
+        "failureNotification": "未知的文档类型。"
+      },
+      "markItem": {
+        "asViewed": {
+          "buttonText": "标记为已查看",
+          "success": "标记为已成功查看的项目： {{count}}",
+          "failure": "无法将项目标记为已查看： {{count}}"
+        },
+        "asUnviewed": {
+          "buttonText": "标记为未查看",
+          "success": "标记为未查看的项目成功： {{count}}",
+          "failure": "无法将项目标记为未查看： {{count}}"
+        }
+      },
+      "reprocess": {
+        "buttonText": "再处理",
+        "success": "项目重新处理成功",
+        "failure": "无法重新处理项目",
+        "itemNotFound": "无法重新处理项目，因为它不存在或已更改。请刷新页面。",
+        "processingDialog": {
+          "title": "文档不可用",
+          "content": "您无法执行此操作，文件正在处理中。",
+          "confirm": "获得"
+        }
+      },
+      "replaceCorrected": {
+        "buttonText": "更换已更正",
+        "itemReplaceCorrectedSuccess": "已成功替换项目",
+        "itemReplaceCorrectedFailure": "无法替换项目",
+        "itemReplaceCorrectedNonexistingItem": "无法替换项目，因为它不存在或已更改。请刷新页面。",
+        "processingDialog": {
+          "title": "文档不可用",
+          "content": "您无法执行此操作，文件正在处理中。",
+          "confirm": "关闭"
+        }
+      },
+      "bulkDownload": {
+        "openBulkDownloadDialog": {
+          "title": "批量下载已禁用",
+          "content": "此数据室当前未启用批量下载。\n\n 请一次下载一个文件。\n\n 如果您认为应该启用此功能，请联系我们的<0>客户服务团队</0>寻求帮助。",
+          "confirm": "关闭"
+        }
+      },
+      "openPdfViewer": {
+        "openCorruptedDialog": {
+          "title": "文档损坏",
+          "content": "此文档已损坏，无法在 PDF 查看器中显示。\n\n请联系我们的客户服务团队获取进一步帮助。",
+          "confirm": "关闭"
+        },
+        "openPasswordProtectedDialog": {
+          "title": "密码保护文档",
+          "content": "文档受密码保护。不能在 PDF 查看器中显示。\n\n请联系我们的客户服务团队获取进一步帮助。",
+          "confirm": "关闭"
+        },
+        "openBeingProcessedDialog": {
+          "title": "正在处理文档",
+          "content": "文档正在处理中。\n\n如果您具有相关访问权限，请等待或从右键单击菜单中选择下载本机。或者，请联系我们的客户服务团队获取进一步帮助。",
+          "confirm": "关闭"
+        },
+        "openConversionFailedDialog": {
+          "title": "文件未转换",
+          "content": "此文档无法转换为 PDF，无法在线查看。\n\n如果您具有相关访问权限，请等待或从右键单击菜单中选择下载本机。或者，请联系我们的客户服务团队获取进一步帮助。",
+          "confirm": "关闭"
+        },
+        "openNotAvilableOnlineDialog": {
+          "title": "文档无法在线获取",
+          "content": "此文档无法在线查看。\n\n如果您具有相关访问权限，请从右键单击菜单中选择下载本机。或者，请联系我们的客户服务团队获取进一步帮助。",
+          "confirm": "获得"
+        }
+      },
+      "contentDownload": {
+        "title": "选择要下载的文档",
+        "buttons": {
+          "prepareDownload": "准备下载",
+          "expandAll": "全部展开",
+          "collapseAll": "折叠全部"
+        },
+        "toast": {
+          "error": {
+            "title": "正在准备下载包失败。"
+          },
+          "success": {
+            "title": "正在准备下载包。",
+            "link": "显示队列"
+          },
+          "warning": {
+            "title": "长度超过 {{count}} 个字符的路径名称可能会缩短。"
+          }
+        },
+        "totalSize": "请求的文件大小为 （s）{{totalSize}}。",
+        "warning": "长度超过 {{count}} 个字符的路径名称将被缩短。",
+        "downloadRestrictions": "此项目有下载限制，不能包含在批量下载中。"
+      },
+      "downloadSelected": {
+        "button": "下载所选内容"
+      },
+      "permissionManagement": {
+        "title": "权限",
+        "emptyGrid": {
+          "header": "数据室中没有索引或团队",
+          "message": "请上传文件或创建 Teams 以管理权限。"
+        },
+        "nothingToShow": {
+          "header": "无可显示的内容",
+          "message": "更改您的搜索查询。"
+        },
+        "header": {
+          "teamName": "{{teamName}} 团队",
+          "reorderColumns": "拖动列以更改顺序"
+        },
+        "permissionLevels": {
+          "Hidden": "隐藏",
+          "FenceView": "围栏视图",
+          "View": "查看",
+          "Print": "打印",
+          "Download": "下载",
+          "Manage": "管理"
+        },
+        "folderOnly": "仅文件夹",
+        "folderAndItems": "文件夹及其项目",
+        "inherited": "（继承）",
+        "permissionLocked": {
+          "owner": "修改时，您将阻止其他用户对内容和权限进行操作。",
+          "other": "您无法修改权限。它们被锁定 {{ userInfo }}",
+          "anotherUser": "其他用户",
+          "upload": "您无法修改权限。它们被锁定，因为一些用户正在将文件上传到数据室。请稍后重试。",
+          "session": "您无法修改权限。它们因打开会话而被锁定。通过发布或恢复更改完成所有会话，或联系 Deal Admin、Content Manager 或 Sterling Admin。"
+        },
+        "unlock": "解锁",
+        "takeOver": "接管",
+        "contentsLockedByPermissions": "您无法修改索引。它们被其他用户锁定{{ userInfo }}。",
+        "exportFeed": {
+          "buttonName": "导出源",
+          "errorMessage": "无法导出权限源",
+          "unsavedChangesDialog": {
+            "title": "导出源",
+            "message": "由于未保存的更改，\n无法导出权限源。\n\n首先保存或取消更改。",
+            "confirmButton": "关闭"
+          },
+          "permissionLockedMessage": {
+            "owner": "由于您待处理的权限源更改，当前权限已锁定。\n导入更改后，权限将再次可用。",
+            "otherUser": "{{emailAddress}} 由于等待权限馈送更改，权限当前被 锁定。"
+          }
+        },
+        "takeOverDialog": {
+          "title": "接管权限编辑",
+          "message": "是否确定要接管未保存的权限更改？\n\n您将能够继续编辑，其他用户将无法进行更改。",
+          "confirmButton": "接管",
+          "cancelButton": "取消"
+        },
+        "unlockDialog": {
+          "title": "解锁权限编辑",
+          "message": "是否确定要解锁权限？\n\n如果您确认，其他用户所做的所有更改都将丢失。",
+          "confirmButton": "解锁",
+          "cancelButton": "取消"
+        },
+        "importFeed": {
+          "buttonName": "导入源",
+          "importInProgressMessage": "正在导入权限源...",
+          "importSuccess": "权限源导入成功",
+          "errorMessage": {
+            "invalidFormat": "无法导入权限源。文件必须为 XLSM 格式。",
+            "invalidFile": "无法导入权限源。请选择最近下载的文件。",
+            "genericError": "无法导入权限源。",
+            "importInProgress": "您目前无法执行此操作。正在导入权限源。请等到它结束。"
+          }
+        },
+        "filtering": {
+          "hint": {
+            "message": "复制权限适用于整个内容树"
+          },
+          "placeholder": "搜索项目名称..."
+        },
+        "viewing": {
+          "viewAsTeam": "以团队形式查看： {{team}}",
+          "viewAs": "查看为"
+        },
+        "copyPermissions": {
+          "button": {
+            "copy": "复制权限",
+            "paste": "粘贴{{teamName}}团队权限",
+            "applyToVisibleTeams": "适用于可见{{teamType}}团队"
+          },
+          "errorMessage": "无法将权限复制到团队： {{count}}"
+        },
+        "button": {
+          "publish": "发布全部",
+          "cancel": "取消",
+          "saveAsDraft": "另存为草稿",
+          "revertSelected": "恢复所选"
+        },
+        "unsavedChangesDialog": {
+          "title": "您有未保存的更改",
+          "content": "您即将离开此页面，保留未保存的更改。通过继续，所有更改都将丢失。\n\n您还可以留在页面上或将更改保存为草稿。另存为草稿将保持权限锁定，并要求其他用户接管以编辑权限。\n\n您希望如何继续？",
+          "discard": "放弃更改",
+          "stayOnPage": "停留在页面上",
+          "saveAsDraft": "另存为草稿"
+        },
+        "revertPermissions": {
+          "counter": "所选项目： {{count}}",
+          "noItemsSelectedWarningMessage": "未选择要还原的项目。",
+          "errorMessage": "无法还原更改。"
+        },
+        "saveAsDraft": {
+          "noPermissionChangesWarning": "没有要保存的更改。"
+        },
+        "publish": {
+          "dialog": {
+            "confirmButton": "发布更改",
+            "cancelButton": "停留在页面上",
+            "title": "发布权限",
+            "message": "您即将发布内容和所有团队中所有项目的权限更改。\n\n您确定要继续吗？"
+          },
+          "noPermissionsChangesPublishWarning": "发布没有变化。"
+        }
+      },
+      "extractArchive": {
+        "buttonText": "解压缩",
+        "success": "已成功提取存档： {{count}}",
+        "failure": "无法提取存档： {{count}}",
+        "failureDueToPasswordProtection": "由于密码保护，无法提取存档： {{count}}",
+        "itemsNotExtracted": "'由于不支持的文件扩展名，项目未提取： {{count}}",
+        "buttonTextApplyHiddenPermission": "使用隐藏权限解压缩",
+        "inProgress": "正在提取存档...",
+        "notFound": "无法提取存档，因为它不存在或已更改。请刷新页面。"
+      },
+      "addQuestion": {
+        "buttonText": "添加问题"
+      },
+      "showQuestions": {
+        "buttonText": "显示问题"
+      },
+      "filtering": {
+        "applyFilters": "应用筛选器",
+        "cancel": "取消",
+        "clearFilters": "清除过滤器",
+        "filter": "过滤器",
+        "results": "{{count}} 结果",
+        "filters": {
+          "addedDate": {
+            "label": "已添加",
+            "options": {
+              "anytime": "随时",
+              "lastVisit": "自上次访视以来",
+              "last24h": "过去 24 小时内",
+              "dateRange": "在特定日期范围"
+            },
+            "addedDateFromPlaceholder": "从",
+            "addedDateToPlaceholder": "至",
+            "validation": {
+              "datesEmptyError": "必须提供至少一个日期。",
+              "startAfterEndDateError": "开始日期不能晚于结束日期。"
+            }
+          },
+          "itemsCategory": {
+            "label": "仅显示",
+            "options": {
+              "all": "全部",
+              "assignedForReview": "已分配给我",
+              "favorites": "收藏夹",
+              "printable": "可打印",
+              "nativeFiles": "本机文件",
+              "viewedByUser": "由我查看",
+              "notViewedByUser": "我没有查看",
+              "specificItemTypes": "特定项目类型"
+            }
+          },
+          "fileExtensions": {
+            "label": "本机文件类型",
+            "placeholder": "选择文件类型",
+            "options": {
+              "Archives": "档案",
+              "CAD": "CAD 文件",
+              "Documents": "文档",
+              "Images": "图像",
+              "Others": "其他",
+              "Presentations": "演示",
+              "Spreadsheets": "电子表格",
+              "Videos": "视频"
+            }
+          },
+          "specificItemTypes": {
+            "placeholder": "选择项目类型",
+            "options": {
+              "document": "文档",
+              "folder": "文件夹/索引",
+              "placeholder": "占位符",
+              "shortcut": "快捷方式",
+              "hyperlink": "URL 链接"
+            }
+          },
+          "labels": {
+            "label": "标签",
+            "placeholder": "选择标签",
+            "allLabelsOptionLabel": "所有标签"
+          },
+          "teams": {
+            "label": "过滤团队",
+            "placeholder": "选择团队",
+            "allTeamsOptionLabel": "所有团队",
+            "allBiddersOptionLabel": "所有{{ externalName }}团队",
+            "allSubsOptionLabel": "所有{{ internalName }}团队",
+            "sellersTeams": "{{ internalName }} 团队",
+            "biddersTeams": "{{ externalName }} 团队"
+          },
+          "notViewedBy": {
+            "label": "未查看者",
+            "placeholder": "选择"
+          },
+          "viewedBy": {
+            "label": "查看人",
+            "placeholder": "选择"
+          }
+        }
+      },
+      "search": {
+        "backButtonLabel": "背面",
+        "changeLocationLabel": "通过在目录树中选择另一个文件夹来更改搜索位置。",
+        "resultsLabel": "导致",
+        "types": {
+          "documentContent": "文档 内容",
+          "indexNumber": "索引编号",
+          "itemName": "项目名称"
+        }
+      },
+      "emailUpdates": {
+        "email": "电子邮件 ID： {{email}}",
+        "emailId": "上传_{{referenceId}}@{{domain}}",
+        "copyEmail": "将电子邮件复制到剪贴板。使用此电子邮件发送文件。"
+      },
+      "session": {
+        "itemLockedByAnotherUser": "您不能修改此项目。它被其他用户锁定{{ userInfo }}。",
+        "itemLockedInSession": "当前存在一个开放会话，阻止操作完成。请检查会话以继续。"
+      },
+      "lockedItemTooltip": {
+        "lockedByMe": "该项目已锁定，供您编辑。",
+        "lockedByOtherUser": "该项目已锁定，可供其他用户编辑。",
+        "lockedByOtherUserWithEmail": "该项目已锁定以供 编辑{{ userInfo }}。"
+      }
+    },
+    "dashboard": {
+      "dashboard": "仪表板",
+      "hello": "您好",
+      "dealManager": "交易经理",
+      "checkDetails": "检查详情",
+      "dealManagerEmail": "电子邮件地址",
+      "dealManagerMobile": "手机号码",
+      "noDataToDisplay": "没有要显示的数据",
+      "somethingWentWrong": "出现错误",
+      "dataRoomDocumentStatistics": {
+        "title": "数据室文档统计",
+        "contentsOverview": "目录概述",
+        "documentsInTotal": "合计文档数",
+        "dataRoomDocumentSize": "尺寸",
+        "documentsInBin": "药箱中的文档",
+        "documentsPendingConversion": "待转换的文档",
+        "processing": "处理",
+        "failed": "失败",
+        "onlinePages": " 在线页面",
+        "notConvertedFileSize": "未转换的文件大小"
+      },
+      "dataRoomChangesOverview": {
+        "title": "数据室变更概述",
+        "newDocuments": {
+          "title": "新文档"
+        },
+        "questionsAwaitingAnswers": {
+          "title": "等待回答的新问题"
+        },
+        "newAnswers": "新答案"
+      },
+      "footer": {
+        "customerServices": "客户服务团队 （24/7）",
+        "email": "电子邮件",
+        "internationalNumbers": "国际号码",
+        "contactSupport": "支持联系表",
+        "links": "链接",
+        "giveFeedback": "提供反馈",
+        "bookTraining": "预订培训"
+      },
+      "dropdownTimeFilter": {
+        "sortOptions": {
+          "sinceLastVisit": "自上次访视以来",
+          "last24Hours": "过去 24 小时",
+          "last7Days": "过去 7 天"
+        }
+      },
+      "warningOpenSessionFirst": "您有一个开放的会话 ",
+      "warningOpenSessionSecond": "不要忘记发布更改。"
+    },
+    "teamsAndUsers": {
+      "title": "团队和用户",
+      "tabs": {
+        "internal": {
+          "mainTeamName": "主要交易团队",
+          "subTeamNameSingular": "子团队",
+          "subTeamNamePlural": "子团队",
+          "defaultTeamName": "子团队 {{count}}"
+        },
+        "bidders": {
+          "teamNameSingular": "{{teamName}} 团队",
+          "teamNamePlural": "{{teamName}} 团队",
+          "defaultTeamName": "投标人团队 {{count}}"
+        }
+      },
+      "userStatuses": {
+        "invited": "邀请已发送",
+        "active": "活动",
+        "deleted": "已删除",
+        "invitationExpired": "邀请已过期",
+        "inactive": "已停用",
+        "invitationDrafted": "邀请已起草",
+        "invitationSent": "邀请已发送",
+        "invitationRequestedByUser": "已请求邀请"
+      },
+      "table": {
+        "header": {
+          "checkboxLabel": "与团队用户一起检查所有行 {{teamName}}",
+          "name": "名称",
+          "status": "状态",
+          "email": "电子邮件",
+          "userRoles": "角色"
+        },
+        "roles": {
+          "UserMgrExt": "用户管理器",
+          "QAndAModeratorExt": "问答主持人",
+          "QAndAViewOnlyExt": "问答 仅查看",
+          "QAndAParticipantExt": "问答专家",
+          "DealAdminInt": "交易管理",
+          "UserMgrInt": "用户管理器",
+          "QAndAModeratorInt": "问答主持人",
+          "QAndAViewOnlyInt": "问答 仅查看",
+          "QAndAReviewInt": "问答审核人",
+          "QAndAExpertInt": "问答专家",
+          "QAndAApproverInt": "问答审批人",
+          "ContentMgrInt": "内容管理器",
+          "ContributorInt": "贡献者",
+          "ReportMgrInt": "报告管理器",
+          "UserMgrSub": "用户管理器",
+          "ContentMgrSub": "内容管理器",
+          "QAndAModeratorSub": "问答主持人",
+          "QAndAViewOnlySub": "问答 仅查看",
+          "QAndAReviewSub": "问答审核人",
+          "QAndAExpertSub": "问答专家"
+        },
+        "row": {
+          "checkboxLabel": "与用户检查行 {{userName}}",
+          "actions": {
+            "actions": "行动",
+            "label": "用户操作",
+            "sendInvites": "发送邀请",
+            "editDetails": "编辑详细信息",
+            "changeTeam": "变更团队",
+            "resetPassword": "重置密码",
+            "setTemporaryPassword": "设置临时密码",
+            "activateUser": "激活",
+            "deactivateUser": "停用",
+            "removeFromRoom": "删除用户",
+            "deleteGDPR": "删除 GDPR"
+          }
+        },
+        "details": {
+          "function": "功能",
+          "mobilePhoneNumber": "手机号码",
+          "deskPhoneNumber": "备用电话号码",
+          "companyName": "公司名称",
+          "unregisterUser": "[\"未注册用户\"]",
+          "emailVerificationtooltip": "待处理的电子邮件验证"
+        },
+        "actions": {
+          "selectSingleRow": "选择单行",
+          "rowsPerPage": "每页行数：",
+          "of": "第 页，共 页",
+          "next": "下一个",
+          "previous": "以前"
+        }
+      },
+      "buttons": {
+        "addTeam": "添加团队",
+        "inviteFirstUsers": "邀请用户加入团队",
+        "inviteUsers": "邀请用户",
+        "invite": "邀请",
+        "clearAll": "清除全部",
+        "moreTiers": "更多级别",
+        "deleteTeam": "删除团队",
+        "settings": "设置",
+        "teamDeactivated": "[\"团队已停用\"]",
+        "assignRoles": "分配角色"
+      },
+      "drawer": {
+        "inviteUserTitle": "邀请用户",
+        "createTeamTitle": "添加团队",
+        "subtitle": "{{teamType}} 团队 \"{{teamName}}\"",
+        "teamName": "团队名称",
+        "inputPlaceholder": "在下面的字段中输入或粘贴电子邮件列表。",
+        "inviteByText": "按文本",
+        "copyPasteEmails": "输入或复制并粘贴电子邮件地址",
+        "inviteByDropFile": "将您的文件放在此处",
+        "documentTypes": "上传 Excel 或 CSV 文件",
+        "howToFormatFile": "了解如何格式化文件",
+        "uploadFileTooltip": {
+          "hint1": "在您的电子表格中将列“A”标记为“电子邮件地址”",
+          "hint2": "将电子邮件粘贴到“A”列中",
+          "hint3": "将您的文件导出为 Excel 或 CSV 格式"
+        },
+        "messages": {
+          "checkTriangleForTooltip": "标记的用户不会收到邀请。要查看详细信息，请将鼠标悬停在电子邮件旁边的三角形图标上。",
+          "invalidEmailFormat": "错误的电子邮件表单，请使用 x@y.z 或 x@y.z.z。",
+          "subTeamNameAlreadyExists": "团队名称已存在。创建不同的名称。",
+          "userAlreadyInTeam": "无法发送邀请。用户已被邀请加入此团队。",
+          "provideUniqueTeamName": "名称已存在。输入唯一的团队名称。",
+          "userAlreadyInDataRoom": "用户是另一个团队的成员。无法发送邀请。"
+        }
+      },
+      "settingsDrawer": {
+        "title": "设置",
+        "tabs": {
+          "teamSettings": {
+            "title": "团队设置",
+            "teamStatus": "团队状态",
+            "notifications": "通知",
+            "status": {
+              "active": "活动",
+              "inactive": "非活动"
+            },
+            "notificationInfo": "当团队状态更改为活动时发送电子邮件通知"
+          },
+          "security": {
+            "title": "安全"
+          }
+        }
+      },
+      "UserDetailsDrawer": {
+        "title": "编辑用户详细信息",
+        "subTitle": "{{userName}} \"{{teamName}}\" {{teamType}}",
+        "AccountData": {
+          "title": "客户数据"
+        },
+        "successMessage": "更改已成功保存。",
+        "errorMessage": "未保存任何更改。请重试。",
+        "emailAlreadyExists": "此电子邮件无法使用。请使用不同的电子邮件地址。"
+      },
+      "ChangeTeamDrawer": {
+        "title": "变更团队",
+        "subTitleSingular": "{{userCount}} 用户已选择。 \"{{teamName}}\" {{teamType}} ",
+        "subTitlePlural": "{{userCount}} 用户已选择。 \"{{teamName}}\" {{teamType}} ",
+        "Body": {
+          "title": "选择要将所选用户移至的团队"
+        },
+        "successMessagePlural": "{{numberOfMovedUsers}} 用户已被转移到不同的团队。",
+        "errorMessagePlural": "无法移动用户：{{NumberofMovedUsers}}。",
+        "successMessageSingular": "用户移至不同的团队。",
+        "errorMessageSingular": "无法移动用户。"
+      },
+      "temporaryPasswordDrawer": {
+        "title": "设置临时密码",
+        "temporaryPasswordInfo": "临时密码为：",
+        "reloadButton": "重新加载",
+        "passwordHint": "密码对一次性登录有效，且必须由用户更改。",
+        "doneButton": "已完成",
+        "resetPasswordError": "无法更改密码。请重试。"
+      },
+      "AssignRolesDrawer": {
+        "title": "分配角色",
+        "tabs": {
+          "mainDealTeam": {
+            "title": "主要交易团队"
+          },
+          "subTeams": {
+            "title": "子团队"
+          },
+          "bidderTeams": {
+            "bidders": "投标人团队",
+            "externals": "外部团队",
+            "experts": "专家团队",
+            "buyers": "买方团队"
+          }
+        },
+        "roles": {
+          "UserMgrExt": "用户经理",
+          "QAndAModeratorExt": "主持人",
+          "QAndAViewOnlyExt": "仅查看",
+          "QAndAParticipantExt": "专家",
+          "DealAdminInt": "交易管理",
+          "UserMgrInt": "用户经理",
+          "QAndAModeratorInt": "主持人",
+          "QAndAViewOnlyInt": "仅查看",
+          "QAndAReviewInt": "审核人",
+          "QAndAExpertInt": "专家",
+          "QAndAApproverInt": "审批人",
+          "ContentMgrInt": "内容经理",
+          "ContributorInt": "贡献者",
+          "ReportMgrInt": "报告经理",
+          "UserMgrSub": "用户经理",
+          "ContentMgrSub": "内容经理",
+          "QAndAModeratorSub": "主持人",
+          "QAndAViewOnlySub": "仅查看",
+          "QAndAReviewSub": "审核人",
+          "QAndAExpertSub": "专家"
+        },
+        "roleTypes": {
+          "Admin": "管理员角色",
+          "QAndA": "问答角色"
+        },
+        "noTeamsText": "尚未显示团队",
+        "emptyStateDescription": "创建新团队并邀请用户。",
+        "successMessage": "已成功分配用户角色。",
+        "errorMessage": "无法分配用户角色。"
+      },
+      "messages": {
+        "invitationsSent": "已成功发送邀请： {{count}}",
+        "invitationsSent_other": "已成功发送邀请： {{count}}",
+        "teamCreateSuccess": "已成功创建团队。",
+        "teamUpdateSuccess": "已成功更新团队。",
+        "teamTabUpdateSuccess": "更改保存在：设置。",
+        "teamTabSecurityUpdateSuccess": "更改保存在：安全。",
+        "teamTabUpdateFail": "未保存的更改：设置。",
+        "teamTabSecurityUpdateFail": "未保存的更改：安全。",
+        "fileExtensionIsNotSupported": "{{extension}} 不支持文件扩展名。",
+        "fileWrongFormat": "无法识别文件内容。请再次验证文件。",
+        "oneFileOnly": "一次只能上传 1 个文件。",
+        "emailsNotRecognized": "无法识别电子邮件地址： {{count}}",
+        "noEmailRecognized": "无法识别电子邮件地址。",
+        "teamDraftedSuccessPlurar": "用户 已添加到团队 {{teamName}}。用户未收到通知。",
+        "teamDraftedSuccessSingular": "用户 已添加到团队 {{teamName}}。尚未通知用户。",
+        "draftErrorSingular": "用户尚未添加到团队： {{teamName}}",
+        "draftErrorPlural": "用户尚未添加到团队： {{teamName}}",
+        "sendInvitesSuccessMessage": "已成功发送邀请： {{numberOfUsers}}",
+        "sendInvitesFailureMessage": "无法发送邀请： {{numberOfUsers}}",
+        "sendInvitesErrorMessage": "出了点问题。请重试。",
+        "sendInvitesRequestsSuccessMessage": "邀请请求已发送至 Deal Admins： {{numberOfUsers}}",
+        "sendInvitesRequestsFailureMessage": "无法发送邀请请求： {{numberOfUsers}}",
+        "emptyTeam": "此团队中没有用户"
+      },
+      "modal": {
+        "title": "删除团队",
+        "content": {
+          "first": "您即将删除 ",
+          "second": "{{teamType}} 团队 \"{{teamName}}\"。",
+          "third": "通过删除此团队，您将删除所有用户。",
+          "fourth": "此操作无法撤消。",
+          "fifth": "您希望如何继续？"
+        },
+        "cancel": "取消",
+        "delete": "继续",
+        "successMessage": "\"{{teamType}}\" 团队 \"{{teamName}}\" 已成功删除",
+        "errorMessage": "无法删除“{{teamType}}”团队“{{teamName}}"
+      },
+      "temporaryPasswordModal": {
+        "title": "设置临时密码",
+        "content": {
+          "first": "您确定要",
+          "second": "为所选用户设置临时密码？",
+          "third": "当前密码将不再有效，新密码为一次性使用。",
+          "fourth": "此用户需要在首次登录后设置新密码。",
+          "fifth": "此操作无法撤消。"
+        },
+        "setTemporaryPassword": "设置临时密码",
+        "errorMessage": "无法设置临时密码。"
+      },
+      "resetAnotherUserPasswordModal": {
+        "title": "重置密码",
+        "content": {
+          "first": "是否确定要重置所选用户的密码？",
+          "second": "选定的用户将收到一封电子邮件，其中包含有关如何重置密码的链接。",
+          "third": "在创建新密码之前，用户将无法访问其帐户。"
+        },
+        "successMessage": "用户密码已重置： {{numberOfUsers}}",
+        "failureMessage": "无法重置密码： {{numberOfUsers}}",
+        "resetPassword": "重置密码",
+        "errorMessage": "无法重置密码。"
+      },
+      "removeFromRoomModal": {
+        "title": "从数据室中删除用户",
+        "content": {
+          "first": "是否确定要从数据室中删除这些用户？",
+          "second": "邀请可以在未来重新发送。"
+        },
+        "deleteUser": "删除",
+        "successMessage": "已成功删除用户： {{numberOfExcludedUsers}}",
+        "errorMessage": "无法删除用户： {{numberOfExcludedUsers}}"
+      },
+      "activateUser": {
+        "title": "激活用户",
+        "content": {
+          "first": "是否要向用户发送电子邮件以激活其帐户？"
+        },
+        "button": {
+          "dontSendAnEmail": "不通知",
+          "sendAnEmail": "通知"
+        },
+        "successMessage": "用户激活成功： {{numberOfActivatedUsers}}",
+        "errorMessage": "无法激活用户： {{numberOfActivatedUsers}}"
+      },
+      "deactivateUsers": {
+        "processedUsersMessage": "用户已成功停用： {{numberOfDeactivatedUsers}}",
+        "unprocessedUsersMessage": "无法停用用户： {{numberOfDeactivatedUsers}}",
+        "errorMessage": "请重试。"
+      },
+      "deleteGdprModal": {
+        "title": "根据 GDPR 删除用户",
+        "content": {
+          "first": "是否确定要删除用户",
+          "second": "{{userEmail}}",
+          "third": "他们将不再有权访问他们的 Sterling 帐户，并且 ",
+          "fourth": "您将无法撤消此操作。"
+        },
+        "deleteUser": "删除",
+        "successMessage": "GDPR 删除请求已发送给 Sterling 的支持。请等待 48 小时完成此操作。",
+        "errorMessage": "请重试。"
+      }
+    },
+    "qa": {
+      "qa": "问答",
+      "qaSettings": "问答设置",
+      "qaLimits": "问答限制",
+      "backToDefaultQnA": "返回默认问答",
+      "questionsAndAnswers": "问答",
+      "addQuestion": "添加问题",
+      "addAnswer": "添加答案",
+      "editQuestion": "编辑问题",
+      "editAnswer": "编辑答案",
+      "addFollowUpQuestion": "添加跟进问题",
+      "editRejectedQuestion": "编辑已拒绝的问题",
+      "editRejectedFollowUpQuestion": "编辑拒绝的跟进问题",
+      "editRejectedAnswer": "编辑拒绝的答案",
+      "rejectionComment": "拒绝评论",
+      "questionDetails": "问题详情",
+      "answerDetails": "答案详情",
+      "yourAnswer": "答案",
+      "yourFollowUpQuestion": "跟进问题",
+      "cancel": "取消",
+      "saveDraft": "保存草稿",
+      "submit": "提交",
+      "submitForApproval": "提交以待批准",
+      "submitAndApprove": "批准并提交",
+      "viewFollowUpQuestion": "查看跟进问题",
+      "moderatorActions": "主持人操作",
+      "sendCommentForAssigment": "发送注释以进行分配",
+      "approve": "批准",
+      "reject": "拒绝",
+      "viewQuestion": "查看问题",
+      "moderateQuestion": "中等问题",
+      "moderateAnswer": "中等答案",
+      "approveAnswer": "批准答案",
+      "sendToApprover": "发送给审批人",
+      "sendToReviewer": "发送给审核人",
+      "viewAnswer": "查看答案",
+      "reviewAnswer": "查看答案",
+      "rejectQuestion": "拒绝问题",
+      "rejectAnswer": "拒绝答案",
+      "saveChanges": "保存更改",
+      "changeCategoryAndAssign": "更改类别和分配",
+      "commentTextIsMandatory": "评论为必填项。",
+      "answerQuestion": "回答问题",
+      "suggest": "建议",
+      "suggestCategory": "建议类别",
+      "suggestAnswerCategory": "建议答案类别",
+      "stateACommentForSuggestion": "陈述建议意见",
+      "selectReviewer": "选择审核人",
+      "assign": "分配",
+      "assignReviewer": "分配审核人",
+      "assignAnswerReviewerTo": "将答案审核人分配给",
+      "assignReviewerCommentTitle": "为您的决定发送评论",
+      "allCategoryReviewers": "所有类别审核人 - {{category}}",
+      "stateComment": "州评论",
+      "save": "保存",
+      "generalQuestion": "一般问题",
+      "pleaseSelectAtLeastOneOption": "请选择至少一个选项",
+      "allCategoryExperts": "所有类别专家 - {{categoryName}}",
+      "answer": "答案",
+      "followUp": "跟进",
+      "askYourQuestion": "提问",
+      "downloadAnswerLogs": "下载应答日志",
+      "comment": "评论",
+      "makeYourAnswer": "创建答案",
+      "category": "类别",
+      "answerCategory": "答案类别",
+      "assignAnswerTo": "将答案分配给",
+      "users": "用户",
+      "dealAdmins": "交易管理员",
+      "priority": "优先级",
+      "priorityLevel": {
+        "low": "低",
+        "medium": "中",
+        "high": "高"
+      },
+      "saveDraftDialog": {
+        "content": "附件将不会保存在您的草稿中。\n准备好提交后，请添加附件。\n\n是否确定要保存不带附件的草稿？",
+        "saveDraft": "保存草稿",
+        "stayOnPage": "取消",
+        "saveAndDiscard": "保存并丢弃"
+      },
+      "cancelUploadDialog": {
+        "title": "您有未保存的更改",
+        "content": "您即将离开此页面而不保存。您的项目将返回“草稿”状态。\n\n是否确定要放弃未上传的文件？",
+        "discard": "放弃更改",
+        "stayOnPage": "停留在页面上"
+      },
+      "teamSettings": "团队设置",
+      "notifications": "通知",
+      "attachedItems": {
+        "attachedItems": "附加项目",
+        "uploadFile": "上传文件",
+        "clickOrDropFilesHere": "单击或将文件拖放到此处",
+        "theyWillBeAttachedToYourQuestion": "它们将附在您的问题上",
+        "removeFile": "删除文件",
+        "unlinkItem": "取消链接项目",
+        "linkFiles": "链接文件",
+        "useLinkingIcon": "使用目录树上的链接图标",
+        "uploadIcon": "上传图标"
+      },
+      "iUnderstand": "我了解",
+      "uploadedFileIsTooBig": "上传的文件太大",
+      "assignmentSuccessfully": "已成功分配问题。",
+      "assignmentFailed": "无法分配问题。",
+      "stateRejectionComment": "陈述拒绝意见",
+      "yourComment": "您的评论",
+      "commentIsRequired": "评论为必填项。",
+      "suggestCategoryEmptyMessage": "答案类别为必填项。",
+      "selectAnswerReviewerEmptyMessage": "请至少选择一个选项。",
+      "attachments": "附件",
+      "itemNotAvailable": "项目不可用",
+      "QA_question_text_empty": "问题文本为必填项。",
+      "QA_question_create_success": "已成功创建问题。",
+      "QA_question_create_failure": "无法创建问题。",
+      "QA_question_delete_success": "问题已成功删除。",
+      "QA_question_delete_failure": "无法删除问题。",
+      "QA_answer_text_empty": "答案文本为必填项。",
+      "QA_answer_create_success": "已成功创建答案。",
+      "QA_answer_create_failure": "无法创建答案。",
+      "QA_question_edit_success": "问题已成功编辑。",
+      "QA_question_edit_failure": "无法编辑问题。",
+      "QA_answer_edit_success": "已成功编辑答案。",
+      "QA_answer_edit_failure": "无法编辑答案。",
+      "QA_answer_delete_success": "答案已成功删除。",
+      "QA_answer_delete_failure": "无法删除答案。",
+      "QA_attachment_too_big": "您的文件太大，我们无法保存。\n\n请上传高达 1GB 的文件。",
+      "QA_draft_qn_answ_fuq_create_success": "已成功创建草稿。",
+      "QA_draft_qn_answ_fuq_create_failure": "无法创建草稿。",
+      "QA_suggest_category_external_success": "建议发送成功。",
+      "QA_suggest_category_external_failure": "发送建议失败。",
+      "QA_sending_to_approver_success": "成功发送给审批人。",
+      "QA_sending_to_approver_failure": "发送给审批人失败。",
+      "QA_assignment_to_reviewer_success": "成功分配给审核人（一个或多个）。",
+      "QA_assignment_to_reviewer_failure": "分配给审核人（一个或多个）失败。",
+      "QA_sending_reviewer_comment_success": "审查评论已添加。",
+      "QA_sending_reviewer_comment_failure": "审核注释失败。",
+      "QA_category_settings_save_success": "更改已保存在：类别。",
+      "QA_category_settings_save_failure": "请重试。未保存的更改：类别。",
+      "QA_attachments_settings_save_success": "更改已保存在：附件。",
+      "QA_attachments_settings_save_failure": "请重试。未保存的更改：附件。",
+      "QA_notifications_settings_save_success": "更改已保存在：通知。",
+      "QA_notifications_settings_save_failure": "请重试。未保存的更改：通知。",
+      "QA_limits_save_success": "已成功保存问答限制。",
+      "QA_limits_save_failure": "保存问答限制失败。",
+      "QA_bulk_approve_success": "已批准的项目：{{count}}。",
+      "QA_bulk_approve_error": "批准项目失败。",
+      "QA_qn_visibility_set_success": "线程（s）设置成功。",
+      "QA_qn_visibility_set_failure": "设置 thread（s） 的可见性失败。",
+      "limitAlertAdd": "已达到问题限制。\n您可以将问题保存为草稿。\n\n请联系您的交易经理或<0>客户服务团队</0>，了解问题限制。",
+      "limitAlertModerate": "已达到问题限制。\n\n请联系您的交易经理或<0>客户服务团队</0>，了解问题限制。",
+      "table": {
+        "title": "问题列表"
+      },
+      "details": {
+        "id": "ID",
+        "author": "作者",
+        "creationDate": "创建日期",
+        "statusUpdateDate": "状态更新日期",
+        "status": "状态",
+        "items": "＋{{count}} 项",
+        "items_one": "＋{{count}} 项目",
+        "attributes": "属性"
+      },
+      "deleteModal": {
+        "questionTitle": "删除问题",
+        "answerTitle": "删除答案",
+        "questionContentMainText": "您确定要删除此问题吗：",
+        "answerContentMainText": "是否确定要删除此答案：",
+        "contentSecondaryText": "此操作将永久删除此元素。",
+        "removeQuestion": "继续",
+        "removeAnswer": "继续"
+      },
+      "questionPrefix": "Q",
+      "answerPrefix": "A",
+      "requestMessages": {
+        "QA_question_submit_success": "问题已成功提交。",
+        "QA_question_submit_failure": "无法提交问题。",
+        "QA_answer_submit_success": "答案已成功提交。",
+        "QA_answer_submit_failure": "无法提交答案。",
+        "QA_qn_answ_fuqn_approve_success": "项目已成功批准。",
+        "QA_qn_answ_fuqn_approve_failure": "无法批准项目。",
+        "QA_qn_answ_fuqn_reject_success": "项目已成功拒绝。",
+        "QA_qn_answ_fuqn_reject_failure": "无法拒绝项目。"
+      },
+      "statuses": {
+        "draft": "草稿",
+        "awaitinganswer": "等待答案",
+        "answersubmitted": "答案已提交",
+        "questionanswered": "已回答的问题",
+        "awaitingapprovalexternal": "等待批准",
+        "awaitingapprovalinternal": "等待批准",
+        "awaitingapprovalanswer": "等待批准",
+        "awaitingfinalapproval": "等待最终批准",
+        "rejected": "已拒绝",
+        "rejectedinternal": "已拒绝",
+        "rejectedanswer": "已拒绝"
+      },
+      "filters": {
+        "title": "问答筛选器",
+        "internalTitle": "内部问答过滤器",
+        "externalTitle": "外部问答过滤器",
+        "itemStatus": "项目状态",
+        "statusUpdated": "状态已更新",
+        "sinceLastVisit": "自上次访视以来",
+        "allStatuses": "所有状态",
+        "chooseStatus": "选择状态",
+        "chooseCategory": "选择类别",
+        "questionCategory": "问题类别",
+        "assignee": "受让人",
+        "allQuestionCategories": "所有问题类别",
+        "chooseAtLeastOneStatus": "请选择至少一个状态。",
+        "anyone": "任何人",
+        "chooseAtLeastOneCategory": "请选择至少一个类别。",
+        "questionCreatedBy": "问题创建人",
+        "selectTeams": "选择团队",
+        "anyTeam": "任何团队",
+        "myTeam": "我的团队",
+        "chooseAtLeastOneTeam": "请至少选择一个团队。",
+        "answerCategory": "答案类别",
+        "allAnswerCategories": "所有答案类别",
+        "additionalStatuses": {
+          "rejectedQnswer": "已拒绝的问题",
+          "rejectedAnswer": "拒绝的答案",
+          "awaitingApprovalQuestion": "等待批准问题",
+          "awaitingApprovalAnswer": "等待审批答案"
+        },
+        "clearFilters": "清除过滤器",
+        "apply": "应用",
+        "filter": "过滤器",
+        "cancel": "取消"
+      },
+      "categoryTab": {
+        "categoryName": "类别名称",
+        "createNewCategory": "创建新类别",
+        "questionModerators": "问题主持人",
+        "questionModerator": "问题主持人",
+        "categoryExperts": "类别专家",
+        "categoryExpert": "类别专家",
+        "answerModerators": "应答主持人",
+        "answerModerator": "应答主持人",
+        "answerReviewers": "答案审核人",
+        "answerReviewer": "答案审核人",
+        "turnOnAutoApprove": "打开自动批准",
+        "removeCategory": "删除类别",
+        "newCategory": "新类别",
+        "emptyCategoryNameErrorMessage": "此字段为必填字段",
+        "uniqueCategoryNameErrorMessage": "类别名称已存在。请创建一个不同的名称。",
+        "generalCategory": "一般",
+        "categoryRemoval": "删除类别",
+        "warningModalPrimaryText": "是否确定要删除此类别",
+        "warningModalSecondaryText": "当您保存更改时，此类别的所有问题和答案都将分配给 <strong>{{generalCategoryName}}</strong>。",
+        "selectAtLeastOne": "选择至少一个 "
+      },
+      "attachmentsTab": {
+        "attachments": "附件",
+        "teamsAllowedToAttachFiles": "允许附加文件的团队",
+        "selectTeams": "选择团队",
+        "allTeams": "所有团队",
+        "billingNote": "账单备注：附加到问答项目的文档是托管数据。",
+        "externalTeams": "外部团队",
+        "subInternalTeams": "子内部团队",
+        "mainDealTeam": "主要交易团队"
+      },
+      "limitsDrawer": {
+        "setQnaLimits": "设置问答限制",
+        "warning": "外部团队在通过设定的限制后将无法添加问题。",
+        "qnaLimit": "问答限制",
+        "numberOfQuestions": "问题数量",
+        "externalTeam": "外部团队",
+        "noOfQuestions": "问题数量",
+        "limitsTypes": {
+          "None": "无",
+          "TotalNumberOfQuestions": "问题总数",
+          "Priority": "优先级",
+          "Category": "类别",
+          "CategoryAndPriority": "类别和优先级"
+        },
+        "emptyState": {
+          "noQnaLimitsSet": "未设置问答限制",
+          "message": "如果要设置问答限制，请从上面的下拉列表中选择限制类型。"
+        }
+      },
+      "visibilityDrawer": {
+        "setBulkVisibility": "设置批量可见性",
+        "revokeBulkVisibility": "撤销批量可见性",
+        "setButton": "设置",
+        "revokeButton": "撤销",
+        "cancelButton": "取消",
+        "setVisibility": "设置可见性",
+        "warningTitle": "批量可见性",
+        "discardChangesButton": "放弃更改",
+        "allTeams": "所有团队",
+        "revokeVisibility": "撤销可见性",
+        "setDescription": "设置可见性将允许其他团队查看来自其他团队的线程",
+        "revokeDescription": "撤销可见性将禁用所选团队所选线程中的视图。作者团队的可见性不会被撤销。",
+        "revokeVisibilityForThoseTeams": "撤销这些团队的可见性",
+        "setVisibilityForThoseTeams": "为这些团队设置可见性",
+        "setVisibilitySuccess": "成功设置线程（s）的可见性。",
+        "setVisibilityError": "设置 thread（s） 可见性失败。",
+        "revokeVisibilitySuccess": "成功撤销线程（s）设置的可见性。",
+        "revokeVisibilityError": "撤销线程的可见性失败（s）。",
+        "infoBox": "外部团队可能需要其他权限。\n<0>检查问答报告以审核权限。</0>",
+        "warningContent": "只能对已批准的问题更改可见性。操作中将省略其他状态。\n\n 只有 {{processedItemsCount}} 的{{selectedRootItemsCount}}选定线程将被重新处理，是否仍要设置它们？"
+      },
+      "export": {
+        "buttonText": "导出源",
+        "success": "已成功导出问答源。",
+        "error": "无法导出问答源。"
+      },
+      "import": {
+        "buttonText": "导入源",
+        "errorMessage": {
+          "invalidData": "我们在您的文件上遇到了一些问题，请看一下 cell（s）： {{cells}}",
+          "invalidFormat": "无法导入问答源。文件必须为 XLSX 格式。",
+          "invalidFile": "我们无法识别此 Excel 文件。请再次尝试上传。",
+          "questionLimitReached": "只添加了{{questionLimit}}问题。如果您想添加更多内容，请使用其余问题创建新的 Excel 文件。",
+          "genericError": "无法导入问答源。"
+        },
+        "checkFileModal": {
+          "title": "检查文件",
+          "content": "请确保您导入的文件与之前从 Sterling VDR 导出的文件相同。\n\n不会接受和导入自制文件。",
+          "confirmButtonText": "确认"
+        },
+        "successInternal": "已成功导入问答源。已成功创建（多个）答案。",
+        "successExternal": "已成功导入问答源。问题已成功创建（多个）。",
+        "questionLimitReached": "我们创建{{createdQuestions}}了问题（超出）{{totalNumberOfQuestions}}，并且已达到问题限制。<br>请联系您的交易经理或<0>客户服务团队</0>，了解问题限制。"
+      },
+      "threadVisibility": {
+        "authorTeam": "作者团队 - {{teamName}}",
+        "additionalPermissions": "外部团队可能需要额外权限",
+        "checkQnA": "检查问答报告以审核权限",
+        "selectTeams": "选择团队",
+        "allTeams": "所有团队",
+        "visibility": "可见性"
+      }
+    },
+    "reports": {
+      "reports": "报告"
+    },
+    "uploads": {
+      "uploads": "上传"
+    },
+    "downloads": {
+      "downloads": "下载",
+      "table": {
+        "header": {
+          "date": "创建日期",
+          "parent": "父文件夹",
+          "name": "名称",
+          "fileSize": "文件大小",
+          "status": "状态",
+          "files": "文件"
+        },
+        "content": {
+          "fileCount": "{{completed}} 第 页，共 {{requested}}页"
+        },
+        "status": {
+          "error": "失败，请重试",
+          "preparing": "准备",
+          "preparingExcel": "准备 Excel",
+          "preparingFailed": "准备失败",
+          "preparingPdf": "准备 PDF",
+          "readyForDownload": "准备下载",
+          "downloadCompleted": "下载已完成"
+        },
+        "download": "下载"
+      },
+      "emptyQueue": {
+        "title": "没有要显示的项目",
+        "description": "要执行批量下载，请使用<0>目录页面中的文件夹下载操作</0>。"
+      }
+    },
+    "dataRoomSettings": {
+      "settings": "设置",
+      "dataRoomSettings": "数据室设置",
+      "generalSettings": "常规设置",
+      "componentsSettings": "组件设置",
+      "allFeatures": "所有功能",
+      "recommendedFeatures": "推荐功能",
+      "recommendedFeaturesSubTitle": "对数据室体验有重大影响的功能",
+      "optionalFeatures": "可选功能",
+      "optionalFeaturesSubTitle": "可选功能，但会影响您在 Data Room 的舒适度",
+      "optionalSecurityFeatures": "安全",
+      "optionalOtherFeatures": "其他功能",
+      "contentManagement": "内容管理",
+      "RequestUsersInvitation": "请求用户的邀请",
+      "BulkDownload": "批量下载",
+      "ExcelViewer": "Excel 查看器",
+      "Disclaimer": "免责声明",
+      "viewers": "查看器",
+      "contents": "内容",
+      "silverTier": "银级",
+      "goldTier": "金卡级别",
+      "platinumTier": "白金级别",
+      "versioning": "版本控制",
+      "workWithDocuments": "处理文档",
+      "qa": "问答",
+      "security": "安全",
+      "workflow": "工作流程",
+      "otherFeatures": "其他功能",
+      "extraCharge": "额外费用",
+      "followingFeaturesAvailable": "以下功能需额外付费",
+      "Translation": "在线翻译",
+      "BulkRedaction": "编辑",
+      "CadViewer": "CAD 查看器",
+      "moreFunctionalitiesNeeded": "需要更多功能？",
+      "checkSubscriptionPlans": "检查订阅计划",
+      "CustomWatermarks": "水印",
+      "SimpleQnA": "简单的问答",
+      "advanced": "高级",
+      "extended": "扩展",
+      "ExternalSideQnA": "外部问答",
+      "VersionHistory": "版本历史记录",
+      "MobileAccess": "移动访问",
+      "Redaction": "编辑",
+      "Ocr": "OCR",
+      "PdfConversion": "PDF 转换",
+      "DocumentLinkSharing": "通过电子邮件共享文档",
+      "VersionComparison": "版本比较",
+      "VersionControl": "版本控制",
+      "Sessions": "课程",
+      "MsOfficeEditor": "Excel 查看器",
+      "advancedQA": "高级问答",
+      "extendedQA": "扩展问答",
+      "DealSideQnA": "交易端问答",
+      "IndexAutoNumbering": "自动编号",
+      "CustomisedReports": "报告",
+      "EmailInDocuments": "文档中的电子邮件",
+      "EmailTab": "“电子邮件”选项卡",
+      "SingleSignOnIntegration": "单点登录",
+      "Irm": "增强的 MS Office 保护",
+      "Drm": "增强的 PDF 保护",
+      "AccessRestrictionByIpAddress": "IP 限制",
+      "DocumentReviewWorkflow": "文档审核工作流程",
+      "CopyingContentFromExternalDrives": "第三方数据导入",
+      "ContentMigrationBetweenRooms": "房间内容副本",
+      "CustomTermsOfAccess": "免责声明",
+      "mySubscription": "我的订阅",
+      "setExternalQA": {
+        "title": "如果您更改外部问答中的流程",
+        "description": "迄今为止创建的外部问答中的所有数据<boldText>都将丢失</boldText>，包括",
+        "roles": "用户问答角色",
+        "categories": "问答类别",
+        "assignments": "问答任务",
+        "limits": "问答限制",
+        "attachments": "外部用户将禁用问答附件",
+        "qaBackupMsg": "如果您想备份到目前为止创建的问答，请从",
+        "qaBackupMsgLinkText": "问答报告"
+      },
+      "setTranslation": {
+        "title": "已启用翻译",
+        "extraCharge": "导致<boldText>额外费用</boldText>计费"
+      },
+      "majorChangesModal": {
+        "title": "审核变更",
+        "subtitle": "您看到此消息是因为您至少进行了以下一项更改，这将对数据室造成重大后果",
+        "awareOfChangesCheckbox": "我知道这个行动的结果"
+      },
+      "configuration": {
+        "saveFailed": "更改失败。",
+        "saveSuccess": "更改已保存。",
+        "saveFailure": {
+          "cannotDisableSessionsErrorMessage": "无法禁用会话。首先发布或还原待处理的会话更改。"
+        }
+      },
+      "disclaimers": {
+        "add": "添加免责声明",
+        "disclaimer": "免责声明",
+        "disclaimers": "免责声明",
+        "enterName": "输入免责声明名称",
+        "nameRequired": "此字段不能为空",
+        "contentRequired": "此字段不能为空",
+        "disclaimersList": "免责声明列表",
+        "disclaimersListMakeChanges": "管理免责声明",
+        "disclaimersAssignment": "免责声明分配",
+        "disclaimersAssignmentCancelButton": "取消",
+        "disclaimersAssignmentSaveButton": "保存",
+        "disclaimersAssignmentMakeChangesButton": "编辑",
+        "name": "名称",
+        "createdBy": "创建人",
+        "deletedUser": "已删除用户",
+        "creationDate": "创建日期",
+        "globalDisclaimer": "全球免责声明",
+        "sterlingTechnology": "斯特林科技有限公司",
+        "disclaimerText": "免责声明文本",
+        "defaultDisclaimer": "默认免责声明",
+        "internal": "内部",
+        "bidder": "投标人",
+        "dealSide": "交易侧",
+        "teamType": "团队类型",
+        "frequency": "频率",
+        "agree": "同意",
+        "decline": "拒绝",
+        "addingSucceeded": "已添加新的免责声明。",
+        "updateSucceeded": "免责声明已更新。",
+        "addingFailed": "无法保存免责声明。请重试或联系支持人员。",
+        "updateFailed": "无法更新免责声明。请重试或联系支持人员。",
+        "assignmentFrequency": {
+          "EveryTime": "始终",
+          "OnlyOnce": "一次",
+          "Never": "从不"
+        },
+        "teamTypes": {
+          "MainDealTeam": "主要交易团队",
+          "SubTeam": "子团队",
+          "BidderTeam": "投标人团队"
+        }
+      },
+      "dataroomCustomizations": {
+        "dataroomCustomisation": "数据室定制",
+        "subtitle": "根据您的需求调整软件颜色。",
+        "info": "调整时，考虑颜色对比度，使文本层可见。",
+        "primaryColor": "主要颜色",
+        "label": "标签",
+        "leftSideNavigation": "左侧导航",
+        "resetForm": "重置为默认值",
+        "inputLabel": "颜色 （#hex）",
+        "sucessMessage": "更改已保存。",
+        "failMessage": "更改失败。"
+      },
+      "messages": {
+        "successfullySaved": "更改已成功保存。",
+        "couldNotSave": "无法保存更改。"
+      },
+      "watermark": {
+        "watermark": "水印",
+        "watermarks": "水印",
+        "watermarkSettings": "水印设置",
+        "subTitle": "配置水印设置，这些设置将在启用此功能的情况下显示给所有团队",
+        "displayText": "显示文本",
+        "selectionNote": "至少需要一个选项。",
+        "watermarkSetings": {
+          "isProjectNameEnabled": "项目名称",
+          "isIndexNumberEnabled": "索引编号",
+          "isCompanyEnabled": "公司",
+          "isFullNameEnabled": "全名",
+          "isEmailAddressEnabled": "电子邮件地址",
+          "isIpAddressEnabled": "IP 地址",
+          "isDateTimeEnabled": "日期/时间",
+          "customText": "自定义文本",
+          "isAutoScaleEnabled": "启用自动缩放"
+        },
+        "appearance": "外观",
+        "selectColor": "选择颜色：",
+        "opacity": "不透明度：",
+        "fontSize": "字体大小：",
+        "previewWatermark": "预览水印",
+        "customTextValue": "机密 - 不得分发",
+        "enableWatermark": "启用水印",
+        "preview": "预览",
+        "previewHint": "纸盒设置为 A4。使用不同的纸张格式会导致不同的 watrmark 位置。请仔细检查所有文档和文件。",
+        "confirmationDialog": {
+          "unsavedChangesTitle": "您有未保存的更改",
+          "content": "是否确定要放弃更改？\n\n所有更改都将丢失。",
+          "discard": "放弃更改",
+          "cancel": "继续编辑"
+        }
+      },
+      "rmsSettings": {
+        "rmsSettings": "文档保护"
+      }
+    },
+    "signUp": {
+      "accountDetails": "账户详情",
+      "consents": "同意",
+      "language": "语言",
+      "occupationAndCompany": "职业和公司",
+      "registerNewUserAccount": "注册新用户帐户",
+      "personTitle": "标题",
+      "mr": "先生。",
+      "ms": "女士",
+      "select": "选择",
+      "firstName": "名字",
+      "enterFirstName": "输入名字",
+      "lastName": "姓氏",
+      "enterLastName": "输入姓氏",
+      "countryOfResidence": "居住国家/地区",
+      "typeAndSelect": "输入并选择",
+      "emailAddressLabel": "电子邮件地址",
+      "enterEmail": "输入电子邮件",
+      "mobilePhoneNumber": "手机号码",
+      "deskPhoneNumber": "备用电话号码",
+      "enterPhoneNumber": "输入电话号码",
+      "enterDeskPhoneNumber": "输入备用电话号码",
+      "companyName": "公司名称",
+      "enterCompanyName": "输入公司名称",
+      "sector": "行业",
+      "function": "功能",
+      "jobTitle": "职位",
+      "emailAlreadyExists": "此电子邮件地址已存在。请尝试其他电子邮件或登录以继续。",
+      "setPassword": "设置密码",
+      "enterPassword": "输入密码",
+      "confirmPassword": "确认密码",
+      "passwordShouldConsist": "密码应符合以下要求：",
+      "passwordIsTooSimilar": "密码与之前的 5 个密码过于相似",
+      "securityQuestion": "安全问题",
+      "securityAnswer": "安全答案",
+      "enterAnswer": "输入答案",
+      "consent": {
+        "first": {
+          "partOne": "注册账户即表示我同意",
+          "partTwo": "服务条款",
+          "partThree": "和",
+          "partFour": "隐私政策，包括 Cookie 使用。",
+          "partFive": "我了解，提供服务所需的所有用户数据均由 Sterling 托管，我可以访问我的数据，我有权通过联系 Sterling 管理员更改和删除数据。"
+        },
+        "second": "我希望收到与营销内容和相关更新相关的电子邮件。",
+        "requiredError": "您必须同意我们的服务条款和隐私政策才能创建 Sterling 帐户。"
+      },
+      "TermsOfServiceLink": "",
+      "PrivacyPolicyLink": "https://www.sterlingvdr.com/vdr-privacy-policy",
+      "button": {
+        "cancel": "取消",
+        "back": "背面",
+        "next": "下一个",
+        "register": "注册"
+      }
+    },
+    "signUpConfirmation": {
+      "accountSuccessfullyRegistered": "账户已注册",
+      "youHaveCreatedNewAccount": "已成功创建 Sterling VDR 帐户。",
+      "nowYouCanLogin": "请检查您的收件箱，并按照电子邮件中的说明验证您的帐户。",
+      "goToLogin": "主页"
+    },
+    "emailConfirmation": {
+      "emailSuccessfullyConfirmed": "帐户已验证",
+      "partOne": "已收到您的账户验证。",
+      "partTwo": "您现在可以访问 Sterling 虚拟数据室。"
+    },
+    "emailNotConfirmed": {
+      "emailNotConfirmedTitle": "电子邮件未验证",
+      "partOne": "尚未收到您的电子邮件验证。",
+      "partTwo": "请检查您的收件箱并验证您的帐户。如果您在收件箱中未收到任何内容，请检查所有文件夹/收件箱，包括垃圾邮件。"
+    },
+    "invitations": {
+      "invitationExpired": "邀请已过期",
+      "invitationExpiredBody": "此数据室的邀请已过期。",
+      "invitationExpiredHomePage": "您的新邀请请求将发送给交易团队。",
+      "roomUnavailable": "数据室不可用",
+      "roomUnavailableBody": "此数据室不再存在",
+      "askForInvitation": "请求新邀请",
+      "homePage": "主页",
+      "askedForInvitation": "请求已发送",
+      "askedForInvitationBodyFirst": "请允许交易管理员考虑您的邀请。",
+      "askedForInvitationBodySecond": "新邀请将发送到您的收件箱。"
+    },
+    "dataRooms": {
+      "dataRooms": "数据室",
+      "dataRoomTile": "的数据室图块{{currentDataRoomTileIndex}}{{dataRoomTilesCount}}： {{name}}",
+      "dataRoomLogo": "数据室徽标",
+      "dataRoomName": "数据室名称： {{name}}",
+      "dataRoomId": "数据室 ID： {{id}}",
+      "dataRoomStatus": "数据室状态： {{status}}",
+      "dataRoomInformations": "关于数据室的信息",
+      "dataRoomActions": "{{dataRoomName}} 数据室操作",
+      "dataRoomsViewOptions": "数据室视图选项",
+      "dataRoomsSortOptions": "数据室排序选项",
+      "createNewDataRoom": "创建新数据室",
+      "changeToListView": "更改为列表视图",
+      "changeToTileView": "更改为平铺视图",
+      "projectDashboard": "项目仪表板",
+      "listOfRooms": "客房列表 （{{roomsCount}}）",
+      "results": "{{count}} 结果",
+      "results_one": "{{count}} 结果",
+      "listOfRoomsFilterResult": "客房列表 | $t（views.dataRooms.results， {\"count\": {{count}} }）",
+      "pleaseSelectAtLeastOneOption": "请选择至少一个选项",
+      "newDataRoom": "新数据室",
+      "tier": "层级",
+      "documents": "文档",
+      "pages": "在线页面",
+      "users": "用户",
+      "dataSize": "数据大小",
+      "creationDate": "创建日期",
+      "lastLogin": "上次登录",
+      "company": "公司",
+      "actions": "行动",
+      "selected": "已选择",
+      "viewOptions": "查看选项：",
+      "sortBy": "排序依据：",
+      "filter": "过滤器",
+      "searchFor": "搜索...",
+      "filterHeaderTitle": "为数据室应用筛选器",
+      "filtersCountBadge": "过滤器计数徽章",
+      "pinDataRoom": "Pin {{dataRoomName}}数据室",
+      "unpinDataRoom": "取消锁定{{dataRoomName}}数据室",
+      "yourTime": "您的时间",
+      "noAccess": {
+        "mainText": "您无权访问任何数据室",
+        "subText": "如果您认为这是错误，请联系交易方或",
+        "customerService": "客户服务团队"
+      },
+      "emptyState": {
+        "leftSection": {
+          "headerText": "您好{{keycloakUserFirstName}}，\n欢迎来到 Sterling 虚拟数据室！",
+          "middleText": "我们很高兴您选择我们的服务。我们的服务通过虚拟数据室为国际交易和文档共享提供支持。多亏了这一点，您可以：",
+          "bottomText": "还有更多......",
+          "optionListItemsTexts": [
+            "上传和组织内容",
+            "创建内部和外部团队",
+            "管理问答环节",
+            "浏览支持翻译的文档"
+          ]
+        },
+        "rightSection": {
+          "middleText": "您可以创建第一个项目，以高质量和安全的方式管理任何交易！",
+          "newDataRoom": "新数据室",
+          "twoBusinessmenShakingHands": "两名商人握手"
+        }
+      },
+      "consent": {
+        "consentTextStart": "注册账户即表示我同意",
+        "termsOfService": "服务条款",
+        "and": "和",
+        "privacyPolicy": "隐私政策，包括 Cookie 使用。",
+        "consentTextEnd": "我理解，提供服务所需的所有用户数据均由 Sterling 托管，我可以访问我的数据，我有权通过联系 Sterling 管理员更改和删除数据。*"
+      },
+      "tile": {
+        "upgradeTier": "升级级别",
+        "requestArchive": "请求存档",
+        "settings": "设置"
+      },
+      "list": {
+        "details": "详情",
+        "tier": "层级",
+        "listOfRooms": "客房列表",
+        "dataRoomName": "数据室名称",
+        "creationDate": "创建日期",
+        "status": "状态",
+        "id": "ID",
+        "onlinePages": "在线页面",
+        "documents": "文档",
+        "users": "用户",
+        "dataSize": "数据大小",
+        "upgradeTier": "升级级别",
+        "requestArchive": "请求存档",
+        "settings": "设置",
+        "lastLogin": "上次登录",
+        "logo": "徽标",
+        "company": "公司",
+        "highProfileAccount": "高知名度客户",
+        "accountType": "账户类型"
+      },
+      "sortOptions": {
+        "recentlyCreated": "最近创建",
+        "creationDateOldest": "最早创建日期",
+        "lastLoginTime": "上次登录时间",
+        "onlinePagesAscending": "在线页面升序",
+        "onlinePagesDescending": "在线页面降序"
+      },
+      "DR_limit_pins": "您已达到{{limit}}数据室的固定限制。",
+      "DR_pin_create_success": "已成功固定数据室。",
+      "DR_pin_create_failure": "无法固定数据室。",
+      "DR_create_success": "已成功创建数据室。",
+      "DR_status_user_has_no_access": "您目前无权访问此数据室。"
+    },
+    "dataRoomCreation": {
+      "subscriptionPlan": "订阅计划",
+      "createNewDataRoom": "创建新数据室",
+      "dataRoomDetails": "数据室详情",
+      "uploadedImage": "上传的徽标",
+      "defaultLogo": "默认徽标",
+      "selectFeatures": "选择特征",
+      "selectedPlan": "所选计划",
+      "changePlan": "变更计划",
+      "backToEdit": "返回编辑",
+      "dataRoomName": "数据室名称",
+      "enterDataRoomName": "输入数据室名称",
+      "companyNameForDisclaimers": "免责声明的公司名称",
+      "enterCompanyName": "输入公司名称",
+      "dealType": "交易类型",
+      "selectDealType": "选择交易类型",
+      "dealManagerEmail": "交易经理电子邮件",
+      "enterEmailAddress": "输入电子邮件地址",
+      "timeZone": "时区",
+      "selectTimeZone": "选择时区",
+      "serverLocation": "服务器位置",
+      "logotype": "标识",
+      "companyNameForDisclimers": "免责声明的公司名称",
+      "serverLocationRegionalUk": "英国",
+      "serverLocationRegionalEu": "欧盟",
+      "uploadLogo": "上传徽标",
+      "dropFileHere": "将文件拖放到此处",
+      "allowedFileTypes": "最小 150x35px，JPG，PNG，最大文件大小 {{size, number}} MB",
+      "suggestedDataRoomName": "建议的数据室名称",
+      "useThisName": "使用此名称",
+      "requiredField": "此字段为必填字段",
+      "dataRoomNameUnavailable": "此名称当前正被另一个数据室使用。",
+      "tooLongDataRoomName": "这个名字太长了。",
+      "fileTooLarge": "文件大于 {{size, number}} MB",
+      "fileInvalidType": "文件类型必须 {{accepted, string}}",
+      "consent": "同意",
+      "highProfileAccount": {
+        "text": "大客户？",
+        "options": {
+          "no": "否",
+          "yes": "是"
+        }
+      },
+      "consentRequiredError": "您必须同意我们的服务条款和隐私政策才能创建数据库。",
+      "button": {
+        "create": "创建",
+        "back": "背面",
+        "next": "下一个",
+        "cancel": "取消"
+      },
+      "dealManagerEmailError": "您无法将 Sterling 管理员指定为交易经理。",
+      "componentsSelection": "可在稍后阶段选择组件。"
+    },
+    "errorView": {
+      "somethingWentWrong": "发生错误",
+      "unexpectedError": "意外错误",
+      "unexpectedErrorOccured": "我们正在尽最大努力寻找解决方案。请刷新页面或联系我们的客户服务团队寻求帮助。",
+      "tryAgainOrContactAdministrator": "感谢您的耐心等待。",
+      "reportAnIssue": "联系客户服务团队",
+      "goToHomePage": "主页",
+      "goToPreviousPage": "背面"
+    },
+    "accessRestrictedView": {
+      "accessRestricted": "访问受限",
+      "accessRestrictedNoPermission": "您没有此页面所需的权限。",
+      "accessRestrictedContact": "请联系我们的客户服务团队。"
+    },
+    "sessionTimeout": {
+      "title": "会话超时",
+      "bodyPartOne": "您不活动超过 60 分钟",
+      "bodyPartTwo": "我们出于安全原因将您注销，请转到主页或再次登录",
+      "loginAgain": "再次登录"
+    },
+    "icons": {
+      "chevronTrippleUp": "V 形三重提升",
+      "archiveArrowDown": "存档向下箭头",
+      "cogOutline": "Cog 大纲"
+    },
+    "userSettings": {
+      "title": "用户设置",
+      "tabs": {
+        "accountData": {
+          "title": "个人信息",
+          "firstName": "名字",
+          "lastName": "姓氏",
+          "countryOfResidence": "居住国家/地区",
+          "companyName": "公司名称",
+          "sector": "行业",
+          "function": "功能",
+          "jobTitle": "职位",
+          "accountDataCancelButton": "取消",
+          "accountDataSaveButton": "保存",
+          "accountDataMakeChangesButton": "编辑"
+        },
+        "security": {
+          "title": "安全信息",
+          "tip": "请输入您的帐户密码以安全地进入此部分。",
+          "password": "密码",
+          "contactNumbers": "联系电话",
+          "contactNumbersSuccessMessage": "新联系号码已保存。",
+          "email": "电子邮件",
+          "enterEmail": "电子邮件地址",
+          "emailAlreadyExists": "您输入的电子邮件地址已存在。请登录以继续。",
+          "mobile": "移动",
+          "enterMobile": "手机号码",
+          "setNewPassword": "设置新密码",
+          "confirmNewPassword": "确认新密码",
+          "securityQuestion": "安全问题",
+          "securityAnswer": "安全答案",
+          "tooltipOneFieldPerEdit": "您不能同时编辑两个部分",
+          "emailCancelButton": "取消",
+          "emailSaveButton": "保存",
+          "emailMakeChangesButton": "编辑",
+          "mobileCancelButton": "取消",
+          "mobileSaveButton": "保存",
+          "mobileMakeChangesButton": "编辑",
+          "passwordCancelButton": "取消",
+          "passwordSaveButton": "保存",
+          "changePasswordButton": "编辑",
+          "securityQuestionCancelButton": "取消",
+          "securityQuestionSaveButton": "保存",
+          "securityQuestionMakeChangesButton": "编辑",
+          "deleteAccount": "删除",
+          "deletingAccount": "删除我的帐户",
+          "deleteGdprModal": {
+            "title": "删除帐户",
+            "content": {
+              "first": "您确定要永久删除您的帐户吗？",
+              "second": "如果您删除帐户，您将无法再访问 Sterling VDR 中的任何数据室，并且此操作无法撤销。"
+            },
+            "delete": "删除",
+            "successMessage": "GDPR 删除请求已发送给客户服务团队。请留出 48 小时来完成此操作。",
+            "errorMessage": "请重试。"
+          },
+          "otpVerificationModal": {
+            "title": "OTP 验证",
+            "content": "输入发送至电话号码的 6 位数验证码 <boldText>{{phoneNumber}}</boldText>",
+            "submit": "提交",
+            "inputLabel": "验证码",
+            "errorMessage": "输入的代码无效",
+            "customerServiceLink": "客户服务团队",
+            "placeholder": "输入验证码",
+            "resendCode": "重新发送代码",
+            "codeRequiredMessage": "请输入验证码。",
+            "codeInvalid": "输入的代码无效。",
+            "codeSent": "已发送代码",
+            "tooltip": "您可以在 30 秒内申请新代码。代码将在 10 分钟后过期。"
+          }
+        },
+        "notifications": {
+          "title": "通知",
+          "EmailSettings": {
+            "title": "电子邮件设置",
+            "qAndANotification": {
+              "label": "发送问答电子邮件通知",
+              "value": {
+                "positive": "立即",
+                "negative": "从不"
+              }
+            },
+            "emailNotification": {
+              "label": "发送内容电子邮件通知",
+              "value": {
+                "positive": "每日总结一次",
+                "negative": "从不"
+              }
+            }
+          }
+        },
+        "preferences": {
+          "title": "首选项",
+          "language": {
+            "title": "语言设置",
+            "label": "语言"
+          },
+          "languageCancelButton": "取消",
+          "languageSaveButton": "保存",
+          "languageMakeChangesButton": "编辑"
+        }
+      },
+      "button": {
+        "back": "背面",
+        "cancel": "取消",
+        "edit": "编辑",
+        "changePassword": "更改密码",
+        "saveNewPassword": "保存"
+      }
+    },
+    "inviteUsers": {
+      "header": "请求用户邀请",
+      "selectMethodHeader": "用户邀请 - 选择方法",
+      "enterUsersEmailsHeader": "用户邀请 - 输入用户电子邮件*",
+      "stepText": "步骤",
+      "ofTwoText": "第 页，共 2 页"
+    },
+    "pdfViewer": {
+      "corruptedPrintDialog": {
+        "title": "无法打印文件",
+        "content": "文件已损坏，无法打印。\n\n请联系我们的客户服务团队获取进一步帮助。",
+        "confirm": "关闭窗口"
+      },
+      "corruptedOpenDialog": {
+        "title": "无法打开文件",
+        "content": "文件已损坏，无法在 PDF 查看器中打开。\n\n请联系我们的客户服务团队获取进一步帮助。",
+        "confirm": "关闭窗口"
+      },
+      "protectedOpenDialog": {
+        "title": "受保护文档",
+        "confirm": "获得",
+        "content": "本文档受到保护，某些鼠标和键盘选项受到限制。\n\n如果您想对该文档执行操作，请使用 VDR 应用程序内容树中的文档操作菜单。"
+      },
+      "clipboardText": "受保护文档 本文档受到保护 某些鼠标和键盘选项受到限制。如果您想对该文档执行操作，请使用 VDR 应用程序内容树中的文档操作菜单。"
+    },
+    "videoViewer": {
+      "corruptedOpenDialog": {
+        "title": "文件打开失败",
+        "content": "此视频文件已损坏。如果您具有访问权限，您可以下载文件。或者，请联系 Sterling 客户服务部寻求进一步帮助。",
+        "confirm": "关闭窗口"
+      },
+      "notSupported": "您的浏览器不支持视频标签。"
+    },
+    "sessionManagerView": {
+      "title": "会话管理器",
+      "description": "您需要发布会话以使数据室内的所有用户可见更改。",
+      "button": {
+        "publishChanges": "发布更改",
+        "undoChanges": "撤消更改",
+        "cancel": "取消"
+      },
+      "emptyStateMessage": "没有可发表的内容",
+      "emptyStateDescription": "您将来在目录中的操作将在此处列出。",
+      "actionsList": {
+        "selectedCount": "已{{selectedCount}}从 {{totalCount}}",
+        "headers": {
+          "itemName": "项目名称",
+          "action": "行动",
+          "details": "详情",
+          "actionDate": "操作日期"
+        },
+        "actions": {
+          "inserted": "已插入",
+          "moved": "已移动",
+          "updated": "已更新",
+          "deleted": "已删除",
+          "replaced": "已替换"
+        },
+        "details": {
+          "inserted": "至 {{toDisplayName}}",
+          "moved": "从 {{fromDisplayName}}到 {{toDisplayName}}",
+          "updated": "位于 {{inDisplayName}}",
+          "deleted": "从 {{fromDisplayName}}到 {{toDisplayName}}",
+          "replaced": "位于 {{inDisplayName}}"
+        },
+        "permissionChanges": {
+          "externalTeams": "{{ externalName }} 团队：",
+          "subInternalTeams": "{{ internalName }} 团队：",
+          "header": "此操作使项目隐藏用于：",
+          "failed": "此操作使某些团队的项目隐藏",
+          "loading": "正在加载无法访问此项目的团队..."
+        }
+      },
+      "toasts": {
+        "publishActionSuccess": "操作已成功发布： {{count}}",
+        "publishActionFailure": "无法发布操作： {{count}}",
+        "revertActionSuccess": "操作已成功还原： {{count}}",
+        "revertActionFailure": "无法恢复操作： {{count}}",
+        "actionNotFound": "{{count}} 操作无法处理（多个）。操作不存在，或者已被其他用户发布或还原。",
+        "publishDependenciesDetected": "{{count}} 也选择了由于依赖项而必须发布的操作。请检查并再次发布。",
+        "revertDependenciesDetected": "{{count}} 也选择了由于依赖项而必须恢复的操作。请检查并重新还原。"
+      },
+      "status": {
+        "reverting": "正在还原会话更改...",
+        "publishing": "正在发布会话更改..."
+      },
+      "viewActiveSessions": "查看活动会话",
+      "search": {
+        "placeholder": "搜索项目名称...",
+        "matchingResults": "匹配结果： {{count}}"
+      }
+    }
+  },
+  "components": {
+    "breadcrumb": {
+      "home": "主页",
+      "back": "面包屑后退按钮"
+    },
+    "selectableContextMenu": {
+      "contextMenuButton": "打开上下文菜单"
+    },
+    "dataTablePagination": {
+      "moreThan": "超过 {{to}}",
+      "fromToOf": "{{from}}第 -{{to}} 页，共 页 {{count}}",
+      "first": "第一个",
+      "last": "最后",
+      "next": "下一个",
+      "previous": "以前",
+      "goToPage": "转至{{type}}页面",
+      "rowsPerPage": "每页行数："
+    },
+    "dataTable": {
+      "rowActions": "数据表行操作",
+      "selected": "已选择",
+      "selectSingleRow": "选择单行",
+      "selectAllRows": "选择所有行",
+      "enterDetailsAction": "输入详细信息操作",
+      "pageAction": "页面操作",
+      "expandRow": "展开行",
+      "details": "详情"
+    },
+    "header": {
+      "companyName": "斯特林",
+      "userSettings": "用户设置",
+      "contactSupport": "客户服务团队",
+      "adminPanel": "管理面板",
+      "logout": "注销",
+      "notifications": "通知",
+      "sessions": "课程",
+      "settings": "设置",
+      "dataRoomActions": "数据室操作",
+      "home": "主页",
+      "recentDataRooms": "近期数据室",
+      "recentDataRoomName": "近期数据室 {{dataRoomName}}",
+      "noRecentDataRooms": "无近期数据室"
+    },
+    "tier": {
+      "tier": "层级",
+      "upTo": "高达",
+      "users": "用户",
+      "gb": "GB",
+      "forYourData": "您的数据"
+    },
+    "sidebar": {
+      "close": "关闭",
+      "cancel": "取消",
+      "applyFilters": "应用筛选器",
+      "clearFilters": "清除过滤器"
+    },
+    "allResults": {
+      "allResults": "结果结束"
+    },
+    "noResults": {
+      "noResults": "无结果",
+      "changeCriteria": "请更改您的筛选条件/搜索条件。"
+    },
+    "noQuestions": {
+      "noQuestions": "目前没有问题",
+      "noQuestionsInfo": "请稍后再来检查是否提出了新问题"
+    },
+    "status": {
+      "active": "活动",
+      "underPreparation": "准备中",
+      "terminationPeriod": "终止期",
+      "temporaryRestriction": "临时限制"
+    },
+    "searchbar": {
+      "clear": "清除",
+      "searchFor": "搜索...",
+      "requiredCharacters": "必填字符：{{length}}。"
+    },
+    "searchinput": {
+      "clear": "清除"
+    },
+    "autocompleteSearchbar": {
+      "noMatch": "无匹配建议",
+      "disclaimersCompanyName": "公司",
+      "name": "数据室",
+      "id": "ID",
+      "undefined": "",
+      "publicReference": "ID"
+    },
+    "statusChanger": {
+      "selectStatus": "选择状态",
+      "requestFor": "请求",
+      "updatedBy": "最后更新{{date}}人 {{user}}",
+      "customAccess": "设置自定义访问",
+      "buttons": {
+        "buttonSetStatus": "设置状态",
+        "buttonRequestFor": "请求"
+      },
+      "accessTypes": {
+        "FullAccess": "完全访问",
+        "NoAccess": "无访问权限"
+      },
+      "label": "访问 {{teamName}}",
+      "toasts": {
+        "requestSentSuccesfully": "您的请求已发送。",
+        "requestSentFailure": "您的请求尚未发送。",
+        "statusChangedSuccessfully": "数据室状态已更改。",
+        "statusChangedFailure": "数据室状态未更改。"
+      }
+    },
+    "statusDescription": {
+      "active": "此状态将允许投标人团队进入数据室。\n\n选择此状态后，将出现检查表，以查看您是否以正确的方式准备了数据室。\n\n与 Sterling VDR 合作，体验愉快。",
+      "underPreparation": "新 Data Room 的 Deafult 状态，其目标是设置 Room 上线所需的所有设置和文档。\n\n它将限制所有投标人团队用户访问 DataRoom。\n\n主要交易团队和子交易团队保持访问权限，仍然可以进行更改。",
+      "temporaryRestriction": "根据您在右侧的设置，限制某些团队类型访问数据室。\n\n完全访问没有所选团队类型的结果。\n\n无访问权限将数据室隐藏在集线器上。",
+      "terminationPeriod": "此状态仅可通过向 Sterling Admin 提出请求来提供。\n\n请求将导致关闭所有团队类型的数据室。\n\n30 天后，包含其所有内容的数据室将被删除。"
+    },
+    "toaster": {
+      "closeMessage": "关闭消息",
+      "toast": "吐司"
+    },
+    "confirmationDialog": {
+      "unsavedChangesTitle": "您有未保存的更改",
+      "content": "您即将离开此页面而不保存，\n所有更改都将丢失。\n\n您确定要丢弃它们吗？",
+      "discard": "放弃更改",
+      "stayOnPage": "停留在页面上"
+    },
+    "confirmationCancelDialog": {
+      "unsavedChangesTitle": "您有未保存的更改",
+      "content": "您确定要放弃这些更改吗？\n\n所有更改都将丢失。",
+      "discard": "放弃更改",
+      "stayOnPage": "继续编辑"
+    },
+    "activationChecklist": {
+      "activationChecklistHeader": "在将数据室的状态更改为“活动”之前，请确认以下项目：",
+      "shakingHands": "摇手",
+      "yourProjectStatus": "项目状态将更改为“活动”。",
+      "invitationsForBiddersUsers": "如果未设置自定义设置，则会自动发送投标人邀请。",
+      "activateRoom": "激活房间",
+      "indexStructureIsReady": "索引结构准备就绪，初始文档已上传*",
+      "mainDealTeamIsCreated": "创建主交易团队，并邀请所有用户*",
+      "biddersTeamsAreCreated": "创建投标人团队并添加所有用户*",
+      "disclaimerIsAppropriate": "免责声明适用于交易类型和必要的确切团队*",
+      "grantedPermission": "用户已正确授予权限*",
+      "recyleBinIsntEmptyText": "回收站不是空的，在托管上线数据后。你可能会被收取额外费用。请从以下选项中选择一项*",
+      "deleteAllFiles": "从回收站中删除所有文件",
+      "keepAllFiles": "保留回收站中的所有文件",
+      "activeSessionValidationMessage": "您无法激活房间，因为 DR 中有活动会话。"
+    },
+    "chooseActionButton": {
+      "chooseAction": "选择操作",
+      "actions": "行动"
+    }
+  },
+  "userInvitations": {
+    "buttons": {
+      "saveDraft": "保存草稿"
+    }
+  },
+  "countryCodes": {
+    "AF": "阿富汗",
+    "AL": "阿尔巴尼亚",
+    "DZ": "阿尔及利亚",
+    "AS": "美属萨摩亚",
+    "AD": "安道尔",
+    "AO": "安哥拉",
+    "AI": "安圭拉",
+    "AQ": "南极洲",
+    "AG": "安提瓜和巴布达",
+    "AR": "阿根廷",
+    "AM": "亚美尼亚",
+    "AW": "阿鲁巴岛",
+    "AU": "澳大利亚",
+    "AT": "奥地利",
+    "AZ": "阿塞拜疆",
+    "BS": "巴哈马",
+    "BH": "巴林",
+    "BD": "孟加拉国",
+    "BB": "巴巴多斯",
+    "BY": "白俄罗斯",
+    "BE": "比利时",
+    "BZ": "伯利兹",
+    "BJ": "贝宁",
+    "BM": "百慕大",
+    "BT": "不丹",
+    "BO": "玻利维亚",
+    "BA": "波斯尼亚和黑塞哥维那",
+    "BW": "博茨瓦纳",
+    "BV": "波维特岛",
+    "BR": "巴西",
+    "IO": "英属印度洋领土",
+    "VG": "英属维尔京群岛",
+    "BN": "文莱达鲁萨兰国",
+    "BG": "保加利亚",
+    "BF": "布基纳法索",
+    "BI": "布隆迪",
+    "KH": "柬埔寨",
+    "CM": "喀麦隆",
+    "CA": "加拿大",
+    "CV": "佛得角（佛得角）",
+    "KY": "开曼群岛",
+    "CF": "中非共和国",
+    "TD": "乍得",
+    "CL": "智利",
+    "CN": "中国",
+    "CX": "圣诞岛",
+    "CC": "可可（基林）群岛",
+    "CO": "哥伦比亚",
+    "KM": "科摩罗",
+    "CG": "刚果",
+    "CD": "刚果民主共和国",
+    "CK": "库克群岛",
+    "CR": "哥斯达黎加",
+    "CI": "科特迪瓦（象牙海岸）",
+    "HR": "克罗地亚",
+    "CU": "古巴",
+    "CW": "库拉索岛",
+    "CY": "塞浦路斯",
+    "CZ": "捷克共和国（捷克）",
+    "DK": "丹麦",
+    "DJ": "吉布提",
+    "DM": "多米尼加",
+    "DO": "多米尼加共和国",
+    "TP": "东帝汶 （Timor-Leste）",
+    "EC": "厄瓜多尔",
+    "EG": "埃及",
+    "SV": "萨尔瓦多",
+    "GQ": "赤道几内亚",
+    "ER": "厄立特里亚",
+    "EE": "爱沙尼亚",
+    "ET": "埃塞俄比亚",
+    "FK": "福克兰群岛（马尔维纳斯岛）",
+    "FO": "法罗群岛",
+    "FJ": "斐济",
+    "FI": "芬兰",
+    "FR": "法国",
+    "GF": "法属圭亚那",
+    "PF": "法属波利尼西亚",
+    "TF": "法国南部领土",
+    "GA": "加蓬",
+    "GM": "冈比亚",
+    "GE": "格鲁吉亚",
+    "DE": "德国",
+    "GH": "加纳",
+    "GI": "直布罗陀",
+    "GR": "希腊",
+    "GL": "格陵兰岛",
+    "GD": "格林纳达",
+    "GP": "瓜德罗普",
+    "GU": "关岛",
+    "GT": "危地马拉",
+    "GG": "根西岛",
+    "GN": "几内亚",
+    "GW": "几内亚比绍",
+    "GY": "圭亚那",
+    "HT": "海地",
+    "HM": "赫德岛和麦当劳群岛",
+    "HN": "洪都拉斯",
+    "HK": "香港",
+    "HU": "匈牙利",
+    "IS": "冰岛",
+    "IN": "印度",
+    "ID": "印度尼西亚",
+    "IR": "伊朗",
+    "IQ": "伊拉克",
+    "IE": "爱尔兰",
+    "IM": "马恩岛",
+    "IL": "以色列",
+    "IT": "意大利",
+    "JM": "牙买加",
+    "JP": "日本",
+    "JE": "平纹针织",
+    "JO": "约旦",
+    "KZ": "哈萨克斯坦",
+    "KE": "肯尼亚",
+    "KI": "基里巴斯",
+    "KP": "朝鲜（朝鲜民主主义人民共和国）",
+    "KR": "韩国（韩国）",
+    "XK": "科索沃",
+    "KW": "科威特",
+    "KG": "吉尔吉斯斯坦",
+    "LA": "老挝人民民主共和国（老挝）",
+    "LV": "拉脱维亚",
+    "LB": "黎巴嫩",
+    "LS": "莱索托",
+    "LR": "利比里亚",
+    "LY": "利比亚（利比亚国）",
+    "LI": "列支敦士登",
+    "LT": "立陶宛",
+    "LU": "卢森堡",
+    "MO": "澳门（澳门）",
+    "MG": "马达加斯加",
+    "MW": "马拉维",
+    "MY": "马来西亚",
+    "MV": "马尔代夫",
+    "ML": "马里",
+    "MT": "马耳他",
+    "MH": "马绍尔群岛",
+    "MQ": "马提尼克",
+    "MR": "毛里塔尼亚",
+    "MU": "毛里求斯",
+    "YT": "马约特",
+    "MX": "墨西哥",
+    "FM": "密克罗尼西亚联邦",
+    "MD": "摩尔多瓦",
+    "MC": "摩纳哥",
+    "MN": "蒙古",
+    "ME": "黑山",
+    "MS": "蒙特塞拉特",
+    "MA": "摩洛哥",
+    "MZ": "莫桑比克",
+    "MM": "缅甸",
+    "NA": "纳米比亚",
+    "NR": "瑙鲁",
+    "NP": "尼泊尔",
+    "NL": "荷兰",
+    "AN": "荷属安的列斯群岛",
+    "NC": "新喀里多尼亚",
+    "NZ": "新西兰",
+    "NI": "尼加拉瓜",
+    "NE": "尼日尔",
+    "NG": "尼日利亚",
+    "NU": "纽埃",
+    "NF": "诺福克岛",
+    "MK": "北马其顿",
+    "MP": "北马里亚纳群岛",
+    "NO": "挪威",
+    "OM": "阿曼",
+    "PK": "巴基斯坦",
+    "PW": "帕劳",
+    "PS": "巴勒斯坦，州",
+    "PA": "巴拿马",
+    "PG": "巴布亚新几内亚",
+    "PY": "巴拉圭",
+    "PE": "秘鲁",
+    "PH": "菲律宾",
+    "PN": "皮特凯恩群岛",
+    "PL": "波兰",
+    "PT": "葡萄牙",
+    "PR": "波多黎各",
+    "QA": "卡塔尔",
+    "RE": "团聚",
+    "RO": "罗马尼亚",
+    "RU": "俄罗斯（俄罗斯联邦）",
+    "RW": "卢旺达",
+    "BL": "圣巴塞尔米",
+    "SH": "圣赫勒拿，扬升，特里斯坦达库纳",
+    "KN": "圣基茨和尼维斯",
+    "LC": "圣卢西亚",
+    "MF": "圣马丁",
+    "PM": "圣皮埃尔和密克隆",
+    "VC": "圣文森特和格林纳丁斯",
+    "WS": "萨摩亚",
+    "SM": "圣马力诺",
+    "ST": "圣多美和普林西比",
+    "SA": "沙特阿拉伯",
+    "SN": "塞内加尔",
+    "RS": "塞尔维亚",
+    "SC": "塞舌尔",
+    "SL": "塞拉利昂",
+    "SG": "新加坡",
+    "SX": "圣马丁",
+    "SK": "斯洛伐克（斯洛伐克共和国）",
+    "SI": "斯洛文尼亚",
+    "SB": "所罗门群岛",
+    "SO": "索马里",
+    "ZA": "南非",
+    "GS": "南乔治亚和南桑威奇群岛",
+    "SS": "南苏丹",
+    "ES": "西班牙",
+    "LK": "斯里兰卡",
+    "SD": "苏丹",
+    "SR": "苏里南",
+    "SJ": "斯瓦尔巴群岛和Jan Mayen群岛",
+    "SZ": "斯威士兰（埃斯瓦蒂尼）",
+    "SE": "瑞典",
+    "CH": "瑞士",
+    "SY": "叙利亚（阿拉伯叙利亚共和国）",
+    "TW": "台湾 （ROC）",
+    "TJ": "塔吉克斯坦",
+    "TZ": "坦桑尼亚联合共和国",
+    "TH": "泰国",
+    "TG": "多哥",
+    "TK": "托克劳",
+    "TO": "汤加",
+    "TT": "特立尼达和多巴哥",
+    "TN": "突尼斯",
+    "TR": "土耳其",
+    "TM": "土库曼斯坦",
+    "TC": "特克斯和凯科斯群岛",
+    "TV": "图瓦卢",
+    "VI": "美属维尔京群岛",
+    "UG": "乌干达",
+    "UA": "乌克兰",
+    "AE": "阿拉伯联合酋长国",
+    "GB": "英国",
+    "US": "美国",
+    "UM": "美国小岛屿",
+    "UY": "乌拉圭",
+    "UZ": "乌兹别克斯坦",
+    "VU": "瓦努阿图",
+    "VA": "梵蒂冈城国（The Holy See）",
+    "VE": "委内瑞拉",
+    "VN": "越南",
+    "WF": "瓦利斯和富图纳",
+    "EH": "西撒哈拉",
+    "YE": "也门",
+    "ZM": "赞比亚",
+    "ZW": "津巴布韦"
+  },
+  "securityQuestions": {
+    "WhatIsTheCityWereYouBorn": "您出生在哪个城市？",
+    "WhatIsTheNameOfYourFavoritePet": "您最喜欢的宠物叫什么名字？",
+    "WhatIsYourMothersMaidenName": "您母亲的娘家姓是什么？",
+    "WhatHighSchoolDidYouAttend": "您上了什么高中？",
+    "WhatIsTheNameOfYourFirstSchool": "您的第一所学校叫什么名字？",
+    "WhatWasTheMakeOfYourFirstCar": "您的第一辆车是什么？",
+    "WhatWasYourFavoriteFoodAsAChild": "你小时候最喜欢的食物是什么？",
+    "WhereDidYouMeetYourSpouse": "你在哪里见到你的配偶？",
+    "WhatIsYourFavoriteBook": "你最喜欢的书是什么？",
+    "WhatIsTheNameOfTheRoadYouGrewUpOn": "您长大的道路叫什么名字？",
+    "WhatIsYourFavoritePlaceToVacation": "您最喜欢的度假地点在哪里？",
+    "WhatIsYourFavoriteActorMusicanOrArtist": "您最喜欢的演员、音乐家或艺术家是谁？",
+    "WhatIsYourFavoriteMovie": "您最喜欢的电影是什么？",
+    "WhatIsYourFavoriteColor": "您最喜欢的颜色是什么？"
+  },
+  "sectors": {
+    "AerospaceAndDefence": "航空航天与国防",
+    "Agricultural": "农业",
+    "Automotive": "汽车",
+    "BusinessServices": "业务服务",
+    "EnergyAndRenewables": "能源和可再生能源",
+    "FinancialServices": "金融服务",
+    "FinancialSponsors": "财务发起人",
+    "FoodAndDrink": "食品和饮料",
+    "GovernmentAndPublicSector": "政府和公共部门",
+    "Healthcare": "医疗保健",
+    "Industrial": "工业",
+    "Infrastructure": "基础设施",
+    "Insurance": "保险",
+    "LegalServices": "法律服务",
+    "Leisure": "休闲",
+    "Manufacturing": "制造",
+    "Media": "媒体",
+    "MetalsAndMining": "金属和采矿",
+    "OilAndGas": "石油和天然气",
+    "Other": "其他",
+    "PrivateEquity": "私募股权",
+    "RealEstate": "房地产",
+    "Retail": "零售",
+    "Technology": "技术",
+    "Telecommunications": "电信",
+    "Transport": "运输"
+  },
+  "functions": {
+    "FinancialAdvisor": "财务顾问",
+    "LegalAdvisor": "法律顾问",
+    "PrivateEquity": "私募股权",
+    "Corporate": "公司",
+    "TransactionalServices": "交易服务",
+    "RealEstate": "房地产",
+    "Other": "其他"
+  },
+  "jobTitles": {
+    "ManagingDirector": "常务董事",
+    "Director": "总监",
+    "ExecutiveDirector": "执行董事",
+    "VicePresident": "副总裁",
+    "AssociateDirector": "副总监",
+    "Manager": "经理",
+    "Associate": "员工",
+    "Analyst": "分析师",
+    "Executive": "高管",
+    "Partner": "合作伙伴",
+    "ManagingAssociate": "管理助理",
+    "Trainee": "受训者",
+    "Paralegal": "律师助理",
+    "LegalDirector": "法律总监",
+    "OfCounsel": "律师",
+    "OperationsPartner": "运营合作伙伴",
+    "OperationsManager": "运营经理",
+    "InvestmentDirector": "投资总监",
+    "InvestmentManager": "投资经理",
+    "Principal": "负责人",
+    "CEO": "首席执行官",
+    "CFO": "首席财务官",
+    "MAndADirector": "并购总监",
+    "MAndAManager": "并购经理",
+    "GeneralCounsel": "总法律顾问",
+    "Strategy": "战略",
+    "LegalCounsel": "法律顾问",
+    "Other": "其他"
+  },
+  "passwordPolicyTypes": {
+    "singular": {
+      "length": "最少 1 个字符",
+      "upperCase": "大写字母",
+      "lowerCase": "小写字母",
+      "digits": "编号",
+      "specialChars": "特殊字符"
+    },
+    "plural": {
+      "length": "最小{{value}}字符数",
+      "upperCase": "{{value}} 大写字母",
+      "lowerCase": "{{value}} 小写字母",
+      "digits": "{{value}} 数字",
+      "specialChars": "{{value}} 特殊字符"
+    }
+  },
+  "dealTypes": {
+    "subcategory": {
+      "buySideMa": "买方并购",
+      "sellSideMa": "卖方并购",
+      "postMergerIntegration": "合并后整合",
+      "teaserImDistribution": "Teaser IM 分发",
+      "fundraising": "筹款",
+      "secondaries": "次要",
+      "fundReportingInvestorRelations": "基金报告/投资者关系",
+      "portfolioManagement": "投资组合管理",
+      "assetSaleIpo": "资产出售/IPO",
+      "npls": "不良贷款",
+      "securitization": "证券化",
+      "syndicatedLoan": "银团贷款",
+      "restructuring": "重组",
+      "privatePlacements": "私人场所",
+      "ipoRightsIssues": "IPO 和权利问题",
+      "roadshows": "路演",
+      "assetManagement": "资产管理",
+      "assetSales": "资产销售",
+      "pharmaceuticalsLicensing": "药品许可",
+      "jointVentures": "合资企业",
+      "auditorReviewCompliance": "审计员审查与合规",
+      "antitrustClassActionLawsuits": "反垄断集体诉讼",
+      "other": "其他"
+    },
+    "category": {
+      "ma": "并购",
+      "privateEquity": "私募股权",
+      "debts": "债务",
+      "equity": "股权",
+      "realEstate": "房地产",
+      "pharma": "制药",
+      "tendering": "招标",
+      "courtProceedings": "诉讼",
+      "otherDealType": "其他交易类型"
+    }
+  },
+  "errorCodes": {
+    "passwordIsTooSimilar": "密码与之前的 5 个密码过于相似。"
+  },
+  "timeZones": {
+    "greenwichMeanTime": "格林威治标准时间",
+    "hongKongTime": "香港时间",
+    "indianStandardTime": "印度标准时间",
+    "singaporeStdTime": "新加坡标准时间",
+    "southAfricanStandardTime": "南非标准时间",
+    "arabStandardTimeKuwaitRiyadh": "阿拉伯标准时间（科威特、利雅得）",
+    "arabianStandardTimeAbuDhabiMuscat)": "阿拉伯标准时间（阿布扎比、马斯喀特）",
+    "gulfStandardTime": "海湾标准时间",
+    "moscowTime": "莫斯科时间",
+    "australianWesternStandardTime": "澳大利亚西部标准时间",
+    "chinaStandardTime": "中国标准时间",
+    "malaysiaTime": "马来西亚时间",
+    "japanStandardTime": "日本标准时间",
+    "atlanticStandardTime": "大西洋标准时间",
+    "australianCentralStandardTime": "澳大利亚中央标准时间",
+    "australianEasternStandardTime": "澳大利亚东部标准时间",
+    "brasilia": "巴西利亚",
+    "easternStandardTime": "东部标准时间",
+    "centralStandardTime": "中央标准时间",
+    "mountainStandardTime": "山地标准时间",
+    "pacificStandardTime": "太平洋标准时间",
+    "alaskaStandardTime": "阿拉斯加标准时间",
+    "centralEuropeanTime": "中欧时间",
+    "easternEuropeanTime": "东欧时间",
+    "westernIndonesianTime": "印尼西部时间",
+    "easternAfricaTimeNairobi": "东非时间（内罗毕）",
+    "israelStandardTimeJerusalem": "以色列标准时间（耶路撒冷）"
+  }
+}

@@ -1,0 +1,24 @@
+
+{
+  "presets": [
+    "@babel/preset-react",
+    "@babel/preset-typescript",
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "esmodules": true
+        },
+        "loose": true
+      }
+    ]
+  ],
+  "env": {
+    "development": {
+      "compact": false
+    },
+    "test": {
+      "plugins": ["transform-require-context"]
+    }
+  }
+}

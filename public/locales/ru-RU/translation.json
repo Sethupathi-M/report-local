@@ -1,0 +1,2999 @@
+{
+  "routing": {
+    "navigationBarElements": {
+      "dashboard": "Информационная панель",
+      "contents": "Содержание",
+      "teamsAndUsers": "Команды и пользователи",
+      "qa": "Вопросы и ответы",
+      "reports": "Отчеты",
+      "uploads": "Загрузки",
+      "downloads": "Загрузки",
+      "settings": "Настройки",
+      "dataRooms": "Помещения для передачи данных",
+      "vdrUsers": "Пользователи VDR",
+      "templates": "Шаблоны",
+      "inviteUsers": "Пригласить пользователей"
+    }
+  },
+  "sessionTimeout": {
+    "sessionTimeout": "Время ожидания сеанса истекло",
+    "modalMessagePartOne": "Вы неактивны в течение почти 60 минут. В целях безопасности мы выведем вас из системы через 5 минут.",
+    "modalMessagePartTwo": "Все несохраненные изменения будут потеряны.",
+    "iAmHere": "Я здесь"
+  },
+  "common": {
+    "confirmChanges": "Подтвердить изменения",
+    "answer": "Ответ",
+    "select": "Выбрать",
+    "typeAndSelect": "Введите и выберите",
+    "requiredField": "Это поле обязательно для заполнения",
+    "wrongPassword": "Неверный пароль",
+    "cancel": "Отменить",
+    "save": "Сохранить",
+    "enter": "Введите",
+    "enterPassword": "Введите пароль",
+    "passwordsDoNotMatch": "Пароли должны быть одинаковыми",
+    "enterEmail": "Введите адрес электронной почты",
+    "enterMobile": "Введите номер мобильного телефона",
+    "invalidEmailAddress": "Неверный адрес электронной почты",
+    "InvalidUserName": "Неверное имя пользователя",
+    "InvalidUserLastName": "Недопустимая фамилия пользователя",
+    "phoneNumberTooShort": "Слишком короткий номер телефона",
+    "changePassword": "Изменить пароль",
+    "passwordExpirationWarning_oneOrZero": "Срок действия вашего пароля истекает",
+    "passwordExpirationWarning": "Срок действия вашего пароля истекает через {{count}} дней",
+    "close": "Закрыть",
+    "back": "Назад",
+    "create": "Создать",
+    "uploadFile": "Загрузить файл",
+    "form": "Форма",
+    "togglePasswordVisibility": "Переключить видимость пароля",
+    "toggleConfirmPasswordVisibility": "Переключить отображение подтверждения пароля",
+    "serverError": "Произошла ошибка при подключении к серверу",
+    "checkIsRequired": "Требуется",
+    "selectionIsRequired": "Требуется выбор",
+    "questionMark": "?",
+    "submit": "Отправить",
+    "view": "Просмотр",
+    "update": "Обновить",
+    "moderate": "Умеренная",
+    "review": "Обзор",
+    "delete": "Удалить",
+    "listEmpty": "Список пуст",
+    "details": "Сведения",
+    "edit": "Редактировать",
+    "remove": "Удалить",
+    "downloadPdf": "Загрузить PDF",
+    "downloadNative": "Загрузить",
+    "downloadContent": "Загрузить",
+    "replace": "Заменить",
+    "copy": "Копировать",
+    "cut": "Вырезать",
+    "share": "Поделиться",
+    "paste": "Вставить",
+    "link": "Ссылка",
+    "unlink": "Отменить связь",
+    "emptyBin": "Пустой контейнер",
+    "emptyMasterBin": "Пустой основной контейнер",
+    "search": "Поиск",
+    "bidders": "Участники торгов",
+    "sellers": "Продавцы",
+    "buyers": "Покупатели",
+    "internal": "Внутренний",
+    "external": "Внешний",
+    "users": "Пользователи",
+    "experts": "Эксперты",
+    "makeChanges": "Редактировать",
+    "print": "Печать",
+    "countryOfResidence": "Страна проживания",
+    "stepperProgress": "<strong>Шаг {{activeStep}}</strong> из {{allSteps}}",
+    "sendRequest": "Отправить запрос",
+    "required": "Требуется",
+    "exportIndexAsExcel": "Экспорт в Excel",
+    "exportIndexAsPdf": "Экспорт в PDF",
+    "operationInProgress": "Выполняется операция...",
+    "successEmailSentMessage": "Электронное письмо успешно отправлено",
+    "failureEmailSentMessage": "Невозможно отправить электронное письмо "
+  },
+  "views": {
+    "adminPanel": {
+      "templates": {
+        "templates": "Шаблоны"
+      },
+      "vdrUsers": {
+        "vdrUsers": "Пользователи VDR",
+        "listOfUsers": "Список пользователей",
+        "table": {
+          "header": {
+            "name": "Имя",
+            "email": "Электронная почта",
+            "company": "Название компании"
+          },
+          "details": {
+            "emailVerificationtooltip": "Ожидание подтверждения электронной почты",
+            "securityQuestion": "Контрольный вопрос",
+            "securityAnswer": "Ответ на контрольный вопрос",
+            "mobilePhoneNumber": "Номер мобильного телефона",
+            "deskPhoneNumber": "Альтернативный номер телефона",
+            "countryOfResidence": "Страна проживания",
+            "sector": "Сектор",
+            "function": "Функция",
+            "jobTitle": "Должность",
+            "userDataRooms": {
+              "dataRoomName": "Имя комнаты данных",
+              "status": "Статус",
+              "teamName": "Название команды",
+              "role": "Роль",
+              "enterDataRoom": "Вход в комнату данных"
+            }
+          },
+          "rowActions": "Действия с строками пользователей"
+        }
+      }
+    },
+    "customerSupport": {
+      "title": "Отдел обслуживания клиентов",
+      "content": "Мы работаем круглосуточно и без выходных\nОтправить сообщение по форме, электронной почте ({{supportEmail}})\nили позвоните нам: {{phone}}",
+      "button": {
+        "cancel": "Отменить",
+        "sendMessage": "Отправить сообщение"
+      },
+      "placeholder": "Расскажите нам, что произошло",
+      "errorMessage": "Это поле обязательно для заполнения",
+      "header": {
+        "close": "Закрыть"
+      },
+      "internationalNumbers": "Международные номера",
+      "messageHeader": "Сообщение",
+      "toasts": {
+        "failure": "Не удалось доставить сообщение. Повторите попытку позже.",
+        "success": "Ваше сообщение успешно отправлено."
+      }
+    },
+    "contents": {
+      "contents": "Содержание",
+      "contentsTree": "Индекс",
+      "contentsTreeEmptyState": "Нет файлов в комнате данных",
+      "contentsTreeNodeAriaLabel": "Параметры меню для {{itemName}}",
+      "startReviewOnOpen": "Документ ожидает рассмотрения",
+      "openOrStartReviewDialog": {
+        "title": "Документ ожидает рассмотрения",
+        "content": "Этот документ ожидает рассмотрения. Вы можете открыть его для обычного чтения или начать процесс проверки.",
+        "decision": "Что бы вы хотели сделать?",
+        "extraConfirm": "Открыть только",
+        "confirm": "Начать проверку"
+      },
+      "contentList": {
+        "header": {
+          "creationDate": "Дата добавления",
+          "name": "Имя",
+          "numbering": "No",
+          "rootIndex": "Корневой индекс",
+          "labels": "Этикетки",
+          "selectAllRows": {
+            "fetchingTooltip": "Загрузка элементов..."
+          }
+        },
+        "body": {
+          "moreLabels": "+{{count}}",
+          "sessionsTooltip": "Сначала необходимо опубликовать сеанс, чтобы разблокировать добавление меток к элементу",
+          "labelPopover": {
+            "createNew": "Создать новый",
+            "placeholder": "Название метки...",
+            "labels": "Этикетки",
+            "add": "Добавить",
+            "error": {
+              "labelExists": "Имя уже занято"
+            }
+          },
+          "labelDeleteModal": {
+            "content": "Удалить метку?"
+          }
+        },
+        "dragAndDropAvailableInfo": "Вы также можете перетащить файлы, чтобы начать загрузку.",
+        "sort": {
+          "buttonText": "Сортировать",
+          "options": {
+            "numberAsc": "Количество по возрастанию",
+            "numberDesc": "Количество по убыванию",
+            "nameAsc": "Имя по возрастанию",
+            "nameDesc": "Имя по убыванию",
+            "newest": "Новинки",
+            "oldest": "Самый старый",
+            "popularity": "Популярность"
+          }
+        }
+      },
+      "documentDetails": {
+        "header": "Сведения о документе",
+        "name": "Имя",
+        "dateAdded": "Дата добавления",
+        "uploadedBy": "Загружено",
+        "conversionStatus": "Статус преобразования",
+        "conversionStatuses": {
+          "conversionCompleted": "Преобразование завершено",
+          "none": "Нет",
+          "processing": "Обработка",
+          "conversionFailed": "Невозможно преобразовать файл",
+          "searchable": "Доступный для поиска",
+          "notSearchable": "Недоступно для поиска"
+        },
+        "statusDate": "Дата статуса",
+        "convertedFileSize": "Размер преобразованного файла",
+        "nativeFileSize": "Размер исходного файла",
+        "nativeFileType": "Тип исходного файла",
+        "pageCount": "Количество страниц",
+        "irm": {
+          "labelText": "IRM (Управление правами на информацию)",
+          "irmOptions": {
+            "no": "Нет",
+            "yes": "Да"
+          }
+        },
+        "statusDetails": "Сведения о статусе",
+        "statusesDetails": {
+          "passwordProtected": "Файл защищен паролем.",
+          "unidentifiedIssue": "Неидентифицированная проблема.",
+          "fileCouldNotBeConverted": "Не удалось преобразовать файл."
+        },
+        "reviewStatus": "Статус проверки",
+        "startReview": "Начать проверку",
+        "finishReview": "Завершить проверку",
+        "contactSupport": "Обратитесь в отдел обслуживания клиентов",
+        "thumbnailPreview": "Предварительный просмотр эскизов",
+        "thumbnailFailed": "Сбой эскиза",
+        "next": "Далее",
+        "prev": "Предыдущий",
+        "reviewing": "Рассмотрение",
+        "pending": "Ожидание",
+        "returnedComplete": "Возвращено завершено",
+        "returnedIncomplete": "Возвращено не полностью",
+        "selectReviewStatus": "Выберите статус проверки"
+      },
+      "bulkRename": {
+        "bulkRename": "Переименовать пакет",
+        "newName": "Новое имя",
+        "noItemsHeaderText": "Нечего показать",
+        "noItemsSecondaryText": "Выберите другой индекс/папку",
+        "toastMessages": {
+          "success": "Элементы успешно переименованы:",
+          "importSuccess": "Массовое переименование ленты успешно импортировано",
+          "importInProgressMessage": "Выполняется импорт пакетной ленты переименования...",
+          "failure": "Невозможно переименовать элементы:",
+          "sessionLockFailure": "Невозможно изменить элементы: {{count}}. Они заблокированы другим пользователем.",
+          "invalidFormat": "Невозможно импортировать пакетную ленту переименования. Файл должен быть в формате XLSM.",
+          "unrecognisedFileStructure": "Невозможно импортировать пакетную ленту переименования. Не удалось распознать структуру файла.",
+          "importAlreadyInProgress": "Невозможно использовать групповое переименование, поскольку выполняется импорт. Повторите попытку позже.",
+          "someItemsNotAccessible": "Элементы в следующих ячейках больше не существуют или недоступны для вас: {{cells}}",
+          "invalidNames": "Имена, указанные в следующих ячейках, содержат недопустимые символы: {{cells}}",
+          "genericError": "Невозможно импортировать пакетную ленту переименования"
+        },
+        "exportFeed": {
+          "buttonName": "Экспортировать",
+          "success": {
+            "title": "Подготовка ленты переименования нерасфасованного препарата",
+            "link": "Показать очередь"
+          },
+          "failure": {
+            "title": "Невозможно экспортировать ленту для массового переименования"
+          }
+        },
+        "importFeed": {
+          "buttonName": "Импортировать"
+        },
+        "searchPlaceholder": "Поиск имени элемента...",
+        "itemsFound": "Найдено элементов:",
+        "removeAll": "Удалить все",
+        "ignore": "Игнорировать",
+        "cantModifyItemNamePrompt": "У вас нет прав на редактирование имени этого элемента."
+      },
+      "hide": "Скрыть",
+      "show": "Показать",
+      "contentsRootLogoAlt": "Логотип корня содержимого",
+      "assignForReview": "Назначить для проверки",
+      "assignAnotherUserForReview": "Назначить другого пользователя",
+      "finishReview": "Завершить проверку",
+      "add": "Добавить",
+      "folder": "Папка",
+      "placeholder": "Заполнитель",
+      "shortcut": "Ярлык",
+      "hyperlink": "URL-ссылка",
+      "upload": "Загрузить",
+      "collapseAll": "Свернуть все",
+      "expandAll": "Развернуть все",
+      "editProperties": "Редактировать свойства",
+      "reviewStartedSuccess": "Проверка документа успешно начата",
+      "reviewStartedFailure": "Невозможно начать проверку документа",
+      "backReviewToPending": "Вернуться к разделу «Ожидание рассмотрения»",
+      "backToPendingSuccess": "Статус документа успешно изменен",
+      "backToPendingFailure": "Невозможно изменить статус документа",
+      "withdrawFromReview": "Отзыв обзора",
+      "withdrawSuccess": "Документ успешно отозван",
+      "withdrawFailure": "Невозможно отозвать документ",
+      "assignForReviewForm": {
+        "selectReviewers": "Выбрать рецензентов",
+        "setDate": "Установить срок выполнения",
+        "selectDate": "Выберите дату",
+        "addComment": "Добавить комментарий",
+        "typeComment": "Введите комментарий",
+        "sendReview": "Отправить на проверку",
+        "successMessage": "Документы, назначенные для проверки: {{count}}",
+        "failureMessage": "Невозможно назначить документы для проверки: {{count}}"
+      },
+      "indexExport": {
+        "toast": {
+          "error": {
+            "title": "Сбой подготовки пакета загрузки."
+          },
+          "success": {
+            "title": "Подготовка пакета загрузки.",
+            "link": "Показать очередь"
+          }
+        }
+      },
+      "assignAnotherUserForReviewForm": {
+        "successMessage": "Пользователи, назначенные для документа, успешно",
+        "failureMessage": "Невозможно назначить пользователей для документа"
+      },
+      "finishReviewForm": {
+        "finishReview": "Завершить проверку",
+        "successMessage": "Проверка документов успешно завершена: {{count}}",
+        "failureMessage": "Невозможно завершить проверку документов: {{count}}",
+        "commentRequired": "Требуется комментарий",
+        "completeStatus": "Выберите статус проверки"
+      },
+      "addItemForm": {
+        "addFolder": "Добавить папку",
+        "close": "Закрыть",
+        "enterFolderName": "Введите имя папки",
+        "remove": "Удалить",
+        "addNext": "Добавить еще",
+        "save": "Сохранить",
+        "cancel": "Отменить",
+        "folderNameEmptyErrorMessage": "Необходимо указать имя папки.",
+        "folderNameContainsInvalidCharacters": "Указанное имя папки содержит недопустимые символы.",
+        "folderCreateSuccess": "Папки успешно созданы: {{count}}",
+        "folderCreateFailure": "Невозможно создать папки: {{count}}",
+        "addIndex": "Добавить индекс",
+        "indexNameEmptyErrorMessage": "Необходимо указать название индекса.",
+        "indexNameContainsInvalidCharacters": "Указанное имя индекса содержит недопустимые символы.",
+        "enterIndexName": "Введите название индекса",
+        "indexAlreadyExists": "Данный Data Room уже содержит индекс с именем {{name}}.",
+        "indexCreateSuccess": "Индекс успешно создан.",
+        "indexCreateFailure": "Невозможно создать индекс.",
+        "addPlaceholder": "Добавить заполнитель",
+        "placeholderNameEmptyErrorMessage": "Необходимо указать имя заполнителя.",
+        "placeholderNameEmptyErrorMessageNameContainsInvalidCharacters": "Указанное имя заполнителя содержит недопустимые символы.",
+        "enterPlaceholderName": "Введите имя заполнителя",
+        "placeholderCreateSuccess": "Заполнители успешно созданы: {{count}}",
+        "placeholderCreateFailure": "Невозможно создать заполнители: {{count}}",
+        "addHyperlink": "Добавить URL-ссылку",
+        "hyperlinkCreateSuccess": "URL-ссылки успешно созданы: {{count}}",
+        "hyperlinkCreateFailure": "Невозможно создать URL-ссылки: {{count}}",
+        "itemUploadSuccess": "Загрузка завершена для {{count}} элементов.",
+        "itemUploadFailure": "Невозможно загрузить элементы: {{count}}",
+        "itemReplaceSuccess": "Элемент успешно заменен",
+        "itemReplaceFailure": "Невозможно заменить элемент.",
+        "itemReplaceNonexistingItem": "Невозможно заменить элемент, так как он не существует или был изменен. Обновите страницу.",
+        "invalidUrl": "URL-ссылка недействительна.",
+        "hyperlinkNameEmptyErrorMessage": "Необходимо указать имя ссылки URL.",
+        "enterHyperlinkName": "Введите имя ссылки URL",
+        "enterUrl": "Введите адрес веб-сайта URL-ссылки",
+        "addShortcut": "Добавить ярлык",
+        "enterItemName": "Введите название элемента",
+        "enterShortcutName": "Введите имя ярлыка",
+        "searchAndSelect": "Поиск и выбор",
+        "noOptions": "Совпадений не найдено",
+        "shortcutNameEmptyErrorMessage": "Необходимо указать имя ярлыка.",
+        "shortcutRefIsMandatory": "Необходимо указать элемент ссылки ярлыка.",
+        "shortcutRefLeadsToTempFolderWarning": "Ярлык приводит к папке Temp и может быть не виден всем пользователям в комнате данных.",
+        "shortcutCreateSuccess": "Ярлыки успешно созданы: {{count}}",
+        "shortcutCreateFailure": "Невозможно создать ярлык: {{count}}",
+        "defaultEmptyItemNameMessage": "Имя элемента пустое",
+        "defaultItemNameContainsInvalidCharactersMessage": "Имя элемента содержит недопустимые символы",
+        "defaultAddItemMessage": "Добавить элемент",
+        "defaultEnterItemName": "Введите название элемента",
+        "defaultItemName": "Название элемента",
+        "defaultItemCreateSuccess": "Создание элемента выполнено успешно",
+        "defaultItemCreateFailure": "Не удалось создать элемент",
+        "autoNumbering": {
+          "autoNumbering": "Автоматическая нумерация",
+          "prefix": "Префикс",
+          "enterPrefix": "Введите префикс",
+          "convention": "Конвенция",
+          "defineCustomConvention": "Определить пользовательское соглашение",
+          "none": "Нет",
+          "numeric": "Цифровые",
+          "alphabetic": "В алфавитном порядке",
+          "roman": "Римский",
+          "custom": "Пользовательский",
+          "result": "Результат",
+          "descriptionHeader": "Вы можете использовать следующие символы:",
+          "numberDescription": "означает число",
+          "upperCaseLetterDescription": "означает заглавную букву",
+          "lowerCaseLetterDescription": "означает строчную букву",
+          "upperCaseRomanNumberDescription": "означает заглавный римский номер",
+          "lowerCaseRomanNumberDescription": "означает строчный римский номер",
+          "numberingConventionIncorrectErrorMessage": "Указан неверный шаблон нумерации. См. инструкции.",
+          "customConventionEmptyErrorMessage": "Пользовательское соглашение является обязательным.",
+          "customConventionPlaceholder": "Ввести конвенцию"
+        },
+        "applyHiddenPermissionLabel": "Применить скрытое разрешение",
+        "hint": {
+          "header": "Наследование разрешений",
+          "message": "Обратите внимание, что ярлык наследует разрешение от целевого элемента."
+        }
+      },
+      "editItem": {
+        "index": {
+          "success": "Свойства индекса успешно обновлены.",
+          "failure": "Невозможно обновить свойства индекса.",
+          "name": "Название индекса"
+        },
+        "hyperlink": {
+          "success": "Свойства URL-ссылки успешно обновлены.",
+          "failure": "Невозможно обновить свойства ссылки URL.",
+          "name": "Имя гиперссылки",
+          "url": "Ссылка на URL-адрес"
+        },
+        "shortcut": {
+          "success": "Свойства ярлыка успешно обновлены.",
+          "failure": "Невозможно обновить свойства ярлыка.",
+          "name": "Название шортки",
+          "itemName": "Название элемента",
+          "hint": {
+            "header": "Наследование разрешений",
+            "message": "Обратите внимание, что ярлык наследует разрешение от целевого элемента."
+          }
+        },
+        "item": {
+          "success": "Элемент переименован.",
+          "failure": "Невозможно переименовать элемент."
+        },
+        "placeholder": {
+          "name": "Имя заполнителя"
+        },
+        "document": {
+          "name": "Название документа",
+          "nameIsMandatory": "Необходимо указать название документа."
+        },
+        "folder": {
+          "name": "Имя папки"
+        },
+        "defaultItem": {
+          "success": "Обновление элемента выполнено успешно",
+          "failure": "Ошибка обновления элемента"
+        },
+        "editItemNotFound": "Невозможно изменить элемент, так как он не существует или был изменен. Обновите страницу."
+      },
+      "predefinedFolders": {
+        "favorites": "Избранное",
+        "tempFolder": "Папка температурного режима",
+        "emailUpdates": "Обновления электронной почты",
+        "q&aAttachments": "Вложения с вопросами и ответами",
+        "bin": "Корзина",
+        "masterBin": "Мастер-корзина",
+        "indexContainer": "Индексы"
+      },
+      "uploadFiles": {
+        "hint": {
+          "header": "Загрузка пустых папок.",
+          "message": "При загрузке структуры с пустыми папками используйте функцию перетаскивания."
+        },
+        "uploadTo": "Загрузить в:",
+        "selectFilesFrom": "Выбрать из",
+        "dragAndDropLine1": "Перетащите файлы сюда",
+        "dragAndDropLine2": "Файлы, архивы, папки",
+        "fileExtensionIsNotSupported": "Расширение файла {{extension}} не поддерживается.",
+        "fileExtensionsAreNotSupported": "Расширения файлов {{extensions}} и {{lastExtension}} не поддерживаются.",
+        "fileWithoutExtensions": "Файлы не имеют расширения: {{count}}",
+        "invalidFileName": "Имена файлов содержат недопустимые символы \\ / | * : \" ? < >: {{count}}",
+        "selectedItems": "Выбранные элементы: {{count}}",
+        "removeAll": "Удалить все",
+        "addMoreFilesFrom": "Добавить больше из",
+        "otherSources": "Другие источники",
+        "cancel": "Отменить",
+        "upload": "Загрузить",
+        "remove": "Удалить",
+        "seeList": "См. список",
+        "sourceNames": {
+          "localStorageFile": "Локальные файлы хранилища",
+          "localStorageFolder": "Папки локального хранилища",
+          "googleDrive": "Google Диск",
+          "dropBox": "DropBox",
+          "oneDrive": "OneDrive",
+          "sharepoint": "Sharepoint",
+          "boxCom": "Box.com"
+        },
+        "configurationSections": {
+          "options": "Опции",
+          "openUploadSettings": "Открыть настройки загрузки",
+          "applyHiddenPermission": {
+            "sectionText": "Применить скрытое разрешение",
+            "options": {
+              "no": "Нет",
+              "yes": "Да"
+            },
+            "description": "Документ(-ы) будут скрыты для всех участников торгов и команд по субсделкам. В противном случае будет применено разрешение родительской папки."
+          },
+          "extractAllCompressedFiles": {
+            "sectionText": "Извлечь все сжатые файлы",
+            "options": {
+              "no": "Нет",
+              "yes": "Да"
+            }
+          },
+          "notify": {
+            "sectionText": "Уведомить",
+            "options": {
+              "no": "Нет",
+              "asPerUserSettings": "В соответствии с пользовательскими настройками",
+              "immediatelyToUsersWithSettingsEnabled": "Немедленно пользователям с включенными настройками"
+            }
+          }
+        },
+        "uploadStatusPreview": {
+          "remainingUploadItems": "Выполняется загрузка... Оставшиеся элементы: {{count}}.",
+          "failedUploadItems": "Проблемы: {{count}}.",
+          "showQueue": "Показать очередь"
+        },
+        "cancelUploadConfirmationDialog": {
+          "title": "Отменить загрузку",
+          "content": {
+            "cancelQuestion": "Вы уверены, что хотите отменить загрузку этих файлов?",
+            "cancelConfirm": "Если вы подтвердите это, загруженный пакет будет очищен."
+          },
+          "confirm": "Продолжить",
+          "cancel": "Отменить"
+        },
+        "lockedDestinationFolderMessage": "Действие не может быть выполнено. Файлы загружаются в эту папку.",
+        "uploadFolderStructureCreationMessage": "Создание структуры папок для загрузки..."
+      },
+      "deleteItem": {
+        "delete": "Удалить",
+        "deleteConfirmationDialog": {
+          "title": "Подтвердить удаление",
+          "content": {
+            "delete": "Вы уверены, что хотите удалить выбранный элемент (элементы)?",
+            "deleteFromBin": "Вы уверены, что хотите удалить выбранный элемент (элементы) из корзины?",
+            "deleteFromMasterBin": "Вы уверены, что хотите навсегда удалить выбранный элемент(-ы)?"
+          }
+        },
+        "deleteItemSuccess": {
+          "delete": "Элементы успешно удалены: {{count}}",
+          "deleteFromMasterBin": "Элементы успешно удалены: {{count}}"
+        },
+        "deleteItemFailure": {
+          "delete": "Невозможно удалить элементы: {{count}}",
+          "deleteFromMasterBin": "Невозможно удалить элементы: {{count}}"
+        },
+        "deleteItemNotFound": "{{count}} элемент(-ы) не может быть удален. Элементы не существуют или были изменены. Обновите страницу."
+      },
+      "emptyItem": {
+        "emptyItemConfirmationDialog": {
+          "title": "Подтвердить удаление",
+          "content": {
+            "bin": "Вы уверены, что хотите очистить корзину?",
+            "masterBin": "Вы уверены, что хотите очистить главный контейнер?"
+          }
+        },
+        "emptyItemSuccess": {
+          "bin": "Корзина успешно опорожнена",
+          "masterBin": "Главный бункер успешно опорожнен"
+        },
+        "emptyItemFailure": {
+          "bin": "Невозможно очистить корзину",
+          "masterBin": "Не удалось очистить главный бункер"
+        }
+      },
+      "favorites": {
+        "add": "Добавить в избранное",
+        "remove": "Удалить из избранного",
+        "addSuccess": "Пункты, добавленные в избранное: {{count}}",
+        "addFailure": "Невозможно добавить элементы в избранное: {{count}}",
+        "removeSuccess": "Пункты, удаленные из избранного: {{count}}",
+        "removeFailure": "Невозможно удалить элементы из избранного: {{count}}"
+      },
+      "copyItem": {
+        "success": "Элементы успешно вставлены: {{count}}",
+        "failure": "Невозможно вставить элементы: {{count}}",
+        "itemNotFound": "Невозможно вставить элементы, так как они не существуют или были изменены.  Обновите страницу.",
+        "targetNotValid": "Нельзя вставить элементы в скопированные.",
+        "targetCannotBeTempFolder": "{{count}} Не удалось вставить ярлык(и). Нельзя вставить ярлыки в папку Temp."
+      },
+      "moveItem": {
+        "success": "Перемещенные элементы: {{count}}",
+        "failure": "Невозможно переместить элементы: {{count}}",
+        "itemNotFound": "{{count}} элементы не могут быть перемещены, так как элементы не существуют или были изменены. Обновите страницу.",
+        "targetNotValid": "Вы не можете вставить элементы ни в один из разрезанных.",
+        "moveToInvalidTarget": "Вы не можете перемещать элементы в перемещаемые элементы.",
+        "moveToHiddenFolderConfirmationDialog": {
+          "title": "Один или несколько элементов будут скрыты в новом местоположении",
+          "content": "Вы уверены, что хотите продолжить?",
+          "confirm": "Да",
+          "cancel": "Нет"
+        }
+      },
+      "shortcuts": {
+        "brokenShortcutConfirmationDialog": {
+          "title": "Недопустимый ярлык",
+          "content": "Файл, связанный с этим ярлыком, был удален. Он больше недоступен.\nЧто вы хотите сделать?"
+        },
+        "deleteShortcut": "Удалить ярлык"
+      },
+      "uploadQueue": {
+        "status": {
+          "failed": "Неуспешно",
+          "success": "Успех",
+          "cancelled": "Отменено",
+          "partiallyFinished": "Частично завершено"
+        },
+        "drawerTitle": "Загрузить очередь",
+        "button": {
+          "close": "Закрыть",
+          "minimise": "Свернуть",
+          "cancel": "Отменить",
+          "cancelAll": "Отменить все"
+        },
+        "emptyQueueMessageHeader": "Нет элементов в очереди",
+        "emptyQueueMessageContent": "все загрузки завершены",
+        "closeDrawerConfirmationDialog": {
+          "title": "Закрыть очередь загрузки",
+          "content": "Вы уверены, что хотите закрыть очередь загрузки? Вся информация о неудачах загрузки будет потеряна.",
+          "confirm": "Продолжить",
+          "cancel": "Отменить"
+        },
+        "cancelUploadConfirmationDialog": {
+          "title": "Отменить загрузку",
+          "content": "Отменить загрузку этих файлов?\n\nЭти файлы будут удалены из комнаты данных вместе со всеми связанными данными.",
+          "confirm": "Отменить загрузку",
+          "cancel": "Выбросить"
+        },
+        "cancelAllUploadConfirmationDialog": {
+          "title": "Отменить загрузку",
+          "content": "Отменить загрузку этих файлов?\n\nЭти файлы будут удалены из комнаты данных вместе со всеми связанными данными.",
+          "confirm": "Отменить загрузку",
+          "cancel": "Выбросить"
+        }
+      },
+      "share": {
+        "drawerTitle": "Поделиться",
+        "button": {
+          "close": "Закрыть",
+          "cancel": "Отменить",
+          "share": "Поделиться"
+        },
+        "documentLabel": "Документ",
+        "emailAddresses": "Добавить адреса электронной почты",
+        "addComment": "Добавить комментарий",
+        "validationMessage": "Введите формат: name@example.com ",
+        "typeComment": "Введите комментарий",
+        "success": "Документ успешно передан",
+        "failure": "Не удалось предоставить общий доступ к документу. Повторите попытку.",
+        "failureNotification": "Неизвестный тип документа."
+      },
+      "markItem": {
+        "asViewed": {
+          "buttonText": "Отметить как просмотренное",
+          "success": "Элементы, отмеченные как успешно просмотренные: {{count}}",
+          "failure": "Не удается пометить элементы при просмотре: {{count}}"
+        },
+        "asUnviewed": {
+          "buttonText": "Пометить как непросмотренный",
+          "success": "Элементы, отмеченные как непросмотренные: {{count}}",
+          "failure": "Невозможно пометить элементы как непросмотренные: {{count}}"
+        }
+      },
+      "reprocess": {
+        "buttonText": "Повторная обработка",
+        "success": "Повторная обработка элемента выполнена успешно",
+        "failure": "Невозможно обработать элемент повторно",
+        "itemNotFound": "Не удалось обработать элемент повторно, так как он не существует или был изменен. Обновите страницу.",
+        "processingDialog": {
+          "title": "Документ недоступен",
+          "content": "Вы не можете выполнить это действие, файл обрабатывается.",
+          "confirm": "Понимал"
+        }
+      },
+      "replaceCorrected": {
+        "buttonText": "Замена исправлена",
+        "itemReplaceCorrectedSuccess": "Элемент успешно заменен",
+        "itemReplaceCorrectedFailure": "Невозможно заменить элемент",
+        "itemReplaceCorrectedNonexistingItem": "Невозможно заменить элемент, так как он не существует или был изменен. Обновите страницу.",
+        "processingDialog": {
+          "title": "Документ недоступен",
+          "content": "Вы не можете выполнить это действие, файл обрабатывается.",
+          "confirm": "Закрыть"
+        }
+      },
+      "bulkDownload": {
+        "openBulkDownloadDialog": {
+          "title": "Массовая загрузка отключена",
+          "content": "Пакетная загрузка в данный момент не включена для этого проекта. Файлы можно загружать по одному.\n\nЕсли вы считаете, что это необходимо включить, обратитесь за помощью в нашу <0>службу поддержки</0> клиентов.",
+          "confirm": "Закрыть"
+        }
+      },
+      "openPdfViewer": {
+        "openCorruptedDialog": {
+          "title": "Испорченный документ",
+          "content": "Этот документ поврежден и не может быть отображен в PDF Viewer.\n\nОбратитесь за помощью в нашу службу поддержки клиентов.",
+          "confirm": "Закрыть"
+        },
+        "openPasswordProtectedDialog": {
+          "title": "Документ, защищенный паролем",
+          "content": "Документ защищен паролем. Он не может быть отображен в средстве просмотра PDF.\n\nОбратитесь за помощью в нашу службу поддержки клиентов.",
+          "confirm": "Закрыть"
+        },
+        "openBeingProcessedDialog": {
+          "title": "Документ обрабатывается",
+          "content": "Документ обрабатывается.\n\nЕсли у вас есть соответствующее разрешение на доступ, подождите или выберите Загрузить естественное из контекстного меню. Вы также можете обратиться за помощью в нашу службу поддержки клиентов.",
+          "confirm": "Закрыть"
+        },
+        "openConversionFailedDialog": {
+          "title": "Файл не преобразован",
+          "content": "Этот документ не может быть преобразован в PDF и недоступен для просмотра в режиме онлайн.\n\nЕсли у вас есть соответствующее разрешение на доступ, подождите или выберите Загрузить естественное из контекстного меню. Вы также можете обратиться за помощью в нашу службу поддержки клиентов.",
+          "confirm": "Закрыть"
+        },
+        "openNotAvilableOnlineDialog": {
+          "title": "Документ недоступен онлайн",
+          "content": "Этот документ недоступен для просмотра в режиме онлайн.\n\nЕсли у вас есть соответствующие права доступа, выберите Загрузить исходный из контекстного меню. Вы также можете обратиться за помощью в нашу службу поддержки клиентов.",
+          "confirm": "Понимал"
+        }
+      },
+      "contentDownload": {
+        "title": "Выберите документы для загрузки",
+        "buttons": {
+          "prepareDownload": "Подготовка к загрузке",
+          "expandAll": "Развернуть все",
+          "collapseAll": "Свернуть все"
+        },
+        "toast": {
+          "error": {
+            "title": "Сбой подготовки пакета загрузки."
+          },
+          "success": {
+            "title": "Подготовка пакета загрузки.",
+            "link": "Показать очередь"
+          },
+          "warning": {
+            "title": "Имена путей длиной более {{count}} символов могут быть сокращены."
+          }
+        },
+        "totalSize": "Размер запрошенного файла (файлов) составляет {{totalSize}}.",
+        "warning": "Имена путей длиной более {{count}} символов будут сокращены.",
+        "downloadRestrictions": "Этот элемент имеет ограничения на загрузку и не может быть включен в пакетную загрузку."
+      },
+      "downloadSelected": {
+        "button": "Загрузить выбранное"
+      },
+      "permissionManagement": {
+        "title": "Разрешения",
+        "emptyGrid": {
+          "header": "В комнате данных нет индексов или команд",
+          "message": "Загрузите файлы или создайте команды для управления разрешениями."
+        },
+        "nothingToShow": {
+          "header": "Нечего показать",
+          "message": "Измените поисковый запрос."
+        },
+        "header": {
+          "teamName": "{{teamName}} Команда",
+          "reorderColumns": "Перетащите столбец, чтобы изменить порядок"
+        },
+        "permissionLevels": {
+          "Hidden": "Скрытый",
+          "FenceView": "Вид на ограждение",
+          "View": "Просмотреть",
+          "Print": "Печать",
+          "Download": "Загрузить",
+          "Manage": "Управление"
+        },
+        "folderOnly": "Только папка",
+        "folderAndItems": "Папка и ее элементы",
+        "inherited": "(унаследованное)",
+        "permissionLocked": {
+          "owner": "При изменении других пользователей блокируются операции с содержимым и разрешениями.",
+          "other": "Вы не можете изменить разрешения. Они заблокированы {{ userInfo }}",
+          "anotherUser": "другой пользователь",
+          "upload": "Вы не можете изменить разрешения. Они заблокированы, поскольку некоторые пользователи загружают файлы в Data Room. Повторите попытку позже.",
+          "session": "Вы не можете изменить разрешения. Они заблокированы из-за открытых сеансов. Завершите все Сессии, опубликовав или отменив изменения, или обратитесь к администратору сделки, менеджеру контента или администратору компании Sterling."
+        },
+        "unlock": "Разблокировать",
+        "takeOver": "Принять на себя",
+        "contentsLockedByPermissions": "Нельзя изменить индексы. Они заблокированы другим пользователем {{ userInfo }}.",
+        "exportFeed": {
+          "buttonName": "Экспортировать ленту",
+          "errorMessage": "Невозможно экспортировать ленту разрешений",
+          "unsavedChangesDialog": {
+            "title": "Экспортировать ленту",
+            "message": "Из-за несохраненных изменений\nленту разрешений нельзя экспортировать.\n\nСначала сохраните или отмените изменения.",
+            "confirmButton": "Закрыть"
+          },
+          "permissionLockedMessage": {
+            "owner": "В настоящее время разрешения заблокированы из-за ваших ожидающих изменений в ленте разрешений.\nПосле импорта изменений разрешения снова станут доступными.",
+            "otherUser": "В настоящее время разрешения заблокированы из{{emailAddress}}-за ожидающих изменений в ленте разрешений."
+          }
+        },
+        "takeOverDialog": {
+          "title": "Редактирование разрешений",
+          "message": "Вы уверены, что хотите взять на себя несохраненные изменения разрешения?\n\nВы сможете продолжить редактирование, а другой пользователь потеряет возможность вносить изменения.",
+          "confirmButton": "Принять на себя",
+          "cancelButton": "Отменить"
+        },
+        "unlockDialog": {
+          "title": "Разблокировать редактирование разрешений",
+          "message": "Вы уверены, что хотите разблокировать разрешения?\n\nЕсли вы подтвердите, все изменения, внесенные другим пользователем, будут потеряны.",
+          "confirmButton": "Разблокировать",
+          "cancelButton": "Отменить"
+        },
+        "importFeed": {
+          "buttonName": "Импортировать ленту",
+          "importInProgressMessage": "Выполняется импорт ленты разрешений...",
+          "importSuccess": "Лента разрешений успешно импортирована",
+          "errorMessage": {
+            "invalidFormat": "Невозможно импортировать ленту разрешений. Файл должен быть в формате XLSM.",
+            "invalidFile": "Невозможно импортировать ленту разрешений. Выберите последний загруженный файл.",
+            "genericError": "Невозможно импортировать ленту разрешений.",
+            "importInProgress": "В данный момент эта операция невозможна. Выполняется импорт ленты разрешений. Дождитесь его окончания."
+          }
+        },
+        "filtering": {
+          "hint": {
+            "message": "Разрешения на копирование применяются ко всему дереву содержимого"
+          },
+          "placeholder": "Поиск имени элемента..."
+        },
+        "viewing": {
+          "viewAsTeam": "Просмотреть как команду: {{team}}",
+          "viewAs": "Просмотреть как"
+        },
+        "copyPermissions": {
+          "button": {
+            "copy": "Копировать разрешения",
+            "paste": "Вставить разрешения от {{teamName}} команды",
+            "applyToVisibleTeams": "Применить к видимым {{teamType}} командам"
+          },
+          "errorMessage": "Невозможно скопировать разрешения для команд: {{count}}"
+        },
+        "button": {
+          "publish": "Опубликовать все",
+          "cancel": "Отменить",
+          "saveAsDraft": "Сохранить как черновик",
+          "revertSelected": "Отменить выбранное"
+        },
+        "unsavedChangesDialog": {
+          "title": "У вас есть несохраненные изменения",
+          "content": "Вы собираетесь покинуть эту страницу с несохраненными изменениями. При продолжении все изменения будут потеряны.\n\nВы также можете оставаться на странице или сохранять изменения в виде черновика. При сохранении в виде черновика разрешения будут заблокированы, и для их редактирования потребуется другой пользователь.\n\nКак бы вы хотели продолжить?",
+          "discard": "Отменить изменения",
+          "stayOnPage": "Оставайтесь на странице",
+          "saveAsDraft": "Сохранить как черновик"
+        },
+        "revertPermissions": {
+          "counter": "Выбранные элементы: {{count}}",
+          "noItemsSelectedWarningMessage": "Элемент для возврата не выбран.",
+          "errorMessage": "Не удается отменить изменения."
+        },
+        "saveAsDraft": {
+          "noPermissionChangesWarning": "Нет изменений для сохранения."
+        },
+        "publish": {
+          "dialog": {
+            "confirmButton": "Опубликовать изменения",
+            "cancelButton": "Оставайтесь на странице",
+            "title": "Разрешения на публикацию",
+            "message": "Вы собираетесь опубликовать изменения разрешения для всех элементов в Содержимом и всех Команд.\n\nВы уверены, что хотите продолжить?"
+          },
+          "noPermissionsChangesPublishWarning": "Нет изменений для публикации."
+        }
+      },
+      "extractArchive": {
+        "buttonText": "Распаковка",
+        "success": "Архивы успешно извлечены: {{count}}",
+        "failure": "Не удалось извлечь архивы: {{count}}",
+        "failureDueToPasswordProtection": "Невозможно извлечь архивы из-за защиты паролем: {{count}}",
+        "itemsNotExtracted": "'Элементы не извлечены из-за неподдерживаемых расширений файла: {{count}}",
+        "buttonTextApplyHiddenPermission": "Распаковка со скрытыми разрешениями",
+        "inProgress": "Выполняется извлечение архива...",
+        "notFound": "Не удалось извлечь архивы, так как они не существуют или были изменены. Обновите страницу."
+      },
+      "addQuestion": {
+        "buttonText": "Добавить вопрос"
+      },
+      "showQuestions": {
+        "buttonText": "Показать вопросы"
+      },
+      "filtering": {
+        "applyFilters": "Применить фильтры",
+        "cancel": "Отменить",
+        "clearFilters": "Очистить фильтры",
+        "filter": "Фильтр",
+        "results": "{{count}} Результаты",
+        "filters": {
+          "addedDate": {
+            "label": "Добавлен",
+            "options": {
+              "anytime": "В любое время",
+              "lastVisit": "Со времени последнего визита",
+              "last24h": "За последние 24 часа",
+              "dateRange": "В определенном диапазоне дат"
+            },
+            "addedDateFromPlaceholder": "От",
+            "addedDateToPlaceholder": "К",
+            "validation": {
+              "datesEmptyError": "Необходимо указать хотя бы одну из дат.",
+              "startAfterEndDateError": "Дата начала не может быть позже даты окончания."
+            }
+          },
+          "itemsCategory": {
+            "label": "Только отображение",
+            "options": {
+              "all": "Все",
+              "assignedForReview": "Назначено мне",
+              "favorites": "Избранное",
+              "printable": "Печать",
+              "nativeFiles": "Собственные файлы",
+              "viewedByUser": "Просмотрено мной",
+              "notViewedByUser": "Я не просматривал",
+              "specificItemTypes": "Конкретные типы элементов"
+            }
+          },
+          "fileExtensions": {
+            "label": "Типы собственных файлов",
+            "placeholder": "Выбрать тип файла",
+            "options": {
+              "Archives": "Архивы",
+              "CAD": "Файлы САПР",
+              "Documents": "Документы",
+              "Images": "Изображения",
+              "Others": "Другие",
+              "Presentations": "Презентации",
+              "Spreadsheets": "Электронные таблицы",
+              "Videos": "Видео"
+            }
+          },
+          "specificItemTypes": {
+            "placeholder": "Выбрать типы элементов",
+            "options": {
+              "document": "Документ",
+              "folder": "Папка/индекс",
+              "placeholder": "Заполнитель",
+              "shortcut": "Ярлык",
+              "hyperlink": "URL-ссылка"
+            }
+          },
+          "labels": {
+            "label": "Этикетки",
+            "placeholder": "Выбрать метки",
+            "allLabelsOptionLabel": "Все этикетки"
+          },
+          "teams": {
+            "label": "Фильтровать команды",
+            "placeholder": "Выбрать команды",
+            "allTeamsOptionLabel": "Все команды",
+            "allBiddersOptionLabel": "Все {{ externalName }} команды",
+            "allSubsOptionLabel": "Все {{ internalName }} команды",
+            "sellersTeams": "{{ internalName }} Команды",
+            "biddersTeams": "{{ externalName }} Команды"
+          },
+          "notViewedBy": {
+            "label": "Не просматривалось",
+            "placeholder": "Выбрать"
+          },
+          "viewedBy": {
+            "label": "Просмотрено",
+            "placeholder": "Выбрать"
+          }
+        }
+      },
+      "search": {
+        "backButtonLabel": "Задняя часть",
+        "changeLocationLabel": "Измените местоположение поиска, выбрав другую папку в дереве содержимого.",
+        "resultsLabel": "приводит к",
+        "types": {
+          "documentContent": "Документ Содержание",
+          "indexNumber": "Индексный номер",
+          "itemName": "Название элемента"
+        }
+      },
+      "emailUpdates": {
+        "email": "Идентификатор электронной почты: {{email}}",
+        "emailId": "выгрузить_{{referenceId}}@{{domain}}",
+        "copyEmail": "Скопируйте сообщение электронной почты в буфер обмена. Используйте это электронное письмо для отправки файлов."
+      },
+      "session": {
+        "itemLockedByAnotherUser": "Вы не можете изменить этот элемент. Он заблокирован другим пользователем {{ userInfo }}.",
+        "itemLockedInSession": "В настоящее время существует открытый сеанс, не позволяющий выполнить действие. Просмотрите сеанс, чтобы продолжить."
+      },
+      "lockedItemTooltip": {
+        "lockedByMe": "Элемент заблокирован для редактирования вами.",
+        "lockedByOtherUser": "Элемент заблокирован для редактирования другим пользователем.",
+        "lockedByOtherUserWithEmail": "Элемент заблокирован для редактирования {{ userInfo }}."
+      }
+    },
+    "dashboard": {
+      "dashboard": "Информационная панель",
+      "hello": "Здравствуйте!",
+      "dealManager": "Менеджер по сделкам",
+      "checkDetails": "Проверить сведения",
+      "dealManagerEmail": "Адрес электронной почты",
+      "dealManagerMobile": "Номер мобильного телефона",
+      "noDataToDisplay": "Нет данных для отображения",
+      "somethingWentWrong": "Что-то пошло не так",
+      "dataRoomDocumentStatistics": {
+        "title": "Статистика документов помещения данных",
+        "contentsOverview": "Обзор содержания",
+        "documentsInTotal": "Документы в общей сложности",
+        "dataRoomDocumentSize": "Размер",
+        "documentsInBin": "Документы в корзине",
+        "documentsPendingConversion": "Документы, ожидающие преобразования",
+        "processing": "Обработка",
+        "failed": "Сбой",
+        "onlinePages": " Онлайн-страницы",
+        "notConvertedFileSize": "Размер неконвертированных файлов"
+      },
+      "dataRoomChangesOverview": {
+        "title": "Обзор изменений в комнате данных",
+        "newDocuments": {
+          "title": "Новые документы"
+        },
+        "questionsAwaitingAnswers": {
+          "title": "Новые вопросы, ожидающие ответа"
+        },
+        "newAnswers": "Новые ответы"
+      },
+      "footer": {
+        "customerServices": "Отдел обслуживания клиентов (круглосуточно)",
+        "email": "Электронная почта",
+        "internationalNumbers": "Международные номера",
+        "contactSupport": "Форма обращения в службу поддержки",
+        "links": "Ссылки",
+        "giveFeedback": "Предоставлять обратную связь",
+        "bookTraining": "Забронировать обучение"
+      },
+      "dropdownTimeFilter": {
+        "sortOptions": {
+          "sinceLastVisit": "Со времени последнего визита",
+          "last24Hours": "Последние 24 часа",
+          "last7Days": "Последние 7 дней"
+        }
+      },
+      "warningOpenSessionFirst": "У вас открыта сессия, ",
+      "warningOpenSessionSecond": "не забудьте опубликовать изменения."
+    },
+    "teamsAndUsers": {
+      "title": "Команды и пользователи",
+      "tabs": {
+        "internal": {
+          "mainTeamName": "Основная команда по сделкам",
+          "subTeamNameSingular": "Подгруппа",
+          "subTeamNamePlural": "Подкоманды",
+          "defaultTeamName": "Подкоманда {{count}}"
+        },
+        "bidders": {
+          "teamNameSingular": "{{teamName}} Команда",
+          "teamNamePlural": "{{teamName}} Команды",
+          "defaultTeamName": "Команда участников торгов {{count}}"
+        }
+      },
+      "userStatuses": {
+        "invited": "Приглашение отправлено",
+        "active": "Активный",
+        "deleted": "Удалено",
+        "invitationExpired": "Срок действия приглашения истек",
+        "inactive": "Отключено",
+        "invitationDrafted": "Приглашение составлено",
+        "invitationSent": "Приглашение отправлено",
+        "invitationRequestedByUser": "Запрошено приглашение"
+      },
+      "table": {
+        "header": {
+          "checkboxLabel": "Проверить все строки с пользователями для команды {{teamName}}",
+          "name": "Имя",
+          "status": "Статус",
+          "email": "Эл. почта",
+          "userRoles": "Роль"
+        },
+        "roles": {
+          "UserMgrExt": "Диспетчер пользователей",
+          "QAndAModeratorExt": "Модератор вопросов и ответов",
+          "QAndAViewOnlyExt": "Только просмотр вопросов и ответов",
+          "QAndAParticipantExt": "Эксперт по вопросам и ответам",
+          "DealAdminInt": "Администратор сделки",
+          "UserMgrInt": "Диспетчер пользователей",
+          "QAndAModeratorInt": "Модератор вопросов и ответов",
+          "QAndAViewOnlyInt": "Только просмотр вопросов и ответов",
+          "QAndAReviewInt": "Эксперт по вопросам и ответам",
+          "QAndAExpertInt": "Эксперт по вопросам и ответам",
+          "QAndAApproverInt": "Утверждающее лицо по вопросам и ответам",
+          "ContentMgrInt": "Диспетчер контента",
+          "ContributorInt": "Вкладчик",
+          "ReportMgrInt": "Диспетчер отчетов",
+          "UserMgrSub": "Диспетчер пользователей",
+          "ContentMgrSub": "Диспетчер контента",
+          "QAndAModeratorSub": "Модератор вопросов и ответов",
+          "QAndAViewOnlySub": "Только просмотр вопросов и ответов",
+          "QAndAReviewSub": "Эксперт по вопросам и ответам",
+          "QAndAExpertSub": "Эксперт по вопросам и ответам"
+        },
+        "row": {
+          "checkboxLabel": "Проверить строку с пользователем {{userName}}",
+          "actions": {
+            "actions": "Действия",
+            "label": "Действия пользователя",
+            "sendInvites": "Отправить приглашения",
+            "editDetails": "Редактировать сведения",
+            "changeTeam": "Команда по изменениям",
+            "resetPassword": "Сбросить пароль",
+            "setTemporaryPassword": "Установить временный пароль",
+            "activateUser": "Активировать",
+            "deactivateUser": "Деактивировать",
+            "removeFromRoom": "Удалить пользователя",
+            "deleteGDPR": "Удалить GDPR"
+          }
+        },
+        "details": {
+          "function": "Функция",
+          "mobilePhoneNumber": "Номер мобильного телефона",
+          "deskPhoneNumber": "Альтернативный номер телефона",
+          "companyName": "Название компании",
+          "unregisterUser": "[\"Незарегистрированный пользователь\"]",
+          "emailVerificationtooltip": "Ожидание проверки электронной почты"
+        },
+        "actions": {
+          "selectSingleRow": "Выбрать один ряд",
+          "rowsPerPage": "Строки на страницу:",
+          "of": "из",
+          "next": "далее",
+          "previous": "предыдущая"
+        }
+      },
+      "buttons": {
+        "addTeam": "Добавить команду",
+        "inviteFirstUsers": "Пригласить пользователей в команду",
+        "inviteUsers": "Пригласить пользователей",
+        "invite": "Приглашение",
+        "clearAll": "Очистить все",
+        "moreTiers": "Больше уровней",
+        "deleteTeam": "Удалить команду",
+        "settings": "Настройки",
+        "teamDeactivated": "[\"Команда деактивирована\"]",
+        "assignRoles": "Назначить роли"
+      },
+      "drawer": {
+        "inviteUserTitle": "Пригласить пользователей",
+        "createTeamTitle": "Добавить команду",
+        "subtitle": "{{teamType}} команда «{{teamName}}»",
+        "teamName": "Название команды",
+        "inputPlaceholder": "Введите или вставьте список электронной почты в поле ниже.",
+        "inviteByText": "По тексту",
+        "copyPasteEmails": "Введите или скопируйте и вставьте адреса электронной почты",
+        "inviteByDropFile": "Перетащите файл сюда",
+        "documentTypes": "Загрузить файлы Excel или CSV",
+        "howToFormatFile": "Узнайте, как отформатировать файл",
+        "uploadFileTooltip": {
+          "hint1": "Пометьте столбец «А» как «Электронный адрес» в электронной таблице",
+          "hint2": "Вставить сообщения электронной почты в столбец «A»",
+          "hint3": "Экспортируйте файл в формате Excel или CSV"
+        },
+        "messages": {
+          "checkTriangleForTooltip": "Отмеченные пользователи не будут получать приглашения. Для просмотра подробной информации наведите курсор на значок треугольника рядом с сообщением электронной почты.",
+          "invalidEmailFormat": "Неправильная форма электронного письма, используйте x@y.z или x@y.z.z.",
+          "subTeamNameAlreadyExists": "Название группы уже существует. Создайте другое имя.",
+          "userAlreadyInTeam": "Приглашение не может быть отправлено. Пользователь уже приглашен в эту команду.",
+          "provideUniqueTeamName": "Имя уже существует. Введите уникальное название команды.",
+          "userAlreadyInDataRoom": "Пользователь является членом другой команды. Приглашение не может быть отправлено."
+        }
+      },
+      "settingsDrawer": {
+        "title": "Настройки",
+        "tabs": {
+          "teamSettings": {
+            "title": "Настройки команды",
+            "teamStatus": "Статус команды",
+            "notifications": "Уведомления",
+            "status": {
+              "active": "Активный",
+              "inactive": "Неактивный"
+            },
+            "notificationInfo": "Отправить уведомление по электронной почте при изменении статуса команды на «активный»"
+          },
+          "security": {
+            "title": "Безопасность"
+          }
+        }
+      },
+      "UserDetailsDrawer": {
+        "title": "Редактировать сведения о пользователе",
+        "subTitle": "{{userName}} \"{{teamName}}\" {{teamType}}",
+        "AccountData": {
+          "title": "Данные учетной записи"
+        },
+        "successMessage": "Изменения успешно сохранены.",
+        "errorMessage": "Изменения не сохранены. Повторите попытку.",
+        "emailAlreadyExists": "Этот адрес электронной почты не может быть использован. Используйте другой адрес электронной почты."
+      },
+      "ChangeTeamDrawer": {
+        "title": "Команда по изменениям",
+        "subTitleSingular": "{{userCount}} пользователь выбран. \"{{teamName}}\" {{teamType}}",
+        "subTitlePlural": "{{userCount}} выбранные пользователи. \"{{teamName}}\" {{teamType}}",
+        "Body": {
+          "title": "Выберите команду, в которую вы хотите переместить выбранных пользователей"
+        },
+        "successMessagePlural": "{{numberOfMovedUsers}} пользователей перевели в другую команду.",
+        "errorMessagePlural": "Невозможно переместить пользователей: {{NumberofMovedUsers}}.",
+        "successMessageSingular": "Пользователь перешел в другую команду.",
+        "errorMessageSingular": "Невозможно переместить пользователя."
+      },
+      "temporaryPasswordDrawer": {
+        "title": "Установить временный пароль",
+        "temporaryPasswordInfo": "Временный пароль:",
+        "reloadButton": "Перезагрузить",
+        "passwordHint": "Пароль действителен для однократного входа в систему и должен быть изменен пользователем.",
+        "doneButton": "Выполнено",
+        "resetPasswordError": "Невозможно изменить пароль. Повторите попытку."
+      },
+      "AssignRolesDrawer": {
+        "title": "Назначение ролей",
+        "tabs": {
+          "mainDealTeam": {
+            "title": "Основная команда по сделкам"
+          },
+          "subTeams": {
+            "title": "Подкоманды"
+          },
+          "bidderTeams": {
+            "bidders": "Команды участников торгов",
+            "externals": "Внешние команды",
+            "experts": "Экспертные команды",
+            "buyers": "Команды покупателей"
+          }
+        },
+        "roles": {
+          "UserMgrExt": "Менеджер пользователя",
+          "QAndAModeratorExt": "Модератор",
+          "QAndAViewOnlyExt": "Только просмотр",
+          "QAndAParticipantExt": "Эксперт",
+          "DealAdminInt": "Администратор сделки",
+          "UserMgrInt": "Менеджер пользователя",
+          "QAndAModeratorInt": "Модератор",
+          "QAndAViewOnlyInt": "Только просмотр",
+          "QAndAReviewInt": "Проверяющий",
+          "QAndAExpertInt": "Эксперт",
+          "QAndAApproverInt": "Утверждающее лицо",
+          "ContentMgrInt": "Менеджер контента",
+          "ContributorInt": "Вкладчик",
+          "ReportMgrInt": "Менеджер отчетов",
+          "UserMgrSub": "Менеджер пользователя",
+          "ContentMgrSub": "Менеджер контента",
+          "QAndAModeratorSub": "Модератор",
+          "QAndAViewOnlySub": "Только просмотр",
+          "QAndAReviewSub": "Проверяющий",
+          "QAndAExpertSub": "Эксперт"
+        },
+        "roleTypes": {
+          "Admin": "Роль администратора",
+          "QAndA": "Роль в вопросах и ответах"
+        },
+        "noTeamsText": "Пока нет команд для показа",
+        "emptyStateDescription": "Создайте новую команду и пригласите пользователей.",
+        "successMessage": "Роли пользователя успешно назначены.",
+        "errorMessage": "Невозможно назначить роли пользователя."
+      },
+      "messages": {
+        "invitationsSent": "Приглашение успешно отправлено: {{count}}",
+        "invitationsSent_other": "Приглашения успешно отправлены: {{count}}",
+        "teamCreateSuccess": "Команда успешно создана.",
+        "teamUpdateSuccess": "Команда успешно обновлена.",
+        "teamTabUpdateSuccess": "Изменения, сохраненные в: Настройки.",
+        "teamTabSecurityUpdateSuccess": "Изменения, сохраненные в: Безопасность.",
+        "teamTabUpdateFail": "Изменения, несохраненные в: Настройки.",
+        "teamTabSecurityUpdateFail": "Изменения, несохраненные в: Безопасность.",
+        "fileExtensionIsNotSupported": "Расширение файла {{extension}} не поддерживается.",
+        "fileWrongFormat": "Не удалось распознать содержимое файла. Проверьте файл еще раз.",
+        "oneFileOnly": "Файлы можно загружать только по 1 за раз.",
+        "emailsNotRecognized": "Адреса электронной почты не распознаны: {{count}}",
+        "noEmailRecognized": "Адрес электронной почты не распознан.",
+        "teamDraftedSuccessPlurar": "Пользователи добавлены в команду {{teamName}}. Пользователи не были уведомлены.",
+        "teamDraftedSuccessSingular": "Пользователь добавлен в команду {{teamName}}. Пользователь не был уведомлен.",
+        "draftErrorSingular": "Пользователь не был добавлен в команду: {{teamName}}",
+        "draftErrorPlural": "Пользователи не были добавлены в команду: {{teamName}}",
+        "sendInvitesSuccessMessage": "Приглашения успешно отправлены: {{numberOfUsers}}",
+        "sendInvitesFailureMessage": "Невозможно отправить приглашения: {{numberOfUsers}}",
+        "sendInvitesErrorMessage": "Что-то пошло не так. Повторите попытку.",
+        "sendInvitesRequestsSuccessMessage": "Запрос приглашения отправлен администраторам сделок: {{numberOfUsers}}",
+        "sendInvitesRequestsFailureMessage": "Невозможно отправить запрос приглашения: {{numberOfUsers}}",
+        "emptyTeam": "В этой команде нет пользователей"
+      },
+      "modal": {
+        "title": "Удалить команду",
+        "content": {
+          "first": "Вы собираетесь удалить ",
+          "second": "{{teamType}} команда «{{teamName}}» из этой комнаты данных.",
+          "third": "Удаляя эту команду, вы удаляете всех пользователей.",
+          "fourth": "Это действие нельзя отменить.",
+          "fifth": "Как бы вы хотели продолжить?"
+        },
+        "cancel": "Отменить",
+        "delete": "Продолжить",
+        "successMessage": "Команда {{teamType}}\"{{teamName}}\" успешно удалена",
+        "errorMessage": "Невозможно удалить команду \"{{teamType}}\" \"{{teamName}}\""
+      },
+      "temporaryPasswordModal": {
+        "title": "Установить временный пароль",
+        "content": {
+          "first": "Вы уверены, что хотите",
+          "second": "установить временный пароль для выбранного пользователя?",
+          "third": "Текущий пароль больше не действителен, и новый пароль является одноразовым.",
+          "fourth": "Этот пользователь должен будет установить новый пароль после первоначального входа в систему.",
+          "fifth": "Это действие нельзя отменить."
+        },
+        "setTemporaryPassword": "Установить временный пароль",
+        "errorMessage": "Невозможно установить временный пароль."
+      },
+      "resetAnotherUserPasswordModal": {
+        "title": "Сбросить пароль",
+        "content": {
+          "first": "Вы уверены, что хотите сбросить пароль для выбранных пользователей?",
+          "second": "Выбранные пользователи получат электронное письмо со ссылкой на то, как они могут сбросить свои пароли.",
+          "third": "Пользователи не будут иметь доступа к своей учетной записи, пока не будет создан новый пароль."
+        },
+        "successMessage": "Пароли были сброшены для пользователей: {{numberOfUsers}}",
+        "failureMessage": "Невозможно сбросить пароль: {{numberOfUsers}}",
+        "resetPassword": "Сбросить пароль",
+        "errorMessage": "Не удалось сбросить пароль."
+      },
+      "removeFromRoomModal": {
+        "title": "Удалить пользователей из комнаты данных",
+        "content": {
+          "first": "Вы уверены, что хотите удалить этих пользователей из комнаты данных?",
+          "second": "В будущем приглашения могут быть отправлены повторно."
+        },
+        "deleteUser": "Удалить",
+        "successMessage": "Пользователи успешно удалены: {{numberOfExcludedUsers}}",
+        "errorMessage": "Не удается удалить пользователей: {{numberOfExcludedUsers}}"
+      },
+      "activateUser": {
+        "title": "Активировать пользователей",
+        "content": {
+          "first": "Вы хотите отправить пользователю электронное письмо об активации его учетной записи?"
+        },
+        "button": {
+          "dontSendAnEmail": "Не уведомлять",
+          "sendAnEmail": "Уведомить"
+        },
+        "successMessage": "Пользователи успешно активированы: {{numberOfActivatedUsers}}",
+        "errorMessage": "Не удалось активировать пользователей: {{numberOfActivatedUsers}}"
+      },
+      "deactivateUsers": {
+        "processedUsersMessage": "Пользователи успешно деактивированы: {{numberOfDeactivatedUsers}}",
+        "unprocessedUsersMessage": "Не удается деактивировать пользователей: {{numberOfDeactivatedUsers}}",
+        "errorMessage": "Повторите попытку."
+      },
+      "deleteGdprModal": {
+        "title": "Удалить пользователя в соответствии с GDPR",
+        "content": {
+          "first": "Вы уверены, что хотите удалить пользователя",
+          "second": "{{userEmail}}",
+          "third": "У них больше не будет доступа к своей учетной записи Sterling и ",
+          "fourth": "вы не сможете отменить это действие."
+        },
+        "deleteUser": "Удалить",
+        "successMessage": "Запрос на удаление GDPR был отправлен в службу поддержки компании Sterling.  Пожалуйста, подождите 48 часов, чтобы это действие было завершено.",
+        "errorMessage": "Повторите попытку."
+      }
+    },
+    "qa": {
+      "qa": "Вопросы и ответы",
+      "qaSettings": "Настройки вопросов и ответов",
+      "qaLimits": "Лимиты вопросов и ответов",
+      "backToDefaultQnA": "Вернуться к вопросам и ответам по умолчанию",
+      "questionsAndAnswers": "Вопросы и ответы",
+      "addQuestion": "Добавить вопрос",
+      "addAnswer": "Добавить ответ",
+      "editQuestion": "Редактировать вопрос",
+      "editAnswer": "Редактировать ответ",
+      "addFollowUpQuestion": "Добавить контрольный вопрос",
+      "editRejectedQuestion": "Редактировать отклоненный вопрос",
+      "editRejectedFollowUpQuestion": "Редактировать отклоненный контрольный вопрос",
+      "editRejectedAnswer": "Редактировать отклоненный ответ",
+      "rejectionComment": "Комментарий к отклонению",
+      "questionDetails": "Сведения о вопросе",
+      "answerDetails": "Сведения об ответе",
+      "yourAnswer": "Ответ",
+      "yourFollowUpQuestion": "Контрольный вопрос",
+      "cancel": "Отменить",
+      "saveDraft": "Сохранить черновик",
+      "submit": "Отправить",
+      "submitForApproval": "Отправить на утверждение",
+      "submitAndApprove": "Утвердить и отправить",
+      "viewFollowUpQuestion": "Просмотреть контрольный вопрос",
+      "moderatorActions": "Действия модератора",
+      "sendCommentForAssigment": "Отправить комментарий для назначения",
+      "approve": "Утвердить",
+      "reject": "Отклонить",
+      "viewQuestion": "Просмотреть вопрос",
+      "moderateQuestion": "Умеренный вопрос",
+      "moderateAnswer": "Умеренный ответ",
+      "approveAnswer": "Утвердить ответ",
+      "sendToApprover": "Отправить утверждающему лицу",
+      "sendToReviewer": "Отправить проверяющему",
+      "viewAnswer": "Просмотреть ответ",
+      "reviewAnswer": "Просмотреть ответ",
+      "rejectQuestion": "Отклонить вопрос",
+      "rejectAnswer": "Отклонить ответ",
+      "saveChanges": "Сохранить изменения",
+      "changeCategoryAndAssign": "Изменить категорию и назначить",
+      "commentTextIsMandatory": "Требуется комментарий.",
+      "answerQuestion": "Ответьте на вопрос",
+      "suggest": "Предложить",
+      "suggestCategory": "Предложить категорию",
+      "suggestAnswerCategory": "Предложить категорию ответа",
+      "stateACommentForSuggestion": "Укажите комментарий к предложению",
+      "selectReviewer": "Выбрать проверяющего",
+      "assign": "Назначить",
+      "assignReviewer": "Назначить проверяющего",
+      "assignAnswerReviewerTo": "Назначить проверяющего ответа",
+      "assignReviewerCommentTitle": "Отправить комментарий для вашего решения",
+      "allCategoryReviewers": "Все проверяющие категории - {{category}}",
+      "stateComment": "Комментарий штата",
+      "save": "Сохранить",
+      "generalQuestion": "Общий вопрос",
+      "pleaseSelectAtLeastOneOption": "Выберите хотя бы один вариант",
+      "allCategoryExperts": "Все эксперты по категориям - {{categoryName}}",
+      "answer": "Ответ",
+      "followUp": "Последующее наблюдение",
+      "askYourQuestion": "Задать вопрос",
+      "downloadAnswerLogs": "Загрузить журналы ответов",
+      "comment": "Комментарий",
+      "makeYourAnswer": "Создать ответ",
+      "category": "Категория",
+      "answerCategory": "Категория ответа",
+      "assignAnswerTo": "Назначить ответ",
+      "users": "Пользователи",
+      "dealAdmins": "Администраторы сделок",
+      "priority": "Приоритет",
+      "priorityLevel": {
+        "low": "Низкий",
+        "medium": "Средний",
+        "high": "Высокий"
+      },
+      "saveDraftDialog": {
+        "content": "Вложения не будут сохранены в черновиках.\nДобавьте вложения, когда будете готовы к отправке.\n\nВы уверены, что хотите сохранить черновик без вложений?",
+        "saveDraft": "Сохранить черновик",
+        "stayOnPage": "Отменить",
+        "saveAndDiscard": "Сохранить и удалить"
+      },
+      "cancelUploadDialog": {
+        "title": "У вас есть несохраненные изменения",
+        "content": "Вы собираетесь покинуть эту страницу без сохранения. Ваш товар будет возвращен к статусу «Черновик».\n\nВы уверены, что хотите удалить не загруженные файлы?",
+        "discard": "Отменить изменения",
+        "stayOnPage": "Оставайтесь на странице"
+      },
+      "teamSettings": "Настройки команды",
+      "notifications": "Уведомления",
+      "attachedItems": {
+        "attachedItems": "Прилагаемые элементы",
+        "uploadFile": "Загрузить файл",
+        "clickOrDropFilesHere": "Нажмите или отпустите файлы здесь",
+        "theyWillBeAttachedToYourQuestion": "Они будут прикреплены к вашему вопросу",
+        "removeFile": "Удалить файл",
+        "unlinkItem": "Отменить связь с элементом",
+        "linkFiles": "Ссылка на файлы",
+        "useLinkingIcon": "Использовать значок связывания в дереве содержимого",
+        "uploadIcon": "Значок загрузки"
+      },
+      "iUnderstand": "Я понимаю,",
+      "uploadedFileIsTooBig": "Загружен слишком большой файл",
+      "assignmentSuccessfully": "Вопрос успешно назначен.",
+      "assignmentFailed": "Не удалось назначить вопрос.",
+      "stateRejectionComment": "Укажите комментарий для отклонения",
+      "yourComment": "Ваш комментарий",
+      "commentIsRequired": "Требуется комментарий.",
+      "suggestCategoryEmptyMessage": "Категория ответа обязательна.",
+      "selectAnswerReviewerEmptyMessage": "Выберите хотя бы один вариант.",
+      "attachments": "Вложения",
+      "itemNotAvailable": "Элемент недоступен",
+      "QA_question_text_empty": "Требуется текст вопроса.",
+      "QA_question_create_success": "Вопрос успешно создан.",
+      "QA_question_create_failure": "Не удалось создать вопрос.",
+      "QA_question_delete_success": "Вопрос успешно удален.",
+      "QA_question_delete_failure": "Невозможно удалить вопрос.",
+      "QA_answer_text_empty": "Требуется текст ответа.",
+      "QA_answer_create_success": "Ответ успешно создан.",
+      "QA_answer_create_failure": "Невозможно создать ответ.",
+      "QA_question_edit_success": "Вопрос успешно отредактирован.",
+      "QA_question_edit_failure": "Не удается отредактировать вопрос.",
+      "QA_answer_edit_success": "Ответ успешно отредактирован.",
+      "QA_answer_edit_failure": "Невозможно изменить ответ.",
+      "QA_answer_delete_success": "Ответ успешно удален.",
+      "QA_answer_delete_failure": "Невозможно удалить ответ.",
+      "QA_attachment_too_big": "Ваш файл слишком большой, и мы не можем его сохранить.\n\nЗагрузите файл объемом до 1GB",
+      "QA_draft_qn_answ_fuq_create_success": "Черновик успешно создан.",
+      "QA_draft_qn_answ_fuq_create_failure": "Невозможно создать черновик.",
+      "QA_suggest_category_external_success": "Предложение успешно отправлено.",
+      "QA_suggest_category_external_failure": "Не удалось отправить предложение.",
+      "QA_sending_to_approver_success": "Успешная отправка утверждающему лицу.",
+      "QA_sending_to_approver_failure": "Не удалось отправить утверждающему лицу.",
+      "QA_assignment_to_reviewer_success": "Успешное назначение проверяющему(-ям).",
+      "QA_assignment_to_reviewer_failure": "Не удалось назначить проверяющего(-ов).",
+      "QA_sending_reviewer_comment_success": "Добавлен комментарий к обзору.",
+      "QA_sending_reviewer_comment_failure": "Не удалось проверить комментарий.",
+      "QA_category_settings_save_success": "Изменения сохранены в: Категория.",
+      "QA_category_settings_save_failure": "Повторите попытку. Несохраненные изменения: Категория.",
+      "QA_attachments_settings_save_success": "Изменения сохранены в: Вложения.",
+      "QA_attachments_settings_save_failure": "Повторите попытку. Несохраненные изменения: Вложения.",
+      "QA_notifications_settings_save_success": "Изменения сохранены в: Уведомления.",
+      "QA_notifications_settings_save_failure": "Повторите попытку. Несохраненные изменения: Уведомления.",
+      "QA_limits_save_success": "Сохранение лимитов вопросов и ответов успешно выполнено.",
+      "QA_limits_save_failure": "Не удалось сохранить пределы вопросов и ответов.",
+      "QA_bulk_approve_success": "Утвержденные позиции: {{count}}.",
+      "QA_bulk_approve_error": "Не удалось утвердить элементы.",
+      "QA_qn_visibility_set_success": "Видимость резьбы (резьб) успешно установлена.",
+      "QA_qn_visibility_set_failure": "Не удалось настроить видимость нити (нитей).",
+      "limitAlertAdd": "Достигнут лимит вопросов.\nВы можете сохранить вопрос как черновик.\n\nОбратитесь к своему дилеру или в отдел</0> обслуживания <0>клиентов для получения информации о лимите вопросов.",
+      "limitAlertModerate": "Достигнут лимит вопросов.\n\nОбратитесь к своему дилеру или в отдел</0> обслуживания <0>клиентов для получения информации о лимите вопросов.",
+      "table": {
+        "title": "Список вопросов"
+      },
+      "details": {
+        "id": "Идентификатор",
+        "author": "Автор",
+        "creationDate": "Дата создания",
+        "statusUpdateDate": "Дата обновления статуса",
+        "status": "Статус",
+        "items": "+{{count}} элементов",
+        "items_one": "+{{count}} предмет",
+        "attributes": "Атрибуты"
+      },
+      "deleteModal": {
+        "questionTitle": "Удалить вопрос",
+        "answerTitle": "Удалить ответ",
+        "questionContentMainText": "Вы уверены, что хотите удалить этот вопрос: ",
+        "answerContentMainText": "Вы уверены, что хотите удалить этот ответ: ",
+        "contentSecondaryText": "Это действие навсегда удалит этот элемент.",
+        "removeQuestion": "Продолжить",
+        "removeAnswer": "Продолжить"
+      },
+      "questionPrefix": "В",
+      "answerPrefix": "A",
+      "requestMessages": {
+        "QA_question_submit_success": "Вопрос успешно отправлен.",
+        "QA_question_submit_failure": "Невозможно отправить вопрос.",
+        "QA_answer_submit_success": "Ответ успешно отправлен.",
+        "QA_answer_submit_failure": "Невозможно отправить ответ.",
+        "QA_qn_answ_fuqn_approve_success": "Элемент успешно утвержден.",
+        "QA_qn_answ_fuqn_approve_failure": "Невозможно утвердить элемент.",
+        "QA_qn_answ_fuqn_reject_success": "Элемент успешно отклонен.",
+        "QA_qn_answ_fuqn_reject_failure": "Невозможно отклонить элемент."
+      },
+      "statuses": {
+        "draft": "Черновик",
+        "awaitinganswer": "Ожидание ответа",
+        "answersubmitted": "Ответ отправлен",
+        "questionanswered": "Ответ на вопрос",
+        "awaitingapprovalexternal": "Ожидание утверждения",
+        "awaitingapprovalinternal": "Ожидание утверждения",
+        "awaitingapprovalanswer": "Ожидание утверждения",
+        "awaitingfinalapproval": "Ожидание окончательного утверждения",
+        "rejected": "Отклонено",
+        "rejectedinternal": "Отклонено",
+        "rejectedanswer": "Отклонено"
+      },
+      "filters": {
+        "title": "Фильтры вопросов и ответов",
+        "internalTitle": "Внутренние фильтры вопросов и ответов",
+        "externalTitle": "Внешние фильтры вопросов и ответов",
+        "itemStatus": "Статус элемента",
+        "statusUpdated": "Статус обновлен",
+        "sinceLastVisit": "Со времени последнего визита",
+        "allStatuses": "Все статусы",
+        "chooseStatus": "Выбрать статус",
+        "chooseCategory": "Выбрать категорию",
+        "questionCategory": "Категория вопроса",
+        "assignee": "Назначенное лицо",
+        "allQuestionCategories": "Все категории вопросов",
+        "chooseAtLeastOneStatus": "Выберите хотя бы один статус.",
+        "anyone": "Любой",
+        "chooseAtLeastOneCategory": "Выберите хотя бы одну категорию.",
+        "questionCreatedBy": "Вопрос создан",
+        "selectTeams": "Выбрать команды",
+        "anyTeam": "Любая команда",
+        "myTeam": "Моя команда",
+        "chooseAtLeastOneTeam": "Выберите хотя бы одну команду.",
+        "answerCategory": "Категория ответа",
+        "allAnswerCategories": "Все категории ответов",
+        "additionalStatuses": {
+          "rejectedQnswer": "Отклоненный вопрос",
+          "rejectedAnswer": "Отклоненный ответ",
+          "awaitingApprovalQuestion": "Вопрос, ожидающий утверждения",
+          "awaitingApprovalAnswer": "Ожидание ответа на утверждение"
+        },
+        "clearFilters": "Очистить фильтры",
+        "apply": "Применить",
+        "filter": "Фильтр",
+        "cancel": "Отменить"
+      },
+      "categoryTab": {
+        "categoryName": "Название категории",
+        "createNewCategory": "Создать новую категорию",
+        "questionModerators": "Модераторы вопросов",
+        "questionModerator": "Модератор вопросов",
+        "categoryExperts": "Эксперты по категориям",
+        "categoryExpert": "Эксперт по категориям",
+        "answerModerators": "Модераторы ответов",
+        "answerModerator": "Модератор ответа",
+        "answerReviewers": "Рецензенты ответов",
+        "answerReviewer": "Рецензент ответа",
+        "turnOnAutoApprove": "Включить автоматическое утверждение",
+        "removeCategory": "Удалить категорию",
+        "newCategory": "Новая категория",
+        "emptyCategoryNameErrorMessage": "Это поле обязательно для заполнения",
+        "uniqueCategoryNameErrorMessage": "Имя категории уже существует. Создайте другое имя.",
+        "generalCategory": "Общее",
+        "categoryRemoval": "Удалить категорию",
+        "warningModalPrimaryText": "Вы уверены, что хотите удалить эту категорию?",
+        "warningModalSecondaryText": "При сохранении изменений все вопросы и ответы этой категории будут назначены <strong>{{generalCategoryName}}</strong>.",
+        "selectAtLeastOne": "Выберите хотя бы один вариант "
+      },
+      "attachmentsTab": {
+        "attachments": "Вложения",
+        "teamsAllowedToAttachFiles": "Команды, которым разрешено вкладывать файлы",
+        "selectTeams": "Выбрать команды",
+        "allTeams": "Все команды",
+        "billingNote": "Примечание к выставлению счета: Документы, приложенные к элементам вопросов и ответов, являются размещенными данными.",
+        "externalTeams": "Внешние команды",
+        "subInternalTeams": "Субвнутренние команды",
+        "mainDealTeam": "Основная команда по сделкам"
+      },
+      "limitsDrawer": {
+        "setQnaLimits": "Установить лимиты вопросов и ответов",
+        "warning": "Внешние команды не смогут добавлять вопросы после прохождения установленных пределов.",
+        "qnaLimit": "Лимит вопросов и ответов",
+        "numberOfQuestions": "Количество вопросов",
+        "externalTeam": "Внешняя команда",
+        "noOfQuestions": "Кол-во вопросов",
+        "limitsTypes": {
+          "None": "Нет",
+          "TotalNumberOfQuestions": "Общее количество вопросов",
+          "Priority": "Приоритет",
+          "Category": "Категория",
+          "CategoryAndPriority": "Категория и приоритет"
+        },
+        "emptyState": {
+          "noQnaLimitsSet": "Нет установленных пределов для вопросов и ответов",
+          "message": "Если вы хотите установить лимиты для вопросов и ответов, выберите тип лимита из выпадающего списка выше."
+        }
+      },
+      "visibilityDrawer": {
+        "setBulkVisibility": "Настройка массовой видимости",
+        "revokeBulkVisibility": "Отзыв массовой видимости",
+        "setButton": "Установить",
+        "revokeButton": "Отозвать",
+        "cancelButton": "Отменить",
+        "setVisibility": "Задать видимость",
+        "warningTitle": "Объемная видимость",
+        "discardChangesButton": "Отменить изменения",
+        "allTeams": "Все команды",
+        "revokeVisibility": "Отозвать видимость",
+        "setDescription": "Настройка видимости позволит другим командам просматривать потоки из других команд",
+        "revokeDescription": "Отменить видимость приведет к отключению просмотра в выбранных потоках для выбранных команд. Видимость для команды автора не будет отозвана.",
+        "revokeVisibilityForThoseTeams": "Отозвать видимость для этих команд",
+        "setVisibilityForThoseTeams": "Установить видимость для этих команд",
+        "setVisibilitySuccess": "Видимость резьбы (резьб) успешно установлена.",
+        "setVisibilityError": "Не удалось настроить видимость нити (нитей).",
+        "revokeVisibilitySuccess": "Отменить видимость нити (нитей) успешно.",
+        "revokeVisibilityError": "Не удалось отозвать видимость нити (нитей).",
+        "infoBox": "Внешним группам могут потребоваться дополнительные разрешения.\n<0>Проверьте отчет о вопросах и ответах, чтобы просмотреть разрешения.</0>",
+        "warningContent": "Видимость может быть изменена только по утвержденным вопросам. Другие статусы будут исключены из действия.\n\n Повторная обработка будет выполнена только {{processedItemsCount}} для {{selectedRootItemsCount}} выбранных потоков. Вы все равно хотите их установить?"
+      },
+      "export": {
+        "buttonText": "Экспортировать ленту",
+        "success": "Лента вопросов и ответов успешно экспортирована.",
+        "error": "Невозможно экспортировать ленту вопросов и ответов."
+      },
+      "import": {
+        "buttonText": "Импортировать ленту",
+        "errorMessage": {
+          "invalidData": "У нас возникла проблема (проблемы) с вашим файлом, взгляните на ячейку (ячейки): {{cells}}",
+          "invalidFormat": "Невозможно импортировать ленту вопросов и ответов. Файл должен быть в формате XLSX.",
+          "invalidFile": "Мы не распознаем этот файл Excel. Повторите попытку загрузки.",
+          "questionLimitReached": "Были добавлены только {{questionLimit}} вопросы. Если вы хотите добавить больше, создайте новый файл Excel с остальными вопросами.",
+          "genericError": "Невозможно импортировать ленту вопросов и ответов."
+        },
+        "checkFileModal": {
+          "title": "Проверить файл",
+          "content": "Убедитесь, что вы импортировали тот же файл, который вы экспортировали из Sterling VDR ранее.\n\nСамостоятельно созданный файл не будет принят и импортирован.",
+          "confirmButtonText": "Подтвердить"
+        },
+        "successInternal": "Лента вопросов и ответов успешно импортирована. Ответ(-ы) успешно созданы.",
+        "successExternal": "Лента вопросов и ответов успешно импортирована. Вопрос(ы) успешно созданы.",
+        "questionLimitReached": "Мы создали {{createdQuestions}} вопрос(-ы) из , {{totalNumberOfQuestions}} и лимит вопросов достигнут.<br>Обратитесь к менеджеру по сделкам или в отдел</0> обслуживания <0>клиентов для получения информации о лимите вопросов."
+      },
+      "threadVisibility": {
+        "authorTeam": "Группа авторов - {{teamName}}",
+        "additionalPermissions": "Внешним группам могут потребоваться дополнительные разрешения",
+        "checkQnA": "Проверьте отчет о вопросах и ответах, чтобы просмотреть разрешения",
+        "selectTeams": "Выбрать команды",
+        "allTeams": "Все команды",
+        "visibility": "Видимость"
+      }
+    },
+    "reports": {
+      "reports": "Отчеты"
+    },
+    "uploads": {
+      "uploads": "Загрузки"
+    },
+    "downloads": {
+      "downloads": "Загрузки",
+      "table": {
+        "header": {
+          "date": "Дата создания",
+          "parent": "Родительская папка",
+          "name": "Имя",
+          "fileSize": "Размер файла",
+          "status": "Статус",
+          "files": "Файлы"
+        },
+        "content": {
+          "fileCount": "{{completed}} из {{requested}}"
+        },
+        "status": {
+          "error": "Не удалось, повторите попытку",
+          "preparing": "Подготовка",
+          "preparingExcel": "Подготовка Excel",
+          "preparingFailed": "Не удалось подготовиться",
+          "preparingPdf": "Подготовка PDF",
+          "readyForDownload": "Готово к загрузке",
+          "downloadCompleted": "Загрузка завершена"
+        },
+        "download": "Загрузить"
+      },
+      "emptyQueue": {
+        "title": "Нет элементов для отображения",
+        "description": "Чтобы выполнить массовую загрузку, используйте действие загрузки папок на странице «<0>Содержимое</0>»."
+      }
+    },
+    "dataRoomSettings": {
+      "settings": "Настройки",
+      "dataRoomSettings": "Настройки комнаты данных",
+      "generalSettings": "Общие настройки",
+      "componentsSettings": "Настройки компонентов",
+      "allFeatures": "Все функции",
+      "recommendedFeatures": "Рекомендуемые характеристики",
+      "recommendedFeaturesSubTitle": "Функции, которые оказывают значительное влияние на ваш опыт работы с Data Room",
+      "optionalFeatures": "Дополнительные функции",
+      "optionalFeaturesSubTitle": "Функции, которые являются дополнительными, но влияют на ваш комфорт с Data Room",
+      "optionalSecurityFeatures": "Безопасность",
+      "optionalOtherFeatures": "Другие функции",
+      "contentManagement": "Управление контентом",
+      "RequestUsersInvitation": "Запросить приглашение пользователя",
+      "BulkDownload": "Массовая загрузка",
+      "ExcelViewer": "Средство просмотра Excel",
+      "Disclaimer": "Отказ от ответственности",
+      "viewers": "Средства просмотра",
+      "contents": "Содержание",
+      "silverTier": "Серебряный уровень",
+      "goldTier": "Золотой уровень",
+      "platinumTier": "Платиновый уровень",
+      "versioning": "Вариантирование",
+      "workWithDocuments": "Работа с документами",
+      "qa": "Вопросы и ответы",
+      "security": "Безопасность",
+      "workflow": "Рабочий процесс",
+      "otherFeatures": "Другие функции",
+      "extraCharge": "Дополнительная плата",
+      "followingFeaturesAvailable": "Следующие функции доступны за дополнительную плату",
+      "Translation": "Онлайн-перевод",
+      "BulkRedaction": "Редакция",
+      "CadViewer": "Средство просмотра CAD",
+      "moreFunctionalitiesNeeded": "Необходимы ли дополнительные функции?",
+      "checkSubscriptionPlans": "Проверить планы подписки",
+      "CustomWatermarks": "Водяной знак",
+      "SimpleQnA": "Простые вопросы и ответы",
+      "advanced": "Расширенный",
+      "extended": "Расширенный",
+      "ExternalSideQnA": "Внешние вопросы и ответы",
+      "VersionHistory": "История версий",
+      "MobileAccess": "Мобильный доступ",
+      "Redaction": "Редакция",
+      "Ocr": "OCR",
+      "PdfConversion": "Преобразование PDF",
+      "DocumentLinkSharing": "Поделиться документами по электронной почте",
+      "VersionComparison": "Сравнение версий",
+      "VersionControl": "Управление версиями",
+      "Sessions": "Сеансы",
+      "MsOfficeEditor": "Средство просмотра Excel",
+      "advancedQA": "Расширенные вопросы и ответы",
+      "extendedQA": "Pасширенный вопросы и ответы",
+      "DealSideQnA": "Вопросы и ответы со стороны сделки",
+      "IndexAutoNumbering": "Автоматическая нумерация",
+      "CustomisedReports": "Отчеты",
+      "EmailInDocuments": "Электронная почта в документах",
+      "EmailTab": "Вкладка «Электронная почта»",
+      "SingleSignOnIntegration": "Единый вход",
+      "Irm": "Улучшенная защита MS Office",
+      "Drm": "Улучшенная защита PDF",
+      "AccessRestrictionByIpAddress": "Ограничения IP",
+      "DocumentReviewWorkflow": "Рабочий процесс проверки документов",
+      "CopyingContentFromExternalDrives": "Импорт данных третьих сторон",
+      "ContentMigrationBetweenRooms": "Копия содержимого номера",
+      "CustomTermsOfAccess": "Отказ от ответственности",
+      "mySubscription": "Моя подписка",
+      "setExternalQA": {
+        "title": "Если вы измените поток во внешнем разделе «Вопросы и ответы»",
+        "description": "Все данные во внешних вопросах и ответах, созданных до настоящего времени<boldText>, будут</boldText> потеряны, включая",
+        "roles": "Роли пользователей в вопросах и ответах",
+        "categories": "Категории вопросов и ответов",
+        "assignments": "Задания вопросов и ответов",
+        "limits": "Пределы вопросов и ответов",
+        "attachments": "Вложения вопросов и ответов будут отключены для внешних пользователей",
+        "qaBackupMsg": "Если вы хотите создать резервную копию созданных на данный момент вопросов и ответов, скачайте ее с веб-сайта",
+        "qaBackupMsgLinkText": "Отчет о вопросах и ответах"
+      },
+      "setTranslation": {
+        "title": "Включенный перевод",
+        "extraCharge": "Приводит к выставлению счета за <boldText>дополнительную плату</boldText> "
+      },
+      "majorChangesModal": {
+        "title": "Просмотреть изменения",
+        "subtitle": "Вы видите это сообщение, потому что внесли по крайней мере одно из следующих изменений, что приведет к серьезным последствиям для комнаты данных",
+        "awareOfChangesCheckbox": "Мне известны результаты этого действия"
+      },
+      "configuration": {
+        "saveFailed": "Не удалось внести изменения.",
+        "saveSuccess": "Изменения сохранены.",
+        "saveFailure": {
+          "cannotDisableSessionsErrorMessage": "Сеансы нельзя отключить. Сначала опубликуйте или верните в исходное состояние ожидающие изменения сеанса."
+        }
+      },
+      "disclaimers": {
+        "add": "Добавить отказ от ответственности",
+        "disclaimer": "Отказ от ответственности",
+        "disclaimers": "Отказ от ответственности",
+        "enterName": "Введите название заявления об отказе от ответственности",
+        "nameRequired": "Поле не может быть пустым",
+        "contentRequired": "Поле не может быть пустым",
+        "disclaimersList": "Список отказов от ответственности",
+        "disclaimersListMakeChanges": "Управление отказом от ответственности",
+        "disclaimersAssignment": "Назначение отказов от ответственности",
+        "disclaimersAssignmentCancelButton": "Отменить",
+        "disclaimersAssignmentSaveButton": "Сохранить",
+        "disclaimersAssignmentMakeChangesButton": "Редактировать",
+        "name": "Имя",
+        "createdBy": "Создано",
+        "deletedUser": "Удаленный пользователь",
+        "creationDate": "Дата создания",
+        "globalDisclaimer": "Глобальный отказ от ответственности",
+        "sterlingTechnology": "Sterling Technology LTD.",
+        "disclaimerText": "Текст заявления об отказе от ответственности",
+        "defaultDisclaimer": "Отказ от ответственности по умолчанию",
+        "internal": "Внутренний",
+        "bidder": "Участник торгов",
+        "dealSide": "Сторона сделки",
+        "teamType": "Тип команды",
+        "frequency": "Частота",
+        "agree": "Согласиться",
+        "decline": "Отклонить",
+        "addingSucceeded": "Добавлены новые отказы от ответственности.",
+        "updateSucceeded": "Отказ от ответственности был обновлен.",
+        "addingFailed": "Невозможно сохранить отказ от ответственности. Повторите попытку или обратитесь в службу поддержки.",
+        "updateFailed": "Невозможно обновить отказ от ответственности. Повторите попытку или обратитесь в службу поддержки.",
+        "assignmentFrequency": {
+          "EveryTime": "Всегда",
+          "OnlyOnce": "Один раз",
+          "Never": "Никогда"
+        },
+        "teamTypes": {
+          "MainDealTeam": "Основная команда по сделкам",
+          "SubTeam": "Подгруппа",
+          "BidderTeam": "Команда участников торгов"
+        }
+      },
+      "dataroomCustomizations": {
+        "dataroomCustomisation": "Настройка помещения данных",
+        "subtitle": "Настройте цвета программного обеспечения в соответствии с вашими потребностями.",
+        "info": "При регулировке учитывайте цветовую контрастность, чтобы сделать текстовый слой видимым.",
+        "primaryColor": "Основной цвет",
+        "label": "Этикетка",
+        "leftSideNavigation": "Навигация слева",
+        "resetForm": "Сброс к значениям по умолчанию",
+        "inputLabel": "Цвет (#шестнадцатеричный)",
+        "sucessMessage": "Изменения сохранены.",
+        "failMessage": "Не удалось внести изменения."
+      },
+      "messages": {
+        "successfullySaved": "Изменения успешно сохранены.",
+        "couldNotSave": "Невозможно сохранить изменения."
+      },
+      "watermark": {
+        "watermark": "Водяной знак",
+        "watermarks": "водяные знаки;",
+        "watermarkSettings": "Настройки водяного знака",
+        "subTitle": "Настройте параметры водяных знаков, которые будут отображаться для всех команд с включенной функцией",
+        "displayText": "Отображать текст",
+        "selectionNote": "Требуется хотя бы один выбор.",
+        "watermarkSetings": {
+          "isProjectNameEnabled": "Название проекта",
+          "isIndexNumberEnabled": "Индексный номер",
+          "isCompanyEnabled": "Компания",
+          "isFullNameEnabled": "Полное имя",
+          "isEmailAddressEnabled": "Адрес электронной почты",
+          "isIpAddressEnabled": "IP-адрес",
+          "isDateTimeEnabled": "Дата/время",
+          "customText": "Пользовательский текст",
+          "isAutoScaleEnabled": "Включить автомасштабирование"
+        },
+        "appearance": "Внешний вид",
+        "selectColor": "Выберите цвет:",
+        "opacity": "Непрозрачность:",
+        "fontSize": "Размер шрифта:",
+        "previewWatermark": "Предварительный просмотр водяного знака",
+        "customTextValue": "Конфиденциально — не для распространения",
+        "enableWatermark": "Включить водяной знак",
+        "preview": "Предварительный просмотр",
+        "previewHint": "Бумажная сетка установлена на A4. В результате использования разных форматов бумаги будут возникать различные позиции ватрмарк.Проверьте еще раз все документы и файлы.",
+        "confirmationDialog": {
+          "unsavedChangesTitle": "У вас есть несохраненные изменения",
+          "content": "Вы уверены, что хотите отменить изменения?\n\nВсе изменения будут потеряны.",
+          "discard": "Отменить изменения",
+          "cancel": "Продолжить редактирование"
+        }
+      },
+      "rmsSettings": {
+        "rmsSettings": "Защита документов"
+      }
+    },
+    "signUp": {
+      "accountDetails": "Сведения об учетной записи",
+      "consents": "Согласие",
+      "language": "Язык",
+      "occupationAndCompany": "Профессия и компания",
+      "registerNewUserAccount": "Регистрация новой учетной записи пользователя",
+      "personTitle": "Заголовок",
+      "mr": "Г-н",
+      "ms": "Г-жа",
+      "select": "Выбрать",
+      "firstName": "Имя",
+      "enterFirstName": "Введите имя",
+      "lastName": "Фамилия",
+      "enterLastName": "Введите фамилию",
+      "countryOfResidence": "Страна проживания",
+      "typeAndSelect": "Введите и выберите",
+      "emailAddressLabel": "Адрес электронной почты",
+      "enterEmail": "Введите адрес электронной почты",
+      "mobilePhoneNumber": "Номер мобильного телефона",
+      "deskPhoneNumber": "Альтернативный номер телефона",
+      "enterPhoneNumber": "Введите номер телефона",
+      "enterDeskPhoneNumber": "Введите альтернативный номер телефона",
+      "companyName": "Название компании",
+      "enterCompanyName": "Введите название компании",
+      "sector": "Сектор",
+      "function": "Функция",
+      "jobTitle": "Название должности",
+      "emailAlreadyExists": "Этот адрес электронной почты уже существует. Чтобы продолжить, попробуйте другой адрес электронной почты или войдите в систему.",
+      "setPassword": "Задать пароль",
+      "enterPassword": "Введите пароль",
+      "confirmPassword": "Подтвердить пароль",
+      "passwordShouldConsist": "Пароль должен соответствовать следующим требованиям:",
+      "passwordIsTooSimilar": "Пароль слишком похож на предыдущие 5 паролей",
+      "securityQuestion": "Контрольный вопрос",
+      "securityAnswer": "Ответ на контрольный вопрос",
+      "enterAnswer": "Введите ответ",
+      "consent": {
+        "first": {
+          "partOne": "Регистрируя учетную запись, я соглашаюсь с",
+          "partTwo": "Условия обслуживания",
+          "partThree": "и",
+          "partFour": "Политика конфиденциальности, включая использование файлов cookie.",
+          "partFive": "Я понимаю, что все пользовательские данные, необходимые для предоставления услуг, размещены в компании Sterling, и у меня есть доступ к моим данным. Я имею право изменять и удалять данные, обратившись к администратору компании Sterling."
+        },
+        "second": "Я хочу получать электронные письма, связанные с маркетинговым контентом и соответствующими обновлениями.",
+        "requiredError": "Вы должны согласиться с нашими Условиями обслуживания и Политикой конфиденциальности для создания учетной записи Sterling."
+      },
+      "TermsOfServiceLink": "",
+      "PrivacyPolicyLink": "https://www.sterlingvdr.com/vdr-privacy-policy",
+      "button": {
+        "cancel": "Отменить",
+        "back": "Задняя часть",
+        "next": "Далее",
+        "register": "Зарегистрироваться"
+      }
+    },
+    "signUpConfirmation": {
+      "accountSuccessfullyRegistered": "Учетная запись зарегистрирована",
+      "youHaveCreatedNewAccount": "Учетная запись VDR в системе Sterling успешно создана.",
+      "nowYouCanLogin": "Пожалуйста, проверьте свой почтовый ящик и подтвердите свою учетную запись, следуя инструкциям в электронном письме.",
+      "goToLogin": "Главная страница"
+    },
+    "emailConfirmation": {
+      "emailSuccessfullyConfirmed": "Учетная запись проверена",
+      "partOne": "Подтверждение вашей учетной записи получено.",
+      "partTwo": "Теперь вы можете получить доступ к серверным виртуальным комнатам данных."
+    },
+    "emailNotConfirmed": {
+      "emailNotConfirmedTitle": "Электронная почта не проверена",
+      "partOne": "Подтверждение вашего электронного письма еще не получено.",
+      "partTwo": "Проверьте папку входящих сообщений и учетную запись. Если вы ничего не получили в папке «Входящие», проверьте все папки/почты, включая нежелательную почту."
+    },
+    "invitations": {
+      "invitationExpired": "Срок действия приглашения истек",
+      "invitationExpiredBody": "Срок действия приглашения в эту комнату данных истек.",
+      "invitationExpiredHomePage": "Ваш запрос на новое приглашение будет отправлен в отдел по сделкам.",
+      "roomUnavailable": "Комната данных недоступна",
+      "roomUnavailableBody": "Данный зал данных больше не существует",
+      "askForInvitation": "Запросить новое приглашение",
+      "homePage": "Главная страница",
+      "askedForInvitation": "Запрос отправлен",
+      "askedForInvitationBodyFirst": "Позвольте администратору сделки обдумать ваше приглашение.",
+      "askedForInvitationBodySecond": "Новое приглашение будет отправлено на ваш почтовый ящик."
+    },
+    "dataRooms": {
+      "dataRooms": "Помещения для передачи данных",
+      "dataRoomTile": "Плитка помещения данных {{currentDataRoomTileIndex}} из {{dataRoomTilesCount}}: {{name}}",
+      "dataRoomLogo": "Логотип комнаты данных",
+      "dataRoomName": "Название комнаты данных: {{name}}",
+      "dataRoomId": "Идентификатор комнаты данных: {{id}}",
+      "dataRoomStatus": "Статус помещения данных: {{status}}",
+      "dataRoomInformations": "Информация о комнате данных",
+      "dataRoomActions": "{{dataRoomName}} действия в комнате данных",
+      "dataRoomsViewOptions": "Параметры просмотра комнат данных",
+      "dataRoomsSortOptions": "Параметры сортировки комнат данных",
+      "createNewDataRoom": "Создать новую комнату данных",
+      "changeToListView": "Изменить на вид списка",
+      "changeToTileView": "Изменить на вид плитки",
+      "projectDashboard": "Информационная панель проекта",
+      "listOfRooms": "Список номеров ({{roomsCount}})",
+      "results": "{{count}} результаты",
+      "results_one": "{{count}} результат",
+      "listOfRoomsFilterResult": "Список номеров | $t(views.dataRooms.results, {\"count\": {{count}} })",
+      "pleaseSelectAtLeastOneOption": "Выберите хотя бы один вариант",
+      "newDataRoom": "Новая комната данных",
+      "tier": "Уровень",
+      "documents": "Документы",
+      "pages": "Онлайн-страницы",
+      "users": "Пользователи",
+      "dataSize": "Размер данных",
+      "creationDate": "Дата создания",
+      "lastLogin": "Последний вход в систему",
+      "company": "Компания",
+      "actions": "Действия",
+      "selected": "Выбрано",
+      "viewOptions": "Параметры просмотра:",
+      "sortBy": "Сортировать по:",
+      "filter": "Фильтр",
+      "searchFor": "Поиск...",
+      "filterHeaderTitle": "Применить фильтры для комнат данных",
+      "filtersCountBadge": "Бейдж количества фильтров",
+      "pinDataRoom": "Комната {{dataRoomName}} данных PIN-кода",
+      "unpinDataRoom": "Открепить комнату {{dataRoomName}} данных",
+      "yourTime": "Ваше время",
+      "noAccess": {
+        "mainText": "У вас нет доступа к комнате данных",
+        "subText": "Если вы считаете, что это ошибка, свяжитесь со стороной сделки или",
+        "customerService": "Отдел обслуживания клиентов"
+      },
+      "emptyState": {
+        "leftSection": {
+          "headerText": "Здравствуйте, {{keycloakUserFirstName}}! \nДобро пожаловать в виртуальную комнату данных Sterling!",
+          "middleText": "Мы рады, что вы выбрали наш сервис. Наш сервис предлагает поддержку международных транзакций и обмена документами через виртуальные комнаты данных. Благодаря этому вы можете:",
+          "bottomText": "и многое другое...",
+          "optionListItemsTexts": [
+            "Загрузка и организация контента",
+            "Создание внутренних и внешних команд",
+            "Управление сессиями вопросов и ответов",
+            "Просмотр документов с поддержкой перевода"
+          ]
+        },
+        "rightSection": {
+          "middleText": "Вы можете создать свой первый проект для управления любой сделкой высококачественным и безопасным способом!",
+          "newDataRoom": "Новая комната данных",
+          "twoBusinessmenShakingHands": "Два бизнесмена пожимают руки"
+        }
+      },
+      "consent": {
+        "consentTextStart": "Регистрируя учетную запись, я соглашаюсь с",
+        "termsOfService": "Условия обслуживания",
+        "and": "и",
+        "privacyPolicy": "Политика конфиденциальности, включая использование файлов cookie.",
+        "consentTextEnd": "Я понимаю, что все пользовательские данные, необходимые для предоставления услуг, размещены в компании Sterling, и у меня есть доступ к моим данным. Я имею право изменять и удалять данные, обратившись к администратору компании Sterling.*"
+      },
+      "tile": {
+        "upgradeTier": "Повышение уровня",
+        "requestArchive": "Запросить архив",
+        "settings": "Настройки"
+      },
+      "list": {
+        "details": "Сведения",
+        "tier": "Уровень",
+        "listOfRooms": "Список номеров",
+        "dataRoomName": "Имя комнаты данных",
+        "creationDate": "Дата создания",
+        "status": "Статус",
+        "id": "Идентификатор",
+        "onlinePages": "Онлайн-страницы",
+        "documents": "Документы",
+        "users": "Пользователи",
+        "dataSize": "Размер данных",
+        "upgradeTier": "Повышение уровня",
+        "requestArchive": "Запросить архив",
+        "settings": "Настройки",
+        "lastLogin": "Последний вход в систему",
+        "logo": "Логотип",
+        "company": "Компания",
+        "highProfileAccount": "Высокопрофильная учетная запись",
+        "accountType": "Тип учетной записи"
+      },
+      "sortOptions": {
+        "recentlyCreated": "Недавно создано",
+        "creationDateOldest": "Самая старая дата создания",
+        "lastLoginTime": "Время последнего входа в систему",
+        "onlinePagesAscending": "Онлайн-страницы по возрастанию",
+        "onlinePagesDescending": "Онлайн-страницы по убыванию"
+      },
+      "DR_limit_pins": "Вы достигли предела закрепления комнат {{limit}} данных.",
+      "DR_pin_create_success": "Комната данных успешно закреплена.",
+      "DR_pin_create_failure": "Не удалось закрепить комнату данных.",
+      "DR_create_success": "Комната данных успешно создана.",
+      "DR_status_user_has_no_access": "На данный момент у вас нет доступа к этой комнате данных."
+    },
+    "dataRoomCreation": {
+      "subscriptionPlan": "План подписки",
+      "createNewDataRoom": "Создать новую комнату данных",
+      "dataRoomDetails": "Сведения о комнате данных",
+      "uploadedImage": "Загруженный логотип",
+      "defaultLogo": "Логотип по умолчанию",
+      "selectFeatures": "Выбрать функции",
+      "selectedPlan": "Выбранный план",
+      "changePlan": "План изменений",
+      "backToEdit": "Вернуться к редактированию",
+      "dataRoomName": "Имя комнаты данных",
+      "enterDataRoomName": "Введите имя комнаты данных",
+      "companyNameForDisclaimers": "Название компании для отказа от ответственности",
+      "enterCompanyName": "Введите название компании",
+      "dealType": "Тип сделки",
+      "selectDealType": "Выберите тип сделки",
+      "dealManagerEmail": "Электронная почта менеджера по сделкам",
+      "enterEmailAddress": "Введите адрес электронной почты",
+      "timeZone": "Часовой пояс",
+      "selectTimeZone": "Выбрать часовой пояс",
+      "serverLocation": "Расположение сервера",
+      "logotype": "Логотип",
+      "companyNameForDisclimers": "Название компании для отказа от ответственности",
+      "serverLocationRegionalUk": "Великобритания",
+      "serverLocationRegionalEu": "ЕС",
+      "uploadLogo": "Загрузить логотип",
+      "dropFileHere": "Перетащите файл сюда",
+      "allowedFileTypes": "мин. 150 x 35 пикселей, JPG, PNG, максимальный размер файла {{size, number}} MB",
+      "suggestedDataRoomName": "Предлагаемое имя комнаты данных",
+      "useThisName": "Использовать это имя",
+      "requiredField": "Это поле обязательно для заполнения",
+      "dataRoomNameUnavailable": "Это имя в настоящее время используется другим Data Room.",
+      "tooLongDataRoomName": "Это имя слишком длинное.",
+      "fileTooLarge": "Размер файла больше {{size, number}} МБ",
+      "fileInvalidType": "Тип файла должен быть {{accepted, string}}",
+      "consent": "Согласие",
+      "highProfileAccount": {
+        "text": "Высокопрофильная учетная запись?",
+        "options": {
+          "no": "Нет",
+          "yes": "Да"
+        }
+      },
+      "consentRequiredError": "Вы должны согласиться с нашими Условиями обслуживания и Политикой конфиденциальности, чтобы создать Комнату данных.",
+      "button": {
+        "create": "Создать",
+        "back": "Назад",
+        "next": "Далее",
+        "cancel": "Отменить"
+      },
+      "dealManagerEmailError": "Вы не можете назначить администратора по стерлингу в качестве менеджера по сделкам.",
+      "componentsSelection": "Компоненты можно выбрать на более позднем этапе."
+    },
+    "errorView": {
+      "somethingWentWrong": "Произошла ошибка",
+      "unexpectedError": "Неожиданная ошибка",
+      "unexpectedErrorOccured": "Мы делаем все возможное, чтобы найти решение. Обновите страницу или обратитесь за помощью в нашу службу поддержки клиентов.",
+      "tryAgainOrContactAdministrator": "Спасибо за терпение.",
+      "reportAnIssue": "Обратитесь в отдел обслуживания клиентов",
+      "goToHomePage": "Главная страница",
+      "goToPreviousPage": "Назад"
+    },
+    "accessRestrictedView": {
+      "accessRestricted": "Ограниченный доступ",
+      "accessRestrictedNoPermission": "Для этой страницы не требуются разрешения.",
+      "accessRestrictedContact": "Обратитесь в нашу службу поддержки клиентов."
+    },
+    "sessionTimeout": {
+      "title": "Время ожидания сеанса истекло",
+      "bodyPartOne": "Вы были неактивны более 60 минут",
+      "bodyPartTwo": "Мы вышли из системы по соображениям безопасности, зайдите на главную страницу или снова войдите в систему",
+      "loginAgain": "Войдите в систему еще раз"
+    },
+    "icons": {
+      "chevronTrippleUp": "шеврон, тройной вверх",
+      "archiveArrowDown": "Стрелка вниз архива",
+      "cogOutline": "Габаритный чертеж зубца"
+    },
+    "userSettings": {
+      "title": "Настройки пользователя",
+      "tabs": {
+        "accountData": {
+          "title": "Личная информация",
+          "firstName": "Имя",
+          "lastName": "Фамилия",
+          "countryOfResidence": "Страна проживания",
+          "companyName": "Название компании",
+          "sector": "Сектор",
+          "function": "Функция",
+          "jobTitle": "Название должности",
+          "accountDataCancelButton": "Отменить",
+          "accountDataSaveButton": "Сохранить",
+          "accountDataMakeChangesButton": "Редактировать"
+        },
+        "security": {
+          "title": "Информация о безопасности",
+          "tip": "Введите пароль учетной записи, чтобы войти в этот раздел безопасно.",
+          "password": "Пароль",
+          "contactNumbers": "Контактные номера",
+          "contactNumbersSuccessMessage": "Новые контактные номера сохранены.",
+          "email": "Электронная почта",
+          "enterEmail": "Адрес электронной почты",
+          "emailAlreadyExists": "Введенный вами адрес электронной почты уже существует. Войдите в систему, чтобы продолжить.",
+          "mobile": "Мобильный",
+          "enterMobile": "Номер мобильного телефона",
+          "setNewPassword": "Установить новый пароль",
+          "confirmNewPassword": "Подтвердить новый пароль",
+          "securityQuestion": "Контрольный вопрос",
+          "securityAnswer": "Ответ на контрольный вопрос",
+          "tooltipOneFieldPerEdit": "Вы не можете редактировать два раздела одновременно",
+          "emailCancelButton": "Отменить",
+          "emailSaveButton": "Сохранить",
+          "emailMakeChangesButton": "Редактировать",
+          "mobileCancelButton": "Отменить",
+          "mobileSaveButton": "Сохранить",
+          "mobileMakeChangesButton": "Редактировать",
+          "passwordCancelButton": "Отменить",
+          "passwordSaveButton": "Сохранить",
+          "changePasswordButton": "Редактировать",
+          "securityQuestionCancelButton": "Отменить",
+          "securityQuestionSaveButton": "Сохранить",
+          "securityQuestionMakeChangesButton": "Редактировать",
+          "deleteAccount": "Удалить",
+          "deletingAccount": "Удалить мою учетную запись",
+          "deleteGdprModal": {
+            "title": "Удалить учетную запись",
+            "content": {
+              "first": "Вы уверены, что хотите навсегда удалить свою учетную запись?",
+              "second": "Если вы удалите свою учетную запись, вы больше не сможете получить доступ к комнатам данных в Sterling VDR, и это действие не будет отменено."
+            },
+            "delete": "Удалить",
+            "successMessage": "Запрос на удаление GDPR был отправлен в отдел обслуживания клиентов. Это действие должно быть выполнено в течение 48 часов.",
+            "errorMessage": "Повторите попытку."
+          },
+          "otpVerificationModal": {
+            "title": "Проверка OTP",
+            "content": "Введите 6-значный код подтверждения, отправленный на номер телефона <boldText>{{phoneNumber}}</boldText>",
+            "submit": "Отправить",
+            "inputLabel": "Код проверки",
+            "errorMessage": "Введенный код недействителен",
+            "customerServiceLink": "Отдел обслуживания клиентов",
+            "placeholder": "Введите код подтверждения",
+            "resendCode": "Отправить код повторно",
+            "codeRequiredMessage": "Введите код подтверждения.",
+            "codeInvalid": "Введен неверный код.",
+            "codeSent": "Код отправлен",
+            "tooltip": "Вы можете запросить новый код через 30 секунд. Срок действия кода истекает через 10 минут."
+          }
+        },
+        "notifications": {
+          "title": "Уведомления",
+          "EmailSettings": {
+            "title": "Настройки электронной почты",
+            "qAndANotification": {
+              "label": "Отправить уведомления по электронной почте с вопросами и ответами",
+              "value": {
+                "positive": "Мгновенно",
+                "negative": "Никогда"
+              }
+            },
+            "emailNotification": {
+              "label": "Отправить уведомления по электронной почте",
+              "value": {
+                "positive": "Сводка один раз в день",
+                "negative": "Никогда"
+              }
+            }
+          }
+        },
+        "preferences": {
+          "title": "Предпочтения",
+          "language": {
+            "title": "Языковые настройки",
+            "label": "Язык"
+          },
+          "languageCancelButton": "Отменить",
+          "languageSaveButton": "Сохранить",
+          "languageMakeChangesButton": "Редактировать"
+        }
+      },
+      "button": {
+        "back": "Сзади",
+        "cancel": "Отменить",
+        "edit": "Редактировать",
+        "changePassword": "Изменить пароль",
+        "saveNewPassword": "Сохранить"
+      }
+    },
+    "inviteUsers": {
+      "header": "Запросить приглашения пользователей",
+      "selectMethodHeader": "Приглашения пользователей - Выбрать метод",
+      "enterUsersEmailsHeader": "Приглашения пользователей - Введите адреса электронной почты пользователей*",
+      "stepText": "Шаг",
+      "ofTwoText": "из 2"
+    },
+    "pdfViewer": {
+      "corruptedPrintDialog": {
+        "title": "Не удалось распечатать файл",
+        "content": "Файл поврежден и не может быть распечатан.\n\nОбратитесь за помощью в нашу службу поддержки клиентов.",
+        "confirm": "Закрыть окно"
+      },
+      "corruptedOpenDialog": {
+        "title": "Невозможно открыть файл",
+        "content": "Файл поврежден и не может быть открыт в средстве просмотра PDF.\n\nОбратитесь за помощью в нашу службу поддержки клиентов.",
+        "confirm": "Закрыть окно"
+      },
+      "protectedOpenDialog": {
+        "title": "Защищенный документ",
+        "confirm": "Понимал",
+        "content": "Данный документ защищен. Некоторые параметры мыши и клавиатуры ограничены.\n\nЕсли вы хотите выполнить действия с этим документом, воспользуйтесь меню действий «Документ» в дереве содержимого приложения VDR."
+      },
+      "clipboardText": "ЗАЩИЩЕННЫЙ ДОКУМЕНТ Этот документ защищен. Некоторые опции мыши и клавиатуры ограничены. Если вы хотите выполнить действия с этим документом, воспользуйтесь меню действий «Документ» в дереве содержимого приложения VDR."
+    },
+    "videoViewer": {
+      "corruptedOpenDialog": {
+        "title": "Не удалось открыть файл",
+        "content": "Этот видеофайл поврежден. Если у вас есть доступ, вы можете загрузить файл. Кроме того, обратитесь за помощью в отдел обслуживания клиентов компании Sterling.",
+        "confirm": "Закрыть окно"
+      },
+      "notSupported": "Ваш браузер не поддерживает тег видео."
+    },
+    "sessionManagerView": {
+      "title": "Диспетчер сеансов",
+      "description": "Вам необходимо опубликовать сеанс, чтобы изменения были видны всем пользователям в комнате данных.",
+      "button": {
+        "publishChanges": "Опубликовать изменения",
+        "undoChanges": "Отменить изменения",
+        "cancel": "Отменить"
+      },
+      "emptyStateMessage": "Ничего не публиковать",
+      "emptyStateDescription": "Ваши будущие действия в Контенте будут перечислены здесь.",
+      "actionsList": {
+        "selectedCount": "{{selectedCount}} Выбрано из {{totalCount}}",
+        "headers": {
+          "itemName": "Название элемента",
+          "action": "Действие",
+          "details": "Сведения",
+          "actionDate": "Дата действия"
+        },
+        "actions": {
+          "inserted": "Вставлено",
+          "moved": "Перемещено",
+          "updated": "Обновлено",
+          "deleted": "Удалено",
+          "replaced": "Заменено"
+        },
+        "details": {
+          "inserted": "чтобы {{toDisplayName}}",
+          "moved": "с {{fromDisplayName}} до {{toDisplayName}}",
+          "updated": "в {{inDisplayName}}",
+          "deleted": "с {{fromDisplayName}} до {{toDisplayName}}",
+          "replaced": "в {{inDisplayName}}"
+        },
+        "permissionChanges": {
+          "externalTeams": "{{ externalName }} Команды:",
+          "subInternalTeams": "{{ internalName }} Команды:",
+          "header": "Это действие делает элемент скрытым для:",
+          "failed": "Это действие делает элемент скрытым для некоторых команд",
+          "loading": "Загрузка команд, потерявших доступ к этому элементу..."
+        }
+      },
+      "toasts": {
+        "publishActionSuccess": "Действия успешно опубликованы: {{count}}",
+        "publishActionFailure": "Невозможно опубликовать действия: {{count}}",
+        "revertActionSuccess": "Действия успешно отменены: {{count}}",
+        "revertActionFailure": "Невозможно отменить действия: {{count}}",
+        "actionNotFound": "{{count}} действие(-я) не может быть обработано. Действия не существуют или были опубликованы или возвращены другим пользователем.",
+        "publishDependenciesDetected": "{{count}} были также выбраны действия, которые должны быть опубликованы в связи с их зависимостями. Просмотрите их и опубликуйте еще раз.",
+        "revertDependenciesDetected": "{{count}} также были выбраны действия, которые должны быть возвращены из-за их зависимостей. Просмотрите их и вернитесь снова."
+      },
+      "status": {
+        "reverting": "Выполняется возврат изменений сеанса...",
+        "publishing": "Выполняется публикация изменений сеанса..."
+      },
+      "viewActiveSessions": "Просмотреть активные сеансы",
+      "search": {
+        "placeholder": "Поиск имени элемента...",
+        "matchingResults": "Совпадающие результаты: {{count}}"
+      }
+    }
+  },
+  "components": {
+    "breadcrumb": {
+      "home": "Главная страница",
+      "back": "Кнопка «Назад»"
+    },
+    "selectableContextMenu": {
+      "contextMenuButton": "Открыть контекстное меню"
+    },
+    "dataTablePagination": {
+      "moreThan": "более чем {{to}}",
+      "fromToOf": "{{from}}-{{to}} из {{count}}",
+      "first": "сначала",
+      "last": "последний",
+      "next": "далее",
+      "previous": "предыдущая",
+      "goToPage": "Перейти на {{type}} страницу",
+      "rowsPerPage": "Строки на страницу:"
+    },
+    "dataTable": {
+      "rowActions": "Действия строки таблицы данных",
+      "selected": "Выбрано",
+      "selectSingleRow": "Выбрать одну строку",
+      "selectAllRows": "Выбрать все строки",
+      "enterDetailsAction": "Действие ввода сведений",
+      "pageAction": "Действие страницы",
+      "expandRow": "Развернуть строку",
+      "details": "Сведения"
+    },
+    "header": {
+      "companyName": "Стерлинг",
+      "userSettings": "Настройки пользователя",
+      "contactSupport": "Отдел обслуживания клиентов",
+      "adminPanel": "Панель администрирования",
+      "logout": "Выход из системы",
+      "notifications": "Уведомления",
+      "sessions": "Сеансы",
+      "settings": "Настройки",
+      "dataRoomActions": "Действия в помещении данных",
+      "home": "Главная страница",
+      "recentDataRooms": "Недавние комнаты данных",
+      "recentDataRoomName": "Недавняя комната данных {{dataRoomName}}",
+      "noRecentDataRooms": "Нет последних комнат данных"
+    },
+    "tier": {
+      "tier": "Уровень",
+      "upTo": "До",
+      "users": "пользователи",
+      "gb": "ГБ",
+      "forYourData": "для ваших данных"
+    },
+    "sidebar": {
+      "close": "Закрыть",
+      "cancel": "Отменить",
+      "applyFilters": "Применить фильтры",
+      "clearFilters": "Очистить фильтры"
+    },
+    "allResults": {
+      "allResults": "Конец результатов"
+    },
+    "noResults": {
+      "noResults": "Нет результатов",
+      "changeCriteria": "Измените критерии фильтра/поиска."
+    },
+    "noQuestions": {
+      "noQuestions": "Пока нет вопросов",
+      "noQuestionsInfo": "Вернитесь позже, чтобы проверить, были ли заданы новые вопросы"
+    },
+    "status": {
+      "active": "Активный",
+      "underPreparation": "В стадии подготовки",
+      "terminationPeriod": "Период прекращения",
+      "temporaryRestriction": "Временные ограничения"
+    },
+    "searchbar": {
+      "clear": "Очистить",
+      "searchFor": "Поиск...",
+      "requiredCharacters": "Обязательные символы: {{length}}."
+    },
+    "searchinput": {
+      "clear": "Очистить"
+    },
+    "autocompleteSearchbar": {
+      "noMatch": "Нет предложений по совпадению",
+      "disclaimersCompanyName": "Компания",
+      "name": "Помещение для передачи данных",
+      "id": "Идентификатор",
+      "undefined": "",
+      "publicReference": "Идентификатор"
+    },
+    "statusChanger": {
+      "selectStatus": "Выбрать статус",
+      "requestFor": "Запрос на",
+      "updatedBy": "Последнее обновление{{date}}: {{user}}",
+      "customAccess": "Установить пользовательский доступ",
+      "buttons": {
+        "buttonSetStatus": "Установить статус",
+        "buttonRequestFor": "Запрос на"
+      },
+      "accessTypes": {
+        "FullAccess": "Полный доступ",
+        "NoAccess": "Нет доступа"
+      },
+      "label": "Доступ к {{teamName}}",
+      "toasts": {
+        "requestSentSuccesfully": "Ваш запрос отправлен.",
+        "requestSentFailure": "Ваш запрос не был отправлен.",
+        "statusChangedSuccessfully": "Статус комнаты данных был изменен.",
+        "statusChangedFailure": "Статус комнаты данных не был изменен."
+      }
+    },
+    "statusDescription": {
+      "active": "Этот статус позволит командам участников тендера войти в Data Room.\n\nПосле выбора этого статуса появится контрольный список, который поможет вам правильно подготовить комнату данных.\n\nОтличный опыт работы с системой Sterling VDR.",
+      "underPreparation": "Статус «глухота» для нового Data Room, его цель — настроить все необходимые настройки и документы для запуска Room.\n\nЭто ограничит доступ всех пользователей команды участников торгов к DataRoom.\n\nОсновная команда по сделкам и команда по сделкам по сделкам сохраняют доступ и могут вносить изменения.",
+      "temporaryRestriction": "Ограничение доступа к Data Room для определенных типов команд в соответствии с вашими настройками справа.\n\nПолный доступ не имеет результатов для выбранного типа команды.\n\nНет доступа, скрывающего Data Room на концентраторе.",
+      "terminationPeriod": "Этот статус доступен только по запросу администратора Sterling.\n\nЗапрос приведет к закрытию Data Room для всех типов команд.\n\nПо истечении 30 дней Data Room со всем его содержимым будет удален."
+    },
+    "toaster": {
+      "closeMessage": "Закрыть сообщение",
+      "toast": "Тосты"
+    },
+    "confirmationDialog": {
+      "unsavedChangesTitle": "У вас есть несохраненные изменения",
+      "content": "Вы собираетесь покинуть эту страницу без сохранения,\nвсе изменения будут потеряны.\n\nВы уверены, что хотите их утилизировать?",
+      "discard": "Отменить изменения",
+      "stayOnPage": "Оставайтесь на странице"
+    },
+    "confirmationCancelDialog": {
+      "unsavedChangesTitle": "У вас есть несохраненные изменения",
+      "content": "Вы уверены, что хотите отменить эти изменения?\n\nВсе изменения будут потеряны.",
+      "discard": "Отменить изменения",
+      "stayOnPage": "Продолжить редактирование"
+    },
+    "activationChecklist": {
+      "activationChecklistHeader": "Прежде чем изменить статус комнаты данных на «Активный», подтвердите следующие пункты:",
+      "shakingHands": "Руки с качанием",
+      "yourProjectStatus": "Статус проекта будет изменен на «Активный».",
+      "invitationsForBiddersUsers": "Если пользовательские настройки не были установлены, участники будут автоматически получать приглашения.",
+      "activateRoom": "Активировать комнату",
+      "indexStructureIsReady": "Структура индекса готова, и первоначальные документы загружены*",
+      "mainDealTeamIsCreated": "Создана основная команда по сделкам, и все пользователи приглашены*",
+      "biddersTeamsAreCreated": "Создаются команды участников торгов и добавлены все пользователи*",
+      "disclaimerIsAppropriate": "Отказ от ответственности подходит для типа сделки и точных команд, если это необходимо*",
+      "grantedPermission": "Пользователи надлежащим образом предоставили разрешения*",
+      "recyleBinIsntEmptyText": "Корзина для отходов не пуста, и после размещения данных Go Live. За это может взиматься дополнительная плата. Выберите один из вариантов ниже*",
+      "deleteAllFiles": "Удалить все файлы из корзины",
+      "keepAllFiles": "Сохраните все файлы из корзины",
+      "activeSessionValidationMessage": "Невозможно активировать комнату, так как в DR есть активный сеанс."
+    },
+    "chooseActionButton": {
+      "chooseAction": "Выберите действие",
+      "actions": "действия"
+    }
+  },
+  "userInvitations": {
+    "buttons": {
+      "saveDraft": "Сохранить черновик"
+    }
+  },
+  "countryCodes": {
+    "AF": "Афганистан",
+    "AL": "Албания",
+    "DZ": "Алжир",
+    "AS": "Американское Самоа",
+    "AD": "Андорра",
+    "AO": "Ангола",
+    "AI": "Ангилья",
+    "AQ": "Антарктика",
+    "AG": "Антигуа и Барбуда",
+    "AR": "Аргентина",
+    "AM": "Армения",
+    "AW": "Аруба",
+    "AU": "Австралия",
+    "AT": "Австрия",
+    "AZ": "Азербайджан",
+    "BS": "Багамские острова",
+    "BH": "Бахрейн",
+    "BD": "Бангладеш",
+    "BB": "Барбадос",
+    "BY": "Беларусь",
+    "BE": "Бельгия",
+    "BZ": "Белиз",
+    "BJ": "Бенин",
+    "BM": "Бермуды",
+    "BT": "Бутан",
+    "BO": "Боливия",
+    "BA": "Босния и Герцеговина",
+    "BW": "Ботсвана",
+    "BV": "Остров Буве",
+    "BR": "Бразилия",
+    "IO": "Британская территория Индийского океана",
+    "VG": "Британские Виргинские острова",
+    "BN": "Бруней Даруссалам",
+    "BG": "Болгария",
+    "BF": "Буркина-Фасо",
+    "BI": "Бурунди",
+    "KH": "Камбоджа",
+    "CM": "Камерун",
+    "CA": "Канада",
+    "CV": "Накидка Верде (кабо Верде)",
+    "KY": "Каймановые острова",
+    "CF": "Центральноафриканская Республика",
+    "TD": "Чад",
+    "CL": "Чили",
+    "CN": "Китай",
+    "CX": "Остров Рождества",
+    "CC": "Кокосовые (Килинг) острова",
+    "CO": "Колумбия",
+    "KM": "Коморские острова",
+    "CG": "Конго",
+    "CD": "Конго, Демократическая Республика",
+    "CK": "Куковские острова",
+    "CR": "Коста-Рика",
+    "CI": "Кот-д'Ивуар (Кот-д'Ивуар)",
+    "HR": "Хорватия",
+    "CU": "Куба",
+    "CW": "Кюрасао",
+    "CY": "Кипр",
+    "CZ": "Чешская Республика (Чехия)",
+    "DK": "Дания",
+    "DJ": "Джибути",
+    "DM": "Доминика",
+    "DO": "Доминиканская Республика",
+    "TP": "Восточный Тимор (Timor-Leste)",
+    "EC": "Эквадор",
+    "EG": "Египет",
+    "SV": "Сальвадор",
+    "GQ": "Экваториальная Гвинея",
+    "ER": "Эритрея",
+    "EE": "Эстония",
+    "ET": "Эфиопия",
+    "FK": "Фалклендские острова (острова Мальвины)",
+    "FO": "Фарерские острова",
+    "FJ": "Фиджи",
+    "FI": "Финляндия",
+    "FR": "Франция",
+    "GF": "Французская Гвиана",
+    "PF": "Французская Полинезия",
+    "TF": "Французские южные территории",
+    "GA": "Габон",
+    "GM": "Гамбия",
+    "GE": "Грузия",
+    "DE": "Германия",
+    "GH": "Гана",
+    "GI": "Гибралтар",
+    "GR": "Греция",
+    "GL": "Гренландия",
+    "GD": "Гренада",
+    "GP": "Гваделупа",
+    "GU": "Гуам",
+    "GT": "Гватемала",
+    "GG": "Гернси",
+    "GN": "Гвинея",
+    "GW": "Гвинея-Биссау",
+    "GY": "Гайана",
+    "HT": "Гаити",
+    "HM": "Остров Слушания и Острова Макдональда",
+    "HN": "Гондурас",
+    "HK": "Гонконг",
+    "HU": "Венгрия",
+    "IS": "Исландия",
+    "IN": "Индия",
+    "ID": "Индонезия",
+    "IR": "Иран",
+    "IQ": "Ирак",
+    "IE": "Ирландия",
+    "IM": "Остров Мэн",
+    "IL": "Израиль",
+    "IT": "Италия",
+    "JM": "Ямайка",
+    "JP": "Япония",
+    "JE": "Джерси",
+    "JO": "Иордания",
+    "KZ": "Казахстан",
+    "KE": "Кения",
+    "KI": "Кирибати",
+    "KP": "Корея, Северная Корея (Народно-Демократическая Республика Корея)",
+    "KR": "Южная Корея (Республика Корея)",
+    "XK": "Косово",
+    "KW": "Кувейт",
+    "KG": "Кыргызстан",
+    "LA": "Лаосская Народно-Демократическая Республика (Лаос)",
+    "LV": "Латвия",
+    "LB": "Ливан",
+    "LS": "Лесото",
+    "LR": "Либерия",
+    "LY": "Ливия (штат Ливия)",
+    "LI": "Лихтенштейн",
+    "LT": "Литва",
+    "LU": "Люксембург",
+    "MO": "Макао (Макао)",
+    "MG": "Мадагаскар",
+    "MW": "Малави",
+    "MY": "Малайзия",
+    "MV": "Мальдивы",
+    "ML": "Мали",
+    "MT": "Мальта",
+    "MH": "Маршалловы острова",
+    "MQ": "Мартиника",
+    "MR": "Мавритания",
+    "MU": "Маврикий",
+    "YT": "Майотт",
+    "MX": "Мексика",
+    "FM": "Микронезия, федеративные государства",
+    "MD": "Молдова",
+    "MC": "Монако",
+    "MN": "Монголия",
+    "ME": "Черногория",
+    "MS": "Монсеррат",
+    "MA": "Марокко",
+    "MZ": "Мозамбик",
+    "MM": "Мьянма",
+    "NA": "Намибия",
+    "NR": "Науру",
+    "NP": "Непал",
+    "NL": "Нидерланды",
+    "AN": "Нидерландские Антильские острова",
+    "NC": "Новая Каледония",
+    "NZ": "Новая Зеландия",
+    "NI": "Никарагуа",
+    "NE": "Нигер",
+    "NG": "Нигерия",
+    "NU": "Ниуэ",
+    "NF": "Норфолкский остров",
+    "MK": "Северная Македония",
+    "MP": "Северные Марианские острова",
+    "NO": "Норвегия",
+    "OM": "Оман",
+    "PK": "Пакистан",
+    "PW": "Палау",
+    "PS": "Палестина, штат",
+    "PA": "Панама",
+    "PG": "Папуа, Новая Гвинея",
+    "PY": "Парагвай",
+    "PE": "Перу",
+    "PH": "Филиппины",
+    "PN": "Острова Питкэрна",
+    "PL": "Польша",
+    "PT": "Португалия",
+    "PR": "Пуэрто-Рико",
+    "QA": "Катар",
+    "RE": "Воссоединение",
+    "RO": "Румыния",
+    "RU": "Россия (Российская Федерация)",
+    "RW": "Руанда",
+    "BL": "Сен-Бартелемия",
+    "SH": "Святая Елена, перец, Тристан да Кунха",
+    "KN": "Сент-Китс и Невис",
+    "LC": "Сент-Люсия",
+    "MF": "Сен-Мартин",
+    "PM": "Сен-Пьер и Микелон",
+    "VC": "Сент-Винсент и Гренадины",
+    "WS": "Самоа",
+    "SM": "Сан-Марино",
+    "ST": "Сан-Томе и Принсипи",
+    "SA": "Саудовская Аравия",
+    "SN": "Сенегал",
+    "RS": "Сербия",
+    "SC": "Сейшельские острова",
+    "SL": "Сьерра-Леоне",
+    "SG": "Сингапур",
+    "SX": "Синт-маартен",
+    "SK": "Словакия (Словацкая Республика)",
+    "SI": "Словения",
+    "SB": "Соломоновы острова",
+    "SO": "Сомали",
+    "ZA": "Южная Африка",
+    "GS": "Южная Грузия и Южные Сандвичевы острова",
+    "SS": "Южный Судан",
+    "ES": "Испания",
+    "LK": "Шри-Ланка",
+    "SD": "Судан",
+    "SR": "Суринам",
+    "SJ": "Острова Шпицберген и Ян-Майен",
+    "SZ": "Свазиленд (Эсватини)",
+    "SE": "Швеция",
+    "CH": "Швейцария",
+    "SY": "Сирия (Сирийская Арабская Республика)",
+    "TW": "Тайвань (ROC)",
+    "TJ": "Таджикистан",
+    "TZ": "Танзания, Объединенная Республика",
+    "TH": "Таиланд",
+    "TG": "Того",
+    "TK": "Токелау",
+    "TO": "Тонга",
+    "TT": "Тринидад и Тобаго",
+    "TN": "Тунис",
+    "TR": "Турция",
+    "TM": "Туркменистан",
+    "TC": "Теркс и Кайкосовые острова",
+    "TV": "Тувалу",
+    "VI": "Американские Виргинские острова",
+    "UG": "Уганда",
+    "UA": "Украина",
+    "AE": "Объединенные Арабские Эмираты",
+    "GB": "Великобритания",
+    "US": "Соединенные Штаты Америки",
+    "UM": "Небольшие Внешние острова США",
+    "UY": "Уругвай",
+    "UZ": "Узбекистан",
+    "VU": "Вануату",
+    "VA": "Город Ватикан (Священный вид)",
+    "VE": "Венесуэла",
+    "VN": "Вьетнам",
+    "WF": "Уоллис и футуна",
+    "EH": "Западная Сахара",
+    "YE": "Йемен",
+    "ZM": "Замбия",
+    "ZW": "Зимбабве"
+  },
+  "securityQuestions": {
+    "WhatIsTheCityWereYouBorn": "В каком городе вы родились?",
+    "WhatIsTheNameOfYourFavoritePet": "Как зовут вашего любимого питомца?",
+    "WhatIsYourMothersMaidenName": "Как зовут девичью мать?",
+    "WhatHighSchoolDidYouAttend": "Какую среднюю школу Вы посещали?",
+    "WhatIsTheNameOfYourFirstSchool": "Как называется ваша первая школа?",
+    "WhatWasTheMakeOfYourFirstCar": "Какова была марка вашего первого автомобиля?",
+    "WhatWasYourFavoriteFoodAsAChild": "Какую еду Вы любили в детстве?",
+    "WhereDidYouMeetYourSpouse": "Где Вы встретились со своим супругом?",
+    "WhatIsYourFavoriteBook": "Какая ваша любимая книга?",
+    "WhatIsTheNameOfTheRoadYouGrewUpOn": "Как называется дорога, на которой вы выросли?",
+    "WhatIsYourFavoritePlaceToVacation": "Где Вы предпочитаете отдых?",
+    "WhatIsYourFavoriteActorMusicanOrArtist": "Кто ваш любимый актер, музыкант или художник?",
+    "WhatIsYourFavoriteMovie": "Какой ваш любимый фильм?",
+    "WhatIsYourFavoriteColor": "Какой ваш любимый цвет?"
+  },
+  "sectors": {
+    "AerospaceAndDefence": "Аэрокосмическая и оборонная промышленность",
+    "Agricultural": "Сельское хозяйство",
+    "Automotive": "Автомобильная промышленность",
+    "BusinessServices": "Бизнес-услуги",
+    "EnergyAndRenewables": "Энергия и возобновляемые источники энергии",
+    "FinancialServices": "Финансовые услуги",
+    "FinancialSponsors": "Финансовые спонсоры",
+    "FoodAndDrink": "Еда и напитки",
+    "GovernmentAndPublicSector": "Государственный и государственный сектор",
+    "Healthcare": "Здравоохранение",
+    "Industrial": "Промышленный",
+    "Infrastructure": "Инфраструктура",
+    "Insurance": "Страхование",
+    "LegalServices": "Юридические услуги",
+    "Leisure": "Отдых",
+    "Manufacturing": "Производство",
+    "Media": "Носители",
+    "MetalsAndMining": "Металлургия и горнодобывающая промышленность",
+    "OilAndGas": "Нефть и газ",
+    "Other": "Другое",
+    "PrivateEquity": "Частный капитал",
+    "RealEstate": "Недвижимость",
+    "Retail": "Розничная торг",
+    "Technology": "Технологии",
+    "Telecommunications": "Телекоммуникации",
+    "Transport": "Транспортировка"
+  },
+  "functions": {
+    "FinancialAdvisor": "Финансовый консультант",
+    "LegalAdvisor": "Юридический консультант",
+    "PrivateEquity": "Частный капитал",
+    "Corporate": "Корпоративный",
+    "TransactionalServices": "Транзакционные услуги",
+    "RealEstate": "Недвижимость",
+    "Other": "Другое"
+  },
+  "jobTitles": {
+    "ManagingDirector": "Управляющий директор",
+    "Director": "Директор",
+    "ExecutiveDirector": "Исполнительный директор",
+    "VicePresident": "Вице-президент",
+    "AssociateDirector": "Заместитель директора",
+    "Manager": "Менеджер",
+    "Associate": "Сотрудник",
+    "Analyst": "Аналитик",
+    "Executive": "Руководитель",
+    "Partner": "Партнер",
+    "ManagingAssociate": "Управление сотрудником",
+    "Trainee": "Обучаемый",
+    "Paralegal": "Юридический отдел",
+    "LegalDirector": "Директор по юридическим вопросам",
+    "OfCounsel": "Адвоката",
+    "OperationsPartner": "Партнер по операциям",
+    "OperationsManager": "Менеджер по операциям",
+    "InvestmentDirector": "Инвестиционный директор",
+    "InvestmentManager": "Инвестиционный менеджер",
+    "Principal": "Принципал",
+    "CEO": "Генеральный директор",
+    "CFO": "Финансовый директор",
+    "MAndADirector": "Директор по слияниям и поглощениям",
+    "MAndAManager": "Менеджер по слияниям и поглощениям",
+    "GeneralCounsel": "Главный юрисконсульт",
+    "Strategy": "Стратегия",
+    "LegalCounsel": "Юрисконсульт",
+    "Other": "Другое"
+  },
+  "passwordPolicyTypes": {
+    "singular": {
+      "length": "мин. 1 символ",
+      "upperCase": "Буква верхнего регистра",
+      "lowerCase": "Буква нижнего регистра",
+      "digits": "Номер",
+      "specialChars": "Специальный символ"
+    },
+    "plural": {
+      "length": "мин. {{value}} символ",
+      "upperCase": "{{value}} Прописные буквы",
+      "lowerCase": "{{value}} Буквы нижнего регистра",
+      "digits": "{{value}} Числа",
+      "specialChars": "{{value}} Специальные символы"
+    }
+  },
+  "dealTypes": {
+    "subcategory": {
+      "buySideMa": "Сторона покупки слияния и поглощения",
+      "sellSideMa": "Слияние и поглощение на стороне продажи",
+      "postMergerIntegration": "Интеграция после слияния",
+      "teaserImDistribution": "Распределение мгновенных сообщений тизера",
+      "fundraising": "Сбор средств",
+      "secondaries": "Второстепенные",
+      "fundReportingInvestorRelations": "Отчетность фонда/Отношения с инвесторами",
+      "portfolioManagement": "Управление портфелем",
+      "assetSaleIpo": "Продажа активов/IPO",
+      "npls": "NPL",
+      "securitization": "Секьюритизация",
+      "syndicatedLoan": "Синдицированный кредит",
+      "restructuring": "Реструктуризация",
+      "privatePlacements": "Частные помещения",
+      "ipoRightsIssues": "Вопросы IPO и прав",
+      "roadshows": "Дорожные выставки",
+      "assetManagement": "Управление активами",
+      "assetSales": "Продажа активов",
+      "pharmaceuticalsLicensing": "Лицензирование фармацевтических препаратов",
+      "jointVentures": "Совместные предприятия",
+      "auditorReviewCompliance": "Проверка аудитором и нормативно-правовое соответствие",
+      "antitrustClassActionLawsuits": "Антимонопольные групповые иски",
+      "other": "Другое"
+    },
+    "category": {
+      "ma": "Слияния и поглощения",
+      "privateEquity": "Частный капитал",
+      "debts": "Задолженности",
+      "equity": "Акции",
+      "realEstate": "Недвижимость",
+      "pharma": "Фармацевтика",
+      "tendering": "Тендерные торги",
+      "courtProceedings": "Судебные разбирательства",
+      "otherDealType": "Другой тип сделки"
+    }
+  },
+  "errorCodes": {
+    "passwordIsTooSimilar": "Пароль слишком похож на предыдущие 5 паролей."
+  },
+  "timeZones": {
+    "greenwichMeanTime": "Среднее время по Гринвичу",
+    "hongKongTime": "Гонконгское время",
+    "indianStandardTime": "Индийское стандартное время",
+    "singaporeStdTime": "Время станд. Сингапура",
+    "southAfricanStandardTime": "Южноафриканское стандартное время",
+    "arabStandardTimeKuwaitRiyadh": "Арабское стандартное время (Кувейт, Эр-Рияд)",
+    "arabianStandardTimeAbuDhabiMuscat)": "Арабское стандартное время (Абу-Даби, Маскат)",
+    "gulfStandardTime": "Стандартное время Персидского залива",
+    "moscowTime": "Московское время",
+    "australianWesternStandardTime": "Австралийское западное стандартное время",
+    "chinaStandardTime": "Китайское стандартное время",
+    "malaysiaTime": "Время Малайзии",
+    "japanStandardTime": "Стандартное время Японии",
+    "atlanticStandardTime": "Атлантическое стандартное время",
+    "australianCentralStandardTime": "Австралийское центральное стандартное время",
+    "australianEasternStandardTime": "Австралийское восточное стандартное время",
+    "brasilia": "Бразилия",
+    "easternStandardTime": "Восточное стандартное время",
+    "centralStandardTime": "Центральное стандартное время",
+    "mountainStandardTime": "Стандартное время горы",
+    "pacificStandardTime": "Тихоокеанское стандартное время",
+    "alaskaStandardTime": "Стандартное время Аляски",
+    "centralEuropeanTime": "Центральноевропейское время",
+    "easternEuropeanTime": "Восточноевропейское время",
+    "westernIndonesianTime": "Западное индонезийское время",
+    "easternAfricaTimeNairobi": "Восточное африканское время (Найроби)",
+    "israelStandardTimeJerusalem": "Израильское стандартное время (Иерусалим)"
+  }
+}

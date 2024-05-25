@@ -1,0 +1,2999 @@
+{
+  "routing": {
+    "navigationBarElements": {
+      "dashboard": "Řídicí panel",
+      "contents": "Obsah",
+      "teamsAndUsers": "Týmy a uživatelé",
+      "qa": "Otázky a odpovědi",
+      "reports": "Zprávy",
+      "uploads": "Nahrávky",
+      "downloads": "Stahování",
+      "settings": "Nastavení",
+      "dataRooms": "Datové místnosti",
+      "vdrUsers": "Uživatelé VDR",
+      "templates": "Šablony",
+      "inviteUsers": "Pozvat uživatele"
+    }
+  },
+  "sessionTimeout": {
+    "sessionTimeout": "Časový limit relace",
+    "modalMessagePartOne": "Jste neaktivní po dobu téměř 60 minut. Za 5 minut vás z bezpečnostních důvodů odhlásíme.",
+    "modalMessagePartTwo": "Všechny neuložené změny budou ztraceny.",
+    "iAmHere": "Jsem zde"
+  },
+  "common": {
+    "confirmChanges": "Potvrdit změny",
+    "answer": "Odpověď",
+    "select": "Vybrat",
+    "typeAndSelect": "Napište a vyberte",
+    "requiredField": "Toto pole je povinné",
+    "wrongPassword": "Heslo je nesprávné",
+    "cancel": "Zrušit",
+    "save": "Uložit",
+    "enter": "Zadejte",
+    "enterPassword": "Zadejte heslo",
+    "passwordsDoNotMatch": "Hesla musí být stejná",
+    "enterEmail": "Zadejte e-mail",
+    "enterMobile": "Zadejte číslo mobilního telefonu",
+    "invalidEmailAddress": "Neplatná e-mailová adresa",
+    "InvalidUserName": "Neplatné uživatelské jméno",
+    "InvalidUserLastName": "Neplatné příjmení uživatele",
+    "phoneNumberTooShort": "Telefonní číslo je příliš krátké",
+    "changePassword": "Změnit heslo",
+    "passwordExpirationWarning_oneOrZero": "Platnost vašeho hesla vyprší",
+    "passwordExpirationWarning": "Platnost vašeho hesla vyprší za {{count}} dní",
+    "close": "Zavřít",
+    "back": "Zpět",
+    "create": "Vytvořit",
+    "uploadFile": "Nahrát soubor",
+    "form": "Formulář",
+    "togglePasswordVisibility": "Přepnout viditelnost hesla",
+    "toggleConfirmPasswordVisibility": "Přepnout potvrzení viditelnosti hesla",
+    "serverError": "Při připojování k serveru došlo k chybě",
+    "checkIsRequired": "Povinné",
+    "selectionIsRequired": "Vyžaduje se výběr",
+    "questionMark": "?",
+    "submit": "Odeslat",
+    "view": "Zobrazit",
+    "update": "Aktualizovat",
+    "moderate": "Střední",
+    "review": "Zkontrolovat",
+    "delete": "Odstranit",
+    "listEmpty": "Seznam je prázdný",
+    "details": "Podrobnosti",
+    "edit": "Upravit",
+    "remove": "Odebrat",
+    "downloadPdf": "Stáhnout PDF",
+    "downloadNative": "Stáhnout",
+    "downloadContent": "Stáhnout",
+    "replace": "Nahradit",
+    "copy": "Kopírovat",
+    "cut": "Řez",
+    "share": "Sdílet",
+    "paste": "Vložit",
+    "link": "Odkaz",
+    "unlink": "Zrušit propojení",
+    "emptyBin": "Prázdný zásobník",
+    "emptyMasterBin": "Prázdný hlavní zásobník",
+    "search": "Hledat",
+    "bidders": "Žadatelé",
+    "sellers": "Prodejci",
+    "buyers": "Kupující",
+    "internal": "Interní",
+    "external": "Externí",
+    "users": "Uživatelé",
+    "experts": "Odborníci",
+    "makeChanges": "Upravit",
+    "print": "Tisk",
+    "countryOfResidence": "Země pobytu",
+    "stepperProgress": "<strong>Krok {{activeStep}}</strong> z {{allSteps}}",
+    "sendRequest": "Odeslat požadavek",
+    "required": "Povinné",
+    "exportIndexAsExcel": "Exportovat do Excelu",
+    "exportIndexAsPdf": "Exportovat do PDF",
+    "operationInProgress": "Probíhá operace...",
+    "successEmailSentMessage": "E-mail byl úspěšně odeslán",
+    "failureEmailSentMessage": "E-mail nelze odeslat "
+  },
+  "views": {
+    "adminPanel": {
+      "templates": {
+        "templates": "Šablony"
+      },
+      "vdrUsers": {
+        "vdrUsers": "Uživatelé VDR",
+        "listOfUsers": "Seznam uživatelů",
+        "table": {
+          "header": {
+            "name": "Název",
+            "email": "E-mail",
+            "company": "Název společnosti"
+          },
+          "details": {
+            "emailVerificationtooltip": "Čeká se na ověření e-mailem",
+            "securityQuestion": "Bezpečnostní otázka",
+            "securityAnswer": "Odpověď na bezpečnostní otázku",
+            "mobilePhoneNumber": "Číslo mobilního telefonu",
+            "deskPhoneNumber": "Alternativní telefonní číslo",
+            "countryOfResidence": "Země pobytu",
+            "sector": "Sektor",
+            "function": "Funkce",
+            "jobTitle": "Název pracovní pozice",
+            "userDataRooms": {
+              "dataRoomName": "Název datového pokoje",
+              "status": "Stav",
+              "teamName": "Název týmu",
+              "role": "Role",
+              "enterDataRoom": "Zadejte datovou místnost"
+            }
+          },
+          "rowActions": "Akce řádků uživatelů"
+        }
+      }
+    },
+    "customerSupport": {
+      "title": "Tým zákaznických služeb",
+      "content": "Jsme vám k dispozici 24 hodin denně, 7 dní v týdnu\nOdeslat zprávu prostřednictvím formuláře, e-mail ({{supportEmail}})\nnebo nám zavolejte: {{phone}}",
+      "button": {
+        "cancel": "Zrušit",
+        "sendMessage": "Odeslat zprávu"
+      },
+      "placeholder": "Řekněte nám, co se stalo",
+      "errorMessage": "Toto pole je povinné",
+      "header": {
+        "close": "Zavřít"
+      },
+      "internationalNumbers": "Mezinárodní čísla",
+      "messageHeader": "Zpráva",
+      "toasts": {
+        "failure": "Vaši zprávu nebylo možné doručit, zkuste to prosím znovu později.",
+        "success": "Vaše zpráva byla úspěšně odeslána."
+      }
+    },
+    "contents": {
+      "contents": "Obsah",
+      "contentsTree": "Index",
+      "contentsTreeEmptyState": "Žádné soubory v datové místnosti",
+      "contentsTreeNodeAriaLabel": "Možnosti nabídky pro {{itemName}}",
+      "startReviewOnOpen": "Dokument čeká na kontrolu",
+      "openOrStartReviewDialog": {
+        "title": "Dokument čeká na kontrolu",
+        "content": "Tento dokument čeká na kontrolu. Můžete jej otevřít, abyste četli normálně, nebo můžete zahájit proces kontroly.",
+        "decision": "Co chcete udělat?",
+        "extraConfirm": "Otevřít pouze",
+        "confirm": "Zahájit kontrolu"
+      },
+      "contentList": {
+        "header": {
+          "creationDate": "Datum přidání",
+          "name": "Název",
+          "numbering": "Č.",
+          "rootIndex": "Kořenový index",
+          "labels": "Štítky",
+          "selectAllRows": {
+            "fetchingTooltip": "Načítání položek..."
+          }
+        },
+        "body": {
+          "moreLabels": "+{{count}}",
+          "sessionsTooltip": "Nejprve musíte publikovat relaci, abyste odemkli přidávání štítků k položce",
+          "labelPopover": {
+            "createNew": "Vytvořit nový",
+            "placeholder": "Název štítku...",
+            "labels": "Štítky",
+            "add": "Přidat",
+            "error": {
+              "labelExists": "Jméno je již obsazeno"
+            }
+          },
+          "labelDeleteModal": {
+            "content": "Odstranit štítek?"
+          }
+        },
+        "dragAndDropAvailableInfo": "Soubory můžete také začít nahrávat přetažením.",
+        "sort": {
+          "buttonText": "Seřadit",
+          "options": {
+            "numberAsc": "Vzestupné číslo",
+            "numberDesc": "Počet sestupných",
+            "nameAsc": "Jméno vzestupně",
+            "nameDesc": "Název sestupně",
+            "newest": "Nejnovější",
+            "oldest": "Nejstarší",
+            "popularity": "Popularita"
+          }
+        }
+      },
+      "documentDetails": {
+        "header": "Podrobnosti dokumentu",
+        "name": "Název",
+        "dateAdded": "Datum přidání",
+        "uploadedBy": "Nahrál/a",
+        "conversionStatus": "Stav konverze",
+        "conversionStatuses": {
+          "conversionCompleted": "Konverze dokončena",
+          "none": "Žádné",
+          "processing": "Zpracování",
+          "conversionFailed": "Nelze převést soubor",
+          "searchable": "Lze vyhledávat",
+          "notSearchable": "Nelze vyhledávat"
+        },
+        "statusDate": "Datum stavu",
+        "convertedFileSize": "Velikost převedeného souboru",
+        "nativeFileSize": "Velikost nativního souboru",
+        "nativeFileType": "Typ nativního souboru",
+        "pageCount": "Počet stránek",
+        "irm": {
+          "labelText": "IRM (Správa práv k informacím)",
+          "irmOptions": {
+            "no": "Ne",
+            "yes": "Ano"
+          }
+        },
+        "statusDetails": "Podrobnosti o stavu",
+        "statusesDetails": {
+          "passwordProtected": "Soubor je chráněn heslem.",
+          "unidentifiedIssue": "Neidentifikovaný problém.",
+          "fileCouldNotBeConverted": "Soubor nelze převést."
+        },
+        "reviewStatus": "Stav kontroly",
+        "startReview": "Zahájit kontrolu",
+        "finishReview": "Dokončit kontrolu",
+        "contactSupport": "Kontaktujte tým zákaznických služeb",
+        "thumbnailPreview": "Náhled miniatury",
+        "thumbnailFailed": "Miniatura se nezdařila",
+        "next": "Další",
+        "prev": "Předchůdce",
+        "reviewing": "Kontrola",
+        "pending": "Čeká na vyřízení",
+        "returnedComplete": "Vráceno dokončeno",
+        "returnedIncomplete": "Vráceno neúplné",
+        "selectReviewStatus": "Vyberte stav kontroly"
+      },
+      "bulkRename": {
+        "bulkRename": "Hromadné přejmenování",
+        "newName": "Nový název",
+        "noItemsHeaderText": "Nic k zobrazení",
+        "noItemsSecondaryText": "Vyberte jiný index/složku",
+        "toastMessages": {
+          "success": "Položky byly úspěšně přejmenovány:",
+          "importSuccess": "Hromadné přejmenování kanálu bylo úspěšně importováno",
+          "importInProgressMessage": "Probíhá import hromadného přejmenování kanálu...",
+          "failure": "Nelze přejmenovat položky:",
+          "sessionLockFailure": "Nelze upravit položky: {{count}}. Jsou uzamčeny jiným uživatelem.",
+          "invalidFormat": "Nelze importovat kanál hromadného přejmenování. Soubor musí být ve formátu XLSM.",
+          "unrecognisedFileStructure": "Nelze importovat kanál hromadného přejmenování. Strukturu souborů nebylo možné rozpoznat.",
+          "importAlreadyInProgress": "Hromadné přejmenování nelze použít, protože probíhá import. Zkuste to znovu později.",
+          "someItemsNotAccessible": "Položky v následujících buňkách neexistují nebo pro vás již nejsou přístupné: {{cells}}",
+          "invalidNames": "Názvy uvedené v následujících buňkách obsahují neplatné znaky: {{cells}}",
+          "genericError": "Nelze importovat hromadné přejmenování kanálu"
+        },
+        "exportFeed": {
+          "buttonName": "Export",
+          "success": {
+            "title": "Příprava hromadného přejmenování podavače",
+            "link": "Zobrazit frontu"
+          },
+          "failure": {
+            "title": "Nelze exportovat kanál pro hromadné přejmenování"
+          }
+        },
+        "importFeed": {
+          "buttonName": "Importovat"
+        },
+        "searchPlaceholder": "Hledat název položky...",
+        "itemsFound": "Nalezené položky:",
+        "removeAll": "Odebrat vše",
+        "ignore": "Ignorovat",
+        "cantModifyItemNamePrompt": "Nemáte oprávnění upravovat název této položky."
+      },
+      "hide": "Skrýt",
+      "show": "Zobrazit",
+      "contentsRootLogoAlt": "Kořenové logo obsahu",
+      "assignForReview": "Přiřadit ke kontrole",
+      "assignAnotherUserForReview": "Přiřadit jiného uživatele",
+      "finishReview": "Dokončit kontrolu",
+      "add": "Přidat",
+      "folder": "Složka",
+      "placeholder": "Zástupný symbol",
+      "shortcut": "Zkratka",
+      "hyperlink": "Odkaz na adresu URL",
+      "upload": "Nahrát",
+      "collapseAll": "Sbalit vše",
+      "expandAll": "Rozbalit vše",
+      "editProperties": "Upravit vlastnosti",
+      "reviewStartedSuccess": "Kontrola dokumentu byla úspěšně zahájena",
+      "reviewStartedFailure": "Nelze spustit kontrolu dokumentu",
+      "backReviewToPending": "Zpět na čekající kontrolu",
+      "backToPendingSuccess": "Stav dokumentu byl úspěšně změněn",
+      "backToPendingFailure": "Nelze změnit stav dokumentu",
+      "withdrawFromReview": "Odvolat z kontroly",
+      "withdrawSuccess": "Dokument byl úspěšně odvolán",
+      "withdrawFailure": "Nelze stáhnout dokument",
+      "assignForReviewForm": {
+        "selectReviewers": "Vybrat kontrolory",
+        "setDate": "Nastavit termín",
+        "selectDate": "Vybrat datum",
+        "addComment": "Přidat komentář",
+        "typeComment": "Typ komentáře",
+        "sendReview": "Odeslat ke kontrole",
+        "successMessage": "Dokumenty přiřazené ke kontrole úspěšně: {{count}}",
+        "failureMessage": "Nelze přiřadit dokumenty ke kontrole: {{count}}"
+      },
+      "indexExport": {
+        "toast": {
+          "error": {
+            "title": "Příprava balíčku ke stažení selhala."
+          },
+          "success": {
+            "title": "Příprava balíčku ke stažení.",
+            "link": "Zobrazit frontu"
+          }
+        }
+      },
+      "assignAnotherUserForReviewForm": {
+        "successMessage": "Uživatelé přiřazení k dokumentu úspěšně",
+        "failureMessage": "Nelze přiřadit uživatele k dokumentu"
+      },
+      "finishReviewForm": {
+        "finishReview": "Dokončit kontrolu",
+        "successMessage": "Revize dokumentů byly úspěšně dokončeny: {{count}}",
+        "failureMessage": "Nelze dokončit recenze dokumentů: {{count}}",
+        "commentRequired": "Je požadován komentář",
+        "completeStatus": "Vyberte stav kontroly"
+      },
+      "addItemForm": {
+        "addFolder": "Přidat složku",
+        "close": "Zavřít",
+        "enterFolderName": "Zadejte název složky",
+        "remove": "Odebrat",
+        "addNext": "Přidat další",
+        "save": "Uložit",
+        "cancel": "Zrušit",
+        "folderNameEmptyErrorMessage": "Je vyžadován název složky.",
+        "folderNameContainsInvalidCharacters": "Zadaný název složky obsahuje neplatné znaky.",
+        "folderCreateSuccess": "Složky byly úspěšně vytvořeny: {{count}}",
+        "folderCreateFailure": "Nelze vytvořit složky: {{count}}",
+        "addIndex": "Přidat rejstřík",
+        "indexNameEmptyErrorMessage": "Název indexu je povinný.",
+        "indexNameContainsInvalidCharacters": "Zadaný název indexu obsahuje neplatné znaky.",
+        "enterIndexName": "Zadejte název indexu",
+        "indexAlreadyExists": "Tato datová místnost již obsahuje index s názvem {{name}}.",
+        "indexCreateSuccess": "Index byl úspěšně vytvořen.",
+        "indexCreateFailure": "Nelze vytvořit index.",
+        "addPlaceholder": "Přidat zástupný symbol",
+        "placeholderNameEmptyErrorMessage": "Název zástupce je povinný údaj.",
+        "placeholderNameEmptyErrorMessageNameContainsInvalidCharacters": "Zadaný zástupný znak obsahuje neplatné znaky.",
+        "enterPlaceholderName": "Zadejte název zástupce",
+        "placeholderCreateSuccess": "Zástupné symboly byly úspěšně vytvořeny: {{count}}",
+        "placeholderCreateFailure": "Nelze vytvořit zástupné symboly: {{count}}",
+        "addHyperlink": "Přidat odkaz URL",
+        "hyperlinkCreateSuccess": "Odkazy URL byly úspěšně vytvořeny: {{count}}",
+        "hyperlinkCreateFailure": "Nelze vytvořit odkazy URL: {{count}}",
+        "itemUploadSuccess": "Nahrávání dokončených {{count}} položek.",
+        "itemUploadFailure": "Nelze nahrát položky: {{count}}",
+        "itemReplaceSuccess": "Jednotka byla úspěšně nahrazena",
+        "itemReplaceFailure": "Položku nelze nahradit.",
+        "itemReplaceNonexistingItem": "Položku nelze nahradit, protože neexistuje nebo byla změněna. Obnovte stránku.",
+        "invalidUrl": "Odkaz URL není platný.",
+        "hyperlinkNameEmptyErrorMessage": "Název odkazu URL je povinný údaj.",
+        "enterHyperlinkName": "Zadejte název odkazu URL",
+        "enterUrl": "Zadejte adresu URL odkazu webové stránky",
+        "addShortcut": "Přidat zástupce",
+        "enterItemName": "Zadejte název položky",
+        "enterShortcutName": "Zadejte název zástupce",
+        "searchAndSelect": "Vyhledat a vybrat",
+        "noOptions": "Nebyla nalezena žádná shoda",
+        "shortcutNameEmptyErrorMessage": "Název zástupce je povinný.",
+        "shortcutRefIsMandatory": "Je vyžadována referenční položka zástupce.",
+        "shortcutRefLeadsToTempFolderWarning": "Zkratka vede do složky Temp a nemusí být viditelná pro všechny uživatele v datové místnosti.",
+        "shortcutCreateSuccess": "Zkratky byly úspěšně vytvořeny: {{count}}",
+        "shortcutCreateFailure": "Nelze vytvořit zástupce: {{count}}",
+        "defaultEmptyItemNameMessage": "Název položky je prázdný",
+        "defaultItemNameContainsInvalidCharactersMessage": "Název položky obsahuje neplatné znaky",
+        "defaultAddItemMessage": "Přidat položku",
+        "defaultEnterItemName": "Zadejte název položky",
+        "defaultItemName": "Název položky",
+        "defaultItemCreateSuccess": "Vytvoření jednotky bylo úspěšné",
+        "defaultItemCreateFailure": "Vytvoření jednotky se nezdařilo",
+        "autoNumbering": {
+          "autoNumbering": "Automatické číslování",
+          "prefix": "Předpona",
+          "enterPrefix": "Zadejte předponu",
+          "convention": "Konference",
+          "defineCustomConvention": "Definovat vlastní konvenci",
+          "none": "Žádné",
+          "numeric": "Číselná",
+          "alphabetic": "Abecední",
+          "roman": "Římská",
+          "custom": "Vlastní",
+          "result": "Výsledek",
+          "descriptionHeader": "Můžete použít následující symboly:",
+          "numberDescription": "znamená číslo",
+          "upperCaseLetterDescription": "znamená velké písmeno",
+          "lowerCaseLetterDescription": "znamená malé písmeno",
+          "upperCaseRomanNumberDescription": "znamená velké římské číslo",
+          "lowerCaseRomanNumberDescription": "znamená malé římské číslo",
+          "numberingConventionIncorrectErrorMessage": "Zadaný vzorec číslování je nesprávný. Viz pokyny.",
+          "customConventionEmptyErrorMessage": "Vlastní konvence je povinná.",
+          "customConventionPlaceholder": "Vstupte na konferenci"
+        },
+        "applyHiddenPermissionLabel": "Použít skryté oprávnění",
+        "hint": {
+          "header": "Dědičnost oprávnění",
+          "message": "Upozorňujeme, že zástupce zdědí oprávnění z cílové položky."
+        }
+      },
+      "editItem": {
+        "index": {
+          "success": "Vlastnosti indexu byly úspěšně aktualizovány.",
+          "failure": "Nelze aktualizovat vlastnosti indexu.",
+          "name": "Název indexu"
+        },
+        "hyperlink": {
+          "success": "Vlastnosti odkazu URL byly úspěšně aktualizovány.",
+          "failure": "Nelze aktualizovat vlastnosti odkazu URL.",
+          "name": "Název hypertextového odkazu",
+          "url": "Odkaz na adresu URL"
+        },
+        "shortcut": {
+          "success": "Vlastnosti zástupce byly úspěšně aktualizovány.",
+          "failure": "Nelze aktualizovat vlastnosti zástupců.",
+          "name": "Název zkratky",
+          "itemName": "Název položky",
+          "hint": {
+            "header": "Dědičnost oprávnění",
+            "message": "Upozorňujeme, že zástupce zdědí oprávnění z cílové položky."
+          }
+        },
+        "item": {
+          "success": "Položka byla úspěšně přejmenována.",
+          "failure": "Položku nelze přejmenovat."
+        },
+        "placeholder": {
+          "name": "Název zástupce"
+        },
+        "document": {
+          "name": "Název dokumentu",
+          "nameIsMandatory": "Název dokumentu je povinný."
+        },
+        "folder": {
+          "name": "Název složky"
+        },
+        "defaultItem": {
+          "success": "Aktualizace jednotky byla úspěšná",
+          "failure": "Aktualizace jednotky se nezdařila"
+        },
+        "editItemNotFound": "Položku nelze upravit, protože neexistuje nebo byla změněna. Obnovte stránku."
+      },
+      "predefinedFolders": {
+        "favorites": "Oblíbené",
+        "tempFolder": "Dočasná složka",
+        "emailUpdates": "Aktualizace e-mailu",
+        "q&aAttachments": "Přílohy otázek a odpovědí",
+        "bin": "Koš",
+        "masterBin": "Hlavní zásobník",
+        "indexContainer": "Indexy"
+      },
+      "uploadFiles": {
+        "hint": {
+          "header": "Nahrávání prázdných složek.",
+          "message": "Při nahrávání struktury s prázdnými složkami použijte funkci přetažení."
+        },
+        "uploadTo": "Nahrát do:",
+        "selectFilesFrom": "Vybrat z",
+        "dragAndDropLine1": "Sem přetáhněte soubory",
+        "dragAndDropLine2": "Soubory, archivy, složky",
+        "fileExtensionIsNotSupported": "Přípona souboru {{extension}} není podporována.",
+        "fileExtensionsAreNotSupported": "Přípony souborů {{extensions}} a nejsou {{lastExtension}} podporovány.",
+        "fileWithoutExtensions": "Soubory nemají příponu: {{count}}",
+        "invalidFileName": "Názvy souborů obsahují neplatné znaky \\ / | * : \" ? < >: {{count}}",
+        "selectedItems": "Vybrané položky: {{count}}",
+        "removeAll": "Odebrat vše",
+        "addMoreFilesFrom": "Přidat další z",
+        "otherSources": "Další zdroje",
+        "cancel": "Zrušit",
+        "upload": "Nahrát",
+        "remove": "Odebrat",
+        "seeList": "Viz seznam",
+        "sourceNames": {
+          "localStorageFile": "Soubory místního úložiště",
+          "localStorageFolder": "Složky místního úložiště",
+          "googleDrive": "Disk Google",
+          "dropBox": "DropBox",
+          "oneDrive": "OneDrive",
+          "sharepoint": "Sdílený bod",
+          "boxCom": "Box.com"
+        },
+        "configurationSections": {
+          "options": "Možnosti",
+          "openUploadSettings": "Otevřít nastavení nahrávání",
+          "applyHiddenPermission": {
+            "sectionText": "Použít skryté oprávnění",
+            "options": {
+              "no": "Ne",
+              "yes": "Ano"
+            },
+            "description": "Dokument(y) budou skryty všem týmům nabízejícím a podnabídkám. Jinak bude použito oprávnění nadřazené složky."
+          },
+          "extractAllCompressedFiles": {
+            "sectionText": "Extrahovat všechny komprimované soubory",
+            "options": {
+              "no": "Ne",
+              "yes": "Ano"
+            }
+          },
+          "notify": {
+            "sectionText": "Upozornit",
+            "options": {
+              "no": "Ne",
+              "asPerUserSettings": "Podle uživatelských nastavení",
+              "immediatelyToUsersWithSettingsEnabled": "Okamžitě uživatelům s povoleným nastavením"
+            }
+          }
+        },
+        "uploadStatusPreview": {
+          "remainingUploadItems": "Nahrávání... Zbývající položky: {{count}}.",
+          "failedUploadItems": "Problémy: {{count}}.",
+          "showQueue": "Zobrazit frontu"
+        },
+        "cancelUploadConfirmationDialog": {
+          "title": "Zrušit nahrávání",
+          "content": {
+            "cancelQuestion": "Opravdu chcete zahodit nahrávání těchto souborů?",
+            "cancelConfirm": "Pokud potvrdíte, nahraný balíček bude vymazán."
+          },
+          "confirm": "Pokračovat",
+          "cancel": "Zrušit"
+        },
+        "lockedDestinationFolderMessage": "Akce nemůže být provedena. Soubory se nahrávají do této složky.",
+        "uploadFolderStructureCreationMessage": "Vytváření struktury složek pro nahrávání..."
+      },
+      "deleteItem": {
+        "delete": "Odstranit",
+        "deleteConfirmationDialog": {
+          "title": "Potvrdit odstranění",
+          "content": {
+            "delete": "Opravdu chcete odstranit vybranou položku (položky)?",
+            "deleteFromBin": "Opravdu chcete odstranit vybranou položku (položky) z koše?",
+            "deleteFromMasterBin": "Opravdu chcete trvale odstranit vybranou položku (položky)?"
+          }
+        },
+        "deleteItemSuccess": {
+          "delete": "Položky byly úspěšně odstraněny: {{count}}",
+          "deleteFromMasterBin": "Položky byly úspěšně odstraněny: {{count}}"
+        },
+        "deleteItemFailure": {
+          "delete": "Nelze odstranit položky: {{count}}",
+          "deleteFromMasterBin": "Nelze odstranit položky: {{count}}"
+        },
+        "deleteItemNotFound": "{{count}} jednotku (položky) nebylo možné odstranit. Položky neexistují nebo byly změněny. Obnovte stránku."
+      },
+      "emptyItem": {
+        "emptyItemConfirmationDialog": {
+          "title": "Potvrdit odstranění",
+          "content": {
+            "bin": "Opravdu chcete vyprázdnit zásobník?",
+            "masterBin": "Opravdu chcete vyprázdnit hlavní zásobník?"
+          }
+        },
+        "emptyItemSuccess": {
+          "bin": "Koš byl úspěšně vyprázdněn",
+          "masterBin": "Hlavní zásobník byl úspěšně vyprázdněn"
+        },
+        "emptyItemFailure": {
+          "bin": "Nelze vyprázdnit koš",
+          "masterBin": "Nelze vyprázdnit hlavní zásobník"
+        }
+      },
+      "favorites": {
+        "add": "Přidat do oblíbených",
+        "remove": "Odebrat z oblíbených",
+        "addSuccess": "Položky přidané do oblíbených: {{count}}",
+        "addFailure": "Nelze přidat položky do oblíbených: {{count}}",
+        "removeSuccess": "Položky odstraněné z oblíbených: {{count}}",
+        "removeFailure": "Nelze odebrat položky z oblíbených: {{count}}"
+      },
+      "copyItem": {
+        "success": "Položky byly úspěšně vloženy: {{count}}",
+        "failure": "Nelze vložit položky: {{count}}",
+        "itemNotFound": "Položky nelze vložit, protože neexistují nebo byly změněny.  Obnovte stránku.",
+        "targetNotValid": "Položky nelze vložit do žádné z kopírovaných položek.",
+        "targetCannotBeTempFolder": "{{count}} Zkratku(y) nelze vložit. Nemůžete vložit zkratky do složky Temp."
+      },
+      "moveItem": {
+        "success": "Přesunutí položek: {{count}}",
+        "failure": "Nelze přesunout položky: {{count}}",
+        "itemNotFound": "{{count}} jednotky nebylo možné přesunout, protože jednotky neexistují nebo byly změněny. Obnovte stránku.",
+        "targetNotValid": "Položky nelze vložit do žádného z řezaných.",
+        "moveToInvalidTarget": "Položky nelze přesunout k přesunutým položkám.",
+        "moveToHiddenFolderConfirmationDialog": {
+          "title": "Jedna nebo více položek bude skryto na novém místě",
+          "content": "Opravdu chcete pokračovat?",
+          "confirm": "Ano",
+          "cancel": "Ne"
+        }
+      },
+      "shortcuts": {
+        "brokenShortcutConfirmationDialog": {
+          "title": "Neplatný zástupce",
+          "content": "Soubor propojený s touto klávesovou zkratkou byl odstraněn. Již není přístupný.\nCo chcete udělat?"
+        },
+        "deleteShortcut": "Odstranit zástupce"
+      },
+      "uploadQueue": {
+        "status": {
+          "failed": "Neúspěšný",
+          "success": "Úspěch",
+          "cancelled": "Zrušeno",
+          "partiallyFinished": "Částečně dokončeno"
+        },
+        "drawerTitle": "Nahrát frontu",
+        "button": {
+          "close": "Zavřít",
+          "minimise": "Minimalizace",
+          "cancel": "Zrušit",
+          "cancelAll": "Zrušit vše"
+        },
+        "emptyQueueMessageHeader": "Žádné položky ve frontě",
+        "emptyQueueMessageContent": "všechna nahrávání byla dokončena",
+        "closeDrawerConfirmationDialog": {
+          "title": "Zavřít frontu nahrávání",
+          "content": "Opravdu chcete zavřít frontu nahrávání? Všechny informace týkající se selhání nahrávání budou ztraceny.",
+          "confirm": "Pokračovat",
+          "cancel": "Zrušit"
+        },
+        "cancelUploadConfirmationDialog": {
+          "title": "Zrušit nahrávání",
+          "content": "Opravdu chcete nahrávání těchto souborů zrušit?\n\nTyto soubory budou z datové místnosti odstraněny spolu se všemi souvisejícími daty.",
+          "confirm": "Zrušit nahrávání",
+          "cancel": "Zlikvidovat"
+        },
+        "cancelAllUploadConfirmationDialog": {
+          "title": "Zrušit nahrávání",
+          "content": "Opravdu chcete nahrávání těchto souborů zrušit?\n\nTyto soubory budou z datové místnosti odstraněny spolu se všemi souvisejícími daty.",
+          "confirm": "Zrušit nahrávání",
+          "cancel": "Zlikvidovat"
+        }
+      },
+      "share": {
+        "drawerTitle": "Sdílet",
+        "button": {
+          "close": "Zavřít",
+          "cancel": "Zrušit",
+          "share": "Sdílet"
+        },
+        "documentLabel": "Dokument",
+        "emailAddresses": "Přidat e-mailové adresy",
+        "addComment": "Přidat komentář",
+        "validationMessage": "Zadejte formát: name@example.com ",
+        "typeComment": "Zadejte komentář",
+        "success": "Dokument byl úspěšně sdílen",
+        "failure": "Sdílení dokumentu se nezdařilo. Zkuste to znovu.",
+        "failureNotification": "Neznámý typ dokumentu."
+      },
+      "markItem": {
+        "asViewed": {
+          "buttonText": "Označit jako zobrazované",
+          "success": "Položky označené jako úspěšně zobrazené: {{count}}",
+          "failure": "Nelze označit položky jako zobrazené: {{count}}"
+        },
+        "asUnviewed": {
+          "buttonText": "Označit jako nezobrazované",
+          "success": "Položky byly úspěšně označeny jako nezobrazované: {{count}}",
+          "failure": "Nelze označit položky jako nezobrazované: {{count}}"
+        }
+      },
+      "reprocess": {
+        "buttonText": "Znovu zpracovat",
+        "success": "Opětovné zpracování jednotky proběhlo úspěšně",
+        "failure": "Položku nelze znovu zpracovat",
+        "itemNotFound": "Položku nebylo možné znovu zpracovat, protože neexistuje nebo byla změněna. Obnovte stránku.",
+        "processingDialog": {
+          "title": "Dokument není k dispozici",
+          "content": "Tuto akci nelze provést, soubor se zpracovává.",
+          "confirm": "Mám to"
+        }
+      },
+      "replaceCorrected": {
+        "buttonText": "Výměna opravena",
+        "itemReplaceCorrectedSuccess": "Jednotka byla úspěšně nahrazena",
+        "itemReplaceCorrectedFailure": "Položku nelze nahradit",
+        "itemReplaceCorrectedNonexistingItem": "Položku nelze nahradit, protože neexistuje nebo byla změněna. Obnovte stránku.",
+        "processingDialog": {
+          "title": "Dokument není k dispozici",
+          "content": "Tuto akci nelze provést, soubor se zpracovává.",
+          "confirm": "Zavřít"
+        }
+      },
+      "bulkDownload": {
+        "openBulkDownloadDialog": {
+          "title": "Hromadné stahování zakázáno",
+          "content": "Hromadné stahování pro tento projekt není momentálně povoleno. Soubory lze stahovat po jednom.\n\nPokud si myslíte, že by to mělo být povoleno, požádejte o pomoc náš tým <0>Tým zákaznických služeb</0> zákaznických služeb.",
+          "confirm": "Zavřít"
+        }
+      },
+      "openPdfViewer": {
+        "openCorruptedDialog": {
+          "title": "Poškozený dokument",
+          "content": "Tento dokument je poškozený a nelze jej zobrazit v prohlížeči PDF.\n\nPro další pomoc prosím kontaktujte náš tým zákaznických služeb.",
+          "confirm": "Zavřít"
+        },
+        "openPasswordProtectedDialog": {
+          "title": "Dokument chráněný heslem",
+          "content": "Dokument je chráněn heslem. Nelze jej zobrazit v prohlížeči PDF.\n\nPro další pomoc prosím kontaktujte náš tým zákaznických služeb.",
+          "confirm": "Zavřít"
+        },
+        "openBeingProcessedDialog": {
+          "title": "Dokument se zpracovává",
+          "content": "Dokument se zpracovává.\n\nPokud máte příslušné přístupové oprávnění, počkejte nebo vyberte možnost Stáhnout nativní z nabídky po kliknutí pravým tlačítkem myši. Případně se prosím obraťte na náš tým zákaznických služeb pro další pomoc.",
+          "confirm": "Zavřít"
+        },
+        "openConversionFailedDialog": {
+          "title": "Soubor nebyl převeden",
+          "content": "Tento dokument nelze převést na PDF a není k dispozici pro zobrazení online.\n\nPokud máte příslušné přístupové oprávnění, počkejte nebo vyberte možnost Stáhnout nativní z nabídky po kliknutí pravým tlačítkem myši. Případně se prosím obraťte na náš tým zákaznických služeb pro další pomoc.",
+          "confirm": "Zavřít"
+        },
+        "openNotAvilableOnlineDialog": {
+          "title": "Dokument není k dispozici online",
+          "content": "Tento dokument nelze zobrazit online.\n\nPokud máte příslušné přístupové oprávnění, vyberte si v nabídce po kliknutí pravým tlačítkem myši možnost Stáhnout nativní. Případně se prosím obraťte na náš tým zákaznických služeb pro další pomoc.",
+          "confirm": "Mám to"
+        }
+      },
+      "contentDownload": {
+        "title": "Vyberte dokumenty ke stažení",
+        "buttons": {
+          "prepareDownload": "Připravit stažení",
+          "expandAll": "Rozbalit vše",
+          "collapseAll": "Sbalit vše"
+        },
+        "toast": {
+          "error": {
+            "title": "Příprava balíčku ke stažení se nezdařila."
+          },
+          "success": {
+            "title": "Příprava balíčku ke stažení.",
+            "link": "Zobrazit frontu"
+          },
+          "warning": {
+            "title": "Názvy cest delší než {{count}} znaků mohou být zkráceny."
+          }
+        },
+        "totalSize": "Požadovaná velikost souboru (souborů) je {{totalSize}}.",
+        "warning": "Názvy cest delší než {{count}} znaků budou zkráceny.",
+        "downloadRestrictions": "Tato položka má omezení stahování a nelze ji zahrnout do hromadného stahování."
+      },
+      "downloadSelected": {
+        "button": "Stáhnout vybrané"
+      },
+      "permissionManagement": {
+        "title": "Oprávnění",
+        "emptyGrid": {
+          "header": "V datové místnosti nejsou žádné indexy ani týmy",
+          "message": "Nahrajte soubory nebo vytvořte Teams pro správu oprávnění."
+        },
+        "nothingToShow": {
+          "header": "Nic k zobrazení",
+          "message": "Změňte svůj vyhledávací dotaz."
+        },
+        "header": {
+          "teamName": "{{teamName}} Tým",
+          "reorderColumns": "Přetažením sloupce změníte pořadí"
+        },
+        "permissionLevels": {
+          "Hidden": "Skryto",
+          "FenceView": "Zobrazení plotu",
+          "View": "Zobrazit",
+          "Print": "Tisk",
+          "Download": "Stáhnout",
+          "Manage": "Spravovat"
+        },
+        "folderOnly": "Pouze složka",
+        "folderAndItems": "Složka a její položky",
+        "inherited": "(zděděné)",
+        "permissionLocked": {
+          "owner": "Při úpravách blokujete další uživatele v operacích obsahu a oprávnění.",
+          "other": "Oprávnění nelze upravovat. Jsou uzamčeny {{ userInfo }}",
+          "anotherUser": "jiný uživatel",
+          "upload": "Oprávnění nelze upravovat. Jsou uzamčeny, protože někteří uživatelé nahrávají soubory do datové místnosti. Zkuste to znovu později.",
+          "session": "Oprávnění nelze upravovat. Jsou uzamčeny z důvodu otevřených relací. Dokončete všechny relace publikováním nebo vrácením změn nebo kontaktujte správce obchodu, správce obsahu nebo správce branže."
+        },
+        "unlock": "Odemknout",
+        "takeOver": "Převzetí",
+        "contentsLockedByPermissions": "Indexy nelze upravovat. Jsou uzamčeny jiným uživatelem {{ userInfo }}.",
+        "exportFeed": {
+          "buttonName": "Exportovat kanál",
+          "errorMessage": "Nelze exportovat kanál povolení",
+          "unsavedChangesDialog": {
+            "title": "Exportovat kanál",
+            "message": "Kvůli neuloženým změnám\nkanál povolení nelze exportovat.\n\nNejprve uložte nebo zrušte změny.",
+            "confirmButton": "Zavřít"
+          },
+          "permissionLockedMessage": {
+            "owner": "Povolení jsou aktuáln? uzamknuta z d?vodu vašich nevy?ízených zm?n kanálu povolení.\nPo importu změn budou oprávnění opět k dispozici.",
+            "otherUser": "Oprávnění jsou aktuálně uzamčena uživatelem {{emailAddress}} z důvodu nevy?ízených zm?n kanálu povolení."
+          }
+        },
+        "takeOverDialog": {
+          "title": "Úprava oprávnění k převzetí",
+          "message": "Opravdu chcete převzít neuložené zm?ny povolení?\n\nBudete moci pokračovat v úpravách a jiný uživatel ztratí možnost provádět změny.",
+          "confirmButton": "Převzetí",
+          "cancelButton": "Zrušit"
+        },
+        "unlockDialog": {
+          "title": "Odemknout úpravy oprávnění",
+          "message": "Opravdu chcete odemknout oprávnění?\n\nPokud provedete potvrzení, všechny změny provedené jiným uživatelem budou ztraceny.",
+          "confirmButton": "Odemknout",
+          "cancelButton": "Zrušit"
+        },
+        "importFeed": {
+          "buttonName": "Importovat kanál",
+          "importInProgressMessage": "Probíhá import kanálu povolení...",
+          "importSuccess": "Kanál povolení byl úsp?šn? importován",
+          "errorMessage": {
+            "invalidFormat": "Nelze importovat kanál povolení. Soubor musí být ve formátu XLSM.",
+            "invalidFile": "Nelze importovat kanál povolení. Vyberte naposledy stažený soubor.",
+            "genericError": "Nelze importovat kanál povolení.",
+            "importInProgress": "Tuto operaci nelze v tuto chvíli provést. Probíhá import kanálu povolení. Počkejte, až skončí."
+          }
+        },
+        "filtering": {
+          "hint": {
+            "message": "Povolení ke kopírování se vztahují na celý strom obsahu"
+          },
+          "placeholder": "Hledat název položky..."
+        },
+        "viewing": {
+          "viewAsTeam": "Zobrazit jako tým: {{team}}",
+          "viewAs": "Zobrazit jako"
+        },
+        "copyPermissions": {
+          "button": {
+            "copy": "Kopírovat oprávnění",
+            "paste": "Vložit oprávnění od {{teamName}} týmu",
+            "applyToVisibleTeams": "Použít pro viditelné {{teamType}} týmy"
+          },
+          "errorMessage": "Nelze zkopírovat oprávnění do týmů: {{count}}"
+        },
+        "button": {
+          "publish": "Publikovat vše",
+          "cancel": "Zrušit",
+          "saveAsDraft": "Uložit jako koncept",
+          "revertSelected": "Vrátit vybrané"
+        },
+        "unsavedChangesDialog": {
+          "title": "Máte neuložené změny",
+          "content": "Chystáte se opustit tuto stránku s neuloženými změnami. Pokračováním budou všechny změny ztraceny.\n\nMůžete také zůstat na stránce nebo uložit změny jako koncept. Uložení jako koncept uchová povolení zamčená a bude vyžadovat, aby je převzal jiný uživatel, aby je upravil.\n\nJak chcete pokračovat?",
+          "discard": "Zrušit změny",
+          "stayOnPage": "Zůstaňte na stránce",
+          "saveAsDraft": "Uložit jako koncept"
+        },
+        "revertPermissions": {
+          "counter": "Vybrané položky: {{count}}",
+          "noItemsSelectedWarningMessage": "Nebyla vybrána žádná položka k vrácení.",
+          "errorMessage": "Změny nelze vrátit zpět."
+        },
+        "saveAsDraft": {
+          "noPermissionChangesWarning": "Nejsou žádné změny k uložení."
+        },
+        "publish": {
+          "dialog": {
+            "confirmButton": "Publikovat změny",
+            "cancelButton": "Zůstaňte na stránce",
+            "title": "Oprávnění k publikování",
+            "message": "Chystáte se publikovat změny povolení pro všechny položky v obsahu a všech týmech.\n\nOpravdu chcete pokračovat?"
+          },
+          "noPermissionsChangesPublishWarning": "Neexistují žádné změny k publikování."
+        }
+      },
+      "extractArchive": {
+        "buttonText": "Rozbalit",
+        "success": "Archivy byly úspěšně extrahovány: {{count}}",
+        "failure": "Nelze extrahovat archivy: {{count}}",
+        "failureDueToPasswordProtection": "Archivy nelze extrahovat z důvodu ochrany heslem: {{count}}",
+        "itemsNotExtracted": "'Položky nebyly extrahovány z důvodu nepodporovaných přípon souborů: {{count}}",
+        "buttonTextApplyHiddenPermission": "Rozbalit se skrytými povoleními",
+        "inProgress": "Probíhá extrahování archivu...",
+        "notFound": "Archivy nelze extrahovat, protože neexistují nebo byly změněny. Obnovte stránku."
+      },
+      "addQuestion": {
+        "buttonText": "Přidat otázku"
+      },
+      "showQuestions": {
+        "buttonText": "Zobrazit otázky"
+      },
+      "filtering": {
+        "applyFilters": "Použít filtry",
+        "cancel": "Zrušit",
+        "clearFilters": "Vymazat filtry",
+        "filter": "Filtr",
+        "results": "{{count}} Výsledky",
+        "filters": {
+          "addedDate": {
+            "label": "Přidáno",
+            "options": {
+              "anytime": "Kdykoli",
+              "lastVisit": "Od poslední návštěvy",
+              "last24h": "Za posledních 24 hodin",
+              "dateRange": "Ve specifickém rozsahu dat"
+            },
+            "addedDateFromPlaceholder": "Od",
+            "addedDateToPlaceholder": "Do",
+            "validation": {
+              "datesEmptyError": "Musí být uvedeno alespoň jedno datum.",
+              "startAfterEndDateError": "Po?áte?ní datum nem?že být pozd?jší než koncové datum."
+            }
+          },
+          "itemsCategory": {
+            "label": "Pouze zobrazení",
+            "options": {
+              "all": "Vše",
+              "assignedForReview": "Přiřazeno mně",
+              "favorites": "Oblíbené",
+              "printable": "Tisknutelné",
+              "nativeFiles": "Nativní soubory",
+              "viewedByUser": "Viděl jsem já",
+              "notViewedByUser": "Nezobrazil/a jsem",
+              "specificItemTypes": "Konkrétní typy položek"
+            }
+          },
+          "fileExtensions": {
+            "label": "Nativní typy souborů",
+            "placeholder": "Vybrat typ souboru",
+            "options": {
+              "Archives": "Archivy",
+              "CAD": "Soubory CAD",
+              "Documents": "Dokumenty",
+              "Images": "Obrázky",
+              "Others": "Ostatní",
+              "Presentations": "Prezentace",
+              "Spreadsheets": "Tabulky",
+              "Videos": "Videa"
+            }
+          },
+          "specificItemTypes": {
+            "placeholder": "Vybrat typy položek",
+            "options": {
+              "document": "Dokument",
+              "folder": "Složka/index",
+              "placeholder": "Zástupný symbol",
+              "shortcut": "Zkratka",
+              "hyperlink": "Odkaz na adresu URL"
+            }
+          },
+          "labels": {
+            "label": "Štítky",
+            "placeholder": "Vybrat štítky",
+            "allLabelsOptionLabel": "Všechny štítky"
+          },
+          "teams": {
+            "label": "Filtrovat týmy",
+            "placeholder": "Vybrat týmy",
+            "allTeamsOptionLabel": "Všechny týmy",
+            "allBiddersOptionLabel": "Všechny {{ externalName }} týmy",
+            "allSubsOptionLabel": "Všechny {{ internalName }} týmy",
+            "sellersTeams": "{{ internalName }} Týmy",
+            "biddersTeams": "{{ externalName }} Týmy"
+          },
+          "notViewedBy": {
+            "label": "Nezobrazil/a",
+            "placeholder": "Vybrat"
+          },
+          "viewedBy": {
+            "label": "Zobrazil/a",
+            "placeholder": "Vybrat"
+          }
+        }
+      },
+      "search": {
+        "backButtonLabel": "Zpět",
+        "changeLocationLabel": "Změňte umístění vyhledávání výběrem jiné složky ve stromu obsahu.",
+        "resultsLabel": "má za následek",
+        "types": {
+          "documentContent": "Doc. Obsah",
+          "indexNumber": "Číslo rejstříku",
+          "itemName": "Název položky"
+        }
+      },
+      "emailUpdates": {
+        "email": "ID e-mailu: {{email}}",
+        "emailId": "nahrát_{{referenceId}}@{{domain}}",
+        "copyEmail": "Zkopírujte e-mail do schránky. Tento e-mail použijte k odeslání souborů."
+      },
+      "session": {
+        "itemLockedByAnotherUser": "Tuto položku nelze upravit. Je uzamčen jiným uživatelem {{ userInfo }}.",
+        "itemLockedInSession": "V současné době probíhá otevřená relace, která brání dokončení akce. Chcete-li pokračovat, zkontrolujte relaci."
+      },
+      "lockedItemTooltip": {
+        "lockedByMe": "Položka je uzamčena pro úpravy.",
+        "lockedByOtherUser": "Položka je uzamčena pro úpravy jiným uživatelem.",
+        "lockedByOtherUserWithEmail": "Položka je uzamčena pro úpravy uživatelem {{ userInfo }}."
+      }
+    },
+    "dashboard": {
+      "dashboard": "Řídicí panel",
+      "hello": "Dobrý den",
+      "dealManager": "Manažer obchodu",
+      "checkDetails": "Zkontrolovat podrobnosti",
+      "dealManagerEmail": "E-mailová adresa",
+      "dealManagerMobile": "Číslo mobilního telefonu",
+      "noDataToDisplay": "Žádná data k zobrazení",
+      "somethingWentWrong": "Něco se pokazilo",
+      "dataRoomDocumentStatistics": {
+        "title": "Statistiky dokumentů datových místností",
+        "contentsOverview": "Přehled obsahu",
+        "documentsInTotal": "Dokumenty celkem",
+        "dataRoomDocumentSize": "Velikost",
+        "documentsInBin": "Dokumenty v zásobníku",
+        "documentsPendingConversion": "Dokumenty čekající na převod",
+        "processing": "Zpracování",
+        "failed": "Nezdařilo se",
+        "onlinePages": " Online stránky",
+        "notConvertedFileSize": "Velikost nepřevedených souborů"
+      },
+      "dataRoomChangesOverview": {
+        "title": "Přehled změn v datové místnosti",
+        "newDocuments": {
+          "title": "Nové dokumenty"
+        },
+        "questionsAwaitingAnswers": {
+          "title": "Nové otázky čekající na odpověď"
+        },
+        "newAnswers": "Nové odpovědi"
+      },
+      "footer": {
+        "customerServices": "Tým zákaznických služeb (24/7)",
+        "email": "E-mail",
+        "internationalNumbers": "Mezinárodní čísla",
+        "contactSupport": "Kontaktní formulář podpory",
+        "links": "Odkazy",
+        "giveFeedback": "Poskytnout zpětnou vazbu",
+        "bookTraining": "Rezervovat školení"
+      },
+      "dropdownTimeFilter": {
+        "sortOptions": {
+          "sinceLastVisit": "Od poslední návštěvy",
+          "last24Hours": "Posledních 24 hodin",
+          "last7Days": "Posledních 7 dní"
+        }
+      },
+      "warningOpenSessionFirst": "Máte otevřenou relaci, ",
+      "warningOpenSessionSecond": "nezapomeňte publikovat změny."
+    },
+    "teamsAndUsers": {
+      "title": "Týmy a uživatelé",
+      "tabs": {
+        "internal": {
+          "mainTeamName": "Hlavní obchodní tým",
+          "subTeamNameSingular": "Dílčí tým",
+          "subTeamNamePlural": "Dílčí týmy",
+          "defaultTeamName": "Podtým {{count}}"
+        },
+        "bidders": {
+          "teamNameSingular": "{{teamName}} Tým",
+          "teamNamePlural": "{{teamName}} Týmy",
+          "defaultTeamName": "Tým uchazečů {{count}}"
+        }
+      },
+      "userStatuses": {
+        "invited": "Pozvánka odeslána",
+        "active": "Aktivní",
+        "deleted": "Odstraněno",
+        "invitationExpired": "Platnost pozvánky vypršela",
+        "inactive": "Deaktivováno",
+        "invitationDrafted": "Pozvánka navržena",
+        "invitationSent": "Pozvánka odeslána",
+        "invitationRequestedByUser": "Požadována pozvánka"
+      },
+      "table": {
+        "header": {
+          "checkboxLabel": "Zkontrolujte všechny řádky u uživatelů pro tým {{teamName}}",
+          "name": "Název",
+          "status": "Stav",
+          "email": "E-mail",
+          "userRoles": "Role"
+        },
+        "roles": {
+          "UserMgrExt": "Správce uživatelů",
+          "QAndAModeratorExt": "Moderátor otázek a odpovědí",
+          "QAndAViewOnlyExt": "Pouze zobrazení otázek a odpovědí",
+          "QAndAParticipantExt": "Odborník na otázky a odpovědi",
+          "DealAdminInt": "Správce obchodu",
+          "UserMgrInt": "Správce uživatelů",
+          "QAndAModeratorInt": "Moderátor otázek a odpovědí",
+          "QAndAViewOnlyInt": "Pouze zobrazení otázek a odpovědí",
+          "QAndAReviewInt": "Kontrolor otázek a odpovědí",
+          "QAndAExpertInt": "Odborník na otázky a odpovědi",
+          "QAndAApproverInt": "Schvalovatel otázek a odpovědí",
+          "ContentMgrInt": "Správce obsahu",
+          "ContributorInt": "Přispěvatel",
+          "ReportMgrInt": "Správce zpráv",
+          "UserMgrSub": "Správce uživatelů",
+          "ContentMgrSub": "Správce obsahu",
+          "QAndAModeratorSub": "Moderátor otázek a odpovědí",
+          "QAndAViewOnlySub": "Pouze zobrazení otázek a odpovědí",
+          "QAndAReviewSub": "Kontrolor otázek a odpovědí",
+          "QAndAExpertSub": "Odborník na otázky a odpovědi"
+        },
+        "row": {
+          "checkboxLabel": "Zkontrolujte řádek u uživatele {{userName}}",
+          "actions": {
+            "actions": "Akce",
+            "label": "Akce uživatele",
+            "sendInvites": "Odeslat pozvánky",
+            "editDetails": "Upravit podrobnosti",
+            "changeTeam": "Změnit tým",
+            "resetPassword": "Resetovat heslo",
+            "setTemporaryPassword": "Nastavit dočasné heslo",
+            "activateUser": "Aktivovat",
+            "deactivateUser": "Deaktivovat",
+            "removeFromRoom": "Odstranit uživatele",
+            "deleteGDPR": "Odstranit GDPR"
+          }
+        },
+        "details": {
+          "function": "Funkce",
+          "mobilePhoneNumber": "Číslo mobilního telefonu",
+          "deskPhoneNumber": "Alternativní telefonní číslo",
+          "companyName": "Název společnosti",
+          "unregisterUser": "[\"Neregistrovaný uživatel\"]",
+          "emailVerificationtooltip": "Čeká se na ověření e-mailem"
+        },
+        "actions": {
+          "selectSingleRow": "Vybrat jeden řádek",
+          "rowsPerPage": "Počet řádků na stránku:",
+          "of": "z",
+          "next": "další",
+          "previous": "předchozí"
+        }
+      },
+      "buttons": {
+        "addTeam": "Přidat tým",
+        "inviteFirstUsers": "Pozvat uživatele do týmu",
+        "inviteUsers": "Pozvat uživatele",
+        "invite": "Pozvat",
+        "clearAll": "Vymazat vše",
+        "moreTiers": "Více úrovní",
+        "deleteTeam": "Odstranit tým",
+        "settings": "Nastavení",
+        "teamDeactivated": "[\"Tým deaktivován\"]",
+        "assignRoles": "Přiřadit role"
+      },
+      "drawer": {
+        "inviteUserTitle": "Pozvat uživatele",
+        "createTeamTitle": "Přidat tým",
+        "subtitle": "{{teamType}} tým \"{{teamName}}\"",
+        "teamName": "Název týmu",
+        "inputPlaceholder": "Do pole níže zadejte nebo vložte seznam e-mailů.",
+        "inviteByText": "Podle textu",
+        "copyPasteEmails": "Zadejte nebo zkopírujte a vložte e-mailové adresy",
+        "inviteByDropFile": "Sem přetáhněte svůj soubor",
+        "documentTypes": "Nahrát soubory Excel nebo CSV",
+        "howToFormatFile": "Podívejte se, jak naformátovat soubor",
+        "uploadFileTooltip": {
+          "hint1": "Sloupec „A“ označte v tabulce jako „E-mailová adresa“",
+          "hint2": "Vložte e-maily do sloupce „A“.",
+          "hint3": "Exportujte svůj soubor ve formátu Excel nebo CSV"
+        },
+        "messages": {
+          "checkTriangleForTooltip": "Označení uživatelé neobdrží pozvánky. Chcete-li zobrazit podrobnosti, najeďte myší na ikonu trojúhelníku vedle e-mailu.",
+          "invalidEmailFormat": "Nesprávný e-mailový formulář, použijte x@y.z nebo x@y.z.z.",
+          "subTeamNameAlreadyExists": "Název týmu již existuje. Vytvořte jiný název.",
+          "userAlreadyInTeam": "Pozvání nelze odeslat. Uživatel již byl do tohoto týmu pozván.",
+          "provideUniqueTeamName": "Název již existuje. Zadejte jedinečný název týmu.",
+          "userAlreadyInDataRoom": "Uživatel je členem jiného týmu. Pozvání nelze odeslat."
+        }
+      },
+      "settingsDrawer": {
+        "title": "Nastavení",
+        "tabs": {
+          "teamSettings": {
+            "title": "Nastavení týmu",
+            "teamStatus": "Stav týmu",
+            "notifications": "Oznámení",
+            "status": {
+              "active": "Aktivní",
+              "inactive": "Neaktivní"
+            },
+            "notificationInfo": "Poslat e-mailovou notifikaci p?i zm?n? stavu týmu na aktivní"
+          },
+          "security": {
+            "title": "Zabezpečení"
+          }
+        }
+      },
+      "UserDetailsDrawer": {
+        "title": "Upravit podrobnosti o uživateli",
+        "subTitle": "{{userName}} \"{{teamName}}\" {{teamType}}",
+        "AccountData": {
+          "title": "Údaje o účtu"
+        },
+        "successMessage": "Změny byly úspěšně uloženy.",
+        "errorMessage": "Nebyly uloženy žádné změny. Zkuste to prosím znovu.",
+        "emailAlreadyExists": "Tento e-mail nelze použít. Použijte jinou e-mailovou adresu."
+      },
+      "ChangeTeamDrawer": {
+        "title": "Změnit tým",
+        "subTitleSingular": "{{userCount}} vybrán uživatel. \"{{teamName}}\" {{teamType}}",
+        "subTitlePlural": "{{userCount}} vybraných uživatelů. \"{{teamName}}\" {{teamType}}",
+        "Body": {
+          "title": "Vyberte tým, do kterého chcete přesunout vybrané uživatele"
+        },
+        "successMessagePlural": "{{numberOfMovedUsers}} uživatelé byli přesunuti do jiného týmu.",
+        "errorMessagePlural": "Nelze přesunout uživatele: {{NumberofMovedUsers}}.",
+        "successMessageSingular": "Uživatel byl přesunut do jiného týmu.",
+        "errorMessageSingular": "Nelze přesunout uživatele."
+      },
+      "temporaryPasswordDrawer": {
+        "title": "Nastavit dočasné heslo",
+        "temporaryPasswordInfo": "Dočasné heslo je:",
+        "reloadButton": "Znovu načíst",
+        "passwordHint": "Heslo je platné pro jednorázové přihlášení a musí být změněno uživatelem.",
+        "doneButton": "Hotovo",
+        "resetPasswordError": "Heslo nelze změnit. Zkuste to prosím znovu."
+      },
+      "AssignRolesDrawer": {
+        "title": "Přiřazení rolí",
+        "tabs": {
+          "mainDealTeam": {
+            "title": "Hlavní obchodní tým"
+          },
+          "subTeams": {
+            "title": "Dílčí týmy"
+          },
+          "bidderTeams": {
+            "bidders": "Týmy uchazečů",
+            "externals": "Externí týmy",
+            "experts": "Týmy odborníků",
+            "buyers": "Týmy kupujících"
+          }
+        },
+        "roles": {
+          "UserMgrExt": "Uživatelský manažer",
+          "QAndAModeratorExt": "Moderátor",
+          "QAndAViewOnlyExt": "Pouze zobrazit",
+          "QAndAParticipantExt": "Odborník",
+          "DealAdminInt": "Správce obchodu",
+          "UserMgrInt": "Uživatelský manažer",
+          "QAndAModeratorInt": "Moderátor",
+          "QAndAViewOnlyInt": "Pouze zobrazit",
+          "QAndAReviewInt": "Kontrolor",
+          "QAndAExpertInt": "Odborník",
+          "QAndAApproverInt": "Schvalovatel",
+          "ContentMgrInt": "Manažer obsahu",
+          "ContributorInt": "Přispěvatel",
+          "ReportMgrInt": "Manažer hlášení",
+          "UserMgrSub": "Uživatelský manažer",
+          "ContentMgrSub": "Manažer obsahu",
+          "QAndAModeratorSub": "Moderátor",
+          "QAndAViewOnlySub": "Pouze zobrazit",
+          "QAndAReviewSub": "Kontrolor",
+          "QAndAExpertSub": "Odborník"
+        },
+        "roleTypes": {
+          "Admin": "Role správce",
+          "QAndA": "Role otázek a odpovědí"
+        },
+        "noTeamsText": "Zatím žádné týmy k zobrazení",
+        "emptyStateDescription": "Vytvořte nový tým a pozvěte uživatele.",
+        "successMessage": "Uživatelské role byly úspěšně přiřazeny.",
+        "errorMessage": "Nelze přiřadit role uživatele."
+      },
+      "messages": {
+        "invitationsSent": "Pozvánka byla úspěšně odeslána: {{count}}",
+        "invitationsSent_other": "Pozvánky byly úspěšně odeslány: {{count}}",
+        "teamCreateSuccess": "Tým byl úspěšně vytvořen.",
+        "teamUpdateSuccess": "Tým byl úspěšně aktualizován.",
+        "teamTabUpdateSuccess": "Změny uložené v: Nastavení.",
+        "teamTabSecurityUpdateSuccess": "Změny uložené v: Bezpečnost.",
+        "teamTabUpdateFail": "Změny nebyly uloženy v: Nastavení.",
+        "teamTabSecurityUpdateFail": "Změny nebyly uloženy v: Bezpečnost.",
+        "fileExtensionIsNotSupported": "Přípona souboru {{extension}} není podporována.",
+        "fileWrongFormat": "Obsah souboru nelze rozpoznat. Zkontrolujte soubor znovu.",
+        "oneFileOnly": "Soubory lze nahrát pouze 1 najednou.",
+        "emailsNotRecognized": "E-mailové adresy nebyly rozpoznány: {{count}}",
+        "noEmailRecognized": "E-mailová adresa nebyla rozpoznána.",
+        "teamDraftedSuccessPlurar": "Uživatelé byli přidáni do týmu {{teamName}}. Uživatelé nebyli upozorněni.",
+        "teamDraftedSuccessSingular": "Uživatel byl přidán do týmu {{teamName}}. Uživatel nebyl informován.",
+        "draftErrorSingular": "Uživatel nebyl přidán do týmu: {{teamName}}",
+        "draftErrorPlural": "Uživatelé nebyli přidáni do týmu: {{teamName}}",
+        "sendInvitesSuccessMessage": "Pozvánky byly úspěšně odeslány: {{numberOfUsers}}",
+        "sendInvitesFailureMessage": "Nelze odeslat pozvánky: {{numberOfUsers}}",
+        "sendInvitesErrorMessage": "Něco se pokazilo. Zkuste to prosím znovu.",
+        "sendInvitesRequestsSuccessMessage": "Žádost o pozvánku byla odeslána správcům obchodu: {{numberOfUsers}}",
+        "sendInvitesRequestsFailureMessage": "Nelze odeslat žádost o pozvánku: {{numberOfUsers}}",
+        "emptyTeam": "V tomto týmu nejsou žádní uživatelé"
+      },
+      "modal": {
+        "title": "Odebrat tým",
+        "content": {
+          "first": "Chystáte se odebrat ",
+          "second": "{{teamType}} týmu \"{{teamName}}\" z této datové místnosti.",
+          "third": "Odebráním tohoto týmu odeberete všechny uživatele.",
+          "fourth": "Tuto akci nelze vrátit zpět.",
+          "fifth": "Jak chcete pokračovat?"
+        },
+        "cancel": "Zrušit",
+        "delete": "Pokračovat",
+        "successMessage": "\"{{teamType}}\" tým \"{{teamName}}\" byl úspěšně odstraněn",
+        "errorMessage": "Nelze odstranit tým \"{{teamType}}\" \"{{teamName}}\""
+      },
+      "temporaryPasswordModal": {
+        "title": "Nastavit dočasné heslo",
+        "content": {
+          "first": "Opravdu chcete",
+          "second": "nastavit dočasné heslo pro vybraného uživatele?",
+          "third": "Aktuální heslo již nebude platné a nové heslo je jednorázové použití.",
+          "fourth": "Tento uživatel si bude muset po prvním přihlášení nastavit nové heslo.",
+          "fifth": "Tuto akci nelze vrátit zpět."
+        },
+        "setTemporaryPassword": "Nastavit dočasné heslo",
+        "errorMessage": "Nelze nastavit dočasné heslo."
+      },
+      "resetAnotherUserPasswordModal": {
+        "title": "Resetovat heslo",
+        "content": {
+          "first": "Opravdu chcete resetovat heslo pro vybrané uživatele?",
+          "second": "Vybraní uživatelé obdrží e-mail s odkazem, jak mohou resetovat svá hesla.",
+          "third": "Uživatelé nebudou mít přístup ke svému účtu, dokud nebude vytvořeno nové heslo."
+        },
+        "successMessage": "Hesla byla pro uživatele resetována: {{numberOfUsers}}",
+        "failureMessage": "Nelze resetovat heslo: {{numberOfUsers}}",
+        "resetPassword": "Resetovat heslo",
+        "errorMessage": "Heslo nelze resetovat."
+      },
+      "removeFromRoomModal": {
+        "title": "Odebrat uživatele z datové místnosti",
+        "content": {
+          "first": "Opravdu chcete tyto uživatele odebrat z datové místnosti?",
+          "second": "Pozvánky lze v budoucnu znovu odeslat."
+        },
+        "deleteUser": "Odebrat",
+        "successMessage": "Uživatelé úspěšně odebráni: {{numberOfExcludedUsers}}",
+        "errorMessage": "Nelze odebrat uživatele: {{numberOfExcludedUsers}}"
+      },
+      "activateUser": {
+        "title": "Aktivovat uživatele",
+        "content": {
+          "first": "Chcete uživateli poslat e-mail o aktivaci jeho účtu?"
+        },
+        "button": {
+          "dontSendAnEmail": "Neoznámit",
+          "sendAnEmail": "Upozornit"
+        },
+        "successMessage": "Uživatel byl úspěšně aktivován: {{numberOfActivatedUsers}}",
+        "errorMessage": "Uživatele nelze aktivovat: {{numberOfActivatedUsers}}"
+      },
+      "deactivateUsers": {
+        "processedUsersMessage": "Uživatelé byli úspěšně deaktivováni: {{numberOfDeactivatedUsers}}",
+        "unprocessedUsersMessage": "Nelze deaktivovat uživatele: {{numberOfDeactivatedUsers}}",
+        "errorMessage": "Zkuste to prosím znovu."
+      },
+      "deleteGdprModal": {
+        "title": "Odstranit uživatele podle nařízení GDPR",
+        "content": {
+          "first": "Opravdu chcete odebrat uživatele",
+          "second": "{{userEmail}}",
+          "third": "Již nebudou mít přístup ke svému účtu v britské librě a ",
+          "fourth": "nebudete moci tuto akci vrátit zpět."
+        },
+        "deleteUser": "Odstranit",
+        "successMessage": "Žádost o vymazání GDPR byla odeslána na podporu společnosti Sterling.  Počkejte prosím 48 hodin, než bude tato akce dokončena.",
+        "errorMessage": "Zkuste to prosím znovu."
+      }
+    },
+    "qa": {
+      "qa": "Otázky a odpovědi",
+      "qaSettings": "Nastavení otázek a odpovědí",
+      "qaLimits": "Omezení otázek a odpovědí",
+      "backToDefaultQnA": "Přejít zpět na výchozí otázky a odpovědi",
+      "questionsAndAnswers": "Otázky a odpovědi",
+      "addQuestion": "Přidat otázku",
+      "addAnswer": "Přidat odpověď",
+      "editQuestion": "Upravit otázku",
+      "editAnswer": "Upravit odpověď",
+      "addFollowUpQuestion": "Přidat následnou otázku",
+      "editRejectedQuestion": "Upravit zamítnutou otázku",
+      "editRejectedFollowUpQuestion": "Upravit zamítnutou následnou otázku",
+      "editRejectedAnswer": "Upravit zamítnutou odpověď",
+      "rejectionComment": "Komentář k zamítnutí",
+      "questionDetails": "Podrobnosti otázky",
+      "answerDetails": "Podrobnosti odpovědi",
+      "yourAnswer": "Odpověď",
+      "yourFollowUpQuestion": "Následná otázka",
+      "cancel": "Zrušit",
+      "saveDraft": "Uložit koncept",
+      "submit": "Odeslat",
+      "submitForApproval": "Odeslat ke schválení",
+      "submitAndApprove": "Schválit a odeslat",
+      "viewFollowUpQuestion": "Zobrazit následnou otázku",
+      "moderatorActions": "Akce moderátora",
+      "sendCommentForAssigment": "Odeslat komentář k přiřazení",
+      "approve": "Schválit",
+      "reject": "Odmítnout",
+      "viewQuestion": "Zobrazit otázku",
+      "moderateQuestion": "Střední otázka",
+      "moderateAnswer": "Střední odpověď",
+      "approveAnswer": "Schválit odpověď",
+      "sendToApprover": "Odeslat schvalovateli",
+      "sendToReviewer": "Odeslat kontrolorovi",
+      "viewAnswer": "Zobrazit odpověď",
+      "reviewAnswer": "Zkontrolovat odpověď",
+      "rejectQuestion": "Odmítnout otázku",
+      "rejectAnswer": "Odmítnout odpověď",
+      "saveChanges": "Uložit změny",
+      "changeCategoryAndAssign": "Změnit kategorii a přiřadit",
+      "commentTextIsMandatory": "Komentář je povinný.",
+      "answerQuestion": "Odpověď na otázku",
+      "suggest": "Navrhnout",
+      "suggestCategory": "Kategorie návrhu",
+      "suggestAnswerCategory": "Navrhnout kategorii odpovědí",
+      "stateACommentForSuggestion": "Uveďte komentář k návrhu",
+      "selectReviewer": "Vybrat kontrolora",
+      "assign": "Přiřadit",
+      "assignReviewer": "Přiřadit kontrolora",
+      "assignAnswerReviewerTo": "Přiřadit posuzovatele odpovědí k",
+      "assignReviewerCommentTitle": "Odeslat komentář k rozhodnutí",
+      "allCategoryReviewers": "Všichni hodnotitelé kategorií – {{category}}",
+      "stateComment": "Komentář státu",
+      "save": "Uložit",
+      "generalQuestion": "Obecná otázka",
+      "pleaseSelectAtLeastOneOption": "Vyberte alespoň jednu možnost",
+      "allCategoryExperts": "Všichni odborníci kategorie – {{categoryName}}",
+      "answer": "Odpověď",
+      "followUp": "Následné sledování",
+      "askYourQuestion": "Položit otázku",
+      "downloadAnswerLogs": "Stáhnout protokoly odpovědí",
+      "comment": "Komentář",
+      "makeYourAnswer": "Vytvořit odpověď",
+      "category": "Kategorie",
+      "answerCategory": "Kategorie odpovědí",
+      "assignAnswerTo": "Přiřadit odpověď na",
+      "users": "Uživatelé",
+      "dealAdmins": "Administrátoři obchodních příležitostí",
+      "priority": "Priorita",
+      "priorityLevel": {
+        "low": "Nízká",
+        "medium": "Střední",
+        "high": "Vysoká"
+      },
+      "saveDraftDialog": {
+        "content": "Přílohy nebudou uloženy ve vašich konceptech.\nAž budete připraveni odeslat, přidejte přílohy.\n\nOpravdu chcete koncept uložit bez příloh?",
+        "saveDraft": "Uložit koncept",
+        "stayOnPage": "Zrušit",
+        "saveAndDiscard": "Uložit a zrušit"
+      },
+      "cancelUploadDialog": {
+        "title": "Máte neuložené změny",
+        "content": "Chystáte se opustit tuto stránku bez uložení. Vaše položka se vrátí do stavu Koncept.\n\nOpravdu chcete zrušit nenahrané soubory?",
+        "discard": "Zrušit změny",
+        "stayOnPage": "Zůstaňte na stránce"
+      },
+      "teamSettings": "Nastavení týmu",
+      "notifications": "Oznámení",
+      "attachedItems": {
+        "attachedItems": "Připojené položky",
+        "uploadFile": "Nahrát soubor",
+        "clickOrDropFilesHere": "Klikněte sem nebo přetáhněte soubory",
+        "theyWillBeAttachedToYourQuestion": "Budou připojeny k vašemu dotazu",
+        "removeFile": "Odebrat soubor",
+        "unlinkItem": "Zrušit propojení položky",
+        "linkFiles": "Propojit soubory",
+        "useLinkingIcon": "Použít ikonu propojení na stromu obsahu",
+        "uploadIcon": "Ikona nahrávání"
+      },
+      "iUnderstand": "Rozumím",
+      "uploadedFileIsTooBig": "Nahraný soubor je příliš velký",
+      "assignmentSuccessfully": "Otázka byla úspěšně přiřazena.",
+      "assignmentFailed": "Otázka nemohla být přiřazena.",
+      "stateRejectionComment": "Uveďte komentář k zamítnutí",
+      "yourComment": "Váš komentář",
+      "commentIsRequired": "Komentář je povinný.",
+      "suggestCategoryEmptyMessage": "Kategorie odpovědi je povinná.",
+      "selectAnswerReviewerEmptyMessage": "Vyberte alespoň jednu možnost.",
+      "attachments": "Přílohy",
+      "itemNotAvailable": "Položka není k dispozici",
+      "QA_question_text_empty": "Text otázky je povinný.",
+      "QA_question_create_success": "Otázka byla úspěšně vytvořena.",
+      "QA_question_create_failure": "Nelze vytvořit otázku.",
+      "QA_question_delete_success": "Otázka byla úspěšně odstraněna.",
+      "QA_question_delete_failure": "Nelze odstranit otázku.",
+      "QA_answer_text_empty": "Text odpovědi je povinný.",
+      "QA_answer_create_success": "Odpověď byla úspěšně vytvořena.",
+      "QA_answer_create_failure": "Nelze vytvořit odpověď.",
+      "QA_question_edit_success": "Otázka byla úspěšně upravena.",
+      "QA_question_edit_failure": "Nelze upravit otázku.",
+      "QA_answer_edit_success": "Odpověď byla úspěšně upravena.",
+      "QA_answer_edit_failure": "Nelze upravit odpověď.",
+      "QA_answer_delete_success": "Odpověď byla úspěšně odstraněna.",
+      "QA_answer_delete_failure": "Nelze odstranit odpověď.",
+      "QA_attachment_too_big": "Váš soubor je příliš velký a nemůžeme jej uložit.\n\nNahrajte soubor o velikosti až 1GB.",
+      "QA_draft_qn_answ_fuq_create_success": "Koncept byl úspěšně vytvořen.",
+      "QA_draft_qn_answ_fuq_create_failure": "Nelze vytvořit koncept.",
+      "QA_suggest_category_external_success": "Návrh byl úspěšně odeslán.",
+      "QA_suggest_category_external_failure": "Odeslání návrhu se nezdařilo.",
+      "QA_sending_to_approver_success": "Úspěšně odesláno schvalovateli.",
+      "QA_sending_to_approver_failure": "Odeslání schvalovateli se nezdařilo.",
+      "QA_assignment_to_reviewer_success": "Úspěšné přiřazení kontrolorovi (kontrolorům).",
+      "QA_assignment_to_reviewer_failure": "Přiřazení kontrolorovi (kontrolorům) se nezdařilo.",
+      "QA_sending_reviewer_comment_success": "Přidán komentář ke kontrole.",
+      "QA_sending_reviewer_comment_failure": "Komentář ke kontrole se nezdařil.",
+      "QA_category_settings_save_success": "Změny byly uloženy do: Kategorie.",
+      "QA_category_settings_save_failure": "Zkuste to prosím znovu. Neuložené změny: Kategorie.",
+      "QA_attachments_settings_save_success": "Změny byly uloženy do: Přílohy.",
+      "QA_attachments_settings_save_failure": "Zkuste to prosím znovu. Neuložené změny: Přílohy.",
+      "QA_notifications_settings_save_success": "Změny byly uloženy do: Oznámení.",
+      "QA_notifications_settings_save_failure": "Zkuste to prosím znovu. Neuložené změny: Oznámení.",
+      "QA_limits_save_success": "Úspěšné uložení limitů otázek a odpovědí.",
+      "QA_limits_save_failure": "Uložení limitů otázek a odpovědí se nezdařilo.",
+      "QA_bulk_approve_success": "Schválené položky: {{count}}.",
+      "QA_bulk_approve_error": "Schvalování položek se nezdařilo.",
+      "QA_qn_visibility_set_success": "Viditelnost nitě (nití) byla úspěšně nastavena.",
+      "QA_qn_visibility_set_failure": "Nastavení viditelnosti vlákna (nití) se nezdařilo.",
+      "limitAlertAdd": "Bylo dosaženo limitu otázek.\nOtázku můžete uložit jako koncept.\n\nOhledně limitu otázek se prosím obraťte na svého manažera obchodu nebo tým <0></0> zákaznických služeb.",
+      "limitAlertModerate": "Bylo dosaženo limitu otázek.\n\nOhledně limitu otázek se prosím obraťte na svého manažera obchodu nebo tým <0></0> zákaznických služeb.",
+      "table": {
+        "title": "Seznam otázek"
+      },
+      "details": {
+        "id": "ID",
+        "author": "Autor",
+        "creationDate": "Datum vytvoření",
+        "statusUpdateDate": "Datum aktualizace stavu",
+        "status": "Stav",
+        "items": "+{{count}} položky",
+        "items_one": "+{{count}} položka",
+        "attributes": "Atributy"
+      },
+      "deleteModal": {
+        "questionTitle": "Odebrat otázku",
+        "answerTitle": "Odebrat odpověď",
+        "questionContentMainText": "Opravdu chcete odstranit tuto otázku: ",
+        "answerContentMainText": "Opravdu chcete odstranit tuto odpověď: ",
+        "contentSecondaryText": "Tato akce trvale odstraní tento prvek.",
+        "removeQuestion": "Pokračovat",
+        "removeAnswer": "Pokračovat"
+      },
+      "questionPrefix": "Otázka",
+      "answerPrefix": "A",
+      "requestMessages": {
+        "QA_question_submit_success": "Otázka byla úspěšně odeslána.",
+        "QA_question_submit_failure": "Nelze odeslat otázku.",
+        "QA_answer_submit_success": "Odpověď byla úspěšně odeslána.",
+        "QA_answer_submit_failure": "Nelze odeslat odpověď.",
+        "QA_qn_answ_fuqn_approve_success": "Položka byla úspěšně schválena.",
+        "QA_qn_answ_fuqn_approve_failure": "Položku nelze schválit.",
+        "QA_qn_answ_fuqn_reject_success": "Jednotka byla úspěšně zamítnuta.",
+        "QA_qn_answ_fuqn_reject_failure": "Položku nelze odmítnout."
+      },
+      "statuses": {
+        "draft": "Koncept",
+        "awaitinganswer": "Čeká se na odpověď",
+        "answersubmitted": "Odpověď odeslána",
+        "questionanswered": "Odpověď na otázku",
+        "awaitingapprovalexternal": "Čeká na schválení",
+        "awaitingapprovalinternal": "Čeká na schválení",
+        "awaitingapprovalanswer": "Čeká na schválení",
+        "awaitingfinalapproval": "Čeká na konečné schválení",
+        "rejected": "Zamítnuto",
+        "rejectedinternal": "Zamítnuto",
+        "rejectedanswer": "Zamítnuto"
+      },
+      "filters": {
+        "title": "Filtry otázek a odpovědí",
+        "internalTitle": "Interní filtry otázek a odpovědí",
+        "externalTitle": "Externí filtry otázek a odpovědí",
+        "itemStatus": "Stav položky",
+        "statusUpdated": "Stav aktualizován",
+        "sinceLastVisit": "Od poslední návštěvy",
+        "allStatuses": "Všechny stavy",
+        "chooseStatus": "Zvolit stav",
+        "chooseCategory": "Vybrat kategorii",
+        "questionCategory": "Kategorie otázky",
+        "assignee": "Přiřazený zaměstnanec",
+        "allQuestionCategories": "Všechny kategorie otázek",
+        "chooseAtLeastOneStatus": "Vyberte alespoň jeden stav.",
+        "anyone": "Kdokoli",
+        "chooseAtLeastOneCategory": "Vyberte alespoň jednu kategorii.",
+        "questionCreatedBy": "Otázka vytvořila",
+        "selectTeams": "Vybrat týmy",
+        "anyTeam": "Jakýkoli tým",
+        "myTeam": "Můj tým",
+        "chooseAtLeastOneTeam": "Vyberte alespoň jeden tým.",
+        "answerCategory": "Kategorie odpovědí",
+        "allAnswerCategories": "Všechny kategorie odpovědí",
+        "additionalStatuses": {
+          "rejectedQnswer": "Zamítnutá otázka",
+          "rejectedAnswer": "Zamítnutá odpověď",
+          "awaitingApprovalQuestion": "Čeká se na schvalovací otázku",
+          "awaitingApprovalAnswer": "Čeká se na odpověď na schválení"
+        },
+        "clearFilters": "Vymazat filtry",
+        "apply": "Použít",
+        "filter": "Filtr",
+        "cancel": "Zrušit"
+      },
+      "categoryTab": {
+        "categoryName": "Název kategorie",
+        "createNewCategory": "Vytvořit novou kategorii",
+        "questionModerators": "Moderátoři otázek",
+        "questionModerator": "Moderátor otázky",
+        "categoryExperts": "Odborníci na kategorie",
+        "categoryExpert": "Odborník na kategorii",
+        "answerModerators": "Moderátoři odpovědí",
+        "answerModerator": "Moderátor odpovědí",
+        "answerReviewers": "Recenzoři odpovědí",
+        "answerReviewer": "Posuzovatel odpovědí",
+        "turnOnAutoApprove": "Zapnout automatické schvalování",
+        "removeCategory": "Odebrat kategorii",
+        "newCategory": "Nová kategorie",
+        "emptyCategoryNameErrorMessage": "Toto pole je povinné",
+        "uniqueCategoryNameErrorMessage": "Název kategorie již existuje. Vytvořte prosím jiný název.",
+        "generalCategory": "Obecné",
+        "categoryRemoval": "Odebrat kategorii",
+        "warningModalPrimaryText": "Opravdu chcete odebrat tuto kategorii?",
+        "warningModalSecondaryText": "Když uložíte změny, budou všechny otázky a odpovědi této kategorie přiřazeny k <strong>{{generalCategoryName}}</strong>.",
+        "selectAtLeastOne": "Vyberte alespoň jednu možnost "
+      },
+      "attachmentsTab": {
+        "attachments": "Přílohy",
+        "teamsAllowedToAttachFiles": "Týmy, které mohou přikládat soubory",
+        "selectTeams": "Vybrat týmy",
+        "allTeams": "Všechny týmy",
+        "billingNote": "Fakturační poznámka: Dokumenty připojené k položkám otázek a odpovědí jsou hostovaná data.",
+        "externalTeams": "Externí týmy",
+        "subInternalTeams": "Dílčí interní týmy",
+        "mainDealTeam": "Hlavní obchodní tým"
+      },
+      "limitsDrawer": {
+        "setQnaLimits": "Nastavit limity otázek a odpovědí",
+        "warning": "Externí týmy nebudou moci přidávat otázky po splnění stanovených limitů.",
+        "qnaLimit": "Omezení otázek a odpovědí",
+        "numberOfQuestions": "Počet otázek",
+        "externalTeam": "Externí tým",
+        "noOfQuestions": "Počet otázek",
+        "limitsTypes": {
+          "None": "Žádné",
+          "TotalNumberOfQuestions": "Celkový počet otázek",
+          "Priority": "Priorita",
+          "Category": "Kategorie",
+          "CategoryAndPriority": "Kategorie a priorita"
+        },
+        "emptyState": {
+          "noQnaLimitsSet": "Nejsou nastaveny žádné limity otázek a odpovědí",
+          "message": "Chcete-li nastavit limity pro otázky a odpovědi, vyberte typ limitu z rozevíracího seznamu výše."
+        }
+      },
+      "visibilityDrawer": {
+        "setBulkVisibility": "Nastavení hromadné viditelnosti",
+        "revokeBulkVisibility": "Odvolání hromadné viditelnosti",
+        "setButton": "Nastavit",
+        "revokeButton": "Odvolat",
+        "cancelButton": "Zrušit",
+        "setVisibility": "Nastavit viditelnost",
+        "warningTitle": "Hromadná viditelnost",
+        "discardChangesButton": "Zrušit změny",
+        "allTeams": "Všechny týmy",
+        "revokeVisibility": "Zrušit viditelnost",
+        "setDescription": "Nastavení viditelnosti umožní ostatním týmům zobrazit vlákna z jiných týmů",
+        "revokeDescription": "Zrušení viditelnosti zakáže zobrazení ve vybraných vláknech pro vybrané týmy. Viditelnost pro tým autora nebude zrušena.",
+        "revokeVisibilityForThoseTeams": "Odvolat viditelnost pro tyto týmy",
+        "setVisibilityForThoseTeams": "Nastavit viditelnost pro tyto týmy",
+        "setVisibilitySuccess": "Viditelnost nitě (nití) byla úspěšně nastavena.",
+        "setVisibilityError": "Nastavení viditelnosti vlákna (nití) se nezdařilo.",
+        "revokeVisibilitySuccess": "Viditelnost nitě (nití) byla úspěšně zrušena.",
+        "revokeVisibilityError": "Odvolání viditelnosti vlákna (nití) se nezdařilo.",
+        "infoBox": "Externí týmy mohou vyžadovat další oprávnění.\n<0>Kontrolou zprávy s otázkami a odpověďmi zkontrolujte oprávnění.</0>",
+        "warningContent": "Viditelnost lze změnit pouze u schválených otázek. Další stavy budou z akce vynechány.\n\n Pouze {{processedItemsCount}} z {{selectedRootItemsCount}} vybraných nití budou znovu zpracovány, chcete je přesto nastavit?"
+      },
+      "export": {
+        "buttonText": "Exportovat kanál",
+        "success": "Informační kanál s otázkami a odpověďmi byl úspěšně exportován.",
+        "error": "Nelze exportovat informační kanál s otázkami a odpověďmi."
+      },
+      "import": {
+        "buttonText": "Importovat kanál",
+        "errorMessage": {
+          "invalidData": "U vašeho souboru se vyskytl problém (problémy), podívejte se do buňky (buňk): {{cells}}",
+          "invalidFormat": "Nelze importovat informační kanál s otázkami a odpověďmi. Soubor musí být ve formátu XLSX.",
+          "invalidFile": "Tento soubor aplikace Excel jsme nerozpoznali. Zkuste nahrát znovu.",
+          "questionLimitReached": "Byly přidány pouze {{questionLimit}} otázky. Pokud chcete přidat další, vytvořte nový soubor aplikace Excel se zbývajícími otázkami.",
+          "genericError": "Nelze importovat informační kanál s otázkami a odpověďmi."
+        },
+        "checkFileModal": {
+          "title": "Zkontrolovat soubor",
+          "content": "Ujistěte se, že importujete stejný soubor, který jste exportovali ze systému Sterling VDR dříve.\n\nVlastní soubor nebude přijat a importován.",
+          "confirmButtonText": "Potvrdit"
+        },
+        "successInternal": "Informační kanál s otázkami a odpověďmi byl úspěšně importován. Odpověď (odpovědi) byla úspěšně vytvořena.",
+        "successExternal": "Informační kanál s otázkami a odpověďmi byl úspěšně importován. Otázka (otázky) byla úspěšně vytvořena.",
+        "questionLimitReached": "Vytvořili jsme {{createdQuestions}} otázku(y) z {{totalNumberOfQuestions}} a bylo dosaženo limitu otázek.<br>Ohledně limitu otázek se prosím obraťte na svého manažera obchodu nebo tým <0></0> zákaznických služeb."
+      },
+      "threadVisibility": {
+        "authorTeam": "Tým autorů – {{teamName}}",
+        "additionalPermissions": "Externí týmy mohou vyžadovat další oprávnění",
+        "checkQnA": "Zkontrolujte zprávy o otázkách a odpovědích a zkontrolujte oprávnění",
+        "selectTeams": "Vybrat týmy",
+        "allTeams": "Všechny týmy",
+        "visibility": "Viditelnost"
+      }
+    },
+    "reports": {
+      "reports": "Zprávy"
+    },
+    "uploads": {
+      "uploads": "Nahrávky"
+    },
+    "downloads": {
+      "downloads": "Stahování",
+      "table": {
+        "header": {
+          "date": "Datum vytvoření",
+          "parent": "Nadřazená složka",
+          "name": "Název",
+          "fileSize": "Velikost souboru",
+          "status": "Stav",
+          "files": "Soubory"
+        },
+        "content": {
+          "fileCount": "{{completed}} z {{requested}}"
+        },
+        "status": {
+          "error": "Neúspěšné, zkuste to prosím znovu",
+          "preparing": "Příprava",
+          "preparingExcel": "Příprava aplikace Excel",
+          "preparingFailed": "Příprava se nezdařila",
+          "preparingPdf": "Příprava PDF",
+          "readyForDownload": "Připraveno ke stažení",
+          "downloadCompleted": "Stahování dokončeno"
+        },
+        "download": "Stáhnout"
+      },
+      "emptyQueue": {
+        "title": "Žádné položky k zobrazení",
+        "description": "Chcete-li provést hromadné stahování, použijte akci stahování složek na stránce <0>Obsah </0>."
+      }
+    },
+    "dataRoomSettings": {
+      "settings": "Nastavení",
+      "dataRoomSettings": "Nastavení datové místnosti",
+      "generalSettings": "Obecná nastavení",
+      "componentsSettings": "Nastavení komponent",
+      "allFeatures": "Všechny funkce",
+      "recommendedFeatures": "Doporučené funkce",
+      "recommendedFeaturesSubTitle": "Funkce, které mají významný dopad na vaši zkušenost s Data Room",
+      "optionalFeatures": "Volitelné funkce",
+      "optionalFeaturesSubTitle": "Funkce, které jsou volitelné, ale mají vliv na vaše pohodlí s Data Room",
+      "optionalSecurityFeatures": "Zabezpečení",
+      "optionalOtherFeatures": "Další funkce",
+      "contentManagement": "Správa obsahu",
+      "RequestUsersInvitation": "Vyžádat pozvánku uživatele",
+      "BulkDownload": "Hromadné stahování",
+      "ExcelViewer": "Prohlížeč Excel",
+      "Disclaimer": "Vyloučení odpovědnosti",
+      "viewers": "Prohlížeče",
+      "contents": "Obsah",
+      "silverTier": "Úroveň Silver",
+      "goldTier": "Zlatá úroveň",
+      "platinumTier": "Úroveň Platinum",
+      "versioning": "Verze",
+      "workWithDocuments": "Práce s dokumenty",
+      "qa": "Otázky a odpovědi",
+      "security": "Zabezpečení",
+      "workflow": "Pracovní postup",
+      "otherFeatures": "Další funkce",
+      "extraCharge": "Příplatek",
+      "followingFeaturesAvailable": "Za dodatečný poplatek jsou k dispozici následující funkce",
+      "Translation": "Online překlad",
+      "BulkRedaction": "Redigování",
+      "CadViewer": "Prohlížeč CAD",
+      "moreFunctionalitiesNeeded": "Potřebujete více funkcí?",
+      "checkSubscriptionPlans": "Zkontrolovat plány předplatného",
+      "CustomWatermarks": "Vodoznak",
+      "SimpleQnA": "Jednoduché otázky a odpovědi",
+      "advanced": "Pokročilé",
+      "extended": "Rozšířené",
+      "ExternalSideQnA": "Externí otázky a odpovědi",
+      "VersionHistory": "Historie verzí",
+      "MobileAccess": "Mobilní přístup",
+      "Redaction": "Redigování",
+      "Ocr": "OCR",
+      "PdfConversion": "Převod PDF",
+      "DocumentLinkSharing": "Sdílet dokumenty e-mailem",
+      "VersionComparison": "Porovnání verzí",
+      "VersionControl": "Řízení verzí",
+      "Sessions": "Relace",
+      "MsOfficeEditor": "Prohlížeč Excel",
+      "advancedQA": "Pokročilé otázky a odpovědi",
+      "extendedQA": "Rozšířené otázky a odpovědi",
+      "DealSideQnA": "Otázky a odpovědi na straně obchodu",
+      "IndexAutoNumbering": "Automatické číslování",
+      "CustomisedReports": "Zprávy",
+      "EmailInDocuments": "E-mail v dokumentech",
+      "EmailTab": "Karta E-mail",
+      "SingleSignOnIntegration": "Jednotné přihlášení",
+      "Irm": "Vylepšená ochrana MS Office",
+      "Drm": "Vylepšená ochrana PDF",
+      "AccessRestrictionByIpAddress": "Omezení IP",
+      "DocumentReviewWorkflow": "Pracovní postup revize dokumentu",
+      "CopyingContentFromExternalDrives": "Import dat třetích stran",
+      "ContentMigrationBetweenRooms": "Kopie obsahu místnosti",
+      "CustomTermsOfAccess": "Vyloučení odpovědnosti",
+      "mySubscription": "Moje předplatné",
+      "setExternalQA": {
+        "title": "Pokud změníte tok externích otázek a odpovědí",
+        "description": "Všechna dosud vytvořená data v externích otázkách a odpovědích <boldText>budou </boldText>ztracena, včetně",
+        "roles": "Role dotazů a odpovědí uživatelů",
+        "categories": "Kategorie otázek a odpovědí",
+        "assignments": "Přiřazení otázek a odpovědí",
+        "limits": "Omezení otázek a odpovědí",
+        "attachments": "Otázky a odpovědi budou pro externí uživatele deaktivovány",
+        "qaBackupMsg": "Pokud chcete vytvořit zálohu dosud vytvořených otázek a odpovědí, stáhněte si ji z",
+        "qaBackupMsgLinkText": "Zpráva o otázkách a odpovědích"
+      },
+      "setTranslation": {
+        "title": "Povolený překlad",
+        "extraCharge": "Výsledkem je fakturace <boldText>za</boldText> příplatek"
+      },
+      "majorChangesModal": {
+        "title": "Zkontrolovat změny",
+        "subtitle": "Tuto zprávu vidíte, protože jste provedli alespoň jednu z následujících změn, které budou mít pro datovou místnost zásadní důsledky",
+        "awareOfChangesCheckbox": "Jsem si vědom/a výsledků této akce"
+      },
+      "configuration": {
+        "saveFailed": "Změny se nezdařily.",
+        "saveSuccess": "Změny uloženy.",
+        "saveFailure": {
+          "cannotDisableSessionsErrorMessage": "Relace nelze deaktivovat. Nejprve publikujte nebo vraťte nevyřízené změny relace."
+        }
+      },
+      "disclaimers": {
+        "add": "Přidat zřeknutí se odpovědnosti",
+        "disclaimer": "Vyloučení odpovědnosti",
+        "disclaimers": "Vyloučení odpovědnosti",
+        "enterName": "Zadejte název vyloučení odpovědnosti",
+        "nameRequired": "Toto pole nemůže být prázdné",
+        "contentRequired": "Toto pole nemůže být prázdné",
+        "disclaimersList": "Seznam vyloučení odpovědnosti",
+        "disclaimersListMakeChanges": "Spravovat zřeknutí se odpovědnosti",
+        "disclaimersAssignment": "Přiřazení vyloučení odpovědnosti",
+        "disclaimersAssignmentCancelButton": "Zrušit",
+        "disclaimersAssignmentSaveButton": "Uložit",
+        "disclaimersAssignmentMakeChangesButton": "Upravit",
+        "name": "Název",
+        "createdBy": "Vytvořil/a",
+        "deletedUser": "Odstraněný uživatel",
+        "creationDate": "Datum vytvoření",
+        "globalDisclaimer": "Globální zřeknutí se odpovědnosti",
+        "sterlingTechnology": "Technologie libry LTD.",
+        "disclaimerText": "Text odmítnutí odpovědnosti",
+        "defaultDisclaimer": "Výchozí odmítnutí odpovědnosti",
+        "internal": "Interní",
+        "bidder": "Uchazeč",
+        "dealSide": "Strana obchodu",
+        "teamType": "Typ týmu",
+        "frequency": "Frekvence",
+        "agree": "Souhlasím",
+        "decline": "Odmítnout",
+        "addingSucceeded": "Byla přidána nová prohlášení o vyloučení odpovědnosti.",
+        "updateSucceeded": "Vyloučení odpovědnosti bylo aktualizováno.",
+        "addingFailed": "Vyloučení odpovědnosti nelze uložit. Zkuste to znovu nebo kontaktujte podporu.",
+        "updateFailed": "Nelze aktualizovat zřeknutí se odpovědnosti. Zkuste to znovu nebo kontaktujte podporu.",
+        "assignmentFrequency": {
+          "EveryTime": "Vždy",
+          "OnlyOnce": "Jednou",
+          "Never": "Nikdy"
+        },
+        "teamTypes": {
+          "MainDealTeam": "Hlavní obchodní tým",
+          "SubTeam": "Dílčí tým",
+          "BidderTeam": "Tým uchazeče"
+        }
+      },
+      "dataroomCustomizations": {
+        "dataroomCustomisation": "Přizpůsobení datových místností",
+        "subtitle": "Přizpůsobte barvy softwaru svým potřebám.",
+        "info": "Při úpravě zvažte barevný kontrast, aby byla viditelná textová vrstva.",
+        "primaryColor": "Primární barva",
+        "label": "Štítek",
+        "leftSideNavigation": "Navigace na levé straně",
+        "resetForm": "Obnovit výchozí",
+        "inputLabel": "Barva (#hex)",
+        "sucessMessage": "Změny uloženy.",
+        "failMessage": "Změny se nezdařily."
+      },
+      "messages": {
+        "successfullySaved": "Zm?ny byly úsp?šn? uloženy.",
+        "couldNotSave": "Změny nelze uložit."
+      },
+      "watermark": {
+        "watermark": "Vodoznak",
+        "watermarks": "Vodoznaky",
+        "watermarkSettings": "Nastavení vodoznaku",
+        "subTitle": "Konfigurace nastavení vodoznaku, které se zobrazí všem týmům s povolenou funkcí",
+        "displayText": "Zobrazit text",
+        "selectionNote": "Je vyžadován alespoň jeden výběr.",
+        "watermarkSetings": {
+          "isProjectNameEnabled": "Název projektu",
+          "isIndexNumberEnabled": "Číslo rejstříku",
+          "isCompanyEnabled": "Společnost",
+          "isFullNameEnabled": "Celé jméno",
+          "isEmailAddressEnabled": "E-mailová adresa",
+          "isIpAddressEnabled": "IP adresa",
+          "isDateTimeEnabled": "Datum/čas",
+          "customText": "Vlastní text",
+          "isAutoScaleEnabled": "Povolit automatické škálování"
+        },
+        "appearance": "Vzhled",
+        "selectColor": "Vybrat barvu:",
+        "opacity": "Neprůhlednost:",
+        "fontSize": "Velikost písma:",
+        "previewWatermark": "Náhled vodoznaku",
+        "customTextValue": "Důvěrné – není určeno k distribuci",
+        "enableWatermark": "Povolit vodoznak",
+        "preview": "Náhled",
+        "previewHint": "Síto papíru je nastaveno na A4. Použití různých formátů papíru bude mít za následek různé pozice značek. Zkontrolujte prosím všechny dokumenty a soubory.",
+        "confirmationDialog": {
+          "unsavedChangesTitle": "Máte neuložené změny",
+          "content": "Opravdu chcete změny zrušit?\n\nVšechny změny budou ztraceny.",
+          "discard": "Zrušit změny",
+          "cancel": "Pokračovat v úpravách"
+        }
+      },
+      "rmsSettings": {
+        "rmsSettings": "Ochrana dokumentů"
+      }
+    },
+    "signUp": {
+      "accountDetails": "Podrobnosti o účtu",
+      "consents": "Souhlas",
+      "language": "Jazyk",
+      "occupationAndCompany": "Zaměstnání a společnost",
+      "registerNewUserAccount": "Zaregistrovat nový uživatelský účet",
+      "personTitle": "Název",
+      "mr": "Pane",
+      "ms": "Paní",
+      "select": "Vybrat",
+      "firstName": "Křestní jméno",
+      "enterFirstName": "Zadejte křestní jméno",
+      "lastName": "Příjmení",
+      "enterLastName": "Zadejte příjmení",
+      "countryOfResidence": "Země pobytu",
+      "typeAndSelect": "Napište a vyberte",
+      "emailAddressLabel": "E-mailová adresa",
+      "enterEmail": "Zadejte e-mail",
+      "mobilePhoneNumber": "Číslo mobilního telefonu",
+      "deskPhoneNumber": "Alternativní telefonní číslo",
+      "enterPhoneNumber": "Zadejte telefonní číslo",
+      "enterDeskPhoneNumber": "Zadejte alternativní telefonní číslo",
+      "companyName": "Název společnosti",
+      "enterCompanyName": "Zadejte název společnosti",
+      "sector": "Sektor",
+      "function": "Funkce",
+      "jobTitle": "Název pracovní pozice",
+      "emailAlreadyExists": "Tato e-mailová adresa již existuje. Chcete-li pokračovat, zkuste jiný e-mail nebo se přihlaste.",
+      "setPassword": "Nastavit heslo",
+      "enterPassword": "Zadejte heslo",
+      "confirmPassword": "Potvrdit heslo",
+      "passwordShouldConsist": "Heslo musí splňovat následující požadavky:",
+      "passwordIsTooSimilar": "Heslo je příliš podobné předchozím 5 heslům",
+      "securityQuestion": "Bezpečnostní otázka",
+      "securityAnswer": "Odpověď na bezpečnostní otázku",
+      "enterAnswer": "Zadejte odpověď",
+      "consent": {
+        "first": {
+          "partOne": "Registrací účtu souhlasím s",
+          "partTwo": "Podmínky služby",
+          "partThree": "a",
+          "partFour": "Zásady ochrany osobních údajů včetně používání souborů cookie.",
+          "partFive": "Beru na vědomí, že všechny uživatelské údaje nezbytné k poskytování služby jsou hostovány společností Sterling a mohu mít přístup ke svým údajům. Mám právo měnit a odstraňovat údaje prostřednictvím kontaktu se správcem systému Sterling."
+        },
+        "second": "Chci dostávat e-maily týkající se marketingového obsahu a příslušných aktualizací.",
+        "requiredError": "Chcete-li si vytvořit účet v britské librě, musíte souhlasit s našimi Podmínkami služby a Zásadami ochrany osobních údajů."
+      },
+      "TermsOfServiceLink": "",
+      "PrivacyPolicyLink": "https://www.sterlingvdr.com/vdr-privacy-policy",
+      "button": {
+        "cancel": "Zrušit",
+        "back": "Zpět",
+        "next": "Další",
+        "register": "Registrovat"
+      }
+    },
+    "signUpConfirmation": {
+      "accountSuccessfullyRegistered": "Účet zaregistrován",
+      "youHaveCreatedNewAccount": "Účet VDR v britských librách byl úspěšně vytvořen.",
+      "nowYouCanLogin": "Zkontrolujte svou doručenou poštu a ověřte svůj účet podle pokynů v e-mailu.",
+      "goToLogin": "Domovská stránka"
+    },
+    "emailConfirmation": {
+      "emailSuccessfullyConfirmed": "Účet ověřen",
+      "partOne": "Ověření vašeho účtu bylo přijato.",
+      "partTwo": "Nyní máte přístup k virtuálním datovým místnostem v cirkulaci."
+    },
+    "emailNotConfirmed": {
+      "emailNotConfirmedTitle": "E-mail nebyl ověřen",
+      "partOne": "Ověření vašeho e-mailu ještě nebylo přijato.",
+      "partTwo": "Zkontrolujte svou doručenou poštu a ověřte svůj účet. Pokud jste nic neobdrželi ve své doručené poště, zkontrolujte všechny složky/doručené pošty, včetně nevyžádané pošty."
+    },
+    "invitations": {
+      "invitationExpired": "Platnost pozvánky vypršela",
+      "invitationExpiredBody": "Platnost pozvánky do této datové místnosti vypršela.",
+      "invitationExpiredHomePage": "Vaše žádost o novou pozvánku bude odeslána obchodnímu týmu.",
+      "roomUnavailable": "Datový sál není k dispozici",
+      "roomUnavailableBody": "Tato datová místnost již neexistuje",
+      "askForInvitation": "Požádat o novou pozvánku",
+      "homePage": "Domovská stránka",
+      "askedForInvitation": "Požadavek odeslán",
+      "askedForInvitationBodyFirst": "Umožněte prosím správci obchodu zvážit vaši pozvánku.",
+      "askedForInvitationBodySecond": "Do vaší doručené pošty bude zaslána nová pozvánka."
+    },
+    "dataRooms": {
+      "dataRooms": "Datové místnosti",
+      "dataRoomTile": "Dlaždice datové místnosti{{currentDataRoomTileIndex}}{{dataRoomTilesCount}}: {{name}}",
+      "dataRoomLogo": "Logo datové místnosti",
+      "dataRoomName": "Název datové místnosti: {{name}}",
+      "dataRoomId": "ID datové místnosti: {{id}}",
+      "dataRoomStatus": "Stav datové místnosti: {{status}}",
+      "dataRoomInformations": "Informace o datové místnosti",
+      "dataRoomActions": "{{dataRoomName}} akce v datové místnosti",
+      "dataRoomsViewOptions": "Možnosti zobrazení datových místností",
+      "dataRoomsSortOptions": "Možnosti třídění datových místností",
+      "createNewDataRoom": "Vytvořit novou datovou místnost",
+      "changeToListView": "Změnit na zobrazení seznamu",
+      "changeToTileView": "Změnit na zobrazení dlaždic",
+      "projectDashboard": "Řídicí panel projektu",
+      "listOfRooms": "Seznam pokojů ({{roomsCount}})",
+      "results": "{{count}} výsledky",
+      "results_one": "{{count}} výsledek",
+      "listOfRoomsFilterResult": "Seznam pokojů | $t(views.dataRooms.results, {\"count\": {{count}} })",
+      "pleaseSelectAtLeastOneOption": "Vyberte alespoň jednu možnost",
+      "newDataRoom": "Nová datová místnost",
+      "tier": "Úroveň",
+      "documents": "Dokumenty",
+      "pages": "Online stránky",
+      "users": "Uživatelé",
+      "dataSize": "Velikost dat",
+      "creationDate": "Datum vytvoření",
+      "lastLogin": "Poslední přihlášení",
+      "company": "Společnost",
+      "actions": "Akce",
+      "selected": "Vybráno",
+      "viewOptions": "Možnosti zobrazení:",
+      "sortBy": "Seřadit podle:",
+      "filter": "Filtr",
+      "searchFor": "Hledat...",
+      "filterHeaderTitle": "Použít filtry pro datové místnosti",
+      "filtersCountBadge": "Odznak počtu filtrů",
+      "pinDataRoom": "{{dataRoomName}} Datová místnost PIN",
+      "unpinDataRoom": "Odpojit {{dataRoomName}} datovou místnost",
+      "yourTime": "Váš čas",
+      "noAccess": {
+        "mainText": "Nemáte přístup k žádné datové místnosti",
+        "subText": "Pokud se domníváte, že se jedná o chybu, kontaktujte prosím obchodní oddělení nebo",
+        "customerService": "Tým zákaznických služeb"
+      },
+      "emptyState": {
+        "leftSection": {
+          "headerText": "Dobrý den {{keycloakUserFirstName}}, \nvítejte ve virtuální místnosti v librách!",
+          "middleText": "Jsme rádi, že jste si vybrali naše služby. Naše služba nabízí podporu pro mezinárodní transakce a sdílení dokumentů prostřednictvím virtuálních datových místností. Díky tomu můžete:",
+          "bottomText": "a mnohem více...",
+          "optionListItemsTexts": [
+            "Nahrávat a organizovat obsah",
+            "Vytvoření interního a externího týmu",
+            "Správa relací otázek a odpovědí",
+            "Procházet dokumenty s podporou překladu"
+          ]
+        },
+        "rightSection": {
+          "middleText": "Můžete si vytvořit svůj první projekt, abyste zvládli jakoukoliv dohodu s vysoce kvalitním a bezpečným způsobem!",
+          "newDataRoom": "Nová datová místnost",
+          "twoBusinessmenShakingHands": "Dva obchodníci si podávají ruce"
+        }
+      },
+      "consent": {
+        "consentTextStart": "Registrací účtu souhlasím s",
+        "termsOfService": "Podmínky služby",
+        "and": "a",
+        "privacyPolicy": "Zásady ochrany osobních údajů, včetně používání souborů cookie.",
+        "consentTextEnd": "Beru na vědomí, že všechny uživatelské údaje nezbytné k poskytování služby jsou hostovány společností Sterling a mohu mít přístup ke svým údajům. Mám právo měnit a odstraňovat údaje prostřednictvím kontaktu se správcem systému Sterling.*"
+      },
+      "tile": {
+        "upgradeTier": "Upgrade úrovně",
+        "requestArchive": "Požádat o archiv",
+        "settings": "Nastavení"
+      },
+      "list": {
+        "details": "Podrobnosti",
+        "tier": "Úroveň",
+        "listOfRooms": "Seznam pokojů",
+        "dataRoomName": "Název datového pokoje",
+        "creationDate": "Datum vytvoření",
+        "status": "Stav",
+        "id": "ID",
+        "onlinePages": "Online stránky",
+        "documents": "Dokumenty",
+        "users": "Uživatelé",
+        "dataSize": "Velikost dat",
+        "upgradeTier": "Upgrade úrovně",
+        "requestArchive": "Požádat o archiv",
+        "settings": "Nastavení",
+        "lastLogin": "Poslední přihlášení",
+        "logo": "Logo",
+        "company": "Společnost",
+        "highProfileAccount": "Účet s vysokým profilem",
+        "accountType": "Typ účtu"
+      },
+      "sortOptions": {
+        "recentlyCreated": "Nedávno vytvořeno",
+        "creationDateOldest": "Nejstarší datum vytvoření",
+        "lastLoginTime": "Čas posledního přihlášení",
+        "onlinePagesAscending": "Online stránky vzestupně",
+        "onlinePagesDescending": "Online stránky sestupně"
+      },
+      "DR_limit_pins": "Dosáhli jste limitu připnutí {{limit}} datových místností.",
+      "DR_pin_create_success": "Datová místnost byla úspěšně připnuta.",
+      "DR_pin_create_failure": "Nelze připnout datovou místnost.",
+      "DR_create_success": "Datová místnost byla úspěšně vytvořena.",
+      "DR_status_user_has_no_access": "Prozatím nemáte přístup do této datové místnosti."
+    },
+    "dataRoomCreation": {
+      "subscriptionPlan": "Plán předplatného",
+      "createNewDataRoom": "Vytvořit novou datovou místnost",
+      "dataRoomDetails": "Podrobnosti o datové místnosti",
+      "uploadedImage": "Nahrané logo",
+      "defaultLogo": "Výchozí logo",
+      "selectFeatures": "Vybrat funkce",
+      "selectedPlan": "Vybraný plán",
+      "changePlan": "Plán změny",
+      "backToEdit": "Zpět na úpravy",
+      "dataRoomName": "Název datového pokoje",
+      "enterDataRoomName": "Zadejte název datového sálu",
+      "companyNameForDisclaimers": "Název společnosti pro odmítnutí odpovědnosti",
+      "enterCompanyName": "Zadejte název společnosti",
+      "dealType": "Typ obchodní transakce",
+      "selectDealType": "Vyberte typ obchodní transakce",
+      "dealManagerEmail": "E-mail manažera obchodu",
+      "enterEmailAddress": "Zadejte e-mailovou adresu",
+      "timeZone": "Časové pásmo",
+      "selectTimeZone": "Vybrat časové pásmo",
+      "serverLocation": "Umístění serveru",
+      "logotype": "Logotyp",
+      "companyNameForDisclimers": "Název společnosti pro odmítnutí odpovědnosti",
+      "serverLocationRegionalUk": "Velká Británie",
+      "serverLocationRegionalEu": "EU",
+      "uploadLogo": "Nahrát logo",
+      "dropFileHere": "Sem přetáhněte soubor",
+      "allowedFileTypes": "min. 150x35px, JPG, PNG, max. velikost souboru {{size, number}} MB",
+      "suggestedDataRoomName": "Navrhovaný název datové místnosti",
+      "useThisName": "Použít tento název",
+      "requiredField": "Toto pole je povinné",
+      "dataRoomNameUnavailable": "Tento název aktuálně používá jiná datová místnost.",
+      "tooLongDataRoomName": "Tento název je příliš dlouhý.",
+      "fileTooLarge": "Soubor je větší než {{size, number}} MB",
+      "fileInvalidType": "Typ souboru musí být {{accepted, string}}",
+      "consent": "Souhlas",
+      "highProfileAccount": {
+        "text": "Účet s vysokým profilem?",
+        "options": {
+          "no": "Ne",
+          "yes": "Ano"
+        }
+      },
+      "consentRequiredError": "Chcete-li vytvořit datovou místnost, musíte souhlasit s našimi podmínkami poskytování služeb a zásadami ochrany osobních údajů.",
+      "button": {
+        "create": "Vytvořit",
+        "back": "Zpět",
+        "next": "Další",
+        "cancel": "Zrušit"
+      },
+      "dealManagerEmailError": "Správce libry nemůžete přiřadit jako správce obchodu.",
+      "componentsSelection": "Komponenty lze vybrat později."
+    },
+    "errorView": {
+      "somethingWentWrong": "Došlo k chybě",
+      "unexpectedError": "Neočekávaná chyba",
+      "unexpectedErrorOccured": "Děláme vše pro to, abychom našli řešení. Obnovte stránku nebo požádejte o pomoc náš tým zákaznických služeb.",
+      "tryAgainOrContactAdministrator": "Děkujeme za trpělivost.",
+      "reportAnIssue": "Kontaktujte tým zákaznických služeb",
+      "goToHomePage": "Domovská stránka",
+      "goToPreviousPage": "Zpět"
+    },
+    "accessRestrictedView": {
+      "accessRestricted": "Omezený přístup",
+      "accessRestrictedNoPermission": "Pro tuto stránku nemáte potřebná oprávnění.",
+      "accessRestrictedContact": "Kontaktujte prosím náš tým zákaznických služeb."
+    },
+    "sessionTimeout": {
+      "title": "Časový limit relace",
+      "bodyPartOne": "Byli jste neaktivní déle než 60 minut",
+      "bodyPartTwo": "Z bezpečnostních důvodů jsme vás odhlásili, přejděte na domovskou stránku nebo se znovu přihlaste",
+      "loginAgain": "Znovu se přihlásit"
+    },
+    "icons": {
+      "chevronTrippleUp": "Chevron Trojnásobek nahoru",
+      "archiveArrowDown": "Archivovat šipku dolů",
+      "cogOutline": "Osnova ozubení"
+    },
+    "userSettings": {
+      "title": "Uživatelská nastavení",
+      "tabs": {
+        "accountData": {
+          "title": "Osobní informace",
+          "firstName": "Křestní jméno",
+          "lastName": "Příjmení",
+          "countryOfResidence": "Země pobytu",
+          "companyName": "Název společnosti",
+          "sector": "Sektor",
+          "function": "Funkce",
+          "jobTitle": "Název pracovní pozice",
+          "accountDataCancelButton": "Zrušit",
+          "accountDataSaveButton": "Uložit",
+          "accountDataMakeChangesButton": "Upravit"
+        },
+        "security": {
+          "title": "Informace o zabezpečení",
+          "tip": "Zadejte prosím heslo svého účtu pro bezpečný vstup do této části.",
+          "password": "Heslo",
+          "contactNumbers": "Kontaktní čísla",
+          "contactNumbersSuccessMessage": "Nová kontaktní čísla byla uložena.",
+          "email": "E-mail",
+          "enterEmail": "E-mailová adresa",
+          "emailAlreadyExists": "Zadaná e-mailová adresa již existuje. Chcete-li pokračovat, přihlaste se.",
+          "mobile": "Mobilní",
+          "enterMobile": "Číslo mobilního telefonu",
+          "setNewPassword": "Nastavit nové heslo",
+          "confirmNewPassword": "Potvrdit nové heslo",
+          "securityQuestion": "Bezpečnostní otázka",
+          "securityAnswer": "Odpověď na bezpečnostní otázku",
+          "tooltipOneFieldPerEdit": "Nemůžete upravovat dvě části současně",
+          "emailCancelButton": "Zrušit",
+          "emailSaveButton": "Uložit",
+          "emailMakeChangesButton": "Upravit",
+          "mobileCancelButton": "Zrušit",
+          "mobileSaveButton": "Uložit",
+          "mobileMakeChangesButton": "Upravit",
+          "passwordCancelButton": "Zrušit",
+          "passwordSaveButton": "Uložit",
+          "changePasswordButton": "Upravit",
+          "securityQuestionCancelButton": "Zrušit",
+          "securityQuestionSaveButton": "Uložit",
+          "securityQuestionMakeChangesButton": "Upravit",
+          "deleteAccount": "Odstranit",
+          "deletingAccount": "Odstranit můj účet",
+          "deleteGdprModal": {
+            "title": "Odstranit účet",
+            "content": {
+              "first": "Opravdu chcete trvale odstranit svůj účet?",
+              "second": "Pokud svůj účet odstraníte, nebudete mít nadále přístup k žádným datovým místnostem v lichém VDR a tuto akci nelze vrátit zpět."
+            },
+            "delete": "Odstranit",
+            "successMessage": "Týmu zákaznických služeb byla zaslána žádost o odstranění GDPR. Počkejte prosím 48 hodin, než bude tato akce dokončena.",
+            "errorMessage": "Zkuste to prosím znovu."
+          },
+          "otpVerificationModal": {
+            "title": "Ověření OTP",
+            "content": "Zadejte 6místný ověřovací kód zaslaný na telefonní číslo <boldText>{{phoneNumber}}</boldText>",
+            "submit": "Odeslat",
+            "inputLabel": "Ověřovací kód",
+            "errorMessage": "Zadaný kód je neplatný",
+            "customerServiceLink": "Tým zákaznických služeb",
+            "placeholder": "Zadejte ověřovací kód",
+            "resendCode": "Znovu odeslat kód",
+            "codeRequiredMessage": "Zadejte ověřovací kód.",
+            "codeInvalid": "Zadaný kód je neplatný.",
+            "codeSent": "Kód odeslán",
+            "tooltip": "Nový kód si můžete vyžádat za 30 sekund. Platnost kódu vyprší za 10 minut."
+          }
+        },
+        "notifications": {
+          "title": "Oznámení",
+          "EmailSettings": {
+            "title": "Nastavení e-mailu",
+            "qAndANotification": {
+              "label": "Odeslat e-mailová oznámení s otázkami a odpověďmi",
+              "value": {
+                "positive": "Okamžitě",
+                "negative": "Nikdy"
+              }
+            },
+            "emailNotification": {
+              "label": "Odeslat e-mailová oznámení o obsahu",
+              "value": {
+                "positive": "Shrnutí jednou denně",
+                "negative": "Nikdy"
+              }
+            }
+          }
+        },
+        "preferences": {
+          "title": "Předvolby",
+          "language": {
+            "title": "Nastavení jazyka",
+            "label": "Jazyk"
+          },
+          "languageCancelButton": "Zrušit",
+          "languageSaveButton": "Uložit",
+          "languageMakeChangesButton": "Upravit"
+        }
+      },
+      "button": {
+        "back": "Zpět",
+        "cancel": "Zrušit",
+        "edit": "Upravit",
+        "changePassword": "Změnit heslo",
+        "saveNewPassword": "Uložit"
+      }
+    },
+    "inviteUsers": {
+      "header": "Žádost o pozvánky uživatele",
+      "selectMethodHeader": "Pozvánky uživatele – vyberte metodu",
+      "enterUsersEmailsHeader": "Pozvánky uživatelů – zadejte e-maily uživatelů*",
+      "stepText": "Krok",
+      "ofTwoText": "ze 2"
+    },
+    "pdfViewer": {
+      "corruptedPrintDialog": {
+        "title": "Soubor nelze vytisknout",
+        "content": "Soubor je poškozený a nelze jej vytisknout.\n\nPro další pomoc prosím kontaktujte náš tým zákaznických služeb.",
+        "confirm": "Zavřít okno"
+      },
+      "corruptedOpenDialog": {
+        "title": "Nelze otevřít soubor",
+        "content": "Soubor je poškozený a nelze jej otevřít v prohlížeči PDF.\n\nPro další pomoc prosím kontaktujte náš tým zákaznických služeb.",
+        "confirm": "Zavřít okno"
+      },
+      "protectedOpenDialog": {
+        "title": "Chráněný dokument",
+        "confirm": "Mám to",
+        "content": "Tento dokument je chráněn některými možnostmi myši a klávesnice, které jsou omezeny.\n\nPokud chcete u tohoto dokumentu provést akce, použijte nabídku akcí Dokument v stromu obsahu aplikace VDR."
+      },
+      "clipboardText": "CHRÁNĚNÝ DOKUMENT Tento dokument je chráněn některými možnostmi myši a klávesnice jsou omezeny. Pokud chcete u tohoto dokumentu provést akce, použijte nabídku akcí Dokument v stromu obsahu aplikace VDR."
+    },
+    "videoViewer": {
+      "corruptedOpenDialog": {
+        "title": "Otevření souboru se nezdařilo",
+        "content": "Tento videosoubor je poškozený. Pokud máte přístup, můžete soubor stáhnout. Případně se obraťte na zákaznický servis Sterling.",
+        "confirm": "Zavřít okno"
+      },
+      "notSupported": "Váš prohlížeč nepodporuje video tag."
+    },
+    "sessionManagerView": {
+      "title": "Správce relace",
+      "description": "Relaci musíte publikovat, aby byly změny viditelné všem uživatelům v datové místnosti.",
+      "button": {
+        "publishChanges": "Publikovat změny",
+        "undoChanges": "Vrátit změny",
+        "cancel": "Zrušit"
+      },
+      "emptyStateMessage": "Nic k publikování",
+      "emptyStateDescription": "Vaše budoucí akce v obsahu budou uvedeny zde.",
+      "actionsList": {
+        "selectedCount": "{{selectedCount}} Vybráno z {{totalCount}}",
+        "headers": {
+          "itemName": "Název položky",
+          "action": "Akce",
+          "details": "Podrobnosti",
+          "actionDate": "Datum akce"
+        },
+        "actions": {
+          "inserted": "Vloženo",
+          "moved": "Přesunuto",
+          "updated": "Aktualizováno",
+          "deleted": "Odstraněno",
+          "replaced": "Nahrazeno"
+        },
+        "details": {
+          "inserted": "k {{toDisplayName}}",
+          "moved": "od {{fromDisplayName}} do {{toDisplayName}}",
+          "updated": "v {{inDisplayName}}",
+          "deleted": "od {{fromDisplayName}} do {{toDisplayName}}",
+          "replaced": "v {{inDisplayName}}"
+        },
+        "permissionChanges": {
+          "externalTeams": "{{ externalName }} Týmy:",
+          "subInternalTeams": "{{ internalName }} Týmy:",
+          "header": "Tato akce skryje položku pro:",
+          "failed": "Tato akce skryje položku pro některé týmy",
+          "loading": "Načítání týmů ztrácí přístup k této položce..."
+        }
+      },
+      "toasts": {
+        "publishActionSuccess": "Akce byly úspěšně publikovány: {{count}}",
+        "publishActionFailure": "Akce nelze publikovat: {{count}}",
+        "revertActionSuccess": "Akce byly úspěšně vráceny: {{count}}",
+        "revertActionFailure": "Nelze vrátit akce: {{count}}",
+        "actionNotFound": "{{count}} akci(e) nebylo možné zpracovat. Akce neexistují nebo byly publikovány nebo vráceny jiným uživatelem.",
+        "publishDependenciesDetected": "{{count}} byly také vybrány akce, které musí být publikovány kvůli jejich závislostem. Zkontrolujte je a znovu publikujte.",
+        "revertDependenciesDetected": "{{count}} byly také vybrány akce, které musí být vráceny kvůli jejich závislostem. Zkontrolujte je prosím a vraťte se zpět."
+      },
+      "status": {
+        "reverting": "Probíhá vrácení změn relace...",
+        "publishing": "Probíhá publikování změn relace..."
+      },
+      "viewActiveSessions": "Zobrazit aktivní relace",
+      "search": {
+        "placeholder": "Hledat název položky...",
+        "matchingResults": "Odpovídající výsledky: {{count}}"
+      }
+    }
+  },
+  "components": {
+    "breadcrumb": {
+      "home": "Domovská stránka",
+      "back": "Tlačítko Zpět na drobky"
+    },
+    "selectableContextMenu": {
+      "contextMenuButton": "Otevřít kontextovou nabídku"
+    },
+    "dataTablePagination": {
+      "moreThan": "více než {{to}}",
+      "fromToOf": "{{from}}-{{to}} z {{count}}",
+      "first": "první",
+      "last": "poslední",
+      "next": "další",
+      "previous": "předchozí",
+      "goToPage": "Přejít na {{type}} stránku",
+      "rowsPerPage": "Počet řádků na stránku:"
+    },
+    "dataTable": {
+      "rowActions": "Akce v řádku datové tabulky",
+      "selected": "Vybráno",
+      "selectSingleRow": "Vybrat jeden řádek",
+      "selectAllRows": "Vybrat všechny řádky",
+      "enterDetailsAction": "Akce zadání podrobností",
+      "pageAction": "Akce stránky",
+      "expandRow": "Rozbalit řádek",
+      "details": "Podrobnosti"
+    },
+    "header": {
+      "companyName": "Lihoviny",
+      "userSettings": "Uživatelská nastavení",
+      "contactSupport": "Tým zákaznických služeb",
+      "adminPanel": "Administrativní panel",
+      "logout": "Odhlášení",
+      "notifications": "Oznámení",
+      "sessions": "Relace",
+      "settings": "Nastavení",
+      "dataRoomActions": "Akce v datové místnosti",
+      "home": "Domovská stránka",
+      "recentDataRooms": "Nedávné datové místnosti",
+      "recentDataRoomName": "Nedávná datová místnost {{dataRoomName}}",
+      "noRecentDataRooms": "Žádné nedávné datové místnosti"
+    },
+    "tier": {
+      "tier": "Úroveň",
+      "upTo": "Až",
+      "users": "uživatelé",
+      "gb": "GB",
+      "forYourData": "pro vaše údaje"
+    },
+    "sidebar": {
+      "close": "Zavřít",
+      "cancel": "Zrušit",
+      "applyFilters": "Použít filtry",
+      "clearFilters": "Vymazat filtry"
+    },
+    "allResults": {
+      "allResults": "Konec výsledků"
+    },
+    "noResults": {
+      "noResults": "Žádné výsledky",
+      "changeCriteria": "Změňte kritéria filtru/vyhledávání."
+    },
+    "noQuestions": {
+      "noQuestions": "Prozatím žádné otázky",
+      "noQuestionsInfo": "Vraťte se prosím později a zkontrolujte, zda nebyly položeny nové otázky"
+    },
+    "status": {
+      "active": "Aktivní",
+      "underPreparation": "Při přípravě",
+      "terminationPeriod": "Ukončovací období",
+      "temporaryRestriction": "Dočasné omezení"
+    },
+    "searchbar": {
+      "clear": "Vymazat",
+      "searchFor": "Hledat...",
+      "requiredCharacters": "Požadované znaky: {{length}}."
+    },
+    "searchinput": {
+      "clear": "Vymazat"
+    },
+    "autocompleteSearchbar": {
+      "noMatch": "Žádné návrhy shody",
+      "disclaimersCompanyName": "Společnost",
+      "name": "Datová místnost",
+      "id": "ID",
+      "undefined": "",
+      "publicReference": "ID"
+    },
+    "statusChanger": {
+      "selectStatus": "Vybrat stav",
+      "requestFor": "Žádost o",
+      "updatedBy": "Naposledy aktualizováno {{date}} uživatelem {{user}}",
+      "customAccess": "Nastavit vlastní přístup",
+      "buttons": {
+        "buttonSetStatus": "Nastavit stav",
+        "buttonRequestFor": "Žádost o"
+      },
+      "accessTypes": {
+        "FullAccess": "Plný přístup",
+        "NoAccess": "Žádný přístup"
+      },
+      "label": "Přístup {{teamName}}",
+      "toasts": {
+        "requestSentSuccesfully": "Váš požadavek byl odeslán.",
+        "requestSentFailure": "Váš požadavek nebyl odeslán.",
+        "statusChangedSuccessfully": "Stav datové místnosti byl změněn.",
+        "statusChangedFailure": "Stav datové místnosti nebyl změněn."
+      }
+    },
+    "statusDescription": {
+      "active": "Tento stav umožní týmům nabízejících vstup do datové místnosti.\n\nPo výběru tohoto stavu bude k dispozici kontrolní seznam, abyste zjistili, zda připravujete svou datovou místnost správným způsobem.\n\nUžijte si skvělé zkušenosti s VDR v librách.",
+      "underPreparation": "Stav „neúspěšné“ pro novou datovou místnost. Jejím cílem je nastavit všechna potřebná nastavení a dokumenty, aby mohla být místnost spuštěna.\n\nOmezí přístup všech uživatelů týmu uchazečů do DataRoom.\n\nHlavní tým obchodní příležitosti a tým dílčí obchodní příležitosti mají přístup a mohou stále provádět změny.",
+      "temporaryRestriction": "Omezení přístupu určitých typů týmů do datové místnosti podle vašeho nastavení vpravo.\n\nPlný přístup nemá žádné výsledky pro vybraný typ týmu.\n\nŽádný přístup skryje Datovou místnost na rozbočovači.",
+      "terminationPeriod": "Tento stav je k dispozici pouze na žádost správce britských libr.\n\nŽádost povede k uzavření datové místnosti pro všechny typy týmů.\n\nPo 30 dnech bude datová místnost s veškerým obsahem odstraněna."
+    },
+    "toaster": {
+      "closeMessage": "Zavřít zprávu",
+      "toast": "Toast"
+    },
+    "confirmationDialog": {
+      "unsavedChangesTitle": "Máte neuložené změny",
+      "content": "Chystáte se opustit tuto stránku bez uložení,\nvšechny změny budou ztraceny.\n\nOpravdu je chcete zlikvidovat?",
+      "discard": "Zrušit změny",
+      "stayOnPage": "Zůstaňte na stránce"
+    },
+    "confirmationCancelDialog": {
+      "unsavedChangesTitle": "Máte neuložené změny",
+      "content": "Opravdu chcete tyto změny zrušit?\n\nVšechny změny budou ztraceny.",
+      "discard": "Zrušit změny",
+      "stayOnPage": "Pokračování v úpravách"
+    },
+    "activationChecklist": {
+      "activationChecklistHeader": "Před změnou stavu datové místnosti na aktivní prosím potvrďte následující položky:",
+      "shakingHands": "Třásání rukama",
+      "yourProjectStatus": "Stav projektu bude změněn na Aktivní.",
+      "invitationsForBiddersUsers": "Pokud nebylo nastaveno vlastní nastavení, budou uchazečům automaticky zasílány pozvánky.",
+      "activateRoom": "Aktivovat místnost",
+      "indexStructureIsReady": "Struktura indexu je připravena a počáteční dokumenty byly nahrány*",
+      "mainDealTeamIsCreated": "Byl vytvořen hlavní tým pro obchodní příležitosti a všichni uživatelé byli pozváni*",
+      "biddersTeamsAreCreated": "Týmy uchazečů jsou vytvořeny a všichni uživatelé přidáni*",
+      "disclaimerIsAppropriate": "Zřeknutí se odpovědnosti je vhodné pro daný typ obchodu a v případě potřeby pro přesné týmy*",
+      "grantedPermission": "Uživatelé správně udělili oprávnění*",
+      "recyleBinIsntEmptyText": "Koš není prázdný a po hostování dat Go Live. Může vám být účtován poplatek navíc. Vyberte jednu z níže uvedených možností*",
+      "deleteAllFiles": "Odstranit všechny soubory z koše",
+      "keepAllFiles": "Uchovat všechny soubory z koše",
+      "activeSessionValidationMessage": "Místnost nelze aktivovat, protože v DR existuje aktivní relace."
+    },
+    "chooseActionButton": {
+      "chooseAction": "Vybrat akci",
+      "actions": "akce"
+    }
+  },
+  "userInvitations": {
+    "buttons": {
+      "saveDraft": "Uložit koncept"
+    }
+  },
+  "countryCodes": {
+    "AF": "Afghánistán",
+    "AL": "Albánie",
+    "DZ": "Alžírsko",
+    "AS": "Americká Samoa",
+    "AD": "Andorra",
+    "AO": "Angola",
+    "AI": "Anguilla",
+    "AQ": "Antarktida",
+    "AG": "Antigua a Barbuda",
+    "AR": "Argentina",
+    "AM": "Arménie",
+    "AW": "Aruba",
+    "AU": "Austrálie",
+    "AT": "Rakousko",
+    "AZ": "Ázerbájdžán",
+    "BS": "Bahamy",
+    "BH": "Bahrajn",
+    "BD": "Bangladéš",
+    "BB": "Barbados",
+    "BY": "Bělorusko",
+    "BE": "Belgie",
+    "BZ": "Věřte",
+    "BJ": "Benin",
+    "BM": "Bermudy",
+    "BT": "Bhutan",
+    "BO": "Bolívie",
+    "BA": "Bosna a Hercegovina",
+    "BW": "Botswana",
+    "BV": "Ostrov Bouvet",
+    "BR": "Brazílie",
+    "IO": "Území Britského Indického oceánu",
+    "VG": "Britské Panenské ostrovy",
+    "BN": "Brunej Darussalam",
+    "BG": "Bulharsko",
+    "BF": "Burkina Faso",
+    "BI": "Burundi",
+    "KH": "Kambodža",
+    "CM": "Kamerun",
+    "CA": "Kanada",
+    "CV": "Cape Verde (Cabo Verde)",
+    "KY": "Kajmanské ostrovy",
+    "CF": "Středoafrická republika",
+    "TD": "Chůd",
+    "CL": "Chile",
+    "CN": "Čína",
+    "CX": "Vánoční ostrov",
+    "CC": "Kokosové ostrovy (Keeling)",
+    "CO": "Kolumbie",
+    "KM": "Comoros",
+    "CG": "Kongo",
+    "CD": "Demokratická republika Kongo",
+    "CK": "Cookovy ostrovy",
+    "CR": "Kostarika",
+    "CI": "Pobřeží slonoviny (pobřeží slonoviny)",
+    "HR": "Chorvatsko",
+    "CU": "Kuba",
+    "CW": "Curacao",
+    "CY": "Kypr",
+    "CZ": "Česká republika (Česká republika)",
+    "DK": "Dánsko",
+    "DJ": "Džibuti",
+    "DM": "Dominika",
+    "DO": "Dominikánská republika",
+    "TP": "Východní Timor (Timor-Leste)",
+    "EC": "Ekvádor",
+    "EG": "Egypt",
+    "SV": "Salvador",
+    "GQ": "Rovníková Guinea",
+    "ER": "Eritrea",
+    "EE": "Estonsko",
+    "ET": "Etiopie",
+    "FK": "Falklandské ostrovy (Islandy Malviny)",
+    "FO": "Faerské ostrovy",
+    "FJ": "Fidži",
+    "FI": "Finsko",
+    "FR": "Francie",
+    "GF": "Francouzská Guyana",
+    "PF": "Francouzská Polynésie",
+    "TF": "Francouzská jižní území",
+    "GA": "Gabon",
+    "GM": "Gambie",
+    "GE": "Gruzie",
+    "DE": "Německo",
+    "GH": "Ghana",
+    "GI": "Gibraltar",
+    "GR": "Řecko",
+    "GL": "Grónsko",
+    "GD": "Grenada",
+    "GP": "Guadeloupe",
+    "GU": "Guam",
+    "GT": "Guatemala",
+    "GG": "Guernsey",
+    "GN": "Guineje",
+    "GW": "Guinea-Bissau",
+    "GY": "Guyana",
+    "HT": "Haiti",
+    "HM": "Heardův ostrov a McDonaldovy ostrovy",
+    "HN": "Honduras",
+    "HK": "Hongkong",
+    "HU": "Maďarsko",
+    "IS": "Island",
+    "IN": "Indie",
+    "ID": "Indonésie",
+    "IR": "Írán",
+    "IQ": "Irák",
+    "IE": "Irsko",
+    "IM": "Ostrov Man",
+    "IL": "Izrael",
+    "IT": "Itálie",
+    "JM": "Jamajka",
+    "JP": "Japonsko",
+    "JE": "Dres",
+    "JO": "Jordánsko",
+    "KZ": "Kazachstán",
+    "KE": "Keňa",
+    "KI": "Kiribati",
+    "KP": "Korea, Severní (Korejská lidově demokratická republika)",
+    "KR": "Korea, Jižní (Korejská republika)",
+    "XK": "Kosovo",
+    "KW": "Kuvajt",
+    "KG": "Kyrgyzstán",
+    "LA": "Laoská lidově demokratická republika (Laos)",
+    "LV": "Lotyšsko",
+    "LB": "Libanon",
+    "LS": "Lesotho",
+    "LR": "Libérie",
+    "LY": "Libye (stát Libye)",
+    "LI": "Lichtenštejnsko",
+    "LT": "Litva",
+    "LU": "Lucembursko",
+    "MO": "Macao (Macao)",
+    "MG": "Madagaskar",
+    "MW": "Malawi",
+    "MY": "Malajsie",
+    "MV": "Maledivy",
+    "ML": "Mali",
+    "MT": "Malta",
+    "MH": "Marshallovy ostrovy",
+    "MQ": "Martinik",
+    "MR": "Mauritanie",
+    "MU": "Mauricius",
+    "YT": "Mayotte",
+    "MX": "Mexiko",
+    "FM": "Mikronésie, Federativní státy",
+    "MD": "Moldavsko",
+    "MC": "Monako",
+    "MN": "Mongolsko",
+    "ME": "Černá Hora",
+    "MS": "Montserrat",
+    "MA": "Maroko",
+    "MZ": "Mozambik",
+    "MM": "Myanmar",
+    "NA": "Namibie",
+    "NR": "Nauru",
+    "NP": "Nepál",
+    "NL": "Nizozemsko",
+    "AN": "Nizozemské Antily",
+    "NC": "Nová Kaledonie",
+    "NZ": "Nový Zéland",
+    "NI": "Nikaragua",
+    "NE": "Niger",
+    "NG": "Nigérie",
+    "NU": "Niue",
+    "NF": "Norfolkův ostrov",
+    "MK": "Severní Makedonie",
+    "MP": "Severní Mariany",
+    "NO": "Norsko",
+    "OM": "Omán",
+    "PK": "Pákistán",
+    "PW": "Palau",
+    "PS": "Palestina, Stát",
+    "PA": "Panama",
+    "PG": "Papua Nová Guinea",
+    "PY": "Paraguay",
+    "PE": "Peruán",
+    "PH": "Filipíny",
+    "PN": "Pitcairnovy ostrovy",
+    "PL": "Polsko",
+    "PT": "Portugalsko",
+    "PR": "Portoriko",
+    "QA": "Katar",
+    "RE": "Opětovné spojení",
+    "RO": "Rumunsko",
+    "RU": "Rusko (Ruská federace)",
+    "RW": "Rwanda",
+    "BL": "Svatá Barthelemie",
+    "SH": "Svatá Helena, vzestup, Tristan da Cunha",
+    "KN": "Svatý Kryštof a Nevis",
+    "LC": "Svatá Lucie",
+    "MF": "Svatý Martin",
+    "PM": "Saint Pierre a Miquelon",
+    "VC": "Svatý Vincenc a Grenadiny",
+    "WS": "Samoa",
+    "SM": "San Marino",
+    "ST": "Sao Tome a princip",
+    "SA": "Saúdská Arábie",
+    "SN": "Senegal",
+    "RS": "Srbsko",
+    "SC": "Seychely",
+    "SL": "Sierra Leone",
+    "SG": "Singapur",
+    "SX": "Svatý Maarten",
+    "SK": "Slovensko (Slovenská republika)",
+    "SI": "Slovinsko",
+    "SB": "Šalamounovy ostrovy",
+    "SO": "Somálsko",
+    "ZA": "Jižní Afrika",
+    "GS": "Jižní Georgie a Jižní Sandwichovy ostrovy",
+    "SS": "Jižní Súdán",
+    "ES": "Španělsko",
+    "LK": "Srí Lanka",
+    "SD": "Súdán",
+    "SR": "Příjmení",
+    "SJ": "Špicberky a Jan Mayenovy ostrovy",
+    "SZ": "Svazijsko (Eswatini)",
+    "SE": "Švédsko",
+    "CH": "Švýcarsko",
+    "SY": "Sýrie (Sýrská arabská republika)",
+    "TW": "Tchaj-wan (ROC)",
+    "TJ": "Tajikistán",
+    "TZ": "Tanzanie, Spojené státy americké",
+    "TH": "Thajsko",
+    "TG": "Přejít",
+    "TK": "Tokelau",
+    "TO": "Tonga",
+    "TT": "Trinidad a Tobago",
+    "TN": "Tunisko",
+    "TR": "Turecko",
+    "TM": "Turkmenistán",
+    "TC": "Turks a Caicosovy ostrovy",
+    "TV": "Tuvalu",
+    "VI": "Americké Panenské ostrovy",
+    "UG": "Uganda",
+    "UA": "Ukrajina",
+    "AE": "Spojené arabské emiráty",
+    "GB": "Spojené království",
+    "US": "Spojené státy",
+    "UM": "Menší odlehlé ostrovy USA",
+    "UY": "Uruguay",
+    "UZ": "Uzbekistán",
+    "VU": "Vanuatu",
+    "VA": "Městský stát Vatikán (Svatý stolec)",
+    "VE": "Venezuela",
+    "VN": "Vietnam",
+    "WF": "Wallis a Futuna",
+    "EH": "Západní Sahara",
+    "YE": "Jemen",
+    "ZM": "Zambie",
+    "ZW": "Zimbabwe"
+  },
+  "securityQuestions": {
+    "WhatIsTheCityWereYouBorn": "Ve kterém městě jste se narodil/a?",
+    "WhatIsTheNameOfYourFavoritePet": "Jak se jmenuje váš oblíbený domácí mazlíček?",
+    "WhatIsYourMothersMaidenName": "Jaké je rodné jméno vaší matky?",
+    "WhatHighSchoolDidYouAttend": "Jakou střední školu jste navštěvovali?",
+    "WhatIsTheNameOfYourFirstSchool": "Jak se jmenuje vaše první škola?",
+    "WhatWasTheMakeOfYourFirstCar": "Jaká byla značka vašeho prvního vozu?",
+    "WhatWasYourFavoriteFoodAsAChild": "Jaké bylo vaše oblíbené jídlo jako dítě?",
+    "WhereDidYouMeetYourSpouse": "Kde jste se seznámili se svým manželem/manželkou?",
+    "WhatIsYourFavoriteBook": "Jaká je vaše oblíbená kniha?",
+    "WhatIsTheNameOfTheRoadYouGrewUpOn": "Jak se jmenuje silnice, na které jste vyrůstali?",
+    "WhatIsYourFavoritePlaceToVacation": "Kde je vaše oblíbené místo na dovolenou?",
+    "WhatIsYourFavoriteActorMusicanOrArtist": "Kdo je váš oblíbený herec, hudebník nebo umělec?",
+    "WhatIsYourFavoriteMovie": "Jaký je váš oblíbený film?",
+    "WhatIsYourFavoriteColor": "Jaká je vaše oblíbená barva?"
+  },
+  "sectors": {
+    "AerospaceAndDefence": "Letectví a obrana",
+    "Agricultural": "Zemědělství",
+    "Automotive": "Automobilový průmysl",
+    "BusinessServices": "Obchodní služby",
+    "EnergyAndRenewables": "Energie a obnovitelné zdroje",
+    "FinancialServices": "Finanční služby",
+    "FinancialSponsors": "Finanční sponzoři",
+    "FoodAndDrink": "Jídlo a pití",
+    "GovernmentAndPublicSector": "Vládní a veřejný sektor",
+    "Healthcare": "Zdravotnictví",
+    "Industrial": "Průmysl",
+    "Infrastructure": "Infrastruktura",
+    "Insurance": "Pojištění",
+    "LegalServices": "Právní služby",
+    "Leisure": "Volný čas",
+    "Manufacturing": "Výroba",
+    "Media": "Média",
+    "MetalsAndMining": "Kovy a těžba",
+    "OilAndGas": "Ropa a plyn",
+    "Other": "Jiné",
+    "PrivateEquity": "Soukromé akcie",
+    "RealEstate": "Nemovitosti",
+    "Retail": "Maloobchod",
+    "Technology": "Technologie",
+    "Telecommunications": "Telekomunikace",
+    "Transport": "Přeprava"
+  },
+  "functions": {
+    "FinancialAdvisor": "Finanční poradce",
+    "LegalAdvisor": "Právní poradce",
+    "PrivateEquity": "Soukromé akcie",
+    "Corporate": "Firemní",
+    "TransactionalServices": "Transakční služby",
+    "RealEstate": "Nemovitosti",
+    "Other": "Jiné"
+  },
+  "jobTitles": {
+    "ManagingDirector": "Generální ředitel",
+    "Director": "Ředitel",
+    "ExecutiveDirector": "Výkonný ředitel",
+    "VicePresident": "Viceprezident",
+    "AssociateDirector": "Zástupce ředitele",
+    "Manager": "Manažer",
+    "Associate": "Spolupracovník",
+    "Analyst": "Analytik",
+    "Executive": "Výkonný pracovník",
+    "Partner": "Partner",
+    "ManagingAssociate": "Řízení zaměstnance",
+    "Trainee": "Školený pracovník",
+    "Paralegal": "Právní",
+    "LegalDirector": "Právní ředitel",
+    "OfCounsel": "Právní poradce",
+    "OperationsPartner": "Provozní partner",
+    "OperationsManager": "Provozní manažer",
+    "InvestmentDirector": "Investiční ředitel",
+    "InvestmentManager": "Investiční manažer",
+    "Principal": "Hlavní",
+    "CEO": "Generální ředitel",
+    "CFO": "Finanční ředitel",
+    "MAndADirector": "Ředitel fúzí a akvizic",
+    "MAndAManager": "Manažer fúzí a akvizic",
+    "GeneralCounsel": "Hlavní právník",
+    "Strategy": "Strategie",
+    "LegalCounsel": "Právní poradce",
+    "Other": "Jiné"
+  },
+  "passwordPolicyTypes": {
+    "singular": {
+      "length": "min. 1 znak",
+      "upperCase": "Velká písmena",
+      "lowerCase": "Malé písmeno",
+      "digits": "Číslo",
+      "specialChars": "Speciální znak"
+    },
+    "plural": {
+      "length": "min. {{value}} znak",
+      "upperCase": "{{value}} Velká písmena",
+      "lowerCase": "{{value}} Malá písmena",
+      "digits": "{{value}} Čísla",
+      "specialChars": "{{value}} Speciální znaky"
+    }
+  },
+  "dealTypes": {
+    "subcategory": {
+      "buySideMa": "Koupit Side M&A",
+      "sellSideMa": "Prodejní strana M&A",
+      "postMergerIntegration": "Integrace po fúzi",
+      "teaserImDistribution": "Distribuce upoutávek na rychlé zprávy",
+      "fundraising": "Fundraising",
+      "secondaries": "Sekundární",
+      "fundReportingInvestorRelations": "Vykazování finančních prostředků / vztahy s investory",
+      "portfolioManagement": "Správa portfolia",
+      "assetSaleIpo": "Prodej aktiv/IPO",
+      "npls": "NPL",
+      "securitization": "Sekuritizace",
+      "syndicatedLoan": "Syndikované výpůjčky",
+      "restructuring": "Restrukturalizace",
+      "privatePlacements": "Soukromá umístění",
+      "ipoRightsIssues": "Problémy s IPO a právy",
+      "roadshows": "Silniční přehlídky",
+      "assetManagement": "Správa majetku",
+      "assetSales": "Prodej aktiv",
+      "pharmaceuticalsLicensing": "Licencování na léčivé přípravky",
+      "jointVentures": "Společné podniky",
+      "auditorReviewCompliance": "Kontrola auditorem a dodržování předpisů",
+      "antitrustClassActionLawsuits": "Žaloby proti antimonopolní třídě",
+      "other": "Jiné"
+    },
+    "category": {
+      "ma": "M&A",
+      "privateEquity": "Soukromé akcie",
+      "debts": "Dluhy",
+      "equity": "Rovnost",
+      "realEstate": "Nemovitosti",
+      "pharma": "Farmaceutický průmysl",
+      "tendering": "Výběrové řízení",
+      "courtProceedings": "Soudní spory",
+      "otherDealType": "Jiný typ obchodní transakce"
+    }
+  },
+  "errorCodes": {
+    "passwordIsTooSimilar": "Heslo je příliš podobné předchozím 5 heslům."
+  },
+  "timeZones": {
+    "greenwichMeanTime": "Greenwichský střední čas",
+    "hongKongTime": "Čas v Hongkongu",
+    "indianStandardTime": "Indický standardní čas",
+    "singaporeStdTime": "Standardní čas v Singapuru",
+    "southAfricanStandardTime": "Jihoafrický standardní čas",
+    "arabStandardTimeKuwaitRiyadh": "Arabský standardní čas (Kuvajt, Rijád)",
+    "arabianStandardTimeAbuDhabiMuscat)": "Arabský standardní čas (Abu Dhabi, Maskat)",
+    "gulfStandardTime": "Standardní čas v zálivu",
+    "moscowTime": "Moskevský čas",
+    "australianWesternStandardTime": "Australský západní standardní čas",
+    "chinaStandardTime": "Čínský standardní čas",
+    "malaysiaTime": "Malajský čas",
+    "japanStandardTime": "Japonský standardní čas",
+    "atlanticStandardTime": "Atlantický standardní čas",
+    "australianCentralStandardTime": "Australský centrální standardní čas",
+    "australianEasternStandardTime": "Australský východní standardní čas",
+    "brasilia": "Brasilie",
+    "easternStandardTime": "Východní standardní čas",
+    "centralStandardTime": "Centrální standardní čas",
+    "mountainStandardTime": "Horský standardní čas",
+    "pacificStandardTime": "Pacifický standardní čas",
+    "alaskaStandardTime": "Standardní čas Aljašky",
+    "centralEuropeanTime": "Středoevropský čas",
+    "easternEuropeanTime": "Čas východní Evropy",
+    "westernIndonesianTime": "Západoindonéský čas",
+    "easternAfricaTimeNairobi": "Čas ve východní Africe (Nairobi)",
+    "israelStandardTimeJerusalem": "Izrael Standardní čas (Jerusalem)"
+  }
+}

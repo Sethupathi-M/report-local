@@ -1,0 +1,29 @@
+# dependencies
+/node_modules
+
+# production
+/build
+
+# misc
+.DS_Store
+npm-debug.log
+junit.xml
+
+dist/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+.idea
+initialsettings.json
+.env
+/.vs
+coverage

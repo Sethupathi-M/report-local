@@ -1,0 +1,3211 @@
+{
+  "routing": {
+    "navigationBarElements": {
+      "dashboard": "Dashboard",
+      "contents": "Contents",
+      "teamsAndUsers": "Teams & Users",
+      "qa": "Q&A",
+      "reports": "Reports",
+      "uploads": "Uploads",
+      "downloads": "Downloads",
+      "settings": "Settings",
+      "dataRooms": "Projects",
+      "vdrUsers": "Users",
+      "templates": "Templates",
+      "inviteUsers": "Invite users"
+    }
+  },
+  "sessionTimeout": {
+    "sessionTimeout": "Session Timeout",
+    "modalMessagePartOne": "Your session is about to expire due to inactivity. You will be logged out for security reasons.",
+    "modalMessagePartTwo": "All unsaved changes will be lost.",
+    "iAmHere": "Stay Logged In"
+  },
+  "common": {
+    "confirmChanges": "Confirm Changes",
+    "answer": "Answer",
+    "select": "Select",
+    "selectAdminType": "Select Admin Type",
+    "typeAndSelect": "Type and select",
+    "requiredField": "This field is required.",
+    "wrongPassword": "Password is incorrect.",
+    "cancel": "Cancel",
+    "save": "Save",
+    "enter": "Enter",
+    "enterPassword": "Enter Password",
+    "passwordsDoNotMatch": "Passwords must be the same.",
+    "enterEmail": "Enter e-mail address",
+    "enterMobile": "Enter mobile phone number",
+    "invalidEmailAddress": "Invalid e-mail address",
+    "InvalidUserName": "Invalid user name",
+    "InvalidUserLastName": "Invalid user last name",
+    "phoneNumberTooShort": "Phone number is too short",
+    "changePassword": "Change password",
+    "passwordExpirationWarning_oneOrZero": "Your password is set to expire",
+    "passwordExpirationWarning": "Your password is set to expire in {{count}} days",
+    "close": "Close",
+    "back": "Back",
+    "create": "Create",
+    "uploadFile": "Upload file",
+    "form": "Form",
+    "togglePasswordVisibility": "Toggle password visibility",
+    "toggleConfirmPasswordVisibility": "Toggle confirm password visibility",
+    "serverError": "There was an error connecting to the server",
+    "checkIsRequired": "Required",
+    "selectionIsRequired": "Selection required",
+    "questionMark": "?",
+    "submit": "Submit",
+    "view": "View",
+    "update": "Update",
+    "moderate": "Moderate",
+    "review": "Review",
+    "delete": "Delete",
+    "listEmpty": "No Data to Display",
+    "details": "Details",
+    "edit": "Edit",
+    "remove": "Remove",
+    "downloadPdf": "Download PDF",
+    "downloadNative": "Download",
+    "downloadContent": "Download",
+    "replace": "Replace",
+    "copy": "Copy",
+    "cut": "Cut",
+    "share": "Share",
+    "paste": "Paste",
+    "link": "Link",
+    "unlink": "Unlink",
+    "emptyBin": "Empty Bin",
+    "emptyMasterBin": "Empty Master Bin",
+    "search": "Search",
+    "bidders": "Bidders",
+    "sellers": "Sellers",
+    "buyers": "Buyers",
+    "internal": "Internal",
+    "external": "External",
+    "users": "Users",
+    "experts": "Experts",
+    "makeChanges": "Edit",
+    "print": "Print",
+    "countryOfResidence": "Country of Residence",
+    "stepperProgress": "<strong>Step {{activeStep}}</strong> of {{allSteps}}",
+    "sendRequest": "Send Request",
+    "required": "Required",
+    "exportIndexAsExcel": "Export Excel",
+    "exportIndexAsPdf": "Export PDF",
+    "operationInProgress": "Operation in progress...",
+    "successEmailSentMessage": "E-mail sent successfully.",
+    "failureEmailSentMessage": "Unable to send e-mail.",
+    "teamTypes": {
+      "MainDealTeam": "Main Deal Team",
+      "SubTeam": "Sub Team",
+      "BidderTeam": "Bidder Team"
+    },
+    "adminTypes": {
+      "sterlingAdmin": "Sterling Admin",
+      "technicalSupport": "Technical Support"
+    },
+    "teamTypeNamePlural": "{{teamTypeName}} Teams",
+    "subTeamNamePlural": "Sub Teams",
+    "teamNameSingular": "{{teamName}} Team"
+  },
+  "views": {
+    "adminPanel": {
+      "templates": {
+        "templates": "Templates"
+      },
+      "vdrUsers": {
+        "vdrUsers": "Users",
+        "users": "Users",
+        "admins": "Admins",
+        "createNewAdminDrawer": {
+          "title": "Create New Admin",
+          "adminTypeLabel": "Admin Type",
+          "adminTypePlaceHolder": "Select admin type",
+          "domainNamesDoesNotMatched": "Unsupported e-mail domain.",
+          "adminUserCreated": "Admin created successfully.",
+          "adminUserNotCreated": "Unable to create Admin.",
+          "userAlreadyExists": "User already exists.",
+          "userNotRegister": "Email address not registered.",
+          "button": {
+            "createAdmin": "Create Admin",
+            "cancel": "Cancel",
+            "create": "Create"
+          }
+        },
+        "listOfUsers": "List of Users",
+        "table": {
+          "header": {
+            "name": "Name",
+            "email": "E-Mail",
+            "company": "Company Name"
+          },
+          "details": {
+            "adminType": "Admin Type",
+            "emailVerificationtooltip": "Pending e-mail verification",
+            "securityQuestion": "Security Question",
+            "securityAnswer": "Security Answer",
+            "mobilePhoneNumber": "Mobile Phone Number",
+            "deskPhoneNumber": "Alternative Phone Number",
+            "countryOfResidence": "Country Of Residence",
+            "sector": "Sector",
+            "function": "Function",
+            "jobTitle": "Job Title",
+            "userDataRooms": {
+              "dataRoomName": "Project Name",
+              "status": "Status",
+              "teamName": "Team Name",
+              "role": "Role",
+              "enterDataRoom": "Enter Project"
+            }
+          },
+          "rowActions": "Users row actions"
+        }
+      }
+    },
+    "customerSupport": {
+      "title": "Customer Services Team",
+      "content": "We are available for you 24/7 and are happy to help with \nany questions or queries.\nSend message via form, e-mail ({{supportEmail}})\nor call us: {{phone}} - ",
+      "button": {
+        "cancel": "Cancel",
+        "send": "Send",
+        "sendMessage": "Send Message"
+      },
+      "placeholder": "How can we help?",
+      "errorMessage": "This field is required.",
+      "header": {
+        "close": "Close"
+      },
+      "internationalNumbers": "International Numbers",
+      "messageHeader": "Message",
+      "toasts": {
+        "failure": "Your message could not be delivered please try again later.",
+        "success": "Your message has been sent successfully."
+      },
+      "successTitle": "Thank you for your inquiry!",
+      "backtoTransperfectHub": "Back to TransPerfect Hub",
+      "successMessageBody": "Our team received your message and will get back to you within 48 hours."
+    },
+    "contents": {
+      "contents": "Contents",
+      "contentsTree": "Index",
+      "contentsTreeEmptyState": "No files in Project",
+      "contentsTreeNodeAriaLabel": "Menu options for {{itemName}}",
+      "startReviewOnOpen": "Document is Waiting for Review",
+      "openOrStartReviewDialog": {
+        "title": "Document is Waiting for Review",
+        "content": "This document is waiting for review. You may open it as a read-only file or start the reviewing process.",
+        "decision": "How would you like to proceed?",
+        "extraConfirm": "Read Only",
+        "confirm": "Start Review"
+      },
+      "contentList": {
+        "header": {
+          "creationDate": "Date Added",
+          "name": "Name",
+          "numbering": "No.",
+          "rootIndex": "Root Index",
+          "labels": "Labels",
+          "selectAllRows": {
+            "fetchingTooltip": "Loading items..."
+          }
+        },
+        "body": {
+          "moreLabels": "+{{count}}",
+          "sessionsTooltip": "To unlock adding labels, publish session first",
+          "labelPopover": {
+            "createNew": "Create new",
+            "placeholder": "Label name...",
+            "labels": "Labels",
+            "add": "Add",
+            "error": {
+              "labelExists": "Name already exists."
+            },
+            "note": "Labels applied are visible to all users in the Project."
+          },
+          "labelDeleteModal": {
+            "content": "Are you sure you would like to delete this label? It will be removed from all items it was applied to."
+          }
+        },
+        "dragAndDropAvailableInfo": "You may also drag and drop files to start uploading.",
+        "sort": {
+          "buttonText": "Sort",
+          "options": {
+            "numberAsc": "Number Ascending",
+            "numberDesc": "Number Descending",
+            "nameAsc": "Name Ascending",
+            "nameDesc": "Name Descending",
+            "newest": "Newest",
+            "oldest": "Oldest",
+            "popularity": "Popularity"
+          }
+        }
+      },
+      "documentDetails": {
+        "header": "Document Details",
+        "name": "Name",
+        "dateAdded": "Date Added",
+        "uploadedBy": "Uploaded by",
+        "conversionStatus": "Conversion Status",
+        "conversionStatuses": {
+          "conversionCompleted": "Conversion Completed",
+          "none": "None",
+          "processing": "Processing",
+          "conversionFailed": "Unable to convert file",
+          "searchable": "Searchable",
+          "notSearchable": "Not Searchable",
+          "recognisingTextForSearch": "Recognising text for search",
+          "svfConversionProcessing": "Processing",
+          "svfConversionCompleted": "SVF Conversion Completed",
+          "svfConversionFailed": "SVF Conversion Failed"
+        },
+        "statusDate": "Status Date",
+        "convertedFileSize": "Converted File Size",
+        "nativeFileSize": "Native File Size",
+        "nativeFileType": "Native File Type",
+        "pageCount": "Page Count",
+        "irm": {
+          "labelText": "MS Office Protection",
+          "irmOptions": {
+            "no": "Disabled",
+            "yes": "Enabled"
+          }
+        },
+        "statusDetails": "Status Details",
+        "statusesDetails": {
+          "passwordProtected": "File password protected.",
+          "unidentifiedIssue": "Unidentified issue.",
+          "fileCouldNotBeConverted": "File could not be converted.",
+          "identifiedForm": "PDF Form Identified."
+        },
+        "reviewStatus": "Review Status",
+        "startReview": "Start Review",
+        "finishReview": "Finish Review",
+        "contactSupport": "Contact Customer Services Team",
+        "thumbnailPreview": "Thumbnail preview",
+        "thumbnailFailed": "Thumbnail failed",
+        "next": "Next",
+        "prev": "Prev",
+        "reviewing": "Reviewing",
+        "pending": "Pending",
+        "returnedComplete": "Returned Complete",
+        "returnedIncomplete": "Returned Incomplete",
+        "selectReviewStatus": "Select Review Status"
+      },
+      "bulkRename": {
+        "bulkRename": "Bulk Rename",
+        "newName": "New Name",
+        "noItemsHeaderText": "No Data to Display",
+        "noItemsSecondaryText": "Please select a different Index or Folder",
+        "toastMessages": {
+          "success": "Items renamed successfully:",
+          "importSuccess": "Bulk Rename Feed imported successfully.",
+          "importInProgressMessage": "Importing Bulk Rename Feed in progress…",
+          "failure": "Unable to rename items:",
+          "sessionLockFailure": "Unable to modify items: {{count}}. They are locked by another user.",
+          "invalidFormat": "Unable to import Bulk Rename Feed. Ensure the file is in XLSM format.",
+          "unrecognisedFileStructure": "Unable to import Bulk Rename Feed. The file structure could not be recognised.",
+          "importAlreadyInProgress": "Bulk Rename import is in progress. Please try again later.",
+          "someItemsNotAccessible": "Items in the following cells do not exists or are not accessible for you anymore: {{cells}}",
+          "invalidNames": "Invalid characters found in the following cells: {{cells}}",
+          "genericError": "Unable to import Bulk Rename Feed."
+        },
+        "exportFeed": {
+          "buttonName": "Export",
+          "success": {
+            "title": "Preparing Bulk Rename file",
+            "link": "Show queue"
+          },
+          "failure": {
+            "title": "Unable to Export Bulk Rename File."
+          }
+        },
+        "importFeed": {
+          "buttonName": "Import"
+        },
+        "searchPlaceholder": "Search for item name...",
+        "itemsFound": "Items found:",
+        "removeAll": "Remove All",
+        "ignore": "Ignore",
+        "cantModifyItemNamePrompt": "You don’t have permissions to modify the name of this item."
+      },
+      "hide": "Hide",
+      "show": "Show",
+      "contentsRootLogoAlt": "Contents root logo",
+      "assignForReview": "Assign for Review",
+      "assignAnotherUserForReview": "Assign Another User",
+      "finishReview": "Finish Review",
+      "add": "Add",
+      "folder": "Folder",
+      "placeholder": "Placeholder",
+      "shortcut": "Shortcut",
+      "hyperlink": "URL Link",
+      "upload": "Upload",
+      "collapseAll": "Collapse all",
+      "expandAll": "Expand all",
+      "editProperties": "Edit Properties",
+      "reviewStartedSuccess": "Document review started successfully.",
+      "reviewStartedFailure": "Unable to start document review.",
+      "backReviewToPending": "Back to Pending Review",
+      "backToPendingSuccess": "Document status changed successfully.",
+      "backToPendingFailure": "Unable to change document status.",
+      "withdrawFromReview": "Withdraw from Review",
+      "withdrawSuccess": "Document withdrawn successfully.",
+      "withdrawFailure": "Unable to withdraw document.",
+      "assignForReviewForm": {
+        "selectReviewers": "Reviewers",
+        "setDate": "Due Date",
+        "selectDate": "Select date",
+        "addComment": "Comment",
+        "typeComment": "Type Comment",
+        "sendReview": "Send for Review",
+        "successMessage": "Documents assigned for review successfully: {{count}}",
+        "failureMessage": "Unable to assign documents for review: {{count}}"
+      },
+      "indexExport": {
+        "toast": {
+          "error": {
+            "title": "Unable to prepare the package for download."
+          },
+          "success": {
+            "title": "Preparing download package.",
+            "link": "Show queue"
+          }
+        }
+      },
+      "assignAnotherUserForReviewForm": {
+        "successMessage": "Users assigned for review successfully.",
+        "failureMessage": "Unable to assign users for review."
+      },
+      "finishReviewForm": {
+        "finishReview": "Finish Review",
+        "successMessage": "Document reviews finished successfully: {{count}}",
+        "failureMessage": "Unable to finish document reviews: {{count}}",
+        "commentRequired": "This field is required.",
+        "completeStatus": "Select Review Status"
+      },
+      "addItemForm": {
+        "addFolder": "Add Folder",
+        "close": "Close",
+        "enterFolderName": "Folder Name",
+        "remove": "Remove",
+        "addNext": "Add More",
+        "save": "Save",
+        "cancel": "Cancel",
+        "folderNameEmptyErrorMessage": "This field is required.",
+        "folderNameContainsInvalidCharacters": "Folder name contains invalid characters.",
+        "folderCreateSuccess": "Folders created successfully: {{count}}",
+        "folderCreateFailure": "Unable to create folders: {{count}}",
+        "addIndex": "Add Index",
+        "indexNameEmptyErrorMessage": "This field is required.",
+        "indexNameContainsInvalidCharacters": "Index name contains invalid characters.",
+        "enterIndexName": "Index Name",
+        "indexAlreadyExists": "This project already contains an Index named {{name}}.",
+        "indexCreateSuccess": "Index created successfully.",
+        "indexCreateFailure": "Unable to create index.",
+        "addPlaceholder": "Add Placeholder",
+        "placeholderNameEmptyErrorMessage": "This field is required.",
+        "placeholderNameEmptyErrorMessageNameContainsInvalidCharacters": "Placeholder name contains invalid characters.",
+        "enterPlaceholderName": "Placeholder Name",
+        "placeholderCreateSuccess": "Placeholders created successfully: {{count}}",
+        "placeholderCreateFailure": "Unable to create placeholders: {{count}}",
+        "addHyperlink": "Add URL Link",
+        "hyperlinkCreateSuccess": "URL Links created successfully: {{count}}",
+        "hyperlinkCreateFailure": "Unable to create URL Links: {{count}}",
+        "itemUploadSuccess": "Upload completed for {{count}} items.",
+        "itemUploadFailure": "Unable to upload items: {{count}}",
+        "itemReplaceSuccess": "Item replaced successfully",
+        "itemReplaceFailure": "Unable to replace the item.",
+        "itemReplaceNonexistingItem": "Unable to replace the item since it does not exist or it has been changed. Please refresh the page.",
+        "invalidUrl": "URL Link is not valid.",
+        "hyperlinkNameEmptyErrorMessage": "This field is required.",
+        "enterHyperlinkName": "Link Name",
+        "enterUrl": "URL Link",
+        "addShortcut": "Add Shortcut",
+        "enterItemName": "Item Name",
+        "enterShortcutName": "Shortcut Name",
+        "searchAndSelect": "Search and select",
+        "noOptions": "No match found",
+        "shortcutNameEmptyErrorMessage": "This field is required.",
+        "shortcutRefIsMandatory": "This field is required.",
+        "shortcutRefLeadsToStagingFolderWarning": "Shortcut leads to the Staging Folder and may not be visible to all users in the Project.",
+        "shortcutCreateSuccess": "Shortcuts created successfully: {{count}}",
+        "shortcutCreateFailure": "Unable to create shortcut: {{count}}",
+        "defaultEmptyItemNameMessage": "This field is required.",
+        "defaultItemNameContainsInvalidCharactersMessage": "Item name contains invalid characters.",
+        "defaultAddItemMessage": "Add Item",
+        "defaultEnterItemName": "Item Name",
+        "defaultItemName": "Item Name",
+        "defaultItemCreateSuccess": "Item created successfully.",
+        "defaultItemCreateFailure": "Unable to create item.",
+        "autoNumbering": {
+          "autoNumbering": "Auto-Numbering",
+          "prefix": "Prefix",
+          "enterPrefix": "Enter Prefix",
+          "convention": "Convention",
+          "defineCustomConvention": "Custom Convention",
+          "none": "None",
+          "numeric": "Numeric",
+          "alphabetic": "Alphabetic",
+          "roman": "Roman",
+          "custom": "Custom",
+          "result": "Result",
+          "descriptionHeader": "You may use following symbols:",
+          "numberDescription": "means a number",
+          "upperCaseLetterDescription": "means an uppercase letter",
+          "lowerCaseLetterDescription": "means a lowercase letter",
+          "upperCaseRomanNumberDescription": "means an uppercase Roman number",
+          "lowerCaseRomanNumberDescription": "means a lowercase Roman number",
+          "numberingConventionIncorrectErrorMessage": "Convention you specified is incorrect. See instructions below.",
+          "customConventionEmptyErrorMessage": "This field is required.",
+          "customConventionPlaceholder": "Define Convention"
+        },
+        "applyHiddenPermissionLabel": "Apply hidden permission",
+        "hint": {
+          "header": "Permissions inheritance",
+          "message": "Please note that shortcut will inherit permission from the target item."
+        }
+      },
+      "editItem": {
+        "index": {
+          "success": "Index properties updated successfully.",
+          "failure": "Unable to update index properties.",
+          "name": "Index Name"
+        },
+        "hyperlink": {
+          "success": "URL Link’s properties updated successfully.",
+          "failure": "Unable to update URL link properties.",
+          "name": "Hyperlink Name",
+          "url": "URL Link"
+        },
+        "shortcut": {
+          "success": "Shortcut properties updated successfully.",
+          "failure": "Unable to update shortcut properties.",
+          "name": "Shortcut Name",
+          "itemName": "Item Name",
+          "hint": {
+            "header": "Permissions inheritance",
+            "message": "Shortcut will inherit permissions from the target item."
+          }
+        },
+        "item": {
+          "success": "Item renamed successfully.",
+          "failure": "Unable to rename the item."
+        },
+        "placeholder": {
+          "name": "Placeholder Name"
+        },
+        "document": {
+          "name": "Document Name",
+          "nameIsMandatory": "This field is required."
+        },
+        "folder": {
+          "name": "Folder Name"
+        },
+        "defaultItem": {
+          "success": "Item updated successfully.",
+          "failure": "Unable to update the item."
+        },
+        "editItemNotFound": "Unable to modify the item since it does not exist or it has been changed. Please refresh the page."
+      },
+      "predefinedFolders": {
+        "favorites": "Favourites",
+        "stagingFolder": "Staging Folder",
+        "emailUpdates": "E-mail Updates",
+        "q&aAttachments": "Q&A Attachments",
+        "bin": "Bin",
+        "masterBin": "Master Bin",
+        "indexContainer": "Indexes"
+      },
+      "uploadFiles": {
+        "hint": {
+          "header": "Uploading empty folders.",
+          "message": "When uploading a structure with empty folders, please use the drag and drop feature."
+        },
+        "uploadTo": "Upload To:",
+        "selectFilesFrom": "Select from",
+        "dragAndDropLine1": "Drop files here",
+        "dragAndDropLine2": "Files, Archives, Folders",
+        "fileExtensionIsNotSupported": "File extension {{extension}} is not supported.",
+        "fileExtensionsAreNotSupported": "File extensions {{extensions}} and {{lastExtension}} are not supported.",
+        "fileWithoutExtensions": "Files without extension: {{count}}",
+        "invalidFileName": "File names contain invalid characters \\ / | * : \" ? < >: {{count}}",
+        "selectedItems": "Selected items: {{count}}",
+        "removeAll": "Remove all",
+        "addMoreFilesFrom": "Add more from",
+        "otherSources": "Other sources",
+        "cancel": "Cancel",
+        "upload": "Upload",
+        "remove": "Remove",
+        "seeList": "See list",
+        "sourceNames": {
+          "localStorageFile": "Local Storage Files",
+          "localStorageFolder": "Local Storage Folders",
+          "googleDrive": "Google Drive",
+          "dropBox": "DropBox",
+          "oneDrive": "OneDrive",
+          "sharepoint": "Sharepoint",
+          "boxCom": "Box.com"
+        },
+        "configurationSections": {
+          "options": "Options",
+          "openUploadSettings": "Open Upload Settings",
+          "applyHiddenPermission": {
+            "sectionText": "Apply hidden permission",
+            "options": {
+              "no": "No",
+              "yes": "Yes"
+            },
+            "description": "Documents will be hidden to all external and sub teams. Otherwise, the permissions assigned to the parent folder will be applied."
+          },
+          "extractAllCompressedFiles": {
+            "sectionText": "Extract all compressed files",
+            "options": {
+              "no": "No",
+              "yes": "Yes"
+            }
+          },
+          "notify": {
+            "sectionText": "Notify",
+            "options": {
+              "no": "No",
+              "asPerUserSettings": "As per user settings",
+              "immediatelyToUsersWithSettingsEnabled": "Immediately to users with settings enabled"
+            }
+          }
+        },
+        "uploadStatusPreview": {
+          "remainingUploadItems": "Uploading... Items left: {{count}}.",
+          "failedUploadItems": "Unable to upload: {{count}}.",
+          "showQueue": "Show queue"
+        },
+        "cancelUploadConfirmationDialog": {
+          "title": "Discard Upload",
+          "content": {
+            "cancelQuestion": "Are you sure you want to discard these files?",
+            "cancelConfirm": ""
+          },
+          "confirm": "Discard",
+          "cancel": "Cancel"
+        },
+        "lockedDestinationFolderMessage": "Action cannot be performed. Files are being uploaded to this folder.",
+        "uploadFolderStructureCreationMessage": "Creating folder structure for upload..."
+      },
+      "deleteItem": {
+        "delete": "Delete",
+        "deleteConfirmationDialog": {
+          "title": "Confirm delete",
+          "content": {
+            "delete": "Are you sure you want to delete the selected items?",
+            "deleteFromBin": "Are you sure you want to delete the selected items from the Bin?",
+            "deleteFromMasterBin": "Are you sure you want to permanently delete the selected items from the Master Bin?"
+          }
+        },
+        "deleteItemSuccess": {
+          "delete": "Items deleted successfully: {{count}}",
+          "deleteFromMasterBin": "Items deleted successfully: {{count}}"
+        },
+        "deleteItemFailure": {
+          "delete": "Unable to delete items: {{count}}",
+          "deleteFromMasterBin": "Unable to delete items: {{count}}"
+        },
+        "deleteItemNotFound": "{{count}} items could not be deleted. The items do not exist or have been changed. Please refresh the page."
+      },
+      "emptyItem": {
+        "emptyItemConfirmationDialog": {
+          "title": "Confirm Delete",
+          "content": {
+            "bin": "Are you sure you want to empty the Bin?",
+            "masterBin": "Are you sure want to empty the Master Bin?"
+          }
+        },
+        "emptyItemSuccess": {
+          "bin": "Bin emptied successfully.",
+          "masterBin": "Master Bin emptied successfully."
+        },
+        "emptyItemFailure": {
+          "bin": "Unable to empty Bin.",
+          "masterBin": "Unable to empty Master Bin."
+        }
+      },
+      "favorites": {
+        "add": "Add to Favourites",
+        "remove": "Remove from Favourites",
+        "addSuccess": "Items added to Favourites: {{count}}",
+        "addFailure": "Unable to add items to Favourites: {{count}}",
+        "removeSuccess": "Items removed from Favourites: {{count}}",
+        "removeFailure": "Unable to remove items from Favourites: {{count}}"
+      },
+      "copyItem": {
+        "success": "Items pasted successfully: {{count}}",
+        "failure": "Unable to paste items: {{count}}",
+        "itemNotFound": "Unable to paste items since it does not exist or it has been changed.  Please refresh the page.",
+        "targetNotValid": "You cannot paste items to any of the copied ones.",
+        "targetCannotBeStagingFolder": "Shortcuts cannot be pasted to Staging Folder."
+      },
+      "moveItem": {
+        "success": "Items moved: {{count}}",
+        "failure": "Unable to move items: {{count}}",
+        "itemNotFound": "{{count}} items could not be moved since the items do not exist or it has been changed. Please refresh the page.",
+        "targetNotValid": "You cannot paste items to any of the cut ones.",
+        "moveToInvalidTarget": "You cannot move items to the items being moved.",
+        "moveToHiddenFolderConfirmationDialog": {
+          "title": "Hidden Permissions Detected",
+          "content": "Moving these items may hide them from some teams in the new location. Are you sure you want to continue?",
+          "confirm": "Continue",
+          "cancel": "Cancel"
+        }
+      },
+      "shortcuts": {
+        "brokenShortcutConfirmationDialog": {
+          "title": "Invalid Shortcut",
+          "content": "The file linked to this shortcut has been deleted and is no longer accessible.\nHow would you like to proceed?"
+        },
+        "deleteShortcut": "Delete Shortcut"
+      },
+      "uploadQueue": {
+        "status": {
+          "failed": "Unsuccessful",
+          "success": "Success",
+          "cancelled": "Cancelled",
+          "partiallyFinished": "Partially finished"
+        },
+        "drawerTitle": "Upload Queue",
+        "button": {
+          "close": "Close",
+          "minimise": "Minimise",
+          "cancel": "Cancel",
+          "cancelAll": "Cancel All"
+        },
+        "emptyQueueMessageHeader": "No items in the queue",
+        "emptyQueueMessageContent": "All uploads have been finished",
+        "closeDrawerConfirmationDialog": {
+          "title": "Close Upload Queue",
+          "content": "Are you sure you want to close the upload queue? Upload failure information will no longer be accessible.",
+          "confirm": "Close Queue",
+          "cancel": "Cancel"
+        },
+        "cancelUploadConfirmationDialog": {
+          "title": "Cancel Upload",
+          "content": "Are you sure you want to cancel uploading this file?",
+          "confirm": "Cancel Upload",
+          "cancel": "Continue Upload"
+        },
+        "cancelAllUploadConfirmationDialog": {
+          "title": "Cancel Upload",
+          "content": "Are you sure you want to cancel uploading the remaining files?",
+          "confirm": "Cancel Upload",
+          "cancel": "Continue Upload"
+        }
+      },
+      "share": {
+        "drawerTitle": "Share",
+        "button": {
+          "close": "Close",
+          "cancel": "Cancel",
+          "share": "Share"
+        },
+        "documentLabel": "Document",
+        "emailAddresses": "Add E-mail Addresses",
+        "addComment": "Add Comment",
+        "validationMessage": "Enter in the format: name@example.com ",
+        "typeComment": "Type comment",
+        "success": "Document shared successfully.",
+        "failure": "Unable to share document. Please try again.",
+        "failureNotification": "Unknown document type."
+      },
+      "markItem": {
+        "asViewed": {
+          "buttonText": "Mark as Viewed",
+          "success": "Items marked as viewed successfully: {{count}}",
+          "failure": "Unable to mark items as viewed: {{count}}"
+        },
+        "asUnviewed": {
+          "buttonText": "Mark as Unviewed",
+          "success": "Items marked as unviewed successfully: {{count}}",
+          "failure": "Unable to mark items as unviewed: {{count}}"
+        }
+      },
+      "editOov": {
+        "buttonText": "Open in Only Office"
+      },
+      "downloadProtectedFile": {
+        "buttonText": "Download Protected File"
+      },
+      "reprocess": {
+        "buttonText": "Reprocess",
+        "success": "Item sent for reprocessing.",
+        "failure": "Unable to reprocess item.",
+        "itemNotFound": "The item could not be reprocessed since it does not exist or has been changed. Please refresh the page.",
+        "processingDialog": {
+          "title": "Processing in Progress",
+          "content": "You cannot perform this action as the file is being processed.",
+          "confirm": "Close"
+        }
+      },
+      "replaceCorrected": {
+        "buttonText": "Replace Corrected",
+        "itemReplaceCorrectedSuccess": "Item replaced successfully.",
+        "itemReplaceCorrectedFailure": "Unable to replace item.",
+        "itemReplaceCorrectedSessionFailure": "You cannot perform this action as there are unpublished actions on this file.",
+        "itemReplaceCorrectedNonexistingItem": "Unable to replace item since it does not exist or has been changed. Please refresh the page.",
+        "processingDialog": {
+          "title": "Document Not Available",
+          "content": "You cannot perform this action as the file is being processed.",
+          "confirm": "Close"
+        }
+      },
+      "bulkDownload": {
+        "openBulkDownloadDialog": {
+          "title": "Bulk Download Disabled",
+          "content": "Bulk Download is currently disabled for this Project. Files can be downloaded one at a time.\n\nIf you think this should be enabled, please contact our <0>Customer Services Team</0> for assistance.",
+          "confirm": "Close"
+        }
+      },
+      "openPdfViewer": {
+        "openCorruptedDialog": {
+          "title": "File Corrupted",
+          "content": "This file is corrupted and is not available for online viewing.\n\nPlease contact our <0>Customer Services Team</0> for further assistance.",
+          "confirm": "Close"
+        },
+        "openPasswordProtectedDialog": {
+          "title": "Password Protected File",
+          "content": "The file is password protected and is not available for online viewing.\n\nPlease contact our <0>Customer Services Team</0> for further assistance.",
+          "confirm": "Close"
+        },
+        "openBeingProcessedDialog": {
+          "title": "File processing in progress",
+          "content": "If you have relevant access permission, choose <strong>Download</strong> from the item menu. \n\nAlternatively, please contact our <0>Customer Services Team</0> for further assistance.",
+          "confirm": "Close"
+        },
+        "openConversionFailedDialog": {
+          "title": "File not converted for online viewing",
+          "content": "If you have relevant access permission, choose <strong>Download</strong> from the item menu. \n\nAlternatively, please contact our <0>Customer Services Team</0> for further assistance.",
+          "confirm": "Close"
+        },
+        "openNotAvilableOnlineDialog": {
+          "title": "File not available for online viewing",
+          "content": "If you have relevant access permission, choose <strong>Download</strong> from the item menu. \n\nAlternatively, please contact our <0>Customer Services Team</0> for further assistance.",
+          "confirm": "Close"
+        }
+      },
+      "contentDownload": {
+        "title": "Select Files to Download",
+        "buttons": {
+          "prepareDownload": "Prepare Download",
+          "expandAll": "Expand All",
+          "collapseAll": "Collapse All"
+        },
+        "toast": {
+          "error": {
+            "title": "Unable to prepare download package."
+          },
+          "success": {
+            "title": "Preparing download package.",
+            "link": "Show queue"
+          },
+          "warning": {
+            "title": "Path name longer than {{count}} characters may be shortened."
+          }
+        },
+        "totalSize": "Requested file size is {{totalSize}}.",
+        "warning": "Path name longer than {{count}} characters will be shortened.",
+        "downloadRestrictions": "Download restrictions apply to this item."
+      },
+      "downloadSelected": {
+        "button": "Download Selected"
+      },
+      "permissionManagement": {
+        "title": "Permissions",
+        "tabs": {
+          "contentPermission": "Content Permissions",
+          "pdfProtection": "PDF Protection",
+          "msOfficeProtection": "MS Office Protection"
+        },
+        "emptyGrid": {
+          "header": "No Items to Display",
+          "message": "Upload files and create teams to manage permissions."
+        },
+        "nothingToShow": {
+          "header": "No Results Found",
+          "message": "Please try changing your search criteria"
+        },
+        "header": {
+          "teamName": "{{teamName}} Team",
+          "reorderColumns": "Drag the column to change the order"
+        },
+        "permissionLevels": {
+          "Hidden": "Hidden",
+          "FenceView": "Fence View",
+          "View": "View",
+          "Print": "Print",
+          "Download": "Download",
+          "Manage": "Manage"
+        },
+        "folderOnly": "Folder only",
+        "folderAndItems": "Folder and its items",
+        "inherited": "(inherited)",
+        "permissionLocked": {
+          "owner": "While modifying you block other users from operations on Contents and Permissions.",
+          "other": "You cannot modify Permissions. They are locked by {{ userInfo }}",
+          "anotherUser": "another user",
+          "upload": "Permissions are locked due to other users currently uploading files to the Project. Please try again later.",
+          "session": "Permissions are locked due to an open session. Close your session by publishing or reverting changes. Other user's sessions may prevent you from modifying changes. Please contact Deal Admin or <0>Customer Services Team</0>."
+        },
+        "unlock": "Unlock",
+        "takeOver": "Take Over",
+        "contentsLockedByPermissions": "Permissions are locked by another user {{ userInfo }}.",
+        "exportFeed": {
+          "buttonName": "Export Permissions",
+          "errorMessage": "Unable to export Permissions file.",
+          "unsavedChangesDialog": {
+            "title": "Export Permissions File",
+            "message": "Due to unsaved changes,\npermissions file cannot be exported.\n\nSave or cancel the changes first.",
+            "confirmButton": "Close"
+          },
+          "permissionLockedMessage": {
+            "owner": "Permissions are currently locked. To continue, please import permission file or unlock.",
+            "otherUser": "Permissions are currently locked since {{emailAddress}} exported the Permissions file. Please wait for the file to be imported or unlock."
+          }
+        },
+        "takeOverDialog": {
+          "title": "Take Over Editing Permissions",
+          "message": "Are you sure you want to continue editing another user's changes?",
+          "confirmButton": "Take over",
+          "cancelButton": "Cancel"
+        },
+        "unlockDialog": {
+          "title": "Unlock Editing Permissions",
+          "message": "Are you sure you want to unlock Permissions?\n\nThis will discard all changes made by another user.",
+          "confirmButton": "Unlock",
+          "cancelButton": "Cancel"
+        },
+        "importFeed": {
+          "buttonName": "Import File",
+          "importInProgressMessage": "Importing Permissions in progress...",
+          "importSuccess": "Permission file imported successfully.",
+          "errorMessage": {
+            "invalidFormat": "Unable to import Permissions. The file must be in XLSM format.",
+            "invalidFile": "Unable to import Permissions. Please select the most recent exported file.",
+            "genericError": "Unable to import Permissions.",
+            "importInProgress": "You cannot perform this action while Permissions import is in progress."
+          }
+        },
+        "filtering": {
+          "hint": {
+            "message": "Copying Permissions applies to the entire Index"
+          },
+          "placeholder": "Search for item name..."
+        },
+        "viewing": {
+          "viewAsTeam": "View As Team: {{team}}",
+          "viewAs": "View As"
+        },
+        "copyPermissions": {
+          "button": {
+            "copy": "Copy Permissions",
+            "paste": "Paste from {{teamName}} team",
+            "applyToVisibleTeams": "Paste to all visible {{teamType}} teams"
+          },
+          "errorMessage": "Unable to copy Permissions to teams: {{count}}"
+        },
+        "button": {
+          "publish": "Publish All",
+          "cancel": "Cancel",
+          "saveDraft": "Save Draft",
+          "revertSelected": "Revert Selected"
+        },
+        "unsavedChangesDialog": {
+          "title": "You Have Unsaved Changes",
+          "content": "All changes will be lost.\n\nBy saving changes as a draft, you or another user may continue editing later.\n\nHow would you like to proceed?",
+          "discard": "Discard Changes",
+          "stayOnPage": "Keep Editing",
+          "saveDraft": "Save Draft"
+        },
+        "unsavedChangesDialogNavigateOutside": {
+          "title": "Leave Permissions",
+          "content": "All unsaved changes and previously saved drafts will be discarded.\n\nBy saving changes as a draft, you or another user may continue editing later.\n\nHow would you like to proceed?",
+          "discard": "Discard All",
+          "stayOnPage": "Keep Editing",
+          "saveDraft": "Save Draft"
+        },
+        "revertPermissions": {
+          "counter": "Selected {{count}} of {{totalCount}}",
+          "noItemsSelectedWarningMessage": "No items to revert.",
+          "errorMessage": "Unable to revert changes.",
+          "revertPermissionsSuccess": "Changes reverted successfully."
+        },
+        "saveDraft": {
+          "noPermissionChangesWarning": "No changes to save.",
+          "saveDraftSuccess": "Draft saved successfully."
+        },
+        "publish": {
+          "dialog": {
+            "confirmButton": "Publish Changes",
+            "cancelButton": "Keep Editing",
+            "title": "Publish Permissions",
+            "message": "Are you sure you want to publish all changes?"
+          },
+          "noPermissionsChangesPublishWarning": "No changes to publish.",
+          "publishSuccess": "Changes published successfully."
+        },
+        "teamLevelRightsManagement": {
+          "unsavedChangesDialogNavigateOutside": {
+            "unsavedChangesTitle": "You have unsaved changes",
+            "content": "You are about to leave this page without saving, all changes will be lost.\n\nAre you sure you want to discard them?",
+            "stayOnPage": "Stay on Page",
+            "discard": "Discard Changes"
+          }
+        }
+      },
+      "extractArchive": {
+        "buttonText": "Unzip",
+        "success": "Archives extracted successfully: {{count}}",
+        "failure": "Unable to extract archives: {{count}}",
+        "failureDueToPasswordProtection": "Unable to extract archives due to password protection: {{count}}",
+        "itemsNotExtracted": "'Items not extracted due to unsupported file extensions: {{count}}",
+        "buttonTextApplyHiddenPermission": "Unzip with Hidden Permissions",
+        "inProgress": "Archive extracting in progress…",
+        "notFound": "Unable to extract archives since it does not exist or it has been changed. Please refresh the page."
+      },
+      "addQuestion": {
+        "buttonText": "Add Question"
+      },
+      "showQuestions": {
+        "buttonText": "Show Questions"
+      },
+      "filtering": {
+        "applyFilters": "Apply Filters",
+        "cancel": "Cancel",
+        "clearFilters": "Clear Filters",
+        "filter": "Filter",
+        "results": "{{count}} Results",
+        "filters": {
+          "addedDate": {
+            "label": "Added",
+            "options": {
+              "anytime": "Anytime",
+              "lastVisit": "Since Last Visit",
+              "last24h": "In Last 24h",
+              "dateRange": "In Specific Date Range"
+            },
+            "addedDateFromPlaceholder": "From",
+            "addedDateToPlaceholder": "To",
+            "validation": {
+              "datesEmptyError": "At least one date must be provided.",
+              "startAfterEndDateError": "The start date cannot be later than the end date."
+            }
+          },
+          "itemsCategory": {
+            "label": "Display Only",
+            "options": {
+              "all": "All",
+              "assignedForReview": "Assigned to Me",
+              "favorites": "Favourites",
+              "printable": "Printable",
+              "nativeFiles": "Native files",
+              "viewedByUser": "Viewed by Me",
+              "notViewedByUser": "Not Viewed by Me",
+              "specificItemTypes": "Specific Item Types"
+            }
+          },
+          "fileExtensions": {
+            "label": "Native File Types",
+            "placeholder": "Select File Type",
+            "options": {
+              "Archives": "Archives",
+              "CAD": "CAD files",
+              "Documents": "Documents",
+              "Images": "Images",
+              "Others": "Others",
+              "Presentations": "Presentations",
+              "Spreadsheets": "Spreadsheets",
+              "Videos": "Videos"
+            }
+          },
+          "specificItemTypes": {
+            "placeholder": "Select Item Types",
+            "options": {
+              "document": "Document",
+              "folder": "Folder/Index",
+              "placeholder": "Placeholder",
+              "shortcut": "Shortcut",
+              "hyperlink": "URL Link"
+            }
+          },
+          "labels": {
+            "label": "Labels",
+            "placeholder": "Select Labels",
+            "allLabelsOptionLabel": "All Labels"
+          },
+          "teams": {
+            "label": "Filter Teams",
+            "placeholder": "Select Teams",
+            "allTeamsOptionLabel": "All Teams",
+            "allBiddersOptionLabel": "All {{ externalName }} Teams",
+            "allSubsOptionLabel": "All {{ internalName }} Teams",
+            "sellersTeams": "{{ internalName }} Teams",
+            "biddersTeams": "{{ externalName }} Teams"
+          },
+          "notViewedBy": {
+            "label": "Not Viewed by",
+            "placeholder": "Choose"
+          },
+          "viewedBy": {
+            "label": "Viewed by",
+            "placeholder": "Choose"
+          }
+        }
+      },
+      "search": {
+        "backButtonLabel": "Back",
+        "changeLocationLabel": "Change search location by selecting another folder in the Index.",
+        "resultsLabel": "results in",
+        "types": {
+          "documentContent": "File Content",
+          "indexNumber": "Index Number",
+          "itemName": "Item Name"
+        }
+      },
+      "emailUpdates": {
+        "email": "E-mail ID: {{email}}",
+        "emailId": "upload_{{referenceId}}@{{domain}}",
+        "copyEmail": "Copy e-mail to clipboard. Use this e-mail to send files."
+      },
+      "session": {
+        "itemLockedByAnotherUser": "Unable to modify this item. It is locked by user {{ userInfo }}.",
+        "itemLockedInSession": "There is currently an open session preventing the action from being completed. Please review the session to proceed."
+      },
+      "lockedItemTooltip": {
+        "lockedByMe": "The item is locked for editing by you.",
+        "lockedByOtherUser": "The item is locked for editing by another user.",
+        "lockedByOtherUserWithEmail": "The item is locked for editing by {{ userInfo }}."
+      }
+    },
+    "dashboard": {
+      "dashboard": "Dashboard",
+      "hello": "Welcome",
+      "dealManager": "Deal Manager",
+      "checkDetails": "Check Details",
+      "dealManagerEmail": "E-mail Address",
+      "dealManagerMobile": "Mobile Number",
+      "noDataToDisplay": "No Data to Display",
+      "somethingWentWrong": "Something Went Wrong",
+      "dataRoomDocumentStatistics": {
+        "title": "Project documents statistics",
+        "contentsOverview": "Contents overview",
+        "documentsInTotal": "Documents in Total",
+        "dataRoomDocumentSize": "Size",
+        "documentsInBin": "Documents in Bin",
+        "documentsPendingConversion": "Documents Pending Conversion",
+        "processing": "Processing",
+        "failed": "Failed",
+        "onlinePages": " Online pages",
+        "notConvertedFileSize": "Not Converted Files Size"
+      },
+      "dataRoomChangesOverview": {
+        "title": "Project Changes Overview",
+        "newDocuments": {
+          "title": "New documents"
+        },
+        "questionsAwaitingAnswers": {
+          "title": "New Questions Awaiting Answer"
+        },
+        "newAnswers": "New Answers"
+      },
+      "footer": {
+        "customerServices": "24/7 Customer Services",
+        "email": "E-mail",
+        "internationalNumbers": "International Numbers",
+        "contactSupport": "Contact Customer Services Team",
+        "links": "Links",
+        "giveFeedback": "Send Feedback",
+        "bookTraining": "Book training"
+      },
+      "dropdownTimeFilter": {
+        "sortOptions": {
+          "sinceLastVisit": "Since Last Visit",
+          "last24Hours": "Last 24 hours",
+          "last7Days": "Last 7 days"
+        }
+      },
+      "warningOpenSessionFirst": "You have an open session, ",
+      "warningOpenSessionSecond": "don’t forget to publish your changes."
+    },
+    "teamsAndUsers": {
+      "title": "Teams & Users",
+      "teamNamePlaceHolder": "Enter team name",
+      "tabs": {
+        "internal": {
+          "mainTeamName": "Main Deal Team",
+          "subTeamNameSingular": "Sub Team",
+          "subTeamNamePlural": "Sub Teams",
+          "defaultTeamName": "SubTeam {{count}}"
+        },
+        "bidders": {
+          "teamNameSingular": "{{teamName}} Team",
+          "teamNamePlural": "{{teamName}} Teams",
+          "defaultTeamName": "BidderTeam {{count}}"
+        }
+      },
+      "userStatuses": {
+        "invited": "Invitation Sent",
+        "active": "Active",
+        "deleted": "Deleted",
+        "invitationExpired": "Invitation Expired",
+        "inactive": "Deactivated",
+        "invitationDrafted": "Invitation Drafted",
+        "invitationSent": "Invitation Sent",
+        "invitationRequestedByUser": "Invitation Requested"
+      },
+      "table": {
+        "header": {
+          "checkboxLabel": "Select all users for team {{teamName}}",
+          "name": "Name",
+          "status": "Status",
+          "email": "E-mail",
+          "userRoles": "Role"
+        },
+        "roles": {
+          "UserMgrExt": "User Manager",
+          "QAndAModeratorExt": "Q&A Moderator",
+          "QAndAViewOnlyExt": "Q&A View Only",
+          "QAndAParticipantExt": "Q&A Expert",
+          "DealAdminInt": "Deal Admin",
+          "UserMgrInt": "User Manager",
+          "QAndAModeratorInt": "Q&A Moderator",
+          "QAndAViewOnlyInt": "Q&A View Only",
+          "QAndAReviewInt": "Q&A Reviewer",
+          "QAndAExpertInt": "Q&A Expert",
+          "QAndAApproverInt": "Q&A Approver",
+          "ContentMgrInt": "Content Manager",
+          "ContributorInt": "Contributor",
+          "ReportMgrInt": "Report Manager",
+          "UserMgrSub": "User Manager",
+          "ContentMgrSub": "Content Manager",
+          "QAndAModeratorSub": "Q&A Moderator",
+          "QAndAViewOnlySub": "Q&A View Only",
+          "QAndAReviewSub": "Q&A Reviewer",
+          "QAndAExpertSub": "Q&A Expert"
+        },
+        "row": {
+          "checkboxLabel": "Select user {{userName}}",
+          "actions": {
+            "actions": "Actions",
+            "label": "User Actions",
+            "sendInvites": "Send Invites",
+            "editDetails": "Edit Details",
+            "changeTeam": "Change Team",
+            "resetPassword": "Reset Password",
+            "setTemporaryPassword": "Set Temporary Password",
+            "activateUser": "Activate",
+            "deactivateUser": "Deactivate",
+            "removeFromRoom": "Delete User",
+            "deleteGDPR": "Delete GDPR"
+          }
+        },
+        "details": {
+          "function": "Function",
+          "mobilePhoneNumber": "Mobile phone number",
+          "deskPhoneNumber": "Alternate Phone Number",
+          "companyName": "Company name",
+          "unregisterUser": "[Unregistered User]",
+          "emailVerificationtooltip": "Pending e-mail verification"
+        },
+        "actions": {
+          "selectSingleRow": "Select Single Row",
+          "rowsPerPage": "Rows per page:",
+          "of": "of",
+          "next": "next",
+          "previous": "previous"
+        }
+      },
+      "buttons": {
+        "addTeam": "Add Team",
+        "inviteFirstUsers": "Invite Users",
+        "inviteUsers": "Invite Users",
+        "invite": "Invite",
+        "clearAll": "Clear All",
+        "moreTiers": "More Tiers",
+        "deleteTeam": "Delete Team",
+        "settings": "Settings",
+        "teamDeactivated": "[Team Deactivated]",
+        "assignRoles": "Assign Roles",
+        "filter": "Filter"
+      },
+      "drawer": {
+        "statusTitle": "Status",
+        "inviteUserTitle": "Invite Users",
+        "createTeamTitle": "Add Team",
+        "subtitle": "{{teamType}} team \"{{teamName}}\"",
+        "teamName": "Team Name",
+        "inputPlaceholder": "Type or paste e-mail addresses",
+        "inviteByText": "By text",
+        "copyPasteEmails": "Type or copy and paste e-mail addresses",
+        "inviteByDropFile": "Drop your file here",
+        "documentTypes": "Upload Excel or CSV files",
+        "howToFormatFile": "See how to format your file",
+        "uploadFileTooltip": {
+          "hint1": "Label column \"A\" as \"E-Mail Address\" in your spreadsheet",
+          "hint2": "Paste e-mails into column \"A\"",
+          "hint3": "Export your file as an Excel or CSV format"
+        },
+        "messages": {
+          "checkTriangleForTooltip": "Marked users will not receive invitations. To view details, hover over the triangle icon next to the e-mail.",
+          "invalidEmailFormat": "Incorrect e-mail form, use x@y.z or x@y.z.z.",
+          "subTeamNameAlreadyExists": "Team name already exists.",
+          "userAlreadyInTeam": "The invitation cannot be sent. The user has already been invited to this team.",
+          "provideUniqueTeamName": "Team name already exists.",
+          "nameRequired": "This field is required.",
+          "userAlreadyInDataRoom": "The user is a member of another team. An invitation cannot be sent."
+        }
+      },
+      "settingsDrawer": {
+        "title": "Settings",
+        "tabs": {
+          "teamSettings": {
+            "title": "Team Settings",
+            "teamStatus": "Team Status",
+            "notifications": "Notifications",
+            "status": {
+              "active": "Active",
+              "inactive": "Inactive"
+            },
+            "notificationInfo": "Send e-mail notification when team status is changed to active"
+          },
+          "security": {
+            "title": "Security"
+          }
+        }
+      },
+      "UserDetailsDrawer": {
+        "title": "Edit User Details",
+        "subTitle": "{{userName}} \"{{teamName}}\" {{teamType}}",
+        "AccountData": {
+          "title": "Account Data"
+        },
+        "successMessage": "Changes have been saved successfully.",
+        "errorMessage": "Unable to save changes. Please try again.",
+        "emailAlreadyExists": "This e-mail cannot be used. Please use a different e-mail address."
+      },
+      "ChangeTeamDrawer": {
+        "title": "Change Team",
+        "subTitleSingular": "{{userCount}} user selected. \"{{teamName}}\" {{teamType}}",
+        "subTitlePlural": "{{userCount}} users selected. \"{{teamName}}\" {{teamType}}",
+        "Body": {
+          "title": "Choose the team you would like to move the selected users to"
+        },
+        "successMessagePlural": "{{numberOfMovedUsers}} users have been moved to a different team.",
+        "errorMessagePlural": "Unable to move users: {{NumberofMovedUsers}}.",
+        "successMessageSingular": "User moved to a different team.",
+        "errorMessageSingular": "Unable to move user."
+      },
+      "temporaryPasswordDrawer": {
+        "title": "Set Temporary Password",
+        "temporaryPasswordInfo": "Temporary Password is:",
+        "reloadButton": "Reload",
+        "passwordHint": "The password is valid for a one-time login and must be changed by the user.",
+        "doneButton": "Done",
+        "resetPasswordError": "Unable to change the password. Please try again."
+      },
+      "AssignRolesDrawer": {
+        "title": "Assign Roles",
+        "tabs": {
+          "mainDealTeam": {
+            "title": "Main Deal Team"
+          },
+          "subTeams": {
+            "title": "Sub Teams"
+          },
+          "bidderTeams": {
+            "bidders": "Bidder Teams",
+            "externals": "External Teams",
+            "experts": "Expert Teams",
+            "buyers": "Buyer Teams"
+          }
+        },
+        "roles": {
+          "UserMgrExt": "User Mgr",
+          "QAndAModeratorExt": "Moderator",
+          "QAndAViewOnlyExt": "View Only",
+          "QAndAParticipantExt": "Expert",
+          "DealAdminInt": "Deal Admin",
+          "UserMgrInt": "User Mgr",
+          "QAndAModeratorInt": "Moderator",
+          "QAndAViewOnlyInt": "View Only",
+          "QAndAReviewInt": "Reviewer",
+          "QAndAExpertInt": "Expert",
+          "QAndAApproverInt": "Approver",
+          "ContentMgrInt": "Content Mgr",
+          "ContributorInt": "Contributor",
+          "ReportMgrInt": "Report Mgr",
+          "UserMgrSub": "User Mgr",
+          "ContentMgrSub": "Content Mgr",
+          "QAndAModeratorSub": "Moderator",
+          "QAndAViewOnlySub": "View Only",
+          "QAndAReviewSub": "Reviewer",
+          "QAndAExpertSub": "Expert"
+        },
+        "roleTypes": {
+          "Admin": "Admin Role",
+          "QAndA": "Q&A Role"
+        },
+        "noTeamsText": "No Teams to Display",
+        "emptyStateDescription": "Create a new team and invite users",
+        "successMessage": "User roles assigned successfully.",
+        "errorMessage": "Unable to assign user roles.",
+        "noDataToDisplay": "No Results Found",
+        "emptySearchStateDescription": "Please try changing your search criteria"
+      },
+      "messages": {
+        "invitationsSent": "Invitation sent successfully: {{count}}",
+        "invitationsSent_other": "Invitations sent successfully: {{count}}",
+        "teamCreateSuccess": "Team created successfully.",
+        "teamUpdateSuccess": "Team updated successfully.",
+        "teamTabUpdateSuccess": "Team setting update successfully.",
+        "teamTabSecurityUpdateSuccess": "Team security setting update successfully.",
+        "teamTabUpdateFail": "Unable to update Team setting.",
+        "teamTabSecurityUpdateFail": "Unable to update Team security setting.",
+        "fileExtensionIsNotSupported": "File extension {{extension}} is not supported.",
+        "fileWrongFormat": "The file content could not be recognized. Please verify the file again.",
+        "oneFileOnly": "Files can be uploaded only 1 at a time.",
+        "emailsNotRecognized": "E-mail addresses not recognized: {{count}}",
+        "noEmailRecognized": "E-mail address not recognized.",
+        "teamDraftedSuccessPlurar": "Users have been added to team {{teamName}}. Users have not been notified.",
+        "teamDraftedSuccessSingular": "User has been added to team {{teamName}}. User has not been notified.",
+        "draftErrorSingular": "The user has not been added to the team: {{teamName}}",
+        "draftErrorPlural": "The users have not been added to the team: {{teamName}}",
+        "sendInvitesSuccessMessage": "Invitations sent successfully: {{numberOfUsers}}",
+        "sendInvitesFailureMessage": "Unable to send invitations: {{numberOfUsers}}",
+        "sendInvitesErrorMessage": "Something went wrong. Please try again.",
+        "sendInvitesRequestsSuccessMessage": "Invitation request sent to Deal Admins: {{numberOfUsers}}",
+        "sendInvitesRequestsFailureMessage": "Unable to send invitation request: {{numberOfUsers}}",
+        "emptyTeam": "No users in this team"
+      },
+      "modal": {
+        "title": "Delete Team",
+        "content": {
+          "first": "Are you sure you want to delete",
+          "second": "{{teamType}} team \"{{teamName}}\" from this project?",
+          "third": "By deleting this team, you are removing all users.",
+          "fourth": "This action cannot be undone.",
+          "fifth": ""
+        },
+        "cancel": "Cancel",
+        "delete": "Delete",
+        "successMessage": "\"{{teamType}}\" team \"{{teamName}}\" successfully deleted",
+        "errorMessage": "Unable to delete \"{{teamType}}\" team \"{{teamName}}\""
+      },
+      "temporaryPasswordModal": {
+        "title": "Set Temporary Password",
+        "content": {
+          "first": "Are you sure you want to",
+          "second": "set temporary password for the selected user?",
+          "third": "The current password will no longer be valid and the new password is a one-time use.",
+          "fourth": "This user will need to set up a new password after the initial login.",
+          "fifth": "This action cannot be undone."
+        },
+        "setTemporaryPassword": "Set Temporary Password",
+        "errorMessage": "Unable to set temporary password."
+      },
+      "resetAnotherUserPasswordModal": {
+        "title": "Reset Password",
+        "content": {
+          "first": "Are you sure you want to reset the password for the selected users?",
+          "second": "Selected users will receive an e-mail with a link on how they can reset their passwords.",
+          "third": "Users will not have access to their account until a new password has been created."
+        },
+        "successMessage": "The passwords have been reset for users: {{numberOfUsers}}",
+        "failureMessage": "Unable to reset password: {{numberOfUsers}}",
+        "resetPassword": "Reset Password",
+        "errorMessage": "Unable to reset password."
+      },
+      "removeFromRoomModal": {
+        "title": "Delete Users from Project",
+        "content": {
+          "first": "Are you sure you want to delete these users from the Project?",
+          "second": "Invites can be resent in the future."
+        },
+        "deleteUser": "Delete",
+        "successMessage": "Users deleted successfully: {{numberOfExcludedUsers}}",
+        "errorMessage": "Unable to delete users: {{numberOfExcludedUsers}}"
+      },
+      "activateUser": {
+        "title": "Activate Users",
+        "content": {
+          "first": "Would you like to send an e-mail to the user about activating their account?"
+        },
+        "button": {
+          "dontSendAnEmail": "Do not Notify",
+          "sendAnEmail": "Notify"
+        },
+        "successMessage": "User activated successfully: {{numberOfActivatedUsers}}",
+        "errorMessage": "Unable to activate users: {{numberOfActivatedUsers}}"
+      },
+      "deactivateUsers": {
+        "processedUsersMessage": "Users deactivated successfully: {{numberOfDeactivatedUsers}}",
+        "unprocessedUsersMessage": "Unable to deactivate users: {{numberOfDeactivatedUsers}}",
+        "errorMessage": "Please try again."
+      },
+      "deleteGdprModal": {
+        "title": "Delete user according to the GDPR",
+        "content": {
+          "first": "Are you sure you want to remove user",
+          "second": "{{userEmail}}",
+          "third": "They will no longer have access to their Sterling account and you will not be able to undo this action"
+        },
+        "deleteUser": "Delete",
+        "successMessage": "GDPR deleted successfully.",
+        "errorMessage": "Unable to GDPR delete. Please try again."
+      },
+      "teamsAndUserStatus": {
+        "active": "Active",
+        "inActive": "Deactivated",
+        "invited": "Invitation Sent",
+        "drafted": "Invitation Drafted",
+        "invitationExpired": "Invitation Expired",
+        "invitationRequestedByUser": "Invitation Requested"
+      }
+    },
+    "qa": {
+      "qa": "Q&A",
+      "qaSettings": "Q&A Settings",
+      "qaLimits": "Q&A Limits",
+      "backToDefaultQnA": "Go back to default Q&A",
+      "questionsAndAnswers": "Questions and Answers",
+      "addQuestion": "Add Question",
+      "addAnswer": "Add Answer",
+      "editQuestion": "Edit Question",
+      "editAnswer": "Edit Answer",
+      "addFollowUpQuestion": "Add Follow-up Question",
+      "editRejectedQuestion": "Edit Rejected Question",
+      "editRejectedFollowUpQuestion": "Edit Rejected Follow-up Question",
+      "editRejectedAnswer": "Edit Rejected Answer",
+      "rejectionComment": "Comment",
+      "questionDetails": "Question Details",
+      "answerDetails": "Answer Details",
+      "yourAnswer": "Answer",
+      "yourFollowUpQuestion": "Follow-up Question",
+      "cancel": "Cancel",
+      "saveDraft": "Save Draft",
+      "submit": "Submit",
+      "submitForApproval": "Submit for Approval",
+      "submitAndApprove": "Approve and Submit",
+      "viewFollowUpQuestion": "View Follow-up Question",
+      "moderatorActions": "Moderator Actions",
+      "sendCommentForAssigment": "Comment",
+      "approve": "Approve",
+      "reject": "Reject",
+      "viewQuestion": "View Question",
+      "moderateQuestion": "Moderate Question",
+      "moderateAnswer": "Moderate Answer",
+      "approveAnswer": "Moderate Answer",
+      "sendToApprover": "Send for Approval",
+      "sendToReviewer": "Send for Review",
+      "viewAnswer": "View Answer",
+      "reviewAnswer": "Review Answer",
+      "rejectQuestion": "Reject Question",
+      "rejectAnswer": "Reject Answer",
+      "saveChanges": "Save Changes",
+      "changeCategoryAndAssign": "Change Category & Assign",
+      "commentTextIsMandatory": "This field is required.",
+      "answerQuestion": "Answer Question",
+      "suggest": "Suggest",
+      "suggestCategory": "Suggest Category",
+      "suggestAnswerCategory": "Suggest Answer Category",
+      "stateACommentForSuggestion": "Comment",
+      "selectReviewer": "Select Reviewer",
+      "assign": "Send",
+      "assignReviewer": "Send for Review",
+      "assignAnswerReviewerTo": "Send To",
+      "assignReviewerCommentTitle": "Comment",
+      "allCategoryReviewers": "All Category Reviewers - {{category}}",
+      "stateComment": "Comment",
+      "save": "Save",
+      "generalQuestion": "General Question",
+      "pleaseSelectAtLeastOneOption": "Select users",
+      "allCategoryExperts": "All Category Experts - {{categoryName}}",
+      "answer": "Answer",
+      "followUp": "Follow up",
+      "askYourQuestion": "Ask question",
+      "downloadAnswerLogs": "Download Answer Logs",
+      "comment": "Comment",
+      "makeYourAnswer": "Add answer",
+      "category": "Category",
+      "answerCategory": "Answer Category",
+      "assignAnswerTo": "Forward To",
+      "users": "Users",
+      "dealAdmins": "Deal Admins",
+      "priority": "Priority",
+      "priorityLevel": {
+        "low": "Low",
+        "medium": "Medium",
+        "high": "High"
+      },
+      "saveDraftDialog": {
+        "content": "Uploaded attachments will not be saved in draft but can be added when you are ready to submit.\n\nAre you sure you want to save the draft without uploaded attachments?",
+        "saveDraft": "Save Draft",
+        "stayOnPage": "Cancel",
+        "saveAndDiscard": "Save and Discard"
+      },
+      "cancelUploadDialog": {
+        "title": "You Have Unsaved Changes",
+        "content": "Are you sure you want to cancel?\n\nAny uploaded files will be removed and your item will go back to draft status.",
+        "discard": "Cancel",
+        "stayOnPage": "Keep Editing"
+      },
+      "teamSettings": "Team Settings",
+      "notifications": "Notifications",
+      "attachedItems": {
+        "attachedItems": "Attached Items",
+        "uploadFile": "Upload File",
+        "clickOrDropFilesHere": "Click or drop files here",
+        "theyWillBeAttachedToYourQuestion": "They will be attached to your question",
+        "removeFile": "Remove file",
+        "unlinkItem": "Unlink item",
+        "linkFiles": "Link Files",
+        "useLinkingIcon": "Use Linking Icon in Index",
+        "uploadIcon": "Upload Icon"
+      },
+      "iUnderstand": "I understand",
+      "uploadedFileIsTooBig": "Uploaded file size is too large",
+      "assignmentSuccessfully": "Question forwarded successfully.",
+      "assignmentFailed": "Unable to forward question.",
+      "stateRejectionComment": "Comment",
+      "yourComment": "Your Comment",
+      "commentIsRequired": "This field is required.",
+      "suggestCategoryEmptyMessage": "This field is required.",
+      "selectAnswerReviewerEmptyMessage": "At least one selection is required.",
+      "attachments": "Attachments",
+      "itemNotAvailable": "Item Not Available",
+      "QA_question_text_empty": "This field is required.",
+      "QA_question_create_success": "Question created successfully.",
+      "QA_question_create_failure": "Unable to create question.",
+      "QA_question_delete_success": "Question deleted successfully.",
+      "QA_question_delete_failure": "Unable to delete question.",
+      "QA_answer_text_empty": "This field is required.",
+      "QA_answer_create_success": "Answer created successfully.",
+      "QA_answer_create_failure": "Unable to create answer.",
+      "QA_question_edit_success": "Question edited successfully.",
+      "QA_question_edit_failure": "Unable to edit question.",
+      "QA_answer_edit_success": "Answer edited successfully.",
+      "QA_answer_edit_failure": "Unable to edit answer.",
+      "QA_answer_delete_success": "Answer deleted successfully.",
+      "QA_answer_delete_failure": "Unable to delete answer.",
+      "QA_attachment_too_big": "Unable to save file. File size is too large.\n\nPlease upload file up to 1GB.",
+      "QA_draft_qn_answ_fuq_create_success": "Draft created successfully.",
+      "QA_draft_qn_answ_fuq_create_failure": "Unable to create draft.",
+      "QA_suggest_category_external_success": "Suggestion sent successfully.",
+      "QA_suggest_category_external_failure": "Unable to send suggestion.",
+      "QA_sending_to_approver_success": "Sent for approval successfully.",
+      "QA_sending_to_approver_failure": "Unable to send for approval.",
+      "QA_assignment_to_reviewer_success": "Sent for review successfully.",
+      "QA_assignment_to_reviewer_failure": "Unable to send for review.",
+      "QA_sending_reviewer_comment_success": "Comment sent successfully.",
+      "QA_sending_reviewer_comment_failure": "Unable to send comment.",
+      "QA_category_settings_save_success": "Changes to category saved successfully.",
+      "QA_category_settings_save_failure": "Unable to save category changes.",
+      "QA_attachments_settings_save_success": "Changes to attachments saved successfully.",
+      "QA_attachments_settings_save_failure": "Unable to save attachments changes.",
+      "QA_notifications_settings_save_success": "Changes to notifications saved successfully.",
+      "QA_notifications_settings_save_failure": "Unable to save notifications changes.",
+      "QA_limits_save_success": "Q&A Limits saved successfully.",
+      "QA_limits_save_failure": "Unable to save Q&A Limits.",
+      "QA_bulk_approve_success": "Items approved successfully: {{count}}.",
+      "QA_bulk_approve_error": "Unable to approve items.",
+      "QA_qn_visibility_set_success": "Visibility of threads set successfully.",
+      "QA_qn_visibility_set_failure": "Unable to set visibility to threads.",
+      "limitAlertAdd": "The question limit has been reached.\nYou can save question as a draft.\n\nPlease contact your Deal Manager or contact <0>Customer Services Team</0> about the set question limits.",
+      "limitAlertModerate": "The question limit has been reached.\n\nPlease contact your Deal Manager or contact <0>Customer Services Team</0> about the set question limits.",
+      "table": {
+        "title": "List of Questions"
+      },
+      "details": {
+        "id": "ID",
+        "author": "Author",
+        "creationDate": "Creation Date",
+        "statusUpdateDate": "Status Update Date",
+        "status": "Status",
+        "items": "+{{count}} items",
+        "items_one": "+{{count}} item",
+        "attributes": "Attributes"
+      },
+      "deleteModal": {
+        "questionTitle": "Delete Question",
+        "answerTitle": "Delete Answer",
+        "questionContentMainText": "Are you sure you would like to delete this question: ",
+        "answerContentMainText": "Are you sure you would like to delete this answer: ",
+        "contentSecondaryText": "This action will permanently delete this element.",
+        "removeQuestion": "Delete",
+        "removeAnswer": "Delete"
+      },
+      "questionPrefix": "Q",
+      "answerPrefix": "A",
+      "requestMessages": {
+        "QA_question_submit_success": "Question submitted successfully.",
+        "QA_question_submit_failure": "Unable to submit question.",
+        "QA_answer_submit_success": "Answer submitted successfully.",
+        "QA_answer_submit_failure": "Unable to submit answer.",
+        "QA_qn_answ_fuqn_approve_success": "Item approved successfully.",
+        "QA_qn_answ_fuqn_approve_failure": "Unable to approve item.",
+        "QA_qn_answ_fuqn_reject_success": "Item rejected successfully.",
+        "QA_qn_answ_fuqn_reject_failure": "Unable to reject item."
+      },
+      "statuses": {
+        "draft": "Draft",
+        "awaitinganswer": "Awaiting Answer",
+        "answersubmitted": "Answer Submitted",
+        "questionanswered": "Question Answered",
+        "awaitingapprovalexternal": "Awaiting Approval",
+        "awaitingapprovalinternal": "Awaiting Approval",
+        "awaitingapprovalanswer": "Awaiting Approval",
+        "awaitingfinalapproval": "Awaiting Final Approval",
+        "rejected": "Rejected",
+        "rejectedinternal": "Rejected",
+        "rejectedanswer": "Rejected"
+      },
+      "filters": {
+        "title": "Q&A Filters",
+        "internalTitle": "Internal Q&A Filters",
+        "externalTitle": "External Q&A Filters",
+        "itemStatus": "Item Status",
+        "statusUpdated": "Status Updated",
+        "sinceLastVisit": "Since Last Visit",
+        "allStatuses": "All Statuses",
+        "chooseStatus": "Choose status",
+        "chooseCategory": "Choose category",
+        "questionCategory": "Question Category",
+        "assignee": "Assignee",
+        "allQuestionCategories": "All Question Categories",
+        "chooseAtLeastOneStatus": "At least one selection is required.",
+        "anyone": "Anyone",
+        "chooseAtLeastOneCategory": "At least one selection is required.",
+        "questionCreatedBy": "Question Created by",
+        "selectTeams": "Select teams",
+        "anyTeam": "Any Team",
+        "myTeam": "My Team",
+        "chooseAtLeastOneTeam": "At least one selection is required.",
+        "answerCategory": "Answer Category",
+        "allAnswerCategories": "All Answer Categories",
+        "additionalStatuses": {
+          "rejectedQnswer": "Rejected Question",
+          "rejectedAnswer": "Rejected Answer",
+          "awaitingApprovalQuestion": "Awaiting Approval Question",
+          "awaitingApprovalAnswer": "Awaiting Approval Answer"
+        },
+        "clearFilters": "Clear Filters",
+        "apply": "Apply",
+        "filter": "Filter",
+        "cancel": "Cancel"
+      },
+      "categoryTab": {
+        "categoryName": "Category Name",
+        "createNewCategory": "Create New Category",
+        "questionModerators": "Question Moderators",
+        "questionModerator": "Question Moderator",
+        "categoryExperts": "Category Experts",
+        "categoryExpert": "Category Expert",
+        "answerModerators": "Answer Moderators",
+        "answerModerator": "Answer Moderator",
+        "answerReviewers": "Answer Reviewers",
+        "answerReviewer": "Answer Reviewer",
+        "turnOnAutoApprove": "Turn on Auto Approve",
+        "removeCategory": "Remove Category",
+        "newCategory": "New Category",
+        "emptyCategoryNameErrorMessage": "This field is required.",
+        "uniqueCategoryNameErrorMessage": "Category name already exists.",
+        "generalCategory": "General",
+        "categoryRemoval": "Remove Category",
+        "warningModalPrimaryText": "Are you sure you want to remove this category?",
+        "warningModalSecondaryText": "All questions and answers of this category will be automatically assigned to <strong>{{generalCategoryName}}</strong> category.",
+        "selectAtLeastOne": "Select at least one"
+      },
+      "attachmentsTab": {
+        "attachments": "Attachments",
+        "teamsAllowedToAttachFiles": "Permitted Teams",
+        "selectTeams": "Select teams",
+        "allTeams": "All Teams",
+        "billingNote": "Billing Note: Files attached to Q&A items are hosted data.",
+        "externalTeams": "External Teams",
+        "subInternalTeams": "Sub Internal Teams",
+        "mainDealTeam": "Main Deal Team"
+      },
+      "limitsDrawer": {
+        "setQnaLimits": "Set Q&A Limits",
+        "warning": "External teams will not be able to add questions after reaching their set limits.",
+        "qnaLimit": "Q&A Limit",
+        "numberOfQuestions": "Number of Questions",
+        "externalTeam": "External Team",
+        "noOfQuestions": "No of Questions",
+        "limitsTypes": {
+          "None": "None",
+          "TotalNumberOfQuestions": "Total Number of Questions",
+          "Priority": "Priority",
+          "Category": "Category",
+          "CategoryAndPriority": "Category & Priority"
+        },
+        "emptyState": {
+          "noQnaLimitsSet": "No Q&A Limits Set",
+          "message": "If you would like to set Q&A Limits, please select an option in the menu above."
+        }
+      },
+      "visibilityDrawer": {
+        "setBulkVisibility": "Set Visibilty",
+        "revokeBulkVisibility": "Revoke Visibility",
+        "setButton": "Set",
+        "revokeButton": "Revoke",
+        "cancelButton": "Cancel",
+        "setVisibility": "Set Visibility",
+        "warningTitle": "Set Visibility",
+        "discardChangesButton": "Discard Changes",
+        "allTeams": "All Teams",
+        "revokeVisibility": "Revoke Visibility",
+        "setDescription": "Setting visibility will allow question thread to be viewed by selected teams",
+        "revokeDescription": "Revoke visibility will hide the question thread for selected teams. Visibility for author’s team will not be revoked.",
+        "revokeVisibilityForThoseTeams": "Revoke visibility for teams",
+        "setVisibilityForThoseTeams": "Set visibility for teams",
+        "setVisibilitySuccess": "Visibility set successfully.",
+        "setVisibilityError": "Unable to set visibility.",
+        "revokeVisibilitySuccess": "Visibility revoked successfully.",
+        "revokeVisibilityError": "Unable to revoke visiblity.",
+        "infoBox": "Teams with hidden permissions to files cannot view relevant question threads.",
+        "warningContent": "Visibility can only be set to approved questions. Questions in other statuses will be excluded from this action.\n\nThe visibility will be set for {{processedItemsCount}} of {{selectedRootItemsCount}} selected threads. How would you like to proceed?"
+      },
+      "export": {
+        "buttonText": "Export Feed",
+        "success": "Q&A Feed exported successfully.",
+        "error": "Unable to export Q&A Feed."
+      },
+      "import": {
+        "buttonText": "Import Feed",
+        "errorMessage": {
+          "invalidData": "Unable to import Q&A Feed. Please review the following cells: {{cells}}",
+          "invalidFormat": "Unable to import Q&A Feed. The file must be in XLSX format.",
+          "invalidFile": "Unable to recognize this Excel file. Please review the instructions and try again.",
+          "questionLimitReached": "The question limit has been reached. The first {{questionLimit}} questions have been added. Contact the Deal Manager to increase the limit.",
+          "genericError": "Unable to import Q&A Feed."
+        },
+        "checkFileModal": {
+          "title": "Import Q&A Feed",
+          "content": "Please ensure that you import the original file that was exported.\n\nAll other files will not be recognized.",
+          "confirmButtonText": "Confirm"
+        },
+        "successInternal": "Q&A Feed imported successfully. Answers created successfully.",
+        "successExternal": "Q&A Feed imported successfully. Questions created successfully.",
+        "questionLimitReached": "The question limit has been reached. {{createdQuestions}} out of {{totalNumberOfQuestions}} questions have been added. <br>Contact the Deal Manager or <0>Customer Services Team</0> to increase the limit."
+      },
+      "threadVisibility": {
+        "authorTeam": "Author Team - {{teamName}}",
+        "additionalPermissions": "External Teams may require additional permissions",
+        "checkQnA": "Check Q&A Report to review permissions",
+        "selectTeams": "Select teams",
+        "allTeams": "All Teams",
+        "visibility": "Visibility"
+      }
+    },
+    "reports": {
+      "reports": "Reports",
+      "noDataOverlay": {
+        "text": "No Data to Display",
+        "subText": "Please try updating your column view criteria "
+      },
+      "tabTitles": {
+        "AllReports": "All REPORTS",
+        "SavedReports": "SAVED REPORTS",
+        "ScheduledReports": "SCHEDULED REPORTS",
+        "IndexReport": "INDEX REPORT",
+        "UserReport": "USER REPORT",
+        "TeamReport": "TEAM REPORT",
+        "QnAReport": "Q&A REPORT"
+      },
+      "allReportsTab": {
+        "subTitle": "List of Reports",
+        "list": {
+          "IndexReport": {
+            "title": "Index Report",
+            "summary": "Includes a detailed overview of the folder structure and all index items. "
+          },
+          "UserReport": {
+            "title": "User Report",
+            "summary": "Includes a detailed overview about all users."
+          },
+          "TeamReport": {
+            "title": "Team Report",
+            "summary": "Includes a detailed overview on all teams."
+          },
+          "QnAReport": {
+            "title": "Q&A Report",
+            "summary": "Includes a detailed overview of how Q&A activities are conducted."
+          }
+        }
+      },
+      "grid": { "rowsPerPage": "Rows per page:" }
+    },
+    "uploads": {
+      "uploads": "Uploads"
+    },
+    "downloads": {
+      "downloads": "Downloads",
+      "table": {
+        "header": {
+          "date": "Creation Date",
+          "parent": "Parent Folder",
+          "name": "Name",
+          "fileSize": "File Size",
+          "status": "Status",
+          "files": "Files"
+        },
+        "content": {
+          "fileCount": "{{completed}} of {{requested}}"
+        },
+        "status": {
+          "error": "Unsuccessful, Please try again",
+          "preparing": "Preparing",
+          "preparingExcel": "Preparing Excel",
+          "preparingFailed": "Preparing Failed",
+          "preparingPdf": "Preparing PDF",
+          "readyForDownload": "Ready For Download",
+          "downloadCompleted": "Download Completed"
+        },
+        "download": "Download"
+      },
+      "emptyQueue": {
+        "title": "No items to display",
+        "description": "To perform bulk downloads, please use the folder download action in the <0>Contents Page</0>."
+      }
+    },
+    "dataRoomSettings": {
+      "settings": "Settings",
+      "dataRoomSettings": "Project Settings",
+      "generalSettings": "General Settings",
+      "restrictionSettings": "VDR Restrictions",
+      "componentsSettings": "Component Settings",
+      "allFeatures": "All Features",
+      "recommendedFeatures": "Recommended Features",
+      "recommendedFeaturesSubTitle": "For optimized use of the application, Sterling recommends enabling these features.",
+      "optionalFeatures": "Optional Features",
+      "optionalFeaturesSubTitle": "Optional features that can enhance application's core functionality.",
+      "optionalSecurityFeatures": "Security",
+      "optionalOtherFeatures": "Other Features",
+      "contentManagement": "Content Management",
+      "RequestUsersInvitation": "Request User's Invitation",
+      "BulkDownload": "Bulk Download",
+      "ExcelViewer": "Excel Viewer",
+      "Disclaimer": "Disclaimer",
+      "viewers": "Viewers",
+      "contents": "Contents",
+      "silverTier": "Silver Tier",
+      "goldTier": "Gold Tier",
+      "platinumTier": "Platinum Tier",
+      "versioning": "Versioning",
+      "workWithDocuments": "Work with Documents",
+      "qa": "Q&A",
+      "security": "Security",
+      "workflow": "Workflow",
+      "otherFeatures": "Other Features",
+      "extraCharge": "Extra charge",
+      "followingFeaturesAvailable": "The following features are available for an additional fee",
+      "Translation": "Online Translation",
+      "BulkRedaction": "Redaction",
+      "CadViewer": "CAD Viewer",
+      "moreFunctionalitiesNeeded": "More functionalities needed?",
+      "checkSubscriptionPlans": "Check Subscription Plans",
+      "CustomWatermarks": "Watermark",
+      "SimpleQnA": "Simple Q&A",
+      "advanced": "Advanced",
+      "extended": "Extended",
+      "ExternalSideQnA": "External Q&A",
+      "VersionHistory": "Version history",
+      "MobileAccess": "Mobile access",
+      "Redaction": "Redaction",
+      "Ocr": "OCR",
+      "PdfConversion": "PDF conversion",
+      "DocumentLinkSharing": "Share Documents via E-mail",
+      "VersionComparison": "Version comparison",
+      "VersionControl": "Version control",
+      "Sessions": "Sessions",
+      "MsOfficeEditor": "Excel Viewer",
+      "advancedQA": "Advanced Q&A",
+      "extendedQA": "Extended Q&A",
+      "DealSideQnA": "Deal side Q&A",
+      "IndexAutoNumbering": "Auto-numbering",
+      "CustomisedReports": "Reports",
+      "EmailInDocuments": "E-mail in Documents",
+      "EmailTab": "E-mail tab",
+      "SingleSignOnIntegration": "Single Sign On",
+      "Irm": "Enhanced MS Office Protection",
+      "Drm": "Enhanced PDF Protection",
+      "AccessRestrictionByIpAddress": "IP Restrictions",
+      "DocumentReviewWorkflow": "Document Review Workflow",
+      "CopyingContentFromExternalDrives": "Third-Party Data Import",
+      "ContentMigrationBetweenRooms": "Project Content Copy",
+      "CustomTermsOfAccess": "Disclaimer",
+      "mySubscription": "My Subscription",
+      "setExternalQA": {
+        "title": "If you change the flow in External Q&A",
+        "description": "All data within external Q&A created so far <boldText>will be lost</boldText> including",
+        "roles": "User Q&A roles",
+        "categories": "Q&A categories",
+        "assignments": "Q&A assignments",
+        "limits": "Q&A limits",
+        "attachments": "Q&A attachments will be disabled for External users",
+        "qaBackupMsg": "To save a backup of the current Q&A, please download it from the",
+        "qaBackupMsgLinkText": "Q&A Report"
+      },
+      "setTranslation": {
+        "title": "Enabled Translation",
+        "extraCharge": "Results in <boldText>extra charge</boldText> billing"
+      },
+      "majorChangesModal": {
+        "title": "Review Changes",
+        "subtitle": "The following changes will impact the Project:",
+        "awareOfChangesCheckbox": "I acknowledge the changes that were made"
+      },
+      "configuration": {
+        "saveFailed": "Unable to save changes.",
+        "saveSuccess": "Changes saved successfully.",
+        "saveFailure": {
+          "cannotDisableSessionsErrorMessage": "Sessions cannot be disabled. Publish or revert pending Session changes first."
+        }
+      },
+      "disclaimers": {
+        "add": "Add Disclaimer",
+        "disclaimer": "Disclaimer",
+        "disclaimers": "Disclaimers",
+        "enterName": "Enter Disclaimer Name",
+        "nameRequired": "This field is required.",
+        "duplicateName": "Name already exists.",
+        "contentRequired": "This field is required.",
+        "disclaimersList": "Disclaimers List",
+        "disclaimersListMakeChanges": "Manage Disclaimers",
+        "disclaimersAssignment": "Disclaimers Assignment",
+        "disclaimersAssignmentCancelButton": "Cancel",
+        "disclaimersAssignmentSaveButton": "Save",
+        "disclaimersAssignmentMakeChangesButton": "Edit",
+        "name": "Name",
+        "createdBy": "Created By",
+        "deletedUser": "Deleted User",
+        "creationDate": "Creation Date",
+        "globalDisclaimer": "Global Disclaimer",
+        "sterlingTechnology": "Sterling Technology LTD.",
+        "disclaimerText": "Disclaimer Text",
+        "defaultDisclaimer": "Default Disclaimer",
+        "internal": "Internal",
+        "bidder": "Bidder",
+        "dealSide": "Deal Side",
+        "teamType": "Team Type",
+        "frequency": "Frequency",
+        "agree": "Agree",
+        "decline": "Decline",
+        "addingSucceeded": "New disclaimer added successfully.",
+        "updateSucceeded": "Disclaimers updated successfully.",
+        "addingFailed": "Unable to save disclaimers. Try again or contact <0>Customer Services Team</0>.",
+        "updateFailed": "Unable to update disclaimers. Try again or contact <0>Customer Services Team</0>.",
+        "assignmentFrequency": {
+          "EveryTime": "Always",
+          "OnlyOnce": "Once",
+          "Never": "Never"
+        },
+        "teamTypes": {
+          "MainDealTeam": "Main Deal Team",
+          "SubTeam": "Sub Team",
+          "BidderTeam": "Bidder Team"
+        }
+      },
+      "dataroomCustomizations": {
+        "dataroomCustomisation": "Project Customisation",
+        "subtitle": "Customise the project's colour theme.",
+        "info": "When making adjustments, consider the color contrast for better text visibility.",
+        "primaryColor": "Primary Colour",
+        "label": "Hex code",
+        "leftSideNavigation": "Left-side Menu",
+        "resetForm": "Reset to default",
+        "inputLabel": "Hex code",
+        "sucessMessage": "Changes saved successfully.",
+        "failMessage": "Unable to save changes.",
+        "logoNavigation": "Logo in the Top Navigation",
+        "logoLabel": "Display the logo",
+        "logoInformation": "Please inform the customer that the logo will only be displayed if a logo is already uploaded in General Settings."
+      },
+      "messages": {
+        "successfullySaved": "Changes saved successfully.",
+        "couldNotSave": "Unable to save changes."
+      },
+      "watermark": {
+        "watermark": "Watermark",
+        "watermarks": "Watermarks",
+        "watermarkSettings": "Watermark Settings",
+        "subTitle": "Configure watermark settings that will be displayed to all teams with the feature enabled",
+        "WatermarkUnavailability": "Watermarks do not apply to CAD or video files.",
+        "displayText": "Display Text",
+        "selectionNote": "At least one selection is required.",
+        "watermarkSetings": {
+          "isProjectNameEnabled": "Project Name",
+          "isIndexNumberEnabled": "Index Number",
+          "isCompanyEnabled": "Company",
+          "isFullNameEnabled": "Full Name",
+          "isEmailAddressEnabled": "E-Mail Address",
+          "isIpAddressEnabled": "IP Address",
+          "isDateTimeEnabled": "Date/Time",
+          "customText": "Custom Text",
+          "isAutoScaleEnabled": "Enable auto-scale"
+        },
+        "appearance": "Appearance",
+        "selectColor": "Select Colour:",
+        "opacity": "Opacity:",
+        "fontSize": "Font Size:",
+        "previewWatermark": "Preview Watermark",
+        "customTextValue": "Confidential - Not for Distribution",
+        "enableWatermark": "Enable watermark",
+        "preview": "Preview",
+        "previewHint": "The default page size is set to A4. Final watermark placement will be determined by the format of the document page.",
+        "confirmationDialog": {
+          "unsavedChangesTitle": "You have unsaved changes",
+          "content": "Are you sure you want to discard the changes?\n\nAll changes will be lost.",
+          "discard": "Discard Changes",
+          "cancel": "Keep Editing"
+        }
+      },
+      "rmsSettings": {
+        "rmsSettings": "Document Protection",
+        "rmsSettingsTitle": "Enhanced Documents Protection",
+        "rmsSettingsSubTitle": "Apply additional permission to PDF and Microsoft Office documents for enhanced protection and control.",
+        "rmsSettingsSubTitleHint": "Changes applied will not override any existing custom team settings.",
+        "pdfProtectionTitle": "PDF Protection and Control Settings",
+        "pdfProtectionSubTitle": "DRM – Digital Rights Management",
+        "revokeAnyTime": "Revoke anytime (recommended)",
+        "revokeAnyTimeText": "Instantly revoke enhanced access at any time.",
+        "preSetPeriod": "Pre-set period",
+        "preSetPeriodText": "Enhanced access is only revoked once the pre-set period expires.",
+        "pdfControlLabel": "Control",
+        "pdfExpiryDaysLabel": "Expiry",
+        "revokeAnyTimeTooltip": "Terminating the project, any changes to the user or team access, and deleting a file will also revoke enhanced access instantly.\n\nThe user only needs to be signed in online once within a 24-hour period.",
+        "msOfficeRevokeAnyTimeTooltip": "Terminating the project, any changes to the user or team access, and deleting a file will also revoke enhanced access instantly.\n\nThe user needs to be online to view the document.",
+        "presetPeriodTooltip": "The pre-set period starts once a user has downloaded and opened the document with an internet connection.\n\nThe document can be viewed offline for the remainder of the pre-set period.",
+        "irmProtectionTitle": "MS Office Protection and Control Settings",
+        "irmProtectionSubTitle": "IRM – Information Rights Management",
+        "irmFileTypeLabel": "File Type",
+        "warningMessage": "Modifying these settings will lock other users from editing until changes have been saved.",
+        "saveChangesText": "Save Changes",
+        "settingTypeTooltip": "Use this column to assign a setting type. The available options are:\n\n<strong>Revoke Anytime:</strong> revoke access instantly at any time\n<strong>Pre-set Period:</strong> set a period for when access expires\n<strong>Disabled:</strong> enhanced security is off\n\n",
+        "visitText": "Want more information on settings?\nVisit ",
+        "settingTypeTooltipLinkText": "Document Protection Settings",
+        "saveChanges": {
+          "noSaveChangeshWarning": "There are no changes to save.",
+          "saveChangesSuccess": "Changes saved successfully.",
+          "couldNotSave": "Unable to save changes."
+        },
+        "headers": {
+          "teamName": "Team Name",
+          "settingType": "Setting Type",
+          "control": "Control",
+          "expiry": "Expiry",
+          "fileType": "File Type"
+        },
+        "teamLevelMenuOptions": {
+          "settingType": {
+            "RevokeAnytime": "Revoke Anytime",
+            "PresetPeriod": "Pre-Set Period",
+            "Disabled": "Disabled"
+          },
+          "controlType": {
+            "View": "View",
+            "ViewPrint": "View, Print",
+            "ViewPrintCopy": "View, Print, Copy",
+            "ViewPrintCopyEdit": "View, Print, Copy, Edit"
+          },
+          "expiryInDays": {
+            "OneDay": "1 day",
+            "SevenDays": "7 days",
+            "ThirtyDays": "30 days",
+            "SixtyDays": "60 days",
+            "NinetyDays": "90 days",
+            "OneEightyDays": "180 days"
+          },
+          "fileType": {
+            "Excel": "Excel",
+            "Word": "Word",
+            "PowerPoint": "PowerPoint"
+          }
+        },
+        "actionItems": {
+          "copySettings": "Copy Settings",
+          "pasteSettingsFromTeamName": "Paste Settings from {{teamName}}",
+          "pasteSettingsToAllTeamTypeName": "Paste Settings to all {{teamTypeName}}"
+        },
+        "permissionLockedMessage": "You cannot modify these settings. They are locked by {{lockedByUserEmail}}"
+      }
+    },
+    "signUp": {
+      "accountDetails": "Account Details",
+      "consents": "Consent",
+      "language": "Language",
+      "occupationAndCompany": "Occupation and Company",
+      "registerNewUserAccount": "Register a New User Account",
+      "personTitle": "Title",
+      "mr": "Mr.",
+      "ms": "Ms.",
+      "select": "Select",
+      "firstName": "First Name",
+      "enterFirstName": "Enter first name",
+      "lastName": "Last Name",
+      "enterLastName": "Enter last name",
+      "tpUserExists": "This information cannot be changed since it is linked to your TransPerfect account.",
+      "tpLabelPassword": "Password",
+      "countryOfResidence": "Country of Residence",
+      "typeAndSelect": "Type and select",
+      "emailAddressLabel": "E-mail Address",
+      "enterEmail": "Enter e-mail address",
+      "mobilePhoneNumber": "Mobile Phone Number",
+      "deskPhoneNumber": "Alternative Phone Number",
+      "enterPhoneNumber": "Enter phone number",
+      "enterDeskPhoneNumber": "Enter alternative phone number",
+      "companyName": "Company Name",
+      "enterCompanyName": "Enter Company Name",
+      "sector": "Sector",
+      "function": "Function",
+      "jobTitle": "Job Title",
+      "emailAlreadyExists": "This e-mail address cannot be used. Please try a different e-mail.",
+      "setPassword": "Set Password",
+      "enterPassword": "Enter Password",
+      "confirmPassword": "Confirm Password",
+      "passwordShouldConsist": "Password should meet the following requirements:",
+      "passwordIsTooSimilar": "Password is too similar to previous 5 passwords",
+      "securityQuestion": "Security Question",
+      "securityAnswer": "Security Answer",
+      "enterAnswer": "Enter Answer",
+      "adminType": "Admin Type",
+      "consent": {
+        "first": {
+          "partOne": "By registering an account, I agree to the",
+          "partTwo": "Terms of Service",
+          "partThree": "and",
+          "partFour": "Privacy Policy including Cookie Use.",
+          "partFive": "I understand that all user data necessary to provide service are hosted by Sterling and I can have access to my data. I have the rights to change and delete data by contact with Sterling administrator."
+        },
+        "second": "I would like to receive e-mails related to marketing content and relevant updates.",
+        "requiredError": "You must agree to our Terms of Service and Privacy Policy to create a Sterling account."
+      },
+      "TermsOfServiceLink": "",
+      "PrivacyPolicyLink": "https://www.sterlingvdr.com/vdr-privacy-policy",
+      "button": {
+        "cancel": "Cancel",
+        "back": "Back",
+        "next": "Next",
+        "register": "Register"
+      }
+    },
+    "signUpConfirmation": {
+      "accountSuccessfullyRegistered": "Account Created",
+      "youHaveCreatedNewAccount": "Your Sterling account has been created successfully.",
+      "goToLogin": "Go to Login Page"
+    },
+    "emailConfirmation": {
+      "emailSuccessfullyConfirmed": "Account verified",
+      "partOne": "Verification of your account has been recieved.",
+      "partTwo": "You may now access Sterling Virtual Data Rooms."
+    },
+    "emailNotConfirmed": {
+      "emailNotConfirmedTitle": "E-Mail Not Verified",
+      "partOne": "Verification of your e-mail has not been recieved yet.",
+      "partTwo": "Please check your inbox and verify your account. If you haven't received anything in your inbox, please check all folders/inboxes, including your junk mail."
+    },
+    "invitations": {
+      "invitationExpired": "Invitation Expired",
+      "invitationExpiredBody": "The invitation to this Project has expired.",
+      "invitationExpiredHomePage": "Your request for a new invitation will be sent to the Deal Team.",
+      "roomUnavailable": "Project Unavailable",
+      "roomUnavailableBody": "This Project no longer exists.",
+      "askForInvitation": "Request New Invite",
+      "homePage": "Home Page",
+      "askedForInvitation": "Request Sent",
+      "askedForInvitationBodyFirst": "Please allow the Deal Admin to consider your invitiation.",
+      "askedForInvitationBodySecond": "A new invitation will be sent to your inbox."
+    },
+    "dataRooms": {
+      "dataRooms": "Projects",
+      "dataRoomTile": "Project tile {{currentDataRoomTileIndex}} of {{dataRoomTilesCount}}: {{name}}",
+      "dataRoomLogo": "Project logo",
+      "dataRoomName": "Project name: {{name}}",
+      "dataRoomId": "Project ID: {{id}}",
+      "dataRoomStatus": "Project status: {{status}}",
+      "dataRoomInformations": "Information about Project",
+      "dataRoomActions": "{{dataRoomName}} project actions",
+      "dataRoomsViewOptions": "Project's view options",
+      "dataRoomsSortOptions": "Project's sort options",
+      "createNewDataRoom": "Create a New Project",
+      "changeToListView": "Change to list view",
+      "changeToTileView": "Change to tile view",
+      "projectDashboard": "Project Dashboard",
+      "listOfRooms": "List of Projects ({{roomsCount}})",
+      "results": "{{count}} results",
+      "results_one": "{{count}} result",
+      "listOfRoomsFilterResult": "List of Projects | $t(views.dataRooms.results, {\"count\": {{count}} })",
+      "pleaseSelectAtLeastOneOption": "Please Select at least one Option",
+      "newDataRoom": "New Project",
+      "tier": "Tier",
+      "documents": "Documents",
+      "pages": "Online pages",
+      "users": "Users",
+      "dataSize": "Data size",
+      "creationDate": "Creation date",
+      "lastLogin": "Last login",
+      "company": "Company",
+      "actions": "Actions",
+      "selected": "Selected",
+      "of": " of ",
+      "viewOptions": "View options:",
+      "sortBy": "Sort by:",
+      "filter": "Filter",
+      "searchFor": "Search for...",
+      "filterHeaderTitle": "Apply filters for Projects",
+      "filtersCountBadge": "Filters Count Badge",
+      "pinDataRoom": "Pin {{dataRoomName}} project",
+      "unpinDataRoom": "Unpin {{dataRoomName}} project",
+      "yourTime": "Your time",
+      "noAccess": {
+        "mainText": "You do not have access to any Projects",
+        "subText": "If you think it is a mistake, please contact Deal Side or",
+        "customerService": "Customer Services Team"
+      },
+      "emptyState": {
+        "leftSection": {
+          "headerText": "Hi {{keycloakUserFirstName}}, \r\nwelcome to Sterling!",
+          "middleText": "Thank you for trusting us. Our services offer support for international transactions and document sharing via Virtual Data Rooms. Thanks to that you can:",
+          "bottomText": "and much more...",
+          "optionListItemsTexts": [
+            "Upload and organise content",
+            "Create Internal and External Teams",
+            "Manage Q&A sessions",
+            "Browse documents with translation support"
+          ]
+        },
+        "rightSection": {
+          "middleText": "You can create your first project to manage any deal with a high quality and secure way!",
+          "newDataRoom": "New Project",
+          "twoBusinessmenShakingHands": "Two businessmen shaking hands"
+        }
+      },
+      "consent": {
+        "consentTextStart": "By registering an account, I agree to the",
+        "termsOfService": "Terms of Service",
+        "and": "and",
+        "privacyPolicy": "Privacy Policy, including Cookie Use.",
+        "consentTextEnd": "I understand that all user data necessary to provide service are hosted by Sterling and I can have access to my data, I have right to change and delete data by contact with Sterling administrator.*"
+      },
+      "tile": {
+        "upgradeTier": "Upgrade Tier",
+        "requestArchive": "Request Archive",
+        "settings": "Settings"
+      },
+      "list": {
+        "details": "Details",
+        "tier": "Tier",
+        "listOfRooms": "List of Projects",
+        "dataRoomName": "Project Name",
+        "creationDate": "Creation Date",
+        "status": "Status",
+        "id": "ID",
+        "onlinePages": "Online Pages",
+        "documents": "Documents",
+        "users": "Users",
+        "dataSize": "Data Size",
+        "upgradeTier": "Upgrade Tier",
+        "requestArchive": "Request Archive",
+        "settings": "Settings",
+        "lastLogin": "Last Login",
+        "logo": "Logo",
+        "company": "Company",
+        "highProfileAccount": "High Profile Account",
+        "accountType": "Account Type"
+      },
+      "sortOptions": {
+        "recentlyCreated": "Newest",
+        "creationDateOldest": "Oldest",
+        "lastLoginTime": "Last Login Time",
+        "onlinePagesAscending": "Online Pages Ascending",
+        "onlinePagesDescending": "Online Pages Descending"
+      },
+      "DR_limit_pins": "You reached pinning limit of {{limit}} Projects.",
+      "DR_pin_create_success": "Project was pinned successfully.",
+      "DR_pin_create_failure": "Unable to pin Project.",
+      "DR_create_success": "Project created successfully.",
+      "DR_status_user_has_no_access": "You do not have access to this project at the moment."
+    },
+    "dataRoomCreation": {
+      "subscriptionPlan": "Subscription Plan",
+      "createNewDataRoom": "Create a New Project",
+      "dataRoomDetails": "Project Details",
+      "uploadedImage": "Uploaded Logo",
+      "defaultLogo": "Default Logo",
+      "selectFeatures": "Select Features",
+      "selectedPlan": "Selected plan",
+      "changePlan": "Change Plan",
+      "backToEdit": "Back to Edit",
+      "dataRoomName": "Project Name",
+      "enterDataRoomName": "Enter Project Name",
+      "companyNameForDisclaimers": "Company Name for Disclaimers",
+      "enterCompanyName": "Enter Company Name",
+      "dealType": "Deal Type",
+      "adminTypes": {
+        "sterlingAdmin": "Sterling Admin*",
+        "technicalSupport": "Technical Support"
+      },
+      "restrictedSterlingAllUsers": "All Users",
+      "sterlingAdminPlaceHolder": "All Users",
+      "technicalSupportPlaceHolder": "Select Users",
+      "atLeastOneUserMustBeSelected": "At Least One User Must Be Selected.",
+      "selectDealType": "Select Deal Type",
+      "dealManagerEmail": "Deal Manager E-mail",
+      "enterEmailAddress": "Enter e-mail address",
+      "timeZone": "Time Zone",
+      "selectTimeZone": "Select Time Zone",
+      "serverLocation": "Server Location",
+      "selectServerLocation": "Select Server Location",
+      "logotype": "Logotype",
+      "companyNameForDisclimers": "Company Name for Disclaimers",
+      "serverLocationRegionalUk": "UK",
+      "serverLocationRegionalEu": "EU",
+      "serverLocationRegionalUs": "US",
+      "serverLocationRegionalApi1": "reg1",
+      "serverLocationRegionalApi2": "reg2",
+      "serverLocationRegionalApi3": "reg3",
+      "uploadLogo": "Upload Logo",
+      "dropFileHere": "Drop file here",
+      "allowedFileTypes": "min. 150x35px, JPG, PNG, max file size {{size, number}} MB",
+      "suggestedDataRoomName": "Suggested Project Name",
+      "useThisName": "Use This Name",
+      "requiredField": "This field is required.",
+      "dataRoomNameUnavailable": "This name is currently in use by another Project.",
+      "tooLongDataRoomName": "This name is too long.",
+      "fileTooLarge": "File is larger than {{size, number}} MB",
+      "fileInvalidType": "File type must be {{accepted, string}}",
+      "consent": "Consent",
+      "highProfileAccount": {
+        "text": "High Profile Account?",
+        "options": {
+          "no": "No",
+          "yes": "Yes"
+        }
+      },
+      "consentRequiredError": "You must agree to our Terms of Service and Privacy Policy to create a Project.",
+      "button": {
+        "create": "Create",
+        "back": "Back",
+        "next": "Next",
+        "cancel": "Cancel"
+      },
+      "dealManagerEmailError": "You cannot assign the Sterling Admin as the Deal Manager.",
+      "componentsSelection": "Components can be selected in later stage."
+    },
+    "errorView": {
+      "somethingWentWrong": "An error occurred",
+      "unexpectedError": "Unexpected error",
+      "unexpectedErrorOccured": "We are doing our best to find a solution. Please refresh the page or contact our <0>Customer Services Team</0> for assistance.",
+      "tryAgainOrContactAdministrator": "Thank you for your patience.",
+      "reportAnIssue": "Contact Customer Services",
+      "goToHomePage": "Homepage",
+      "goToPreviousPage": "Back"
+    },
+    "accessRestrictedView": {
+      "accessRestricted": "Access Restricted",
+      "accessRestrictedNoPermission": "You do not have required permissions to access this page.",
+      "accessRestrictedContact": "Please contact our <0>Customer Services Team</0>."
+    },
+    "sessionTimeout": {
+      "title": "Session Timeout",
+      "bodyPartOne": "You were inactive for over 60 minutes.",
+      "bodyPartTwo": "We logged you out for security reasons, please login again.",
+      "loginAgain": "Login"
+    },
+    "icons": {
+      "chevronTrippleUp": "Chevron Tripple Up",
+      "archiveArrowDown": "Archive Arrow Down",
+      "cogOutline": "Cog Outline"
+    },
+    "userSettings": {
+      "title": "User Settings",
+      "tabs": {
+        "accountData": {
+          "title": "Personal Info",
+          "firstName": "First Name",
+          "lastName": "Last Name",
+          "countryOfResidence": "Country of Residence",
+          "companyName": "Company Name",
+          "sector": "Sector",
+          "function": "Function",
+          "jobTitle": "Job Title",
+          "accountDataCancelButton": "Cancel",
+          "accountDataSaveButton": "Save",
+          "accountDataMakeChangesButton": "Edit",
+          "adminType": "Admin Type"
+        },
+        "security": {
+          "title": "Security Info",
+          "tip": "Please enter your account password to enter this section securely.",
+          "password": "Password",
+          "contactNumbers": "Contact Numbers",
+          "contactNumbersSuccessMessage": "New contact numbers saved successfully.",
+          "email": "E-mail",
+          "enterEmail": "E-mail Address",
+          "emailAlreadyExists": "The e-mail address you entered already exists. Please log in to continue.",
+          "mobile": "Mobile",
+          "enterMobile": "Mobile Phone Number",
+          "setNewPassword": "Set new password",
+          "confirmNewPassword": "Confirm new password",
+          "securityQuestion": "Security Question",
+          "securityAnswer": "Security Answer",
+          "tooltipOneFieldPerEdit": "You cannot edit two sections at the same time",
+          "emailCancelButton": "Cancel",
+          "emailSaveButton": "Save",
+          "emailMakeChangesButton": "Edit",
+          "mobileCancelButton": "Cancel",
+          "mobileSaveButton": "Save",
+          "mobileMakeChangesButton": "Edit",
+          "passwordCancelButton": "Cancel",
+          "passwordSaveButton": "Save",
+          "changePasswordButton": "Edit",
+          "securityQuestionCancelButton": "Cancel",
+          "securityQuestionSaveButton": "Save",
+          "securityQuestionMakeChangesButton": "Edit",
+          "deletingAccount": "Delete Account",
+          "deleteAccountInstruction": "If you wish to delete your account, please send in a request to our <0>Customer Services Team</0>.",
+          "deleteGdprModal": {
+            "title": "Delete Account",
+            "content": {
+              "first": "Are you sure you want to permanently delete your account?",
+              "second": "If you delete your account, you will no longer have access to any Projects in Sterling VDR. This action cannot be undone."
+            },
+            "delete": "Delete",
+            "successMessage": "Your GDPR deletion request has been sent to the Customer Services Team. Please allow 48 hours for this action to be completed.",
+            "errorMessage": "Please try again."
+          },
+          "otpVerificationModal": {
+            "title": "OTP Verification",
+            "content": "Enter the 6-digit verification code sent to phone number <boldText>{{phoneNumber}}</boldText>",
+            "submit": "Submit",
+            "inputLabel": "Verification Code",
+            "errorMessage": "Entered code is invalid",
+            "customerServiceLink": "Customer Services Team",
+            "placeholder": "Enter Verification Code",
+            "resendCode": "Resend Code",
+            "codeRequiredMessage": "Please enter verification code.",
+            "codeInvalid": "Entered code is invalid.",
+            "codeSent": "Code sent",
+            "tooltip": "You can request new code in 30 seconds. Code will expire in 10 minutes."
+          }
+        },
+        "notifications": {
+          "title": "Notifications",
+          "EmailSettings": {
+            "title": "E-mail Settings",
+            "qAndANotification": {
+              "label": "Q&A Notifications",
+              "value": {
+                "positive": "Instantly",
+                "negative": "Never"
+              }
+            },
+            "emailNotification": {
+              "label": "Contents Notifications",
+              "value": {
+                "positive": "Summary once a day",
+                "negative": "Never"
+              }
+            }
+          }
+        },
+        "preferences": {
+          "title": "Preferences",
+          "language": {
+            "title": "Language Settings",
+            "label": "Language"
+          },
+          "languageCancelButton": "Cancel",
+          "languageSaveButton": "Save",
+          "languageMakeChangesButton": "Edit"
+        }
+      },
+      "button": {
+        "back": "Back",
+        "cancel": "Cancel",
+        "edit": "Edit",
+        "changePassword": "Change password",
+        "saveNewPassword": "Save"
+      }
+    },
+    "inviteUsers": {
+      "header": "Request User Invitations",
+      "selectMethodHeader": "Select Method",
+      "enterUsersEmailsHeader": "Enter E-Mail Addresses",
+      "stepText": "Step",
+      "ofTwoText": "of 2"
+    },
+    "pdfViewer": {
+      "corruptedPrintDialog": {
+        "title": "Unable to Print File",
+        "content": "The file is corrupted and cannot be printed.\n\nPlease contact our <0>Customer Services Team</0> for further assistance.",
+        "confirm": "Close"
+      },
+      "corruptedOpenDialog": {
+        "title": "Unable to Open File",
+        "content": "The file is corrupted and cannot be opened in the PDF Viewer.\n\nPlease contact our <0>Customer Services Team</0> for further assistance.",
+        "confirm": "Close"
+      },
+      "protectedOpenDialog": {
+        "title": "Protected Document",
+        "confirm": "Close",
+        "content": "This file is protected. Some mouse and keyboard actions are restricted."
+      },
+      "clipboardText": "PROTECTED DOCUMENT This file is protected. Some mouse and keyboard actions are restricted."
+    },
+    "videoViewer": {
+      "corruptedOpenDialog": {
+        "title": "Unable to Open File",
+        "content": "The file is corrupted and cannot open in the video player. \n\nPlease contact our <0>Customer Services Team</0> for further assistance.",
+        "confirm": "Close"
+      },
+      "notSupported": "Your browser does not support the video tag."
+    },
+    "sessionManagerView": {
+      "title": "Session Manager",
+      "description": "Sessions must be published for changes to be visible to all users.",
+      "button": {
+        "publishChanges": "Publish Changes",
+        "undoChanges": "Revert Changes",
+        "cancel": "Cancel"
+      },
+      "emptyStateMessage": "No Items to Publish",
+      "emptyStateDescription": "Any actions performed in Contents will be displayed here.",
+      "actionsList": {
+        "selectedCount": "Selected {{selectedCount}} out of {{totalCount}}",
+        "headers": {
+          "itemName": "Item name",
+          "action": "Action",
+          "details": "Details",
+          "actionDate": "Action Date"
+        },
+        "actions": {
+          "inserted": "Inserted",
+          "moved": "Moved",
+          "updated": "Updated",
+          "deleted": "Deleted",
+          "replaced": "Replaced"
+        },
+        "details": {
+          "inserted": "to {{toDisplayName}}",
+          "moved": "from {{fromDisplayName}} to {{toDisplayName}}",
+          "updated": "in {{inDisplayName}}",
+          "deleted": "from {{fromDisplayName}} to {{toDisplayName}}",
+          "replaced": "in {{inDisplayName}}"
+        },
+        "permissionChanges": {
+          "externalTeams": "{{ externalName }} Teams:",
+          "subInternalTeams": "{{ internalName }} Teams:",
+          "header": "This Action makes the item hidden for:",
+          "failed": "This Action makes the item hidden for some teams",
+          "loading": "Loading teams losing access to this item..."
+        }
+      },
+      "toasts": {
+        "publishActionSuccess": "Changes published successfully: {{count}}",
+        "publishActionFailure": "Unable to publish changes: {{count}}",
+        "revertActionSuccess": "Changes reverted successfully: {{count}}",
+        "revertActionFailure": "Unable to revert changes: {{count}}",
+        "actionNotFound": "{{count}} changes could not be processed. The actions do not exist or may have been published or reverted by another user.",
+        "publishDependenciesDetected": "{{count}} actions that must be published due to their dependencies were selected as well. Please review them and publish again.",
+        "revertDependenciesDetected": "{{count}} actions that must be reverted due to their dependencies were selected as well. Please review them and revert again.",
+        "publishUploadDetected": "Unable to publish changes: {{count}}. Please wait until the upload finishes.",
+        "revertUploadDetected": "Unable to revert changes: {{count}}. Please wait until the upload finishes."
+      },
+      "status": {
+        "reverting": "Reverting Session changes in progress…",
+        "publishing": "Publishing Session changes in progress…"
+      },
+      "viewActiveSessions": "View Active Sessions",
+      "search": {
+        "placeholder": "Search for item name...",
+        "matchingResults": "Matching results: {{count}}"
+      }
+    }
+  },
+  "components": {
+    "breadcrumb": {
+      "home": "Home",
+      "back": "Breadcrumb back button"
+    },
+    "selectableContextMenu": {
+      "contextMenuButton": "Open context menu"
+    },
+    "dataTablePagination": {
+      "moreThan": "more than {{to}}",
+      "fromToOf": "{{from}}-{{to}} of {{count}}",
+      "first": "first",
+      "last": "last",
+      "next": "next",
+      "previous": "previous",
+      "goToPage": "Go to {{type}} page",
+      "rowsPerPage": "Rows per page:"
+    },
+    "dataTable": {
+      "rowActions": "Data table row actions",
+      "itemsTotalCount": "Items: {{itemsTotalCount}}",
+      "selected": "{{selectedItemCount}} Selected",
+      "selectSingleRow": "Select Single Row",
+      "selectAllRows": "Select All Rows",
+      "enterDetailsAction": "Enter Details Action",
+      "pageAction": "Page Action",
+      "expandRow": "Expand row",
+      "details": "Details"
+    },
+    "header": {
+      "companyName": "Sterling",
+      "userSettings": "User Settings",
+      "contactSupport": "Customer Services Team",
+      "adminPanel": "Admin Panel",
+      "logout": "Logout",
+      "notifications": "Notifications",
+      "sessions": "Sessions",
+      "settings": "Settings",
+      "dataRoomActions": "Project actions",
+      "home": "Home",
+      "recentDataRooms": "Recent projects",
+      "recentDataRoomName": "Recent projects {{dataRoomName}}",
+      "noRecentDataRooms": "No Recent Projects"
+    },
+    "tier": {
+      "tier": "Tier",
+      "upTo": "Up to",
+      "users": "users",
+      "gb": "GB",
+      "forYourData": "for your data"
+    },
+    "sidebar": {
+      "close": "Close",
+      "cancel": "Cancel",
+      "applyFilters": "Apply",
+      "clearFilters": "Clear Filters"
+    },
+    "allResults": {
+      "allResults": "End of results"
+    },
+    "noResults": {
+      "noResults": "No Results Found",
+      "changeCriteria": "Please try changing your search criteria"
+    },
+    "noQuestions": {
+      "noQuestions": "No Data to Display",
+      "noQuestionsInfo": "Please return later to check if new questions were added"
+    },
+    "status": {
+      "active": "Active",
+      "underPreparation": "Under Preparation",
+      "terminationPeriod": "Termination Period",
+      "temporaryRestriction": "Temporary Restriction"
+    },
+    "searchbar": {
+      "clear": "Clear",
+      "searchFor": "Search for...",
+      "requiredCharacters": "Required characters: {{length}}."
+    },
+    "searchinput": {
+      "clear": "Clear",
+      "TypeToSearch": "Type to search"
+    },
+    "autocompleteSearchbar": {
+      "noMatch": "No match suggestions",
+      "disclaimersCompanyName": "Company",
+      "name": "Project",
+      "id": "Id",
+      "undefined": "",
+      "publicReference": "Id"
+    },
+    "statusChanger": {
+      "selectStatus": "Select Status",
+      "requestFor": "Request for",
+      "updatedBy": "Last updated {{date}} by {{user}}",
+      "customAccess": "Set Custom Access",
+      "buttons": {
+        "buttonSetStatus": "Set Status",
+        "buttonRequestFor": "Request For"
+      },
+      "accessTypes": {
+        "FullAccess": "Full access",
+        "NoAccess": "No access"
+      },
+      "label": "Access of {{teamName}}",
+      "toasts": {
+        "requestSentSuccesfully": "Your request has been sent successfully.",
+        "requestSentFailure": "Unable to send your request.",
+        "statusChangedSuccessfully": "The Project Status has been changed successfully.",
+        "statusChangedFailure": "Unable to change Project Status."
+      }
+    },
+    "statusDescription": {
+      "active": "This status will allow external teams to enter the Project.\n\nAs part of the project activation, you will be prompted with a go-live checklist to ensure a smooth launch.",
+      "underPreparation": "Default status for new Projects. The objective for this status is to configure settings and content for the Project to go-live.\n\nIt will restrict all external users from accessing the Project.",
+      "temporaryRestriction": "The objective for this status is to set access restrictions to the Project for specific team types.\n\n'Full access' will allow the teams to enter the Project.\n\n'No access' will hide the Project.",
+      "terminationPeriod": "This status is available by request to Sterling Admins.\n\nRequest will result in closing the Project for all teams.\n\nAfter 30 days of approval, the Project and all its contents, will be deleted."
+    },
+    "toaster": {
+      "closeMessage": "Close Message",
+      "toast": "Toast"
+    },
+    "confirmationDialog": {
+      "unsavedChangesTitle": "Unsaved Changes",
+      "content": "You are about to leave this page with unsaved changes. All changes will be lost.\n\nHow would you like to proceed?",
+      "discard": "Continue",
+      "stayOnPage": "Stay on Page"
+    },
+    "confirmationCancelDialog": {
+      "unsavedChangesTitle": "You Have Unsaved Changes",
+      "content": "Are you sure you want to discard these changes?\n\nAll changes will be lost.",
+      "discard": "Discard Changes",
+      "stayOnPage": "Keep Editing"
+    },
+    "activationChecklist": {
+      "activationChecklistHeader": "Please confirm the following items before changing the status of this Project to Active:",
+      "shakingHands": "Shaking Hands",
+      "yourProjectStatus": "Project status will be changed to Active.",
+      "invitationsForBiddersUsers": "External users will automatically be sent invitations, if custom settings were not set.",
+      "activateRoom": "Activate Project",
+      "indexStructureIsReady": "Index structure is ready and content is uploaded*",
+      "mainDealTeamIsCreated": "Internal teams are created and all users are invited*",
+      "biddersTeamsAreCreated": "External teams are created and all users are added*",
+      "disclaimerIsAppropriate": "Disclaimer settings are properly configured for the team type*",
+      "grantedPermission": "Permissions are properly assigned for all teams*",
+      "recyleBinIsntEmptyText": "If Recycle Bin is not empty when the Project is set to active, an additional fee may incur. Please select one from the options below*",
+      "deleteAllFiles": "Delete all files from Recycle Bin",
+      "keepAllFiles": "Keep all files in Recycle Bin",
+      "activeSessionValidationMessage": "Unable to activate Project with an active session. Please publish session and try again."
+    },
+    "chooseActionButton": {
+      "chooseAction": "Choose Action",
+      "actions": "actions"
+    }
+  },
+  "userInvitations": {
+    "buttons": {
+      "saveDraft": "Save draft"
+    }
+  },
+  "countryCodes": {
+    "AF": "Afghanistan",
+    "AL": "Albania",
+    "DZ": "Algeria",
+    "AS": "American Samoa",
+    "AD": "Andorra",
+    "AO": "Angola",
+    "AI": "Anguilla",
+    "AQ": "Antarctica",
+    "AG": "Antigua and Barbuda",
+    "AR": "Argentina",
+    "AM": "Armenia",
+    "AW": "Aruba",
+    "AU": "Australia",
+    "AT": "Austria",
+    "AZ": "Azerbaijan",
+    "BS": "Bahamas",
+    "BH": "Bahrain",
+    "BD": "Bangladesh",
+    "BB": "Barbados",
+    "BY": "Belarus",
+    "BE": "Belgium",
+    "BZ": "Belize",
+    "BJ": "Benin",
+    "BM": "Bermuda",
+    "BT": "Bhutan",
+    "BO": "Bolivia",
+    "BA": "Bosnia and Herzegovina",
+    "BW": "Botswana",
+    "BV": "Bouvet Island",
+    "BR": "Brazil",
+    "IO": "British Indian Ocean Territory",
+    "VG": "British Virgin Islands",
+    "BN": "Brunei Darussalam",
+    "BG": "Bulgaria",
+    "BF": "Burkina Faso",
+    "BI": "Burundi",
+    "KH": "Cambodia",
+    "CM": "Cameroon",
+    "CA": "Canada",
+    "CV": "Cape Verde (Cabo Verde)",
+    "KY": "Cayman Islands",
+    "CF": "Central African Republic",
+    "TD": "Chad",
+    "CL": "Chile",
+    "CN": "China",
+    "CX": "Christmas Island",
+    "CC": "Cocos (Keeling) Islands",
+    "CO": "Colombia",
+    "KM": "Comoros",
+    "CG": "Congo",
+    "CD": "Congo, Democratic Republic of the",
+    "CK": "Cook Islands",
+    "CR": "Costa Rica",
+    "CI": "Cote d'Ivoire (Ivory Coast)",
+    "HR": "Croatia",
+    "CU": "Cuba",
+    "CW": "Curacao",
+    "CY": "Cyprus",
+    "CZ": "Czech Republic (Czechia)",
+    "DK": "Denmark",
+    "DJ": "Djibouti",
+    "DM": "Dominica",
+    "DO": "Dominican Republic",
+    "TP": "East Timor (Timor-Leste)",
+    "EC": "Ecuador",
+    "EG": "Egypt",
+    "SV": "El Salvador",
+    "GQ": "Equatorial Guinea",
+    "ER": "Eritrea",
+    "EE": "Estonia",
+    "ET": "Ethiopia",
+    "FK": "Falkland Islands (Islands Malvinas)",
+    "FO": "Faroe Islands",
+    "FJ": "Fiji",
+    "FI": "Finland",
+    "FR": "France",
+    "GF": "French Guiana",
+    "PF": "French Polynesia",
+    "TF": "French Southern Territories",
+    "GA": "Gabon",
+    "GM": "Gambia",
+    "GE": "Georgia",
+    "DE": "Germany",
+    "GH": "Ghana",
+    "GI": "Gibraltar",
+    "GR": "Greece",
+    "GL": "Greenland",
+    "GD": "Grenada",
+    "GP": "Guadeloupe",
+    "GU": "Guam",
+    "GT": "Guatemala",
+    "GG": "Guernsey",
+    "GN": "Guinea",
+    "GW": "Guinea-Bissau",
+    "GY": "Guyana",
+    "HT": "Haiti",
+    "HM": "Heard Island and McDonald Islands",
+    "HN": "Honduras",
+    "HK": "Hong Kong",
+    "HU": "Hungary",
+    "IS": "Iceland",
+    "IN": "India",
+    "ID": "Indonesia",
+    "IR": "Iran",
+    "IQ": "Iraq",
+    "IE": "Ireland",
+    "IM": "Isle of Man",
+    "IL": "Israel",
+    "IT": "Italy",
+    "JM": "Jamaica",
+    "JP": "Japan",
+    "JE": "Jersey",
+    "JO": "Jordan",
+    "KZ": "Kazakhstan",
+    "KE": "Kenya",
+    "KI": "Kiribati",
+    "KP": "Korea, North (Democratic People's Republic of Korea)",
+    "KR": "Korea, South (Republic of Korea)",
+    "XK": "Kosovo",
+    "KW": "Kuwait",
+    "KG": "Kyrgyzstan",
+    "LA": "Lao Peoples's Democratic Republic (Laos)",
+    "LV": "Latvia",
+    "LB": "Lebanon",
+    "LS": "Lesotho",
+    "LR": "Liberia",
+    "LY": "Libya (State of Libya)",
+    "LI": "Liechtenstein",
+    "LT": "Lithuania",
+    "LU": "Luxembourg",
+    "MO": "Macau (Macao)",
+    "MG": "Madagascar",
+    "MW": "Malawi",
+    "MY": "Malaysia",
+    "MV": "Maldives",
+    "ML": "Mali",
+    "MT": "Malta",
+    "MH": "Marshall Islands",
+    "MQ": "Martinique",
+    "MR": "Mauritania",
+    "MU": "Mauritius",
+    "YT": "Mayotte",
+    "MX": "Mexico",
+    "FM": "Micronesia, Federated States of",
+    "MD": "Moldova",
+    "MC": "Monaco",
+    "MN": "Mongolia",
+    "ME": "Montenegro",
+    "MS": "Montserrat",
+    "MA": "Morocco",
+    "MZ": "Mozambique",
+    "MM": "Myanmar",
+    "NA": "Namibia",
+    "NR": "Nauru",
+    "NP": "Nepal",
+    "NL": "Netherlands",
+    "AN": "Netherlands Antilles",
+    "NC": "New Caledonia",
+    "NZ": "New Zealand",
+    "NI": "Nicaragua",
+    "NE": "Niger",
+    "NG": "Nigeria",
+    "NU": "Niue",
+    "NF": "Norfolk Island",
+    "MK": "North Macedonia",
+    "MP": "Northern Mariana Islands",
+    "NO": "Norway",
+    "OM": "Oman",
+    "PK": "Pakistan",
+    "PW": "Palau",
+    "PS": "Palestine, State of",
+    "PA": "Panama",
+    "PG": "Papua New Guinea",
+    "PY": "Paraguay",
+    "PE": "Peru",
+    "PH": "Philippines",
+    "PN": "Pitcairn Islands",
+    "PL": "Poland",
+    "PT": "Portugal",
+    "PR": "Puerto Rico",
+    "QA": "Qatar",
+    "RE": "Reunion",
+    "RO": "Romania",
+    "RU": "Russia (Russian Federation)",
+    "RW": "Rwanda",
+    "BL": "Saint Barthelemy",
+    "SH": "Saint Helena, Ascension, Tristan da Cunha",
+    "KN": "Saint Kitts and Nevis",
+    "LC": "Saint Lucia",
+    "MF": "Saint Martin",
+    "PM": "Saint Pierre and Miquelon",
+    "VC": "Saint Vincent and the Grenadines",
+    "WS": "Samoa",
+    "SM": "San Marino",
+    "ST": "Sao Tome and Principe",
+    "SA": "Saudi Arabia",
+    "SN": "Senegal",
+    "RS": "Serbia",
+    "SC": "Seychelles",
+    "SL": "Sierra Leone",
+    "SG": "Singapore",
+    "SX": "Sint Maarten",
+    "SK": "Slovakia (Slovak Republic)",
+    "SI": "Slovenia",
+    "SB": "Solomon Islands",
+    "SO": "Somalia",
+    "ZA": "South Africa",
+    "GS": "South Georgia and South Sandwich Islands",
+    "SS": "South Sudan",
+    "ES": "Spain",
+    "LK": "Sri Lanka",
+    "SD": "Sudan",
+    "SR": "Suriname",
+    "SJ": "Svalbard and Jan Mayen Islands",
+    "SZ": "Swaziland (Eswatini)",
+    "SE": "Sweden",
+    "CH": "Switzerland",
+    "SY": "Syria (Syrian Arab Republic)",
+    "TW": "Taiwan (ROC)",
+    "TJ": "Tajikistan",
+    "TZ": "Tanzania, United Republic of",
+    "TH": "Thailand",
+    "TG": "Togo",
+    "TK": "Tokelau",
+    "TO": "Tonga",
+    "TT": "Trinidad and Tobago",
+    "TN": "Tunisia",
+    "TR": "Turkey",
+    "TM": "Turkmenistan",
+    "TC": "Turks and Caicos Islands",
+    "TV": "Tuvalu",
+    "VI": "U.S. Virgin Islands",
+    "UG": "Uganda",
+    "UA": "Ukraine",
+    "AE": "United Arab Emirates",
+    "GB": "United Kingdom",
+    "US": "United States",
+    "UM": "United States Minor Outlying Islands",
+    "UY": "Uruguay",
+    "UZ": "Uzbekistan",
+    "VU": "Vanuatu",
+    "VA": "Vatican City State (The Holy See)",
+    "VE": "Venezuela",
+    "VN": "Vietnam",
+    "WF": "Wallis and Futuna",
+    "EH": "Western Sahara",
+    "YE": "Yemen",
+    "ZM": "Zambia",
+    "ZW": "Zimbabwe"
+  },
+  "securityQuestions": {
+    "WhatIsTheCityWereYouBorn": "What city were you born in?",
+    "WhatIsTheNameOfYourFavoritePet": "What is the name of your favorite pet?",
+    "WhatIsYourMothersMaidenName": "What is your mother's maiden name?",
+    "WhatHighSchoolDidYouAttend": "What high school did you attend?",
+    "WhatIsTheNameOfYourFirstSchool": "What is the name of your first school?",
+    "WhatWasTheMakeOfYourFirstCar": "What was the make of your first car?",
+    "WhatWasYourFavoriteFoodAsAChild": "What was your favourite food as a child?",
+    "WhereDidYouMeetYourSpouse": "Where did you meet your spouse?",
+    "WhatIsYourFavoriteBook": "What is your favourite book?",
+    "WhatIsTheNameOfTheRoadYouGrewUpOn": "What is the name of the road you grew up on?",
+    "WhatIsYourFavoritePlaceToVacation": "Where is your favourite place to vacation?",
+    "WhatIsYourFavoriteActorMusicanOrArtist": "Who is your favourite actor, musician, or artist?",
+    "WhatIsYourFavoriteMovie": "What is your favourite movie?",
+    "WhatIsYourFavoriteColor": "What is your favourite colour?"
+  },
+  "sectors": {
+    "AerospaceAndDefence": "Aerospace & Defence",
+    "Agricultural": "Agricultural",
+    "Automotive": "Automotive",
+    "BusinessServices": "Business Services",
+    "EnergyAndRenewables": "Energy and Renewables",
+    "FinancialServices": "Financial Services",
+    "FinancialSponsors": "Financial Sponsors",
+    "FoodAndDrink": "Food and drink",
+    "GovernmentAndPublicSector": "Government & Public Sector",
+    "Healthcare": "Healthcare",
+    "Industrial": "Industrial",
+    "Infrastructure": "Infrastructure",
+    "Insurance": "Insurance",
+    "LegalServices": "Legal Services",
+    "Leisure": "Leisure",
+    "Manufacturing": "Manufacturing",
+    "Media": "Media",
+    "MetalsAndMining": "Metals & Mining",
+    "OilAndGas": "Oil and Gas",
+    "Other": "Other",
+    "PrivateEquity": "Private Equity",
+    "RealEstate": "Real Estate",
+    "Retail": "Retail",
+    "Technology": "Technology",
+    "Telecommunications": "Telecommunications",
+    "Transport": "Transport"
+  },
+  "functions": {
+    "FinancialAdvisor": "Financial Advisor",
+    "LegalAdvisor": "Legal Advisor",
+    "PrivateEquity": "Private Equity",
+    "Corporate": "Corporate",
+    "TransactionalServices": "Transactional Services",
+    "RealEstate": "Real Estate",
+    "Other": "Other"
+  },
+  "jobTitles": {
+    "ManagingDirector": "Managing Director",
+    "Director": "Director",
+    "ExecutiveDirector": "Executive Director",
+    "VicePresident": "Vice President",
+    "AssociateDirector": "Associate Director",
+    "Manager": "Manager",
+    "Associate": "Associate",
+    "Analyst": "Analyst",
+    "Executive": "Executive",
+    "Partner": "Partner",
+    "ManagingAssociate": "Managing Associate",
+    "Trainee": "Trainee",
+    "Paralegal": "Paralegal",
+    "LegalDirector": "Legal Director",
+    "OfCounsel": "Of Counsel",
+    "OperationsPartner": "Operations Partner",
+    "OperationsManager": "Operations Manager",
+    "InvestmentDirector": "Investment Director",
+    "InvestmentManager": "Investment Manager",
+    "Principal": "Principal",
+    "CEO": "CEO",
+    "CFO": "CFO",
+    "MAndADirector": "M&A Director",
+    "MAndAManager": "M&A Manager",
+    "GeneralCounsel": "General Counsel",
+    "Strategy": "Strategy",
+    "LegalCounsel": "Legal Counsel",
+    "Other": "Other"
+  },
+  "passwordPolicyTypes": {
+    "singular": {
+      "length": "min. 1 character",
+      "upperCase": "Uppercase letter",
+      "lowerCase": "Lowercase letter",
+      "digits": "Number",
+      "specialChars": "Special character"
+    },
+    "plural": {
+      "length": "min. {{value}} character",
+      "upperCase": "{{value}} Uppercase letters",
+      "lowerCase": "{{value}} Lowercase letters",
+      "digits": "{{value}} Numbers",
+      "specialChars": "{{value}} Special characters"
+    }
+  },
+  "dealTypes": {
+    "subcategory": {
+      "buySideMa": "Buy Side M&A",
+      "sellSideMa": "Sell Side M&A",
+      "postMergerIntegration": "Post Merger Integration",
+      "teaserImDistribution": "Teaser IM distribution",
+      "fundraising": "Fundraising",
+      "secondaries": "Secondaries",
+      "fundReportingInvestorRelations": "Fund Reporting/Investor Relations",
+      "portfolioManagement": "Portfolio Management",
+      "assetSaleIpo": "Asset Sale/IPO",
+      "npls": "NPLs",
+      "securitization": "Securitization",
+      "syndicatedLoan": "Syndicated Loan",
+      "restructuring": "Restructuring",
+      "privatePlacements": "Private Placements",
+      "ipoRightsIssues": "IPO & Rights Issues",
+      "roadshows": "Roadshows",
+      "assetManagement": "Asset Management",
+      "assetSales": "Asset Sales",
+      "pharmaceuticalsLicensing": "Pharmaceuticals Licensing",
+      "jointVentures": "Joint Ventures",
+      "auditorReviewCompliance": "Auditor Review & Compliance",
+      "antitrustClassActionLawsuits": "Antitrust Class Action Lawsuits",
+      "other": "Other"
+    },
+    "category": {
+      "ma": "M&A",
+      "privateEquity": "Private Equity",
+      "debts": "Debts",
+      "equity": "Equity",
+      "realEstate": "Real Estate",
+      "pharma": "Pharma",
+      "tendering": "Tendering",
+      "courtProceedings": "Litigation",
+      "otherDealType": "Other Deal Type"
+    }
+  },
+  "errorCodes": {
+    "passwordIsTooSimilar": "Password is too similar to the previous 5 passwords."
+  },
+  "timeZones": {
+    "greenwichMeanTime": "Greenwich Mean Time",
+    "hongKongTime": "Hong Kong Time",
+    "indianStandardTime": "Indian Standard Time",
+    "singaporeStdTime": "Singapore Std Time",
+    "southAfricanStandardTime": "South African Standard Time",
+    "arabStandardTimeKuwaitRiyadh": "Arab Standard Time (Kuwait, Riyadh)",
+    "arabianStandardTimeAbuDhabiMuscat)": "Arabian Standard Time (Abu Dhabi, Muscat)",
+    "gulfStandardTime": "Gulf Standard Time",
+    "moscowTime": "Moscow Time",
+    "australianWesternStandardTime": "Australian Western Standard Time",
+    "chinaStandardTime": "China Standard Time",
+    "malaysiaTime": "Malaysia Time",
+    "japanStandardTime": "Japan Standard Time",
+    "atlanticStandardTime": "Atlantic Standard Time",
+    "australianCentralStandardTime": "Australian Central Standard Time",
+    "australianEasternStandardTime": "Australian Eastern Standard Time",
+    "brasilia": "Brasilia",
+    "easternStandardTime": "Eastern Standard Time",
+    "centralStandardTime": "Central Standard Time",
+    "mountainStandardTime": "Mountain Standard Time",
+    "pacificStandardTime": "Pacific Standard Time",
+    "alaskaStandardTime": "Alaska Standard Time",
+    "centralEuropeanTime": "Central European Time",
+    "easternEuropeanTime": "Eastern European Time",
+    "westernIndonesianTime": "Western Indonesian Time",
+    "easternAfricaTimeNairobi": "Eastern Africa Time (Nairobi)",
+    "israelStandardTimeJerusalem": "Israel Standard Time (Jerusalem)"
+  }
+}

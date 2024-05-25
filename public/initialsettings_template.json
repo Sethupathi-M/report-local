@@ -1,0 +1,7 @@
+{
+  "keycloakUrl": "",
+  "keycloakExternalClientId": "",
+  "keycloakExternalClientSecret": "",
+  "globalGatewayServiceUrl": "",
+  "clusterLocations": ["RegionalUk", "RegionalEu", "RegionalUs"]
+}
