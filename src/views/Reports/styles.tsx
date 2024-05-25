@@ -2,9 +2,8 @@ import { Box, Grid, IconButton, Tab, Tabs, Typography, styled } from '@mui/mater
 import { appTheme } from '../../appTheme';
 import CloseIcon from '@mui/icons-material/Close';
 import { DataGridPro } from '@mui/x-data-grid-pro';
-import { BorderBottom } from '@mui/icons-material';
 
-const rem = (pixels: number) => `${pixels / 16}rem`;
+export const rem = (pixels: number) => `${pixels / 16}rem`;
 
 export const StyledReportTabs = styled(Tabs)({
   '& .MuiTabs-indicator': {
@@ -91,7 +90,7 @@ export const StyledCloseIcon = styled(CloseIcon, {
 }));
 
 // New changes
-export const StyledDataGridPro = styled(DataGridPro, {
+export const PocStyledDataGridPro = styled(DataGridPro, {
   shouldForwardProp: prop => prop !== 'pinnedColumnCount',
 })(({ isBackgroundLoading }: { isBackgroundLoading: boolean }) => ({
   backgroundColor: appTheme.palette.common.white,

@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next';
 import { PerPageOptionList } from '../../constants';
 import SampleRows from '../../data/IndexReport.json';
 import useColumns from '../../hooks/useReportColumns';
-import { StyledDataGridPro } from '../../styles';
+import { StyledDataGridPro } from './styles';
 
 const ReportsDatagrid = () => {
   const { t } = useTranslation();

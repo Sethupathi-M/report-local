@@ -1,5 +1,6 @@
 import { InputAdornment, TextField } from '@mui/material';
 import { FilterComponentProps } from '../../../../../interfaces/reportTypes';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 const TextFilter = ({ field }: FilterComponentProps) => {
   return (
@@ -29,9 +30,7 @@ const TextFilter = ({ field }: FilterComponentProps) => {
             }}
             position="end"
           >
-            <span style={{ padding: '5px' }}>
-              <ExpandButton />
-            </span>
+            <ExpandMoreIcon sx={{ fontSize: '18px' }} />
           </InputAdornment>
         ),
       }}
@@ -43,11 +42,3 @@ const TextFilter = ({ field }: FilterComponentProps) => {
 };
 
 export default TextFilter;
-
-const ExpandButton = () => {
-  return (
-    <svg width="8" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0.94 0.719727L4 3.77973L7.06 0.719727L8 1.66639L4 5.66639L0 1.66639L0.94 0.719727Z" fill="#3C4C5B" />
-    </svg>
-  );
-};

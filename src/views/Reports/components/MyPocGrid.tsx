@@ -25,7 +25,7 @@ import {
 } from '@mui/x-data-grid-pro';
 import React, { useCallback, useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { StyledDataGridPro } from '../styles';
+import { PocStyledDataGridPro } from '../styles';
 import sampledata from '../data/IndexReport.json';
 import { appTheme } from '../../../appTheme';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
@@ -431,7 +431,7 @@ const MyPocGrid = () => {
     <Box width={'100%'} height={`calc(100vh - ${offsetHeight}px)`} ref={onRefChange}>
       {/* <Select onClose={}></Select> */}
       {/* <NoDataModal></NoDataModal> */}
-      <StyledDataGridPro
+      <PocStyledDataGridPro
         filterModel={{
           items: [
             // {
@@ -487,7 +487,7 @@ const MyPocGrid = () => {
         isBackgroundLoading={isLoading}
         onPinnedColumnsChange={handlePinnedColumnsChange}
         // headerHeight={60}
-      ></StyledDataGridPro>
+      ></PocStyledDataGridPro>
       <Popover
         // id={id}
         open={open}
