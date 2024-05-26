@@ -1,8 +1,33 @@
 import { InputAdornment, TextField } from '@mui/material';
-import { FilterComponentProps } from '../../../../../interfaces/reportTypes';
+import { FilterComponentProps, IndexReportColumnField } from '../../../../../interfaces/reportTypes';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import { useState } from 'react';
+import { useDispatch } from 'react-redux';
+import { columnFiltersActions } from '../../../../../slice/reports/columnFilters.slice';
+import { useReportTabContext } from '../../ReportTabContext';
 
-const TextFilter = ({ field }: FilterComponentProps) => {
+const TextFilter = ({
+  params: {
+    field,
+    colDef: { filterData },
+  },
+}: FilterComponentProps) => {
+  const [typedValue, setTypedValue] = useState(filterData ?? '');
+  const { value } = useReportTabContext();
+  const dispatch = useDispatch();
+
+  const submitData = () => {
+    dispatch(
+      columnFiltersActions.updateField({
+        tabValue: value as number,
+        field: field as IndexReportColumnField,
+        value: typedValue as string,
+      })
+    );
+  };
+
+  console.log(typedValue);
+
   return (
     <TextField
       sx={{
@@ -10,6 +35,7 @@ const TextFilter = ({ field }: FilterComponentProps) => {
         lineHeight: '5px',
         fontSize: '12px',
         '& input::placeholder': {
+          color: '#BDBDBD',
           fontSize: '12px',
           fontStyle: 'italic',
         },
@@ -21,6 +47,10 @@ const TextFilter = ({ field }: FilterComponentProps) => {
       InputLabelProps={{ style: { fontSize: 12, padding: 0 } }}
       id={field}
       fullWidth
+      onBlur={submitData}
+      onKeyDown={e => {
+        if (e.code === 'Enter' || e.code === 'NumpadEnter') submitData();
+      }}
       InputProps={{
         disableUnderline: true,
         endAdornment: (
@@ -37,6 +67,8 @@ const TextFilter = ({ field }: FilterComponentProps) => {
       placeholder="Search Keyword"
       variant="standard"
       type="search"
+      value={typedValue}
+      onChange={e => setTypedValue(e?.target?.value ?? '')}
     />
   );
 };

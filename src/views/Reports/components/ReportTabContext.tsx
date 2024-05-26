@@ -1,5 +1,6 @@
 import React, { createContext, useContext, ReactNode } from 'react';
-import { ReportTabDetails } from '../../../interfaces/reportTypes';
+import { ReportTabDetails, ReportType, TabType } from '../../../interfaces/reportTypes';
+import { DynamicTabDetails } from './../../../interfaces/reportTypes';
 
 const ReportTabContext = createContext<ReportTabDetails>({} as ReportTabDetails);
 
@@ -14,6 +15,8 @@ export const ReportTabDetailsProvider: React.FC<Props> = ({ tab, children }) => 
 
 export default ReportTabDetailsProvider;
 
-export const useReportTabContext = () => {
-  return useContext(ReportTabContext);
+export const useReportTabContext = (): DynamicTabDetails => {
+  // return useContext(ReportTabContext);
+
+  return { label: 'IndexReport', reportType: ReportType.IndexReport, value: 0, tabType: TabType.DynamicTab };
 };

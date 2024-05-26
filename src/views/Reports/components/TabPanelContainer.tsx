@@ -11,7 +11,6 @@ const TabPanelContainer = ({ children }: { children?: ReactNode }) => {
       setOffsetHeight(node?.offsetTop);
     }
   }, []);
-  console.log(offsetHeight);
 
   return (
     <Box width={'100%'} height={`calc(100vh - ${offsetHeight}px)`} ref={onRefChange}>

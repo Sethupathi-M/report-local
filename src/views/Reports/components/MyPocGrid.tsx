@@ -260,7 +260,6 @@ const MyPocGrid = () => {
   });
 
   const handleClick = (event: any) => {
-    debugger;
     setAnchorEl(event.currentTarget);
   };
 

@@ -3,11 +3,13 @@ import TextFilter from './TextFilter';
 import ActionButtons from './ActionButtons';
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 import { GridColumnHeaderParams } from '@mui/x-data-grid-pro';
+import ColumnFilter from './ColumnFilter';
+import { ColumnHeaderParams } from '../../../../../interfaces/reportTypes';
 
-const ColumnHeader = ({ params }: { params: GridColumnHeaderParams }) => {
+const ColumnHeader = ({ params }: { params: ColumnHeaderParams }) => {
   return (
-    <Box width={'100%'}>
-      <Box display={'flex'} justifyContent={'space-between'}>
+    <Box width={'100%'} height={'100%'}>
+      <Box height={'50%'} display={'flex'} justifyContent={'space-between'}>
         <Box display={'flex'} alignItems={'center'}>
           <Typography fontSize={'10px'}>{params.colDef.headerName}</Typography>
           <IconButton size="small">
@@ -17,7 +19,7 @@ const ColumnHeader = ({ params }: { params: GridColumnHeaderParams }) => {
         <ActionButtons></ActionButtons>
       </Box>
 
-      <TextFilter field={params.field}></TextFilter>
+      <ColumnFilter params={params}></ColumnFilter>
     </Box>
   );
 };
