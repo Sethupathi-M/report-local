@@ -7,7 +7,7 @@ export type ColumnFilters = {
   [IndexReportColumnField.id]: number;
   [IndexReportColumnField.MyCheckBoxList]: string[];
   [IndexReportColumnField.MyDate]: string;
-  [IndexReportColumnField.MyNumber]: { start: number; end: number };
+  [IndexReportColumnField.MyNumber]: { start: number | null; end: number | null };
   [IndexReportColumnField.MyText]: string;
 };
 

@@ -40,7 +40,11 @@ const NumberRangeFilter = ({ params }: FilterComponentProps) => {
     setDisplayValue(getDisplayValue());
 
     dispatch(
-      columnFiltersActions.updateField({ tabValue: value as number, field: params.colDef.field, value: { min, max } })
+      columnFiltersActions.updateField({
+        tabValue: value as number,
+        field: params.colDef.field,
+        value: { start: min, end: max },
+      })
     );
     setAnchorEl(null);
   };

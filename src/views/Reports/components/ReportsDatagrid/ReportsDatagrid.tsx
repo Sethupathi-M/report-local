@@ -42,7 +42,12 @@ const ReportsDatagrid = () => {
         .map(([key, value], index) => {
           debugger;
           if (key === 'MyNumber')
-            return { id: 1, columnField: key, operatorValue: 'between', value: { start: value?.min, end: value?.max } };
+            return {
+              id: 1,
+              columnField: key,
+              operatorValue: 'between',
+              value: { start: value?.start, end: value?.end },
+            };
           else if (key === 'MyCheckBoxList') {
             return { id: 2, columnField: key, operatorValue: 'isAnyOf', value: value };
           } else if (key === 'MyText') {
@@ -58,6 +63,8 @@ const ReportsDatagrid = () => {
       setFilterModal(items);
     }
   }, [columnFilters]);
+
+  console.log(columnFilters?.MyNumber);
 
   useEffect(() => {
     if (tabData != null && !!!columnFilters) {
