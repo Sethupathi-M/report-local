@@ -46,6 +46,7 @@ With these alternatives, `ColumnHeadingContainer` emphasizes its role in holding
 5. Next, Action Menu and Sorting
 6. Pinned Columns, Reordering,
 7. For checkbox scenerios pass custom data, data from the table and data from the api
+8. Use why did you render library and also add a log example Datagrid Rendered: Count, count is outside the component.
 
 - Questions for Raja
   - How date should be displayed in the datagrid.
