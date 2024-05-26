@@ -13,11 +13,11 @@ interface DateType {
 }
 const NumberRangeFilter = ({ params }: FilterComponentProps) => {
   const { end, start } = params.colDef.filterData as DateType;
-  console.log(params);
+  // console.log(params);
 
   const { value } = useReportTabContext();
-  const [min, setMin] = useState<null | number>(start ?? 0);
-  const [max, setMax] = useState<null | number>(end ?? 0);
+  const [min, setMin] = useState<null | number>((params.colDef.filterData as DateType).start ?? 0);
+  const [max, setMax] = useState<null | number>((params.colDef.filterData as DateType).end ?? 0);
 
   const getDisplayValue = useCallback(() => {
     if (min && max) return `${min} - ${max}`;

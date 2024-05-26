@@ -8,7 +8,7 @@ import useColumns from '../../hooks/useReportColumns';
 import { StyledDataGridPro } from './styles';
 import sampleData from '../../data/NewColumnFilterPocSampleData.json';
 import { useReportTabContext } from '../ReportTabContext';
-import { IndexReportColumnField, ReportType, TabType } from '../../../../interfaces/reportTypes';
+import { DynamicTabDetails, IndexReportColumnField, ReportType, TabType } from '../../../../interfaces/reportTypes';
 import { useDispatch, useSelector } from 'react-redux';
 import { columnFiltersActions, selectColumnFilterByPanel } from '../../../../slice/reports/columnFilters.slice';
 import { RootState } from '../../../../store';
@@ -30,11 +30,11 @@ const ReportsDatagrid = () => {
   const columnFilters = useSelector((state: RootState) => selectColumnFilterByPanel(tabData?.value ?? 0)(state));
 
   console.log(`Datagrid Render Count:`, reRenderCount);
-  console.log(columnFilters);
+  // console.log(columnFilters);
 
   reRenderCount = reRenderCount + 1;
-  console.log({ filterModal });
-  console.log(columnFilters);
+  // // console.log({ filterModal });
+  // // console.log(columnFilters);
 
   useEffect(() => {
     if (columnFilters && Object.keys(columnFilters).length > 0) {

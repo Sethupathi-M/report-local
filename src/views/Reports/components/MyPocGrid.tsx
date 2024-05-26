@@ -199,7 +199,7 @@ const MyPocGrid = () => {
   const isLoading = false;
   const renderTextBoxCell = (params: GridRenderCellParams<any, string>) => {
     const isLOading = false;
-    // console.log(params.colDef.align);
+    // // console.log(params.colDef.align);
 
     return (
       <>
@@ -242,7 +242,7 @@ const MyPocGrid = () => {
   }, []);
 
   const [columnDef, setColumnDef] = useState<GridColDef[]>([]);
-  console.log({ columnDef });
+  // console.log({ columnDef });
 
   const getColumnWidth = (gridParts: number, width: number) => {
     const singleGridPartWidth = width / 12;
@@ -278,7 +278,7 @@ const MyPocGrid = () => {
     .map(item => item['0'])
     .join(', ');
 
-  console.log({ pinnedColumns });
+  // // console.log({ pinnedColumns });
 
   const renderHeaderTextSearch = useCallback(
     (label: string, id: string, align: string): JSX.Element => {
@@ -424,7 +424,7 @@ const MyPocGrid = () => {
 
   const { t } = useTranslation();
   const [pageSize, setPageSize] = useState(10);
-  // console.log(pinnedColumns.length);
+  // // console.log(pinnedColumns.length);
 
   return (
     <Box width={'100%'} height={`calc(100vh - ${offsetHeight}px)`} ref={onRefChange}>
@@ -469,7 +469,7 @@ const MyPocGrid = () => {
         rows={sampledata}
         // onColumnOrderChange={columnOrder => {
         //   const { field, targetIndex } = columnOrder; // Destructure column Name // and it's target Index
-        //   console.log(columnOrder);
+        //   // console.log(columnOrder);
         // }}
         componentsProps={{
           pagination: {

@@ -15,8 +15,8 @@ export const ReportTabDetailsProvider: React.FC<Props> = ({ tab, children }) => 
 
 export default ReportTabDetailsProvider;
 
-export const useReportTabContext = (): DynamicTabDetails => {
-  // return useContext(ReportTabContext);
+export const useReportTabContext = (): ReportTabDetails => {
+  return useContext(ReportTabContext);
 
-  return { label: 'IndexReport', reportType: ReportType.IndexReport, value: 0, tabType: TabType.DynamicTab };
+  // return { label: 'IndexReport', reportType: ReportType.IndexReport, value: 0, tabType: TabType.DynamicTab };
 };

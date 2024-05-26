@@ -26,7 +26,7 @@ const TextFilter = ({
     );
   };
 
-  console.log(typedValue);
+  // console.log(typedValue);
 
   return (
     <TextField
