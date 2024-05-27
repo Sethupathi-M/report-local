@@ -18,11 +18,11 @@ const Reports = (): JSX.Element => {
       if (!ComponentToRender) return null;
 
       return (
-        <ReportTabDetailsProvider tab={tab}>
-          <ReportTabPanel key={key} value={tabPanelValue} index={activeTabPanelIndex}>
+        <ReportTabPanel key={key} value={tabPanelValue} index={activeTabPanelIndex}>
+          <ReportTabDetailsProvider tab={tab}>
             <ComponentToRender />
-          </ReportTabPanel>
-        </ReportTabDetailsProvider>
+          </ReportTabDetailsProvider>
+        </ReportTabPanel>
       );
     },
     [activeTabPanelIndex]

@@ -13,6 +13,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { columnFiltersActions, selectColumnFilterByPanel } from '../../../../slice/reports/columnFilters.slice';
 import { RootState } from '../../../../store';
 import NoDataModal from '../NoDataModel';
+import useData from '../LoadingInfiniteDat';
 
 let reRenderCount = 0;
 
@@ -29,7 +30,7 @@ const ReportsDatagrid = () => {
   const dispatch = useDispatch();
   const columnFilters = useSelector((state: RootState) => selectColumnFilterByPanel(tabData?.value ?? 0)(state));
 
-  console.log(`Datagrid Render Count:`, reRenderCount);
+  // console.log(`Datagrid Render Count:`, reRenderCount);
   // console.log(columnFilters);
 
   reRenderCount = reRenderCount + 1;
@@ -64,7 +65,7 @@ const ReportsDatagrid = () => {
     }
   }, [columnFilters]);
 
-  console.log(columnFilters?.MyNumber);
+  // console.log(columnFilters?.MyNumber);
 
   useEffect(() => {
     if (tabData != null && !!!columnFilters) {
@@ -91,7 +92,16 @@ const ReportsDatagrid = () => {
     isColumnDataReady: true,
     filterData: columnFilters,
   });
+  // const data = useData();
+  // console.log({ data });
 
+  useEffect(() => {
+    console.log('Mounted');
+
+    return () => {
+      console.log('Unmounted');
+    };
+  }, []);
   const isLoading = false;
   const isBackgroundLoading = false;
 

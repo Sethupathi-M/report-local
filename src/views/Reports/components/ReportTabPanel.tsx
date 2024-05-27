@@ -13,7 +13,10 @@ const ReportTabPanel = (props: ReportTabPanelProps): JSX.Element => {
   return (
     <div
       role="tabpanel"
-      hidden={value !== index}
+      // hidden={value !== index}
+      style={{
+        display: value === index ? 'block' : 'none',
+      }}
       id={`reports-tabpanel-${value}`}
       aria-labelledby={`reports-tab-${value}`}
       {...other}
